@@ -1,9 +1,12 @@
-﻿namespace ProjectLawfulEbook;
+﻿using ProjectLawfulEbook.Cache;
+
+namespace ProjectLawfulEbook;
 
 public static class Program
 {
     public static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        var cache = new GlowPubCache();
+        cache.Load();
     }
 }

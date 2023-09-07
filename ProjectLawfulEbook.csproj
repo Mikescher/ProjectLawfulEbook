@@ -7,4 +7,24 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Compile Remove="glowpub_cache\**" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <EmbeddedResource Remove="glowpub_cache\**" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <None Remove="glowpub_cache\**" />
+    </ItemGroup>
+
 </Project>
