@@ -1,0 +1,1681 @@
+{
+  "Ok": [
+    {
+      "id": 1799458,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>Korva has been spending the afternoon reviewing the very first lesson transcripts and fiddling with the very beginnings of an introductory probability lesson for somewhat less mathy children, which hopefully strips out all of the context where the math was originally given to them by some kind of alien. She's taking a lot of breaks, which is what she internally calls it when she periodically task switches to reading transcripts of Keltham's private conversations, which she needs to get through if she's going to know which ways the conspiracy needs to hold itself together.</p>\r\n<p>\"...in what area?\"</p>",
+      "created_at": "2022-04-27T18:39:18.641+00:00",
+      "icon": {
+        "id": 119252,
+        "keyword": "j3",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish27.jpg"
+      },
+      "updated_at": "2022-04-27T20:49:28.721+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1799521,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"I've been getting an impression that you've got more of a thesis on what alter-Cheliax should look like, internally, historically, that isn't just a hybrid of Taldor that got nice-Asmodeused.&nbsp; I have a thought that's something like - Korva on Composition, Asmodia on Consistency, and Sevar on Corruption.\"</p>\r\n<p>\"Subject to Sevar's approval, obviously.\"</p>\r\n<p>\"But if you haven't already developed thoughts on how the revised alter-Cheliax should look, just tell us everything we're doing wrong right now.&nbsp; Sevar is trustworthy about not hurting people for that.\"</p>",
+      "created_at": "2022-04-27T20:56:25.956+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-27T20:56:25.956+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1799543,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>She's pretty sure she did have a thesis on that, actually, but it's embarrassingly hard to think about it when the Chosen is in the room with them, which is stupid because the Chosen is going to have access to everything she says for the foreseeable future and in that sense the Chosen is actually always in the room.</p>\r\n<p>Anyway. From the top.</p>\r\n<p>\" - so one of my thoughts here is that, uh, Taldor and Cheliax are different, right, they have different histories and different historical governmental structures and different cultures and different geography; what we <em>want,&nbsp;</em>ideally, is to extrapolate a future of the actual Cheliax of the past, starting with old Cheliax and then running it through what we described to Keltham, further development followed by a relatively recent civil war and a victory by the forces representing nice-Asmodeus. I suspect that some things we've said already come into conflict with that, and also suspect that it's going to be harder to find information on than what Taldor is like, but if we could manage it, that would have been the most internally consistent thing we could have done, probably, so I feel like that's where we should start, and then see what things we have to alter to make it fit with our existing story.\"</p>\r\n<p>\"And one of my thoughts is - would Keltham help Taldor. If he had landed on Taldor. Because if Keltham would find Taldor abhorrent, too, find them so unbelievably actually-evil that they couldn't exist outside of storybook villainy and he needed to get away from them right away, too - then probably Cheliax of the past is too near that in some respects, too. And we have to keep that in mind when designing alter-Cheliax, too, make it realistic while also not making it a place that Keltham would immediately run screaming from, because it's not currently obvious to me that neutrality would even meet his standards. I assume that Sevar is the expert, there.\"</p>",
+      "created_at": "2022-04-27T21:16:45.693+00:00",
+      "icon": {
+        "id": 118510,
+        "keyword": "c5",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fdwvwnn24c8no1642q28tj_chelish07.jpg"
+      },
+      "updated_at": "2022-04-27T21:17:32.799+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1799553,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I'd expect him, if he'd landed on real Taldor and gotten a real account of the place, to listen patiently for a while and then ask about other countries and then go to Osirion. If Osirion didn't exist....</p>\r\n<p>&nbsp;</p>\r\n<p>...it feels not in keeping with the story dath ilan tells about itself, for its children to run screaming from a place that is better than other places, because it's in some sense objectively bad. I think Keltham would say that was an error of some kind. - he wouldn't say that if we'd conquered the whole world already and everyone worshipped Asmodeus, then he <em>would</em> run screaming, but the difference is something like that he doesn't want to benefit Asmodeus? And I don't think he'd feel that way about Taldor. If Taldor were the best he could find, then he'd sit in Taldor building something better, and he'd be fine with Taldor being first to benefit from that, and he might personally refuse to work with anyone who - conspicuously kept slaves, or conspicuously started stupid wars, but I don't think it has him give up on the project.&nbsp;</p>\r\n<p>Of course, I think we need to aim higher than that, because he&nbsp;<em>would&nbsp;</em>look elsewhere, on seeing Taldor, to check if it's really that bad everywhere. And we'd rather he not look elsewhere.\"</p>",
+      "created_at": "2022-04-27T21:34:24.922+00:00",
+      "icon": {
+        "id": 160117,
+        "keyword": "Screen Shot 2020-09-25 at 5.16.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F4qbgnbcq5nnr5lv6oamjwa_Screen+Shot+2020-09-25+at+5.16.01+PM.png"
+      },
+      "updated_at": "2022-04-27T21:34:24.922+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1799563,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"I think that's more the thing I mean. There are things about Taldor that - I'd expect would make him think that the system was fundamentally bad enough that he couldn't trust it to be telling the truth about being better than anywhere else, partly because the system might be too incompetent to know, and partly because it might seem implausible that this was the best that any given world had to offer, and I don't know precisely where that point is. But we have to keep the fact that it exists in mind, and consider that even an alter-Cheliax based on the actual old Cheliax - which may well have been better by Keltham's lights than modern Osirion is, it was an extremely prosperous lawful neutral empire that also, you know, considered women people - might not meet Keltham's standards for reasonableness, because Keltham's standards might not be in a reasonable place.\"</p>",
+      "created_at": "2022-04-27T21:49:20.638+00:00",
+      "icon": {
+        "id": 118503,
+        "keyword": "l1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F248vd0dh4rpyldkztbfhe8_c3+cheliax2.jpg"
+      },
+      "updated_at": "2022-04-27T21:49:20.638+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1799568,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"His standards for how societies ought to function are incredibly unreasonable, yes. I don't want to pretend we're more competent than any real Golarion society is or ever has been, though, both because that's probably correlated with things we can't show him and because a competent society could be pulling off a competent Conspiracy, while Taldor observably couldn't be successfully pulling off an expensive complicated conspiracy.\"</p>",
+      "created_at": "2022-04-27T22:00:07.265+00:00",
+      "icon": {
+        "id": 172875,
+        "keyword": "Screen Shot 2020-11-30 at 9.02.43 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.02.43+AM.png"
+      },
+      "updated_at": "2022-04-27T22:00:07.265+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1799572,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"I think Keltham is trusting in Sevar, his unknown god, and the tropes, to be telling him where he needs to be and to have sent him where he needs to go?&nbsp; Or - putting a lot of probability on that.&nbsp; If not for those things, and if not for him being in love, he wouldn't be trusting in our alter-Cheliax without asking about a lot of other countries.\"</p>\r\n<p>\"So, how does alter-Cheliax seem competent enough to not screw that up, is the question?&nbsp; Though we should also have alter versions of all the countries that are better than Cheliax where they're worse than Cheliax, and be ready to provide faked documentation about that.&nbsp; I wish 'why trust what you can verify' wasn't a dath ilani saying, but it is.\"</p>",
+      "created_at": "2022-04-27T22:06:20.081+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-27T22:24:52.358+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1799582,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"I think we can draw a distinction between competence and things that he finds morally repugnant, or at least things that he eventually won't object to, but currently finds ugly, and hasn't been inured to the ugliness of yet. It doesn't seem to me like he particularly <em>minds&nbsp;</em>being cruel, especially in comparison to everyone else he seems to have met before coming here, but a society that was composed entirely of people who were as cruel as he was - or as cruel as he will be in a few months, as he gets used to living in a world that allows and supports it - might still shock him at this point in ways that we don't want.\"</p>\r\n<p>\"So, like - it's not a problem that Taldor is a mess, at least apart from Taldor being such a mess that it sort of strains credulity. But Taldor publicly tortures criminals to death, which is hardly&nbsp;<em>incompetence.&nbsp;</em>And I don't know for sure, but I bet old Cheliax did, too. And if hearing about how we publicly torture criminals to death would give Keltham an attack of something, then maybe alter-Cheliax shouldn't do that. It doesn't have to, I bet they don't in Andoran. We might run into trouble reconciling that with not having certain problems that Andoran probably does have, but it'll be something - improbable, an area where the lines don't quite line up where they're most likely to, and we get more of those than we get things so horrifying that Keltham immediately declares us the villain in some Andoran children's fairy tale. I am pretty sure we get zero of those things.\"</p>\r\n<p>\"I hadn't been thinking about also producing alter versions of other countries, but we can do that, too. Conveniently most of them are terrible, but we should probably put some thought into, like, why Absalom would be worse for a project like this, from his perspective, since that one isn't obvious to me on three seconds of thought. And Osirion, if we expect them to be the main threat if he goes poking other places.\"</p>",
+      "created_at": "2022-04-27T22:22:39.916+00:00",
+      "icon": {
+        "id": 118510,
+        "keyword": "c5",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fdwvwnn24c8no1642q28tj_chelish07.jpg"
+      },
+      "updated_at": "2022-04-27T22:22:39.916+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1799584,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"We're making a very big fuss of how Osirion is sexist, but I don't think that would be remotely sufficient, if he knew Abadar ruled it.\"</p>",
+      "created_at": "2022-04-27T22:29:03.249+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-04-27T22:29:03.249+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1799586,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"Abadar is working with some&nbsp;<em>shitty&nbsp;</em>starting material. I do think the big answer there is simply that we have to keep him from learning that Abadar rules it, which we're already committed to. Apart from that - they're less advanced than us, poorer, smaller, and have far fewer wizards. Osirion only recently broke away from Qadira, and I bet it's still in danger of being retaken by Keleshites. - shit, I don't know enough about Kelesh to know why he shouldn't contact the Keleshite Emperor, someone's going to have to think of reasons why the Keleshites suck. Osirian has an obviously-not-a-god ruler who styles himself a god and demands being treated like one, which if you say it right puts it in the same class as Razmiran, which everyone agrees is horrible. Dig up something true and horrible-sounding about their long and storied history of pharaohs who - oh, oh, the House of Oblivion is their fault. He'd be going to the people who opened the House of Oblivion.\"</p>",
+      "created_at": "2022-04-27T22:36:43.513+00:00",
+      "icon": {
+        "id": 88010,
+        "keyword": "j1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F25c26150-deb7-4e93-855e-d5d94179eece_bb20.jpeg"
+      },
+      "updated_at": "2022-04-27T22:56:41.962+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1799600,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa did not know that and is sort of surprised you can be a Chelish wizarding student and also find the time and license to know a bunch of things like that. \"I think you're the person to develop the alternate versions of all these other countries.\"</p>",
+      "created_at": "2022-04-27T22:55:41.189+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-04-27T22:55:41.189+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1799606,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"...okay. I can come up with a quick version tonight, but if you want it done well, I'm going to need some time, a bunch of uncensored foreign books and, like, I guess probably someone who keeps up with modern foreign politics.\" Because she hasn't exactly had the ability to do that.</p>\r\n<p>\"Alter-Cheliax does seem like the priority, though.\"</p>",
+      "created_at": "2022-04-27T23:01:25.191+00:00",
+      "icon": {
+        "id": 119251,
+        "keyword": "i4",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish26.jpg"
+      },
+      "updated_at": "2022-04-27T23:01:25.191+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1799619,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"I'd think so, yeah.\"</p>\r\n<p>\"Do you see any holes in the Wall, as it stands?&nbsp; Or shaky parts?\"</p>",
+      "created_at": "2022-04-27T23:06:05.060+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-27T23:06:05.060+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1799653,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p><span style=\"text-decoration: line-through;\">Well, everyone reacted to her crying in a stupid way</span> That is not going to be her opener. Come on, Korva, you had a bunch of thoughts you crushed that weren't about you being a crybaby, surely you can un-crush some of them on demand.</p>\r\n<p>She stares at the wall for a bit.</p>\r\n<p>&nbsp;</p>\r\n<p>\"I don't know whether this is actually a problem, but it's bugging me. Alter-Cheliax allows infanticide. Some unspecified number of other alter-countries don't. It's not obvious to me whether Keltham would have a problem with infanticide even if he knew everything about the situation? But the whole situation where babies go to the afterlife but don't necessarily go to Hell, and we send a lot of them to the Boneyard while they're too small to make Hell, seems - like something where I don't know what our story there is and like there are probably issues with some of the possible stories.\"</p>",
+      "created_at": "2022-04-27T23:45:03.502+00:00",
+      "icon": {
+        "id": 119254,
+        "keyword": "c1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish23.jpeg"
+      },
+      "updated_at": "2022-04-27T23:45:39.965+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1800001,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Standing rules are not to tell Keltham when fetuses get ensouled. &nbsp;Earlier, there was a hope that Keltham could be lured into forcing some women to abort ensouled fetuses, which would turn him Evil.&nbsp; In retrospect it's not exactly what alter-Cheliax would do, unfortunately.&nbsp; But the past consistency problem is, Sevar and Contessa Lrilatha <em>already</em> failed to warn Keltham against letting abortions wait longer than twelve weeks.&nbsp; So we're already stuck needing some excuse or reason for why that happened, if he finds out.&nbsp; Probably that we were trying to keep disturbing truths about the Boneyard from him.\"</p>\r\n<p>\"...it's not a very impressive plan, I admit.\"</p>",
+      "created_at": "2022-04-28T05:02:21.604+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-28T23:06:25.540+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1800009,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"We're not going to think of a preferred lie to feed to someone if it does come up?\"</p>",
+      "created_at": "2022-04-28T05:07:17.459+00:00",
+      "icon": {
+        "id": 118510,
+        "keyword": "c5",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fdwvwnn24c8no1642q28tj_chelish07.jpg"
+      },
+      "updated_at": "2022-04-28T05:07:17.459+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1800292,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Our lie is that we thought it would disturb Keltham to hear about.&nbsp; Further lie, all his women who signed the contract had to make a separate promise to Cheliax to get their abortions before twelve weeks.\"</p>\r\n<p>\"It's not good, not what the real alter-Cheliax would have done.&nbsp; The real alter-Cheliax would've told Keltham that for unspecified reasons he should usually ask for abortions before twelve weeks and he'd find out why later.&nbsp; That's why we'd rather Keltham not look in that direction.\"</p>",
+      "created_at": "2022-04-28T22:03:03.191+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-28T23:06:46.308+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1800446,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Luckily it doesn't seem like a very hard secret to keep, unless you can thinking of truth-entanglements specifically of early ensoulment. Aside from that Good countries ban abortion.\"</p>",
+      "created_at": "2022-04-29T01:54:16.695+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-04-29T01:54:16.695+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1800459,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"I'm not thinking of any others on three seconds of thought, though that doesn't mean there aren't any. Mothers treating pregnancies differently than they would in dath ilan in some way, maybe. But there's not much to be done about it now.\"</p>\r\n<p>\"I feel like the thing to do here might be - not looking through the existing statements we have and seeing where they directly contradict, because they won't, but working out what basic structures are holding up alter-Cheliax, and seeing what shadows those structures would cast on the rest of the world, and whether those shadows match what's on the wall or not. And if they don't, I guess we have to change the structures until we find something that works with what we already have, and then make sure that the new facts we add are in accordance with that. - did that make sense.\"</p>",
+      "created_at": "2022-04-29T02:01:39.307+00:00",
+      "icon": {
+        "id": 119254,
+        "keyword": "c1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish23.jpeg"
+      },
+      "updated_at": "2022-04-29T02:01:39.307+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1800462,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Yes, it's what Keltham calls 'latentvariables', the things hidden beneath the background, and the shadows they cast on 'observables', the stuff we can see.\"</p>\r\n<p>\"What&nbsp;<em>are</em> alter-Cheliax's hidden structures?&nbsp; Or what's one structure?\"</p>",
+      "created_at": "2022-04-29T02:03:39.487+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-29T02:03:59.922+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1800490,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"Well, if you want to start on the human level, which is where I know how to start - \"</p>\r\n<p>\"As in virtually all human countries known to man, the vast majority of Cheliax's population is engaged in agriculture; arguably this is where the vast majority of all human effort ends up going, generating enough food to sustain our population. But in both Old Cheliax and Infernal Cheliax, an extremely significant chunk of that agricultural labor is done by halfling slaves. This <em>isn't&nbsp;</em>true of many of our direct neighbor states, who have quite recently abandoned slavery while high on the concept of freedom, and are probably experiencing various problems over it. Other older and more stable countries do use agricultural slavery, but don't segragate as heavily by race as we do; many of their agricultural slaves are humans. What differences are borne of that? Halflings eat less; I'd wager they eat enough less to offset any direct hits you take to labor efficiency by using smaller workers, which puts us ahead of other people. There are going to be a bunch of differences that we can't know about, that are down to the differing natures of halfling and human slaves. Plus, if Keltham ever gets ahold of any accurate information about Cheliax's total land area, climate, the percent of it that's farmland, the percentage of people who are farmers, and what kind of food we grow, and possibly half a dozen things I wouldn't know to expect to be connected with any of this, and then compares them to our population numbers, the amount of food we grow won't match what we would be producing if all of our farmers were human. Either including or excluding the halflings will give the wrong number of inhabitants for the amount of food production we actually ought to have. We could fix the number any way we wanted if we knew what all the inputs were, but obviously we don't.\"</p>\r\n<p>\"Obviously, the safe and easy thing to do is to declare that alter-Cheliax uses the same amount of enslaved halfling labor as actual Cheliax; we won't need to fix anything, the numbers will line up, and it's hardly incompatible with being a lawful neutral country. But we sure seem to be going out of our way to keep Keltham from encountering any more of the concept of slavery than is absolutely necessary, so if you think he's likely to have an attack of conscience over five million enslaved halflings, or however many it is - if anybody even knows - such that we think that alter-Cheliax absolutely mustn't have slaves, then we have a bunch of potential inconsistencies - or improbabilities, I guess - hanging out at a pretty basic level.\"</p>\r\n<p>\"We should almost definitely have slaves. But, like, as an example.\"</p>",
+      "created_at": "2022-04-29T02:29:22.212+00:00",
+      "icon": {
+        "id": 119254,
+        "keyword": "c1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish23.jpeg"
+      },
+      "updated_at": "2022-04-29T02:29:22.212+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1800509,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>&nbsp;</p>\r\n<p>\"I mean, that's - good point, but - now that you point it out, it's really just the capstone of a much bigger Problem Pyramid which, due credit, Avaricia was pointing out earlier.&nbsp; The entire Chelish economy runs on coercion in various forms.&nbsp; It's not just enslaved halflings on farms, it's <em>all</em> slaves&nbsp;<em>everywhere.</em>&nbsp; Even in regular jobs, if they're a kind of job that some people get told they're taking or can't quit, like prostitution, I'll need comparison data with other countries to see if that affected prices -\"</p>\r\n<p>\"I don't know if we should have halfling slaves, but we should have&nbsp;<em>halflings,</em> it's just, I need to figure out if they can be&nbsp;<em>paid halflings</em>, and how that would affect the flow of money in and out of farms and the rest of Cheliax, by looking at other countries with non-slave farmers, then I need to figure out the same thing about miners and doctors and everybody else where Keltham is liable to start demanding prices.&nbsp; And then, I guess, report to Sevar on whether I think I can fake an alterCheliax like that, and if not, realCheliax needs a lot of slavery, and <em>then other countries need to not look better to Keltham if he asks about them.</em>\"</p>\r\n<p>\"It would be easier if the prices in <em>real</em> Golarion made more sense to me.&nbsp; Sometimes I'm looking at the cost of spells, magic items, scrolls, the cost of hiring a professional for a week, the cost of a slave, the cost of ladders and ten-foot-poles, and it all starts to feel like it was casually made up by somebody&nbsp;who cared&nbsp;less about their job than I do.\"</p>",
+      "created_at": "2022-04-29T02:44:49.406+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-29T03:02:18.362+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1800528,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"The entire economy of almost everywhere runs on coercion in various forms. More than half the economy of Osirion runs on coercion on a really basic level, between their women and their slaves, which Osirians <em>also&nbsp;</em>have plenty of. Cheliax has more coercion in the form of the state telling people what they ought to be doing than some other countries, but it also has fewer people starving to death because they made stupid decisions about what work to do and how to do it, which may well be the alternative.\"</p>\r\n<p>\"Paid halflings sound like an easy fix, until you realize that lots of people seem to hold that unowned halflings are inherently nomadic - or, worse, inherently criminal, without a whip over them - and that if Keltham ever encounters evidence that leads him to believe that those people are right, it's going to seem very implausible that they choose to work as farmers in greater numbers than humans do.\"</p>",
+      "created_at": "2022-04-29T03:00:25.604+00:00",
+      "icon": {
+        "id": 119254,
+        "keyword": "c1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish23.jpeg"
+      },
+      "updated_at": "2022-04-29T22:04:09.489+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1801111,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"The only halfling he's met is Broom, who I think is an exemplar of the race, really, and will probably make it easier to convince him any nomad criminal halflings he meets are outliers.\"</p>",
+      "created_at": "2022-04-30T01:46:51.342+00:00",
+      "icon": {
+        "id": 160117,
+        "keyword": "Screen Shot 2020-09-25 at 5.16.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F4qbgnbcq5nnr5lv6oamjwa_Screen+Shot+2020-09-25+at+5.16.01+PM.png"
+      },
+      "updated_at": "2022-04-30T01:46:51.342+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1801115,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"Might work fine! But an important thing to keep in mind if he ends up meeting any other halflings, if you do decide that paid halflings are the way to go. Which I still recommend against, on the grounds that virtually every stable state runs on some amount of slavery and this isn't a coincidence, and if you intend to hide&nbsp;<em>that&nbsp;</em>from him it's going to keep rearing its head in inconvenient places. But - obviously there are a lot of considerations.\"</p>",
+      "created_at": "2022-04-30T01:53:04.101+00:00",
+      "icon": {
+        "id": 118500,
+        "keyword": "d4",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F248vd0dh4rpyldkztbfhe8_d1+cheliax2.jpg"
+      },
+      "updated_at": "2022-04-30T01:54:08.090+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1801116,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"It's been implied we only have slavery as a punishment for crimes or voluntarily, and he might in fact break with us over having it more than that.\"</p>",
+      "created_at": "2022-04-30T01:54:40.618+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-04-30T01:54:40.618+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1801122,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"Well, at least that makes it easy to be more palatable than almost everywhere else in the known civilized world that has a political administration that stretches back further than fifty years. - well, I guess there's Lastwall. And maybe the elves. And maybe Hermea. And maybe Holomog? Anyway, we can do it, but it's a major departure, and we'll want to keep an eye on it at every level of this mess.</p>\r\n<p>\"...what exactly do you think are the bounds of the thing that Keltham finds objectionable enough to break with us over it.\"</p>",
+      "created_at": "2022-04-30T02:00:55.307+00:00",
+      "icon": {
+        "id": 118503,
+        "keyword": "l1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F248vd0dh4rpyldkztbfhe8_c3+cheliax2.jpg"
+      },
+      "updated_at": "2022-04-30T02:00:55.307+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1801127,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Any slavery, in countries where people are Chaotic Evil or Neutral Evil, because then they don't meaningfully have a reasonably-appealing alternative in suicide. He'll also object to slavery in countries where people are Chaotic Neutral or Neutral, I guess, once he knows suicide is Evil. Slavery of children, because dath ilani are ridiculous about children. He didn't ask about that but I think only because he failed to imagine anyone might do it. Slavery of - innocents, I guess maybe?&nbsp;</p>\r\n<p>- what does Osirion in fact do -\"</p>",
+      "created_at": "2022-04-30T02:17:31.472+00:00",
+      "icon": {
+        "id": 160117,
+        "keyword": "Screen Shot 2020-09-25 at 5.16.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F4qbgnbcq5nnr5lv6oamjwa_Screen+Shot+2020-09-25+at+5.16.01+PM.png"
+      },
+      "updated_at": "2022-04-30T02:17:31.472+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1801149,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"Apart from buying slaves from traders, and from taking them in war - which I don't think Osirion has had any of, not recently enough - traditional Osirian slavery is mostly debt bondage, I think. You sell yourself, your wife, your children and all of your possessions to pay off a debt you otherwise can't, or in exchange for food and shelter. Sometimes - varies by era - that status wears off in some years, or a generation, or two; at other times, it's been permanent across generations, which produces a larger, more consistent slave class. Either way, slaves are commonplace.\"</p>\r\n<p>She sighs.</p>\r\n<p>\"I don't know which Osirion is doing now. I have reason to believe that they still have slaves, but detailed, current, accurate information on other countries is <em>extremely&nbsp;</em>filtered. If you want detailed reports on the current status of what other countries are doing politically, the wall team needs people who have been permitted to follow foreign affairs, and ideally unfiltered access to foreign books. A lot of foreign books. Although I'm not sure we'll have time to read them.\"</p>\r\n<p>\" - but, uh, also, before I forget, I was actually asking about whether his sense of what slavery is might be more expansive than ours, and he might recognize things that we don't think are slavery as being in the same bucket. Like - does he think that all of our children are actually slaves because of compulsory education, or something.\"</p>",
+      "created_at": "2022-04-30T02:51:38.085+00:00",
+      "icon": {
+        "id": 119254,
+        "keyword": "c1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish23.jpeg"
+      },
+      "updated_at": "2022-04-30T02:51:53.825+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1801158,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"We actually do have foreign intelligence officers visiting now!&nbsp; And some foreign books!&nbsp; Which I've now had any time to interrogate and read respectively!&nbsp; And Sevar cued me to look at Lawful Neutral treatment of slavery in particular.\"</p>\r\n<p>\"Osirion has now phased out enslaving people except for debt or crimes.&nbsp; It doesn't free other countries' slaves when they pass through, like Andoran, or attack ships carrying slave merchandise, like Andoran.&nbsp; If you get a female slave pregnant you have to marry her and then she's no longer a slave.&nbsp; By their supposed law, children of slaves aren't slaves themselves, but the intelligence officer I talked to wasn't sure how much of Osirion is actually obeying that law.\"</p>\r\n<p>\"The fact that Osirion has a law they're not <em>sure </em>people will obey says they're putting a pretty high priority on it, though.&nbsp; Osirion doesn't want its people going to the Boneyard instead of Axis because they disobeyed rules, so they try not to have rules their people will disobey.&nbsp; I'm guessing alterCheliax should be pretending to meet that standard - children of slaves not being slaves - if we don't want Keltham getting upset?&nbsp; But it's Sevar's call.\"</p>\r\n<p>\"...I have no idea what exactly Keltham counts as slavery.&nbsp; Possibly all of us are, even if we're getting paid?&nbsp; Asmodeus certainly thinks so.\"</p>",
+      "created_at": "2022-04-30T03:04:53.539+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-30T03:13:27.309+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1801165,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Yes, I think that if Keltham were cued to actually think about it he'd consider any situation objectionable that a person couldn't freely exit, if they weren't warned of that in advance and able to decide freely not to get involved at that point. And children of slaves are definitely going to have to be free because&nbsp;<em>otherwise he'll think about children being slaves&nbsp;</em>and then he will explode on us.</p>\r\n<p>&nbsp;</p>\r\n<p>Do we understand, theologically, why Osirion has that policy - does Abadar have teachings on it - my best guess would be that Abadar just likes voluntary transactional relationships, and dislikes slavery for not being one of those, but maybe He's said more than that -\"</p>",
+      "created_at": "2022-04-30T03:17:06.136+00:00",
+      "icon": {
+        "id": 172870,
+        "keyword": "Screen Shot 2020-11-30 at 9.00.47 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.00.47+AM.png"
+      },
+      "updated_at": "2022-04-30T03:17:06.136+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1801167,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"No. Not the&nbsp;<em>real&nbsp;</em>version, as Abadarans would really explain it, because real Abadaran theology is censored.\"</p>",
+      "created_at": "2022-04-30T03:21:38.210+00:00",
+      "icon": {
+        "id": 119254,
+        "keyword": "c1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish23.jpeg"
+      },
+      "updated_at": "2022-04-30T03:21:38.210+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1801169,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Voluntary transactions were the theme of the uncensored Abadar theology books I read.&nbsp; And - it's implied by the Keltham lectures we got?&nbsp; The Abadar holy books I read didn't mention slavery any more than Keltham did, but yes, it's all about people all being better off because they coordinated their decisions - the Abadar books didn't talk about that, they just talked about trade, they didn't <em>derive</em> trade and property from the first principles of multiagent coordination like Keltham did.&nbsp; But I frankly think that's just because Keltham is smarter than the people writing Abadar's current holy books.\"</p>\r\n<p>\"If Abadar chose Keltham and dropped four cleric circles on him, it's a good bet that multiagent coordination <em>is</em> what Abadar is about, and trade is just the part of it that pre-Kelthamian mortals could understand.&nbsp; Slavery is not multiagent coordination, it's not people choosing to act in ways that make them all better off, and that should be more important to Abadar than slaves being wealth and property, because the principle of property is <em>derived from</em> multiagent coordination according to Keltham.\"</p>\r\n<p>\"...we've probably got considerably better understanding of Abadaran theology at this point than Abadarans do, just from being around Keltham for a few weeks.&nbsp; Weird thought.\"</p>",
+      "created_at": "2022-04-30T03:23:27.441+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-30T03:29:51.558+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1801172,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\" - Keltham did not actually himself derive trade and property from the first principles of multiagent coordination, he lived in a Civilization that teaches it in pieces so you can follow how you get there, and he's <em>not </em>smarter than everyone in Osirion, though the people in dath ilan who figured out how to teach children those things almost certainly are.\"</p>",
+      "created_at": "2022-04-30T03:29:33.371+00:00",
+      "icon": {
+        "id": 160117,
+        "keyword": "Screen Shot 2020-09-25 at 5.16.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F4qbgnbcq5nnr5lv6oamjwa_Screen+Shot+2020-09-25+at+5.16.01+PM.png"
+      },
+      "updated_at": "2022-04-30T03:29:33.371+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1801173,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Understood.\"</p>\r\n<p>\"Though, also he's just teaching us stuff he got taught as an 8-year-old, and probably could rederive it himself from scratch on account of being a dath ilani <em>adult</em>.&nbsp; I - sort of feel like <em>I</em> could, if I had more Law and more practice...\"</p>",
+      "created_at": "2022-04-30T03:30:52.932+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-30T03:33:01.092+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1801174,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"Okay, the next question <em>I </em>have then is: which things count as agents, and is he going to be mad about the control of horses, or familiars, or children by their parents, or serfs by their lords, or plants by farmers, or undead by necromancers, or subjects by their queen, or everyone who was born in a country that doesn't give them license to leave.\"</p>",
+      "created_at": "2022-04-30T03:32:15.091+00:00",
+      "icon": {
+        "id": 119254,
+        "keyword": "c1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish23.jpeg"
+      },
+      "updated_at": "2022-04-30T03:32:15.091+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1801175,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>&nbsp;</p>\r\n<p>\"I'm not seeing the Law that governs it.&nbsp; He's probably upset about people not being allowed to leave their countries, at least.&nbsp; Sevar, do you...?\"</p>",
+      "created_at": "2022-04-30T03:33:56.510+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-30T03:34:09.464+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1801178,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Animals no, I don't know why, familiars yes if he realizes they're not just animals, children he will explode about nearly everything to do with children it's just a very dangerous subject in full generality, serfs yes, plants no presumably because of how even Good people don't care about plants if they aren't specifically druid types, undead.... my intuition is that anything that can talk to him and say \"I wish I was free instead of a slave\" is a problem and anything that can't talk isn't.&nbsp;</p>\r\n<p>Subjects by their queen, yes, if he understood what that actually means. Countries that don't let people leave, yes.\"</p>\r\n<p>&nbsp;</p>\r\n<p>Said like that it does not seem like her corrupting-Keltham project has gotten very far.</p>",
+      "created_at": "2022-04-30T03:36:14.424+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-04-30T03:36:14.424+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1801179,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"I am not sure there is any way to reliably hide from Keltham that ours is a world where, as a rule, strong entities control weak entities and shape them to their liking. We can... try... but it's kind of foundational.\"</p>",
+      "created_at": "2022-04-30T03:37:27.183+00:00",
+      "icon": {
+        "id": 119254,
+        "keyword": "c1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish23.jpeg"
+      },
+      "updated_at": "2022-04-30T03:37:27.183+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1801182,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Would they say so in Old Cheliax.\"</p>",
+      "created_at": "2022-04-30T03:39:26.246+00:00",
+      "icon": {
+        "id": 160117,
+        "keyword": "Screen Shot 2020-09-25 at 5.16.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F4qbgnbcq5nnr5lv6oamjwa_Screen+Shot+2020-09-25+at+5.16.01+PM.png"
+      },
+      "updated_at": "2022-04-30T03:39:26.246+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1801187,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Pass to Korva, I've been focusing most of my attention on the modern world.\"</p>",
+      "created_at": "2022-04-30T03:43:23.020+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-30T03:43:23.020+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1801199,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>&nbsp;</p>\r\n<p>\"No, I guess not in those words.\"<br /><br />What&nbsp;<em>does </em>someone from Old Cheliax believe about power. This feels dangerous, but it's not like being wrong is any less dangerous.<br /><br />\"I think that in Old Cheliax, at the end, there was a sense of - no one with eyes is going to deny that in practice, in the world we actually inhabit, the strong often defeat and control the weak whenever they can. It is, actually, self-evident that this happens really frequently. But I think a person from Old Cheliax might believe that it doesn't have to be, or at least that it doesn't have to look - arbitrary, the way it sometimes does for us. That mortals are something special; that we, at our best, outsmart and outshine the law of the jungle; that we hold within ourselves a spark of what the gods concern themselves with, the way that Keltham talks about us containing shards of the law. Something poetic like that. And that - if we don't like the way the world is, then we possess the ability to make it be as it should be. So if we think that it's silly that things are decided by whoever happens to be the strongest, then we can, as a society, become stronger, and make the world however it ought to be.\"</p>\r\n<p>\"Which rhymes decently well with what Keltham is on about? Maybe? And I guess suggests that we can excuse the instances of control that we would fall apart without, as distinct from the instances of control that we do because we realized that pouring effort into avoiding that was stupid. If we can figure out which are which.\"</p>",
+      "created_at": "2022-04-30T04:09:33.954+00:00",
+      "icon": {
+        "id": 118503,
+        "keyword": "l1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F248vd0dh4rpyldkztbfhe8_c3+cheliax2.jpg"
+      },
+      "updated_at": "2022-04-30T04:09:33.954+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1801201,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>&nbsp;</p>\r\n<p>\"Going through everything in realCheliax and figuring out which parts&nbsp;<em>could</em> be done without strong people controlling weak people, and then re-envisioning everything the other way around, and all the consequences of that, sounds like a nightmare even by the standards of my nightmare of a job.&nbsp; I frankly think I can't do it.\"</p>",
+      "created_at": "2022-04-30T04:11:56.670+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-30T04:12:31.439+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1801202,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I think there's still something there you could say to Keltham and have him not run away screaming. Yes, nobles can abuse their power, sometimes, because the system isn't perfect, but we know it should not be so, and we think there is less of it than there used to be. Yes, many people who aren't slaves nonetheless don't have too many choices, but they have more, because Cheliax has such good education. Yes, there are various situations we're solving with power because people are very stupid and make very bad choices otherwise and we don't know how to fix that, but, you know, maybe when they all have headbands.&nbsp;</p>\r\n<p>- 'people are very stupid' is our coverall here, in part because I think it's just true. A society with an average INT of 16 and a lot of natural 22s - and with genuinely good education in Law - is going to find it much less obvious that everyone is irreparably worthless on their own and needs to be kept in line. If you meet a bunch of INT 10s it's obvious - maybe even to Keltham - that they should not be deciding how things work.\"</p>",
+      "created_at": "2022-04-30T04:15:37.373+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-04-30T04:15:37.373+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1801207,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"We could attempt to approximate what our alter-Cheliax ought to look like by looking at which things we do that other countries don't, but - it wouldn't work that well, right, because Old Cheliax was a society with a vision in the same way that <em>we&nbsp;</em>are a society with a vision, they were all trying to bring about a golden age of lawful neutral human perfection, or whatever. Osirion&nbsp;<em>might&nbsp;</em>be doing some of that, with less intensity because they're not doing the golden age thing. Lastwall might be doing some of that, again with less intensity, organized around Iomedae. Hermea might be, organized around I don't even know what. But everyone else - they're mostly not actually trying that hard to adhere to some lofty ideal, they're doing what works, which is mostly coercion, they're just lazier about doing what works than we are.\"</p>\r\n<p>\"I guess we did move the timeline up, in terms of when Cheliax became Asmodean. So - maybe we're working on it and we're just not sure which pieces of our old coercive system we can do without. And we don't want to end up like Galt.\"</p>",
+      "created_at": "2022-04-30T04:22:06.559+00:00",
+      "icon": {
+        "id": 119254,
+        "keyword": "c1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish23.jpeg"
+      },
+      "updated_at": "2022-05-01T20:39:22.959+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802252,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"That's why I moved the timeline up, wanting to be able to explain lots of people and norms being shaped by - things we weren't going to be able to justify.\"</p>",
+      "created_at": "2022-05-01T20:47:22.182+00:00",
+      "icon": {
+        "id": 172870,
+        "keyword": "Screen Shot 2020-11-30 at 9.00.47 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.00.47+AM.png"
+      },
+      "updated_at": "2022-05-01T20:47:22.182+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1802256,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Though in retrospect, it would've been worth the potential hit on misaligning the start of alter-Queen Abrogail II's reign with its realCheliax counterpart, to have it have been just ten years or seven years ago, instead of fifteen.&nbsp; Checking every coin with the Queen's face, to make sure it doesn't look older than it should've been, would've been worth it.&nbsp; To have the additional explanation for how, say, Ione acted as afraid of the government as she did.&nbsp; Why so many Chelish people act afraid of so many things, in general, when they first get to the Fortress.\"</p>",
+      "created_at": "2022-05-01T20:55:00.125+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-05-01T20:55:00.125+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802257,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"I think we can still make that work. So - Evil, as Keltham conceptualizes it, is probably less coercive than Good, or at least more - we dangle actual carrots in front of people instead of just telling them that it's necessary for the good of all society? But alter-Cheliax has a bunch of legacy systems that don't run on carrots, left over from when we were Lawful Neutral, and therefore felt that it was more often necessary to override what people wanted to do for the good of everyone else. And we would like to remake them, especially now that Hell is making us stronger and wealthier, but we're aware that radical reforms risk our stability, and, again, we don't want to end up like Galt. So we're going slow.\"<br /><br />\" -&nbsp;<em>do&nbsp;</em>we have a story abut why Galt and Andoran rebelled, in alter-Cheliax? Did Cheliax shatter several ways during the civil war, and House Thrune was only able to turn this corner of it to diabolism in the first place? That might make the most sense.\"</p>",
+      "created_at": "2022-05-01T20:56:47.285+00:00",
+      "icon": {
+        "id": 118503,
+        "keyword": "l1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F248vd0dh4rpyldkztbfhe8_c3+cheliax2.jpg"
+      },
+      "updated_at": "2022-05-01T20:57:32.006+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802260,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\" - we don't have a story like that but I've been assuming something vaguely like that, yes. If provinces left after Abrogail took power, Keltham'll want to know why.&nbsp;</p>\r\n<p>- and also I genuinely think they wouldn't have left after Abrogail took power, that was mismanagement by Infrexus. I know you're supposed to believe that but also I think it's true. And Abrogail being that incompetent would have correlates.\"</p>",
+      "created_at": "2022-05-01T20:58:50.168+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-05-01T20:58:50.168+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1802265,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"I register my opinion that Galt is one of the best places we can turn Keltham's attention, if it has to leave the Fortress at all.&nbsp; They illustrate very clearly why Intelligence 10 people can't run their own lives the way dath ilani can.\"</p>",
+      "created_at": "2022-05-01T21:02:08.548+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-05-01T21:02:08.548+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802275,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"That seems true; there's no danger of him leaving us for them, and the fact that they have a similar cultural history to us and have ended up&nbsp;<em>there&nbsp;</em>after trying to fix society explains why we might be inclined towards caution in some areas, even when current conditions seem somewhat abhorrent to him. I don't have confident opinions on why they left in real life, I'm younger than the Chosen and don't personally remember much of it, but I do think that Old Cheliax shattering into four or five pieces during the civil war is the neatest explanation.\"<br /><br />\"So. I guess we need to go through all of the major elements of coercion that exist in real Cheliax, and determine whether an alter-Cheliax that's being conservative about moving away from the level of coercion in Old Cheliax has them?\"</p>",
+      "created_at": "2022-05-01T21:13:39.789+00:00",
+      "icon": {
+        "id": 119254,
+        "keyword": "c1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish23.jpeg"
+      },
+      "updated_at": "2022-05-01T21:13:39.789+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802277,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"We figure out simply what <em>would have happened in the real alterCheliax,</em> if that concept makes sense, before we consider trying to modify any part of that for other reasons.&nbsp; Maybe the fully realistic playout just works.\"</p>",
+      "created_at": "2022-05-01T21:15:20.809+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-05-01T21:15:20.809+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802289,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"Right, right, okay.\"</p>\r\n<p>She paces.</p>\r\n<p>\"Fifteen years out of a major civil war. We don't ban clerics of other gods, obviously, we hadn't before and we have no reason to now. We don't ban Old Cheliax's existing slavery; agricultural production is the last thing you want to mess with when you're in a delicate position like that. We may phase out intergenerational slavery, or be planning to. I am going to need... an accurate list of which laws were passed when, if such a thing exists, because many of them wouldn't have been added in an accurate alter-Cheliax.\"</p>\r\n<p>\"Off the top of my head, compulsory education is more coercive than Old Cheliax, in terms of placing specific legal requirements on people, so I suppose if we were really serious about moving away from and not towards coercion, we would make school voluntary. Or we could say that Old Cheliax had compulsory schooling, but I think that's wrong, because it didn't, and our neighbors don't. So a new, voluntary school system, courtesy of Infernal resources. Worldwound service is... no, I don't think that has to be voluntary, that's a threat to the entire world.\"</p>\r\n<p>\"A bunch of things about how we raise children are probably wrong and are going to take a bunch of effort to fix, which is mostly relevant because most of Keltham's students were children not very long ago and it'll affect their backstories. At least&nbsp;<em>our&nbsp;</em>childhoods were probably just Old Cheliax sorts of childhoods, outside of school, because our parents grew up in Old Cheliax, so we don't have to give ourselves weird even-less-coercive-than-that childhoods. I think. Mind, I don't have an amazing sense of what that looks like, we might need some biographies or something.\"</p>",
+      "created_at": "2022-05-01T21:32:58.273+00:00",
+      "icon": {
+        "id": 118510,
+        "keyword": "c5",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fdwvwnn24c8no1642q28tj_chelish07.jpg"
+      },
+      "updated_at": "2022-05-01T21:35:47.831+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802294,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Before you arrived we were debating whether in other countries parents are affectionate towards and protective of their children.\"</p>",
+      "created_at": "2022-05-01T21:45:12.542+00:00",
+      "icon": {
+        "id": 172875,
+        "keyword": "Screen Shot 2020-11-30 at 9.02.43 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.02.43+AM.png"
+      },
+      "updated_at": "2022-05-01T21:45:12.542+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1802295,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"Oh, gods. Not all of them, but yes, many. I meant, like, enough of a picture of what their parenting looks like to be useful to people.\"</p>",
+      "created_at": "2022-05-01T21:46:12.079+00:00",
+      "icon": {
+        "id": 88010,
+        "keyword": "j1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F25c26150-deb7-4e93-855e-d5d94179eece_bb20.jpeg"
+      },
+      "updated_at": "2022-05-01T21:46:57.895+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802315,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"You've obviously got full Facility access at the secondary site, and - Chosen, can you clear Tallandria for full uncensored access to books from other countries?&nbsp; She's not meant to come into much contact with Keltham from now on; I expect it to be safe for the Project even if it turns her heretical.\"</p>",
+      "created_at": "2022-05-01T22:12:08.477+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-05-01T22:12:08.477+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802328,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Sure, cleared.\"</p>",
+      "created_at": "2022-05-01T22:20:08.733+00:00",
+      "icon": {
+        "id": 160115,
+        "keyword": "Screen Shot 2020-09-25 at 4.15.56 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F4qbgnbcq5nnr5lv6oamjwa_Screen+Shot+2020-09-25+at+4.15.56+PM.png"
+      },
+      "updated_at": "2022-05-01T22:20:08.733+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1802340,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>Well, if she's going to die horribly, at least she'll have an interesting couple of weeks first.</p>\r\n<p>Korva has a bunch of other things she wants to flag as considerations, more agriculture and some stuff about the government and the feudal system and the use of punishment in schools and the penalties for crimes and what effects the presence of non-Asmodean churches has and what to do about recent real progress in wizard spells probably being related to the fact that the Chelish education system is <em>not </em>fifteen years old, and other topics that flow out of those topics, but eventually she'll feel that she's said most of what needs to be brought up immediately and that maybe they should come back to some of this after she's done any amount of real research on it.</p>",
+      "created_at": "2022-05-01T22:29:52.814+00:00",
+      "icon": {
+        "id": 118503,
+        "keyword": "l1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F248vd0dh4rpyldkztbfhe8_c3+cheliax2.jpg"
+      },
+      "updated_at": "2022-05-01T22:30:19.766+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802345,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"I believe for my own part that Korva Tallandria has more than justified her apparent usefulness as a valued member of this Project under my command, Chosen, with real rank in Cheliax at least equivalent to that of a tier-2 Project member.&nbsp; But final judgment on that is obviously yours.\"</p>",
+      "created_at": "2022-05-01T22:33:22.644+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-05-01T22:33:47.061+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802389,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I agree. It's good to have another set of eyes on this anyway, we should have looked sooner for an assistant for you. I'll also clear Tallandria for anything else you know that you think she needs to in order to assist you on the wall.\"</p>",
+      "created_at": "2022-05-01T23:16:13.817+00:00",
+      "icon": {
+        "id": 161268,
+        "keyword": "Screen Shot 2020-09-30 at 5.05.33 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyov9vbcqfc9pfntsg1gu_Screen+Shot+2020-09-30+at+5.05.33+PM.png"
+      },
+      "updated_at": "2022-05-01T23:16:13.817+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1802395,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"Mm.&nbsp; I suppose this Tallandria passes as not wholly incompetent, despite her weakness.&nbsp; I'll put forth a Crown order that Tallandria is to have unrestricted access to even the most heretical material, and total freedom of requisition for books and the like; somebody on this Project needs it.\"</p>\r\n<p><br />(No, Abrogail Thrune hasn't been visible to the three before this point.)</p>",
+      "created_at": "2022-05-01T23:28:41.175+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-05-01T23:28:41.175+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802398,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>OH FUCKING FUCK DOES SHE JUST NEED TO ASSUME THAT ASMODEUS HIMSELF IS PERSONALLY WATCHING EVERYTHING SHE SAYS FROM NOW ON TO AVOID THIS SPECIFIC THING CONSTANTLY HAPPENING TO HER -</p>\r\n<p>Korva manages not to visibly do anything more obvious than inhale sharply, stiffen, and go pale, which is really quite a loud reaction but not the literal worst thing she could have done. She glances at Asmodia out of the corner of her eye in an attempt to figure out what the acceptable response to this is and whether they're supposed to bow right now.</p>",
+      "created_at": "2022-05-01T23:34:48.297+00:00",
+      "icon": {
+        "id": 118505,
+        "keyword": "k2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fdwvwnn24c8no1642q28tj_chelish09.jpg"
+      },
+      "updated_at": "2022-05-01T23:35:32.581+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802399,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>Asmodia will get over her initial reaction of freezing in utter horror relatively quickly, since it's not her first time, then drop to a respectful kneeling position and try not to have any thoughts, <span style=\"text-decoration: line-through;\">it's too hard to have unscreened ones</span>.</p>",
+      "created_at": "2022-05-01T23:37:09.553+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-05-01T23:37:09.553+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802406,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa kneels, and does not panic at all about her thoughts which are that she wonders if doing that to people ever gets old.</p>",
+      "created_at": "2022-05-01T23:43:52.481+00:00",
+      "icon": {
+        "id": 173541,
+        "keyword": "Screen Shot 2020-12-08 at 6.46.45 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Foat2o11tiag074wxxfde_Screen+Shot+2020-12-08+at+6.46.45+PM.png"
+      },
+      "updated_at": "2022-05-01T23:43:52.481+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1802410,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>Korva will also kneel, then, only a fraction of a second slower than the others.</p>",
+      "created_at": "2022-05-01T23:45:12.428+00:00",
+      "icon": {
+        "id": 113541,
+        "keyword": "i6",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F015ln9luy9v4vwo8xkbeujm_i1cheliax2.jpg"
+      },
+      "updated_at": "2022-05-01T23:45:12.428+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802424,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"I'll be taking some of Tallandria's time for a project of my own, which neither of you are to know about for now. &nbsp;Be told that she may be absent from the Project for a few hours or a day, now and then; you have discretion to schedule that with her, as Tallandria's work will not be time-critical on a daily basis.\"</p>\r\n<p>\"Tallandria, a word with you; you may rise. &nbsp;Asmodia, Carissa, dismissed.\"</p>",
+      "created_at": "2022-05-01T23:57:34.156+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-05-01T23:57:34.156+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802426,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>Asmodia will depart very quickly.&nbsp; She is too scared herself, in that moment, to think about Korva's safety right then.</p>",
+      "created_at": "2022-05-01T23:57:57.977+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-05-01T23:58:25.057+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802427,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>She is, of course, intensely curious, but probably the more ideal Carissa wouldn't be. It's the most Asmodean thing in dath ilan, the mental habit of learning that there's something you're not permitted to know and going 'oh, okay, then I won't try to learn it'. She's...working on it.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>She leaves.</p>\r\n<p>&nbsp;</p>\r\n<p>She does not contemplate Tallandria's safety at all. Abrogail just said Tallandria was useful, so presumably at the end of whatever Abrogail cares to do with her she'll still be useful, maybe even moreso.</p>",
+      "created_at": "2022-05-01T23:59:58.582+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-05-01T23:59:58.582+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1802429,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>She rises. She's going to die. Well, not literally die, just experience something incredibly unpleasant that may or may not end up having worse long-term consequences for her than death, which isn't even saying that much because death is actually not itself that bad, you know, if you didn't also squander your time here or mess yourself up by becoming involved with some project that is definitely, absolutely worth chewing people up and spitting them out as broken husks if it increases the odds of project success by even a little bit, but there's really nothing she can <em>do&nbsp;</em>about any of that, is there, so she'll just stand here like a crippled bug about to be stepped on and wait to see what possible interest her Infernal Majesty could have with her.</p>",
+      "created_at": "2022-05-02T00:03:21.327+00:00",
+      "icon": {
+        "id": 87995,
+        "keyword": "a1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F25c26150-deb7-4e93-855e-d5d94179eece_a4b.jpeg"
+      },
+      "updated_at": "2022-05-02T00:04:12.910+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802441,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"I've arranged for your sister to be resurrected, and supplied with a generous living stipend.&nbsp; I am placing at your discretion the question of how or whether to reunite her with her son, given that he was the one who turned her in for heresy; you may have access to Security transcripts of their thoughts, if that helps you decide.&nbsp; You have the option of permitting either or both of them to leave Cheliax, supervised or not, at your own will; I don't know whether you placed value on being able to visit her yourself, nor could I be bothered to investigate whether travel would be safe for her in terms of her own welfare and wisdom.\"</p>\r\n<p>\"I've written Crown orders excusing her, or if need be her son, from any further matters of heresy, and indeed all punishment by Crown or Church, even myself.&nbsp; They are not being held hostage against you.&nbsp; They may potentially be held under house arrest, if they try to raise a rebellion or some such, but will not be harmed even then.\"</p>\r\n<p>\"I swear to you in Asmodeus's name that this is so, and that those orders will not be revoked while I am yet ruler of Cheliax.\"</p>",
+      "created_at": "2022-05-02T00:13:50.807+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-05-02T01:41:11.474+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802483,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>Her sister is alive??</p>\r\n<p>- why, though??</p>\r\n<p>That doesn't seem like it improves anything???</p>\r\n<p>- oh gods this is meant to be a favor to her. Why do they think she cares about her sister. Probably because she spun up that reason for her alter-self to be crying this morning, which now that she's thought about it she thinks was placing her own personal concerns over those of the project, she probably wanted everyone else to assume that she was just a little on the weak side and then have a good reason if anybody asked about it, which was careless and she shouldn't have done it even if it did arguably match what she would have expected to happen in alter-Cheliax - unless they know something else? Does she actually care about her sister?? She's sure not immediately feeling like she wants to order her re-executed, although now that she thinks about&nbsp;<em>that&nbsp;</em>she feels sick about the obvious waste of a diamond -</p>\r\n<p>- idiot dumbass your queen is in front of you you have to&nbsp;<em>respond -&nbsp;</em><br /><br />She nods. She doesn't say anything because it's not called for, and secondly she isn't remembering any of the obvious words that one might say to that, and also she probably couldn't say much without her voice breaking if she tried.</p>",
+      "created_at": "2022-05-02T00:43:38.094+00:00",
+      "icon": {
+        "id": 118510,
+        "keyword": "c5",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fdwvwnn24c8no1642q28tj_chelish07.jpg"
+      },
+      "updated_at": "2022-05-02T00:43:38.094+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802491,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"You're a hard person to do a favor for, Korva Tallandria.&nbsp; I know, it seemed a little silly to me too, but your Security file didn't reveal literally anything else that you might want.\"</p>\r\n<p>\"<em>Is </em>there anything else that you do desire?&nbsp; If I offered you a para-baronetcy, would that genuinely cause you to feel like I'd done you a favor, that you desired, commensurate with asking you to put forth a little effort on something?&nbsp; I have my own reasons not to simply command it from you on threat of punishment, as would, of course, be by far the more Asmodean thing to do.\"</p>",
+      "created_at": "2022-05-02T00:51:46.072+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-05-02T00:52:02.191+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802499,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"I... don't know what it would mean for a favor to me to be commensurate with being asked to put in effort by yourself, your Majesty,\" she manages. Does that sound like the literal opposite of what she intended it to mean, shit - \"In that it's expected, I mean. To put in effort when given an assignment by one's sovereign.\"</p>\r\n<p>GODS. WHY CAN'T SHE BE A NORMAL FUCKING PERSON WHO HAS VALID ONE-WORD ANSWERS TO THESE THINGS. IF SHE KEEPS SAYNG THAT MANY WORDS SHE'S GOING TO DIE.</p>",
+      "created_at": "2022-05-02T00:58:53.530+00:00",
+      "icon": {
+        "id": 118502,
+        "keyword": "l2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F248vd0dh4rpyldkztbfhe8_c4+cheliax2.jpg"
+      },
+      "updated_at": "2022-05-02T01:13:26.537+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802521,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"It's a strange and difficult thing that I'm trying to arrange here, Tallandria, so I suppose your confusion is excusable.\"</p>\r\n<p>\"So I'll put it this way.&nbsp; Keltham wronged you, Korva Tallandria.&nbsp; Not by Cheliax's standards, of course, but by <em>dath ilan's,</em> he has wronged you.&nbsp; Knowingly, deliberately, <em>carelessly,</em> without bothering to investigate or understand the truth of the matter, all while strutting the part of a righteous cleric of Abadar.\"</p>\r\n<p>\"It is of course treason and heresy to imagine that you could possibly have any equal complaint about the Queen of Cheliax, who then walks in and hands you some project of hers to work on, without any reasonable option of saying no.&nbsp; That it is treason and heresy to imagine so, may perhaps make it difficult to consider whether it would be <em>true</em> that there would exist any such justified complaint - oh, not in your eyes, of course, I'm sure you're far too loyal and faithful for that.&nbsp; In the eyes perhaps of some hypothetical person who did not think Asmodeus's will alone determined the right.\"</p>\r\n<p>\"But I am willing to go to great lengths to ensure that it is <em>not in fact</em> true, in the eyes of this hypothetical person, that Keltham and Abrogail Thrune are to you just two coins of the same metal.&nbsp; It is my will to make very certain that I have not <em>actually</em> dealt you any careless, willful, uncompensated injury.&nbsp; That Keltham <em>alone</em> on this Project has wronged you so.\"</p>",
+      "created_at": "2022-05-02T01:28:06.662+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-05-02T01:32:03.681+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802534,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>Her heart feels like a stone. She almost puts the awful shame and terror at <em>I'm sure you're too loyal and faithful for that</em> into something like words, and feels a defensive argument raising up inside her about how it's a good thing that she at least understands Good, or has a better grasp on something like it than most Chelish people, or she wouldn't be able to do her job at <em>all</em> -</p>\r\n<p>And then she flinches away from the thought, from the entire genre of thoughts, because there may in fact be something truly horrible there, and the Queen has found some piece of her heart and is showing her, she thinks, how easily she could crush it in her hands, and how justified she would be in doing so, and Korva is weak and pathetic and frightened and doesn't want to be crushed, not like that, not in a moment, not without time to resign herself to what's happening -</p>\r\n<p>\"I see, your Majesty.\"</p>",
+      "created_at": "2022-05-02T01:43:44.665+00:00",
+      "icon": {
+        "id": 87995,
+        "keyword": "a1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F25c26150-deb7-4e93-855e-d5d94179eece_a4b.jpeg"
+      },
+      "updated_at": "2022-05-02T01:52:18.792+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802563,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"You&nbsp;<em>don't</em> see, Tallandria.&nbsp; I wasn't expecting you to, but it is important&nbsp;<em>not</em> to speak polite falsehoods to me about how well you've understood my plans, my intentions, or my orders.&nbsp; On this occasion I caught it because I was here in person; if you told a similar lie on parchment it might be catastrophic.\"</p>\r\n<p>\"I will not punish it, however, on this occasion.&nbsp; Among the things you're failing to see is that I am <em>more Lawful</em> than rumor would have you believe, as befits one no less chosen by Asmodeus than was Sevar.&nbsp; It's fine for random citizens of Cheliax to live in poorly understood terror of me.&nbsp; When I'm establishing a working relationship with someone, I prefer to establish a more <em>controlled</em> form of fear, in which people have an accurate idea of what gets them punished or destroyed.&nbsp; Wild fears, incorrect fears, those do not serve me.&nbsp; Those interfere with my control over my subordinates in Asmodeus's tyranny.\"</p>\r\n<p>\"Sevar, for example, got herself into really quite the fix, by being terrified about the prospect of me turning her into a statue and burying her.&nbsp; She went on being scared even after I <em>told her to her face</em> that it would take considerable work for her to piss me off that much.&nbsp; I had to go to quite some lengths to stop her being scared of that.&nbsp; Sevar is authorized to tell you the story if she feels like it.\"</p>\r\n<p>\"<em>Now,</em> if I told Sevar not to be scared of what I might do, in some particular regard, she <em>wouldn't be</em>.&nbsp; Not because she's obedient, but because she's learned that I can be trusted.\"</p>\r\n<p>\"I punish incompetence, proportionately, in a way intended to make Asmodeus's slaves more valuable in His sight rather than less.&nbsp; For me to go beyond that and destroy you, incompetence won't do it; you must have betrayed me knowingly and deliberately and unambiguously.&nbsp; If you're not plotting to betray myself, Cheliax, Asmodeus, you do not in fact have that to fear from me.&nbsp; Some, perhaps, but not you.&nbsp; I now tell you so.\"</p>\r\n<p>\"It does not serve my interests for you to be terrified of me any more than that, Tallandria.&nbsp; It does not serve <em>Cheliax.</em>&nbsp; If Security monitoring of your thoughts shows that you&nbsp;<em>continue</em> to be terrified of me, do you know what I will have to do?&nbsp; That's right, I'll need to have Security Teleport you to Egorian so I can tell you I have no such intention of hurting you, complain about how you wasted my time, not punish you for that either, and send you back to the Fortress unharmed and with a complimentary sweet in your pocket.&nbsp; Am I <em>now</em>, by any chance, by any remote possibility, being clear?&nbsp; Don't lie again.\"</p>",
+      "created_at": "2022-05-02T02:40:31.922+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-05-02T03:08:50.843+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1802566,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>&nbsp;</p>\r\n<p>Korva is not going to answer because she's still extremely terrified, because apparently she is now going to be guilty of wasting the Queen's time <em>every time she's unreasonably</em><em>&nbsp;terrified, </em>which is basically her constant state whenever something hasn't specifically distracted her from it, and she didn't think that she was lying before, but apparently she was, and she isn't sure whether \"I don't know\" is a lie and accidentally lying again feels like a marginally worse plan than saying nothing, even though saying nothing also feels like a pretty terrible plan.</p>",
+      "created_at": "2022-05-02T02:45:58.552+00:00",
+      "icon": {
+        "id": 113541,
+        "keyword": "i6",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F015ln9luy9v4vwo8xkbeujm_i1cheliax2.jpg"
+      },
+      "updated_at": "2022-05-02T02:48:04.254+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1802573,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>Abrogail Thrune sighs.&nbsp; She does not feel like she ought to be that scary, she wouldn't scare <em>herself</em> that much.&nbsp; But - a fact she still stumbles over sometimes - literally nobody appears to be as strong as her.&nbsp; She supposes that's why she's in charge of Cheliax and they are not.</p>\r\n<p>\"No, I'm not going to have you hauled up before me for a fleeting thought of fear.&nbsp; Sevar was obsessing over me every five minutes at the point I decided it was a problem.\"</p>\r\n<p>\"Sort yourself out.&nbsp; Try to find some reason amid all that fear, once you've been given some time and peace to find it.&nbsp; You have a place in Cheliax now, and a note in your Security file.&nbsp; If anybody hurts you without Sevar's permission, which she gives not lightly, they will answer to her; and if Sevar gives that permission for foolish reasons she'll answer to <em>me</em>.&nbsp; You're safer now than you've been since the day you were born, Korva Tallandria.&nbsp; You'll be judged by Hell at the end of your life, it is not in my power to exempt you from that.&nbsp; But you need no longer fear the chaotic whims of mortals in this life.&nbsp; Perhaps that can be the favor I've done you.\"</p>\r\n<p>\"Security will notify me if there's anything else within reason that you start to actually want, and you'll get it. &nbsp;Not for having demanded it of your Queen out loud, of course. &nbsp;It's not my intention to force you into heresy.&nbsp; But Asmodeus knows you can't always control your own thoughts.\"</p>\r\n<p>\"Now, let's talk about what it is that I'd like you to do for me...\"</p>\r\n<p><br />Abrogail Thrune is scarcely any less annoyed with the entire concept of tropes than is Korva Tallandria, and it has occurred to Abrogail as well that the supposed tropes may not be what they appear to be. &nbsp;But Abrogail must for now go on considering that they may be real, and planning at least somewhat on that basis, for that too is a probability; she needs no ilani Law to understand that much.</p>\r\n<p>So if there's one to do Keltham any injury, or oversee its doing - oh, it should indeed be Tallandria, the one he's harmed. &nbsp;Since Keltham has been so helpful as to harm someone, unjustly, carelessly, in the eyes of a dath ilani romance novel.</p>",
+      "created_at": "2022-05-02T02:52:58.701+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-05-02T03:00:38.365+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1896004,
+      "character": null,
+      "character_name": null,
+      "content": "<hr />",
+      "created_at": "2022-12-06T00:47:46.633+00:00",
+      "icon": null,
+      "updated_at": "2022-12-06T00:48:33.550+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1896005,
+      "character": null,
+      "character_name": null,
+      "content": "<p>(<strong><a href=\"/replies/1789682#reply-1789682\">Return to main thread.</a></strong>)</p>",
+      "created_at": "2022-12-06T00:47:52.597+00:00",
+      "icon": null,
+      "updated_at": "2022-12-06T00:48:18.470+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1896006,
+      "character": null,
+      "character_name": null,
+      "content": "<hr />",
+      "created_at": "2022-12-06T00:48:25.001+00:00",
+      "icon": null,
+      "updated_at": "2022-12-06T00:48:45.387+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    }
+  ]
+}

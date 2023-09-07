@@ -1,0 +1,26 @@
+{
+  "Ok": {
+    "id": 5403,
+    "authors": [
+      {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": null,
+    "content": "<p>This is a safe-for-work summary of the key events in \"<a href=\"/posts/5310\">kissing is not a human universal</a>\", itself a subthread of \"<a href=\"/posts/4582\">mad investor chaos and the woman of asmodeus</a>\", with intent to slightly expand the range of people to whom Mad Investor Chaos can be recommended.&nbsp; Also for the benefit of people who would like to read all of the decision theory stuff I've written, without them having to read the whole sex scene surrounding that decision theory.&nbsp; I've tried to include all of the dath ilan worldbuilding, any non-intrinsically-naughty thoughts about thinking, and of course Law, from the original naughty thread.</p>\r\n<p>(Those of you who are questioning why a sex scene needed <em>any</em> discussion of decision theory <em>at all, </em>see dath ilan's reply, appearing below, to people who ask why libraries need secret passageways.)</p>",
+    "created_at": "2021-12-01T05:39:27.090+00:00",
+    "description": "safe-for-work summary of Keltham and Carissa's encounter",
+    "icon": null,
+    "num_replies": 27,
+    "section": null,
+    "section_order": 1,
+    "status": "complete",
+    "subject": "sfw tldr kissing is not a human universal",
+    "tagged_at": "2022-01-09T22:58:29.700+00:00"
+  }
+}

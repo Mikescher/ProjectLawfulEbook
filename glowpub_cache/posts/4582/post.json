@@ -1,0 +1,42 @@
+{
+  "Ok": {
+    "id": 4582,
+    "authors": [
+      {
+        "id": 366,
+        "username": "Iarwain"
+      },
+      {
+        "id": 34,
+        "username": "lintamande"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": {
+      "id": 11729,
+      "name": "Keltham",
+      "screenname": "lawful chaotic"
+    },
+    "content": "<p>This story begins in a place that would be, as seen by some other places, a high-trust society.&nbsp; It happens that this place has no histories to call upon of earlier, lower-trust societies.&nbsp; It is expected by this society that this historical amnesia will end up not being relevant to the vast, vast supermajority of its members.&nbsp; Had they thought otherwise, they would have chosen otherwise.&nbsp; They try to plan out everything important that way, and then not plan out everything else to the point where it stops being fun.&nbsp; It's <em>that</em> kind of society, you see, the kind with prediction markets and policy goals.<br /><br /></p>\r\n<p>The last plane trip of Keltham's first life starts out uneventful. &nbsp;He boards the aircraft, strolls a third of the way down the aisle with his eyes assessing all he passes, and then sits next to the first person who looks like a more promising seat-partner than all of the previous people he passed. &nbsp;This is a woman reading alt 9, book 3 of <span style=\"text-decoration: underline;\">Reckless Investor Miyalsvor</span>, a book series not entirely ungermane to his own life interests. &nbsp;Keltham takes out his own copy of <span style=\"text-decoration: underline;\">Three to Infinity</span> by Petheriel, reading it long enough for it to be a costly signal that he actually cares about the book's content.&nbsp; Maybe a conversation will start, maybe it won't.</p>\r\n<p>The woman's name is Thellim! &nbsp;She is actually a fiction matchmaker, whose interest in reckless investing is purely as fiction! &nbsp;She does not aspire at all to the impossible (and even self-contradictory) Art of investing in ways contrary to other investors' wisdom even as all other investors try to do the same.</p>\r\n<p>\"Mad Investor Chaos\", as he sometimes calls himself, sees no profits to be reaped from further conversation here. &nbsp;After a bit of further cognition, Keltham decides that the previously viewed portions of airplane didn't contain any significant promises he was passing up, and it's not worth moving seats to go looking again.&nbsp; He gambled and lost, and may as well finish reading his book.</p>\r\n<p>The two of them pass the plane trip mostly reading quietly to themselves, until the point where the plane crashes and everyone dies.</p>",
+    "created_at": "2021-06-29T00:55:09.914+00:00",
+    "description": "some dath ilani are more Chaotic than others, but",
+    "icon": {
+      "id": 200467,
+      "keyword": "brooding 1",
+      "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpykr6w6q6r32tke0o1lhf_brooding+1.png"
+    },
+    "num_replies": 4482,
+    "section": {
+      "id": 703,
+      "name": "planecrash",
+      "order": 0
+    },
+    "section_order": 1,
+    "status": "complete",
+    "subject": "mad investor chaos and the woman of asmodeus",
+    "tagged_at": "2022-09-02T10:27:23.601+00:00"
+  }
+}

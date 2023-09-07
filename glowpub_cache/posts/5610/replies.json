@@ -1,0 +1,2731 @@
+{
+  "Ok": [
+    {
+      "id": 1756166,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa is kneeling at the side of the bed, praying to Asmodeus because it seemed like the thing to do. She hopes to serve him and be perfect and her understanding is that it is pleasing to Asmodeus that this will be very painful.&nbsp;</p>",
+      "created_at": "2022-02-03T06:01:40.424+00:00",
+      "icon": {
+        "id": 216314,
+        "keyword": "Screen Shot 2021-09-27 at 2.50.33 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.50.33+PM.png"
+      },
+      "updated_at": "2022-02-03T06:01:40.424+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756167,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He is correctly able to decode from her posture that she's praying, though he isn't sure <em>how,</em> except that it's a posture that obviously goes with a relationship like she has to Keltham and Asmodeus is the only other person she could be trying to talk to like that, though if she's not a hidden cleric of Asmodeus (and that would not make a <em>lot</em> of sense) then Asmodeus won't talk back, and apparently won't talk back even then with very high probability.</p>\r\n<p>Is Asmodeus the sort of entity that Keltham should be jealous of?&nbsp; He doesn't know; he doesn't understand 'faith' except as the opposite of some other thing that seems like it should itself be common sense when dealing with gods.&nbsp; But he remembers praying to his own god, during the godwar; and if Carissa is thinking something like that towards Asmodeus then he is not jealous, though Keltham doesn't really know why not.</p>\r\n<p>...he wants to talk with Carissa about what he intends to do, in case it's the wrong time, somehow, or the wrong entire theory of how to proceed, unknown to Subirachs.&nbsp; He doesn't know how to ask without it seeming to her like he's asking permission... well, he has one idea, which is better than zero ideas, so he will pursue that one.</p>\r\n<p>\"Carissa.\"</p>",
+      "created_at": "2022-02-03T06:10:00.650+00:00",
+      "icon": {
+        "id": 226931,
+        "keyword": "religion 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fc0f2g4x9r16ia601ib0hfq_religion+2.png"
+      },
+      "updated_at": "2022-03-08T16:11:20.096+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756168,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>She opens her eyes. \"Keltham.\"</p>",
+      "created_at": "2022-02-03T06:37:31.203+00:00",
+      "icon": {
+        "id": 216316,
+        "keyword": "Screen Shot 2021-09-27 at 2.49.58 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.49.58+PM.png"
+      },
+      "updated_at": "2022-02-03T06:37:31.203+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756170,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Detect Magic shows the cuffs as magical, so they hopefully got us what I requested.&nbsp; Walk me through binding them.\"</p>\r\n<p>It almost feels like his gendertrope is talking through him, which wouldn't be too surprising, since he's at 10 of 12 on the gendertrope identification scale, but it's still a strange feeling.</p>",
+      "created_at": "2022-02-03T06:40:38.661+00:00",
+      "icon": {
+        "id": 204634,
+        "keyword": "intent",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fuoanxrqkk6o8fcfwoi73e_intent.png"
+      },
+      "updated_at": "2022-02-03T07:03:04.579+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756171,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\" - oh, these are cool,\" says Carissa the instant she touches one. \"I think it's just a variant of an arcane lock but it adds a lot of complexity, making it bloodbound, and then someone went slightly overkill on the protection against being dispelled. ...not overkill, actually, if you're trying to hold a fourth circle wizard - touch here -\"</p>",
+      "created_at": "2022-02-03T06:49:16.379+00:00",
+      "icon": {
+        "id": 216317,
+        "keyword": "Screen Shot 2021-09-27 at 2.49.25 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.49.25+PM.png"
+      },
+      "updated_at": "2022-02-03T06:49:16.379+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756172,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He does so.</p>",
+      "created_at": "2022-02-03T06:50:02.466+00:00",
+      "icon": {
+        "id": 204635,
+        "keyword": "concentrate",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F85vz6fypa2dxi8k4smm9ad_concentrate.png"
+      },
+      "updated_at": "2022-02-03T06:50:02.466+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756173,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>She sets the spell. \"There you go, then - test it out -\"</p>",
+      "created_at": "2022-02-03T06:51:02.195+00:00",
+      "icon": {
+        "id": 160117,
+        "keyword": "Screen Shot 2020-09-25 at 5.16.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F4qbgnbcq5nnr5lv6oamjwa_Screen+Shot+2020-09-25+at+5.16.01+PM.png"
+      },
+      "updated_at": "2022-02-03T06:51:02.195+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756174,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Each cuff has two distinct command words engraved on it in Taldane, one that locks and unlocks the cuff from the person wearing it, one that locks and unlocks from the chains that it attaches to.&nbsp; The command words, now, will only work for Keltham.</p>\r\n<p>He'll first try out telling the cuff to lock to one of the nonmagical chains, pull on it to test that connection, then make sure it releases when he speaks the command word again.</p>\r\n<p>He'll then clasp that cuff around her left wrist, tell it to lock, try to remove it by strength, test out unlocking and removing it by repeating the command word, and then re-bind it on Carissa's left wrist and leave it there.</p>\r\n<p>Keltham doesn't otherwise speak himself; it doesn't feel necessary.&nbsp; There's a strangely focused feeling to his thoughts - though not so focused that he's not checking all execution paths through his cuff-testing procedure, to make sure that no previously-untested malfunction during the tests themselves would allow Carissa to end up bound to the bed with no way to remove her.</p>\r\n<p>One cuff down, three to go.</p>",
+      "created_at": "2022-02-03T07:02:37.911+00:00",
+      "icon": {
+        "id": 222441,
+        "keyword": "unbuttoned",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F2d2pp9bgep96o1z609jiar_unbuttoned.jpg"
+      },
+      "updated_at": "2022-02-15T17:11:10.487+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756175,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa is very sure that the thing to do here is be alter Carissa, as thoroughly and completely as she can, except - she can't actually imagine alter Carissa very clearly when it comes to this. Who Carissa would be in a Cheliax that different feels like a dangerous question.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Well, Keltham likes the Carissa he has fine. And there are advantages to not lying.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>She doesn't speak either. (That's one way to not lie.) She just cooperates, and watches him, and tugs on the chains a little just to show she can't break them.</p>",
+      "created_at": "2022-02-03T07:08:39.722+00:00",
+      "icon": {
+        "id": 216316,
+        "keyword": "Screen Shot 2021-09-27 at 2.49.58 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.49.58+PM.png"
+      },
+      "updated_at": "2022-02-03T07:08:39.722+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756176,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He doesn't speak while stripping away her clothes, to ask permission or otherwise.</p>\r\n<p>When Carissa is naked and bound to the bed at four points, he snuggles up to her.&nbsp; Speaking feels strangely hard, he wishes he could stay in the wordless mood and do everything by telepathy.&nbsp; He's not sure if he can get it back once he leaves.</p>\r\n<p>But there are things that need to be said.</p>\r\n<p>\"I've asked Subirachs for magical assistance in hurting you more, since I am apparently not ready to do or even hear about any of the less magical ways of doing that,\" Keltham says.&nbsp; \"She'll drop off what she can find from her collection in a few minutes, along with directions.&nbsp; I - feel a desire to do that to you, maybe even a need, after feeling scared about losing you.\"</p>\r\n<p>\"If you want to try to convince me about anything related to that, you have <em>temporary </em>permission to say what you want, including things I might potentially interpret as you objecting in words, up until the moment I first hurt you.\"</p>\r\n<p>It's okay to talk about if he binds her to the bed first, is his hope.</p>",
+      "created_at": "2022-02-03T07:15:13.009+00:00",
+      "icon": {
+        "id": 222441,
+        "keyword": "unbuttoned",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F2d2pp9bgep96o1z609jiar_unbuttoned.jpg"
+      },
+      "updated_at": "2022-02-03T09:08:22.968+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756177,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Oh,\" she says quietly. \"....I love you or something. I hope I'm exactly what you're looking for.\" And to push him on the 'not allowed to object later' thing or not...not yet.</p>",
+      "created_at": "2022-02-03T07:21:01.868+00:00",
+      "icon": {
+        "id": 216321,
+        "keyword": "Screen Shot 2021-09-27 at 6.02.27 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fhrnksdi3i3kelwkoezbv86_Screen+Shot+2021-09-27+at+6.02.27+PM.png"
+      },
+      "updated_at": "2022-02-03T07:21:01.868+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756178,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>She's not going to comment on the part where he's going to hurt her, apparently, and that's fine.</p>\r\n<p>\"It's a funny, and strange, and beautiful thing, that you being exactly what I'm looking for is even <em>remotely </em>a possibility.&nbsp; In Civilization they'd warn you about that being the sort of open purchase order that never, ever gets filled.\"</p>\r\n<p>And if a Keltham is exactly what a Carissa is looking for, somehow, then she's going to have some very strange implied utility function he doesn't understand; though, to be fair, like a lot of male dath ilani, he's never understood the exact details of how some women are apparently able to find men attractive in the first place.</p>\r\n<p>\"It's probably fair to say that I'm in love with you.&nbsp; And scared this is going to turn out terribly, for reasons including Conspiracies, and tropes, and you somehow still being a hidden cleric no matter how absolutely little sense that has now been revealed as making, and you getting tired of me in two more weeks.&nbsp; I'm having to continually shut down a self-protective impulse to try not to fall in love with you any more than this, to decrease the pain later when this somehow explodes.\"</p>",
+      "created_at": "2022-02-03T07:32:33.766+00:00",
+      "icon": {
+        "id": 201297,
+        "keyword": "smile?",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Ffxm7yhbtj2mu0k1e7z888_smile_.png"
+      },
+      "updated_at": "2022-02-03T07:33:51.067+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756179,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I don't suppose I can actually solve your problem at <em>all</em> by saying that if I get tired of you in two weeks you could always just chain me up here until I change my mind.\"</p>",
+      "created_at": "2022-02-03T07:33:45.314+00:00",
+      "icon": {
+        "id": 216314,
+        "keyword": "Screen Shot 2021-09-27 at 2.50.33 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.50.33+PM.png"
+      },
+      "updated_at": "2022-02-03T07:33:45.314+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756180,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"...my first impulse is to say no, but it's possible that I'm missing something.&nbsp; Is it, for example, an inevitable and understood part of these relationships that you get tired of me every two weeks but this is a problem which can be totally and cheerfully solved by chaining you up and carrying out some procedure on you?&nbsp; If so, I'm not sure I could go along with it, unless there's some corresponding - expectation, potential, clear inner state of your mind - that can be shown by some spell akin to Detect Desires.&nbsp; Maybe not even then, but it wouldn't be a flat no, that way.\"</p>",
+      "created_at": "2022-02-03T07:38:10.018+00:00",
+      "icon": {
+        "id": 222443,
+        "keyword": "look up wonder",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Faw8agatk8c98riymi35pnm_look+up+wonder.png"
+      },
+      "updated_at": "2022-02-03T07:38:46.186+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756181,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>WHY can't he just BE EVIL. \"That's what I figured. No, it's not - I'm not expecting to get tired of you in two weeks, and if I did you probably could change my mind but not in some established-procedure kind of way, and not with the assurance you need to get to - feel like you don't deserve to be shunned by Civilization - and that's all right, really. I was just going to feel very silly if in fact that did solve your problem and just hadn't occurred to you.\"</p>",
+      "created_at": "2022-02-03T07:41:14.520+00:00",
+      "icon": {
+        "id": 216318,
+        "keyword": "Screen Shot 2021-09-27 at 2.49.38 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.49.38+PM.png"
+      },
+      "updated_at": "2022-02-03T07:41:14.520+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756182,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"We're pretty thoroughly trained not to care about being shunned by Civilization except insofar as Civilization has a good reason for its opinions - which, to be clear, it always does in practice, but if we <em>weren't </em>constantly checking the reasons, there'd be a possible equilibrium where it didn't.&nbsp; Children's training is to occasionally try to justify things to kids by talking like something is true <em>because</em> an opinion poll of Civilization showed a huge majority agreed, see how old they first are when they catch on.&nbsp; I was six.\"</p>\r\n<p>\"My point here is, the reason my Civilization model is giving this current state of argument a quizzical look is that they don't understand how everyone acting that way turns out well for everyone, and neither, in fact, do I.&nbsp; And I'm guessing that's probably not something you could or should try to explain in the next five minutes, but I'd feel pretty silly if it had a thirty-second explanation instead.\"</p>",
+      "created_at": "2022-02-03T07:47:38.542+00:00",
+      "icon": {
+        "id": 200471,
+        "keyword": "arms folded 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgpgbekxzklt6p6wyamdov3_arms+folded+2.png"
+      },
+      "updated_at": "2022-02-04T14:07:00.421+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756183,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Have you considered CARING LESS ABOUT OTHER PEOPLE. \"- not a thirty second explanation, I think. Sorry.\"</p>",
+      "created_at": "2022-02-03T07:50:19.936+00:00",
+      "icon": {
+        "id": 216321,
+        "keyword": "Screen Shot 2021-09-27 at 6.02.27 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fhrnksdi3i3kelwkoezbv86_Screen+Shot+2021-09-27+at+6.02.27+PM.png"
+      },
+      "updated_at": "2022-02-03T07:50:19.936+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756184,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"And if your next line is that it's actually just interworld travelers like me who can get away with that, there's just the one of me, and I should only be considering the results of my own actions rather than hypothetical other people who could've ended up in my same situation but didn't, then the reason why Civilization gives <em>that</em> reasoning a quizzical look is&nbsp;<em>definitely</em> not a thirty-second conversation.\"</p>\r\n<p>\"Unless it's already intuitively obvious to you why, for example, a bunch of dath ilani kids told about my Conspiracy doubts would immediately start engaging in all kinds of complicated mind-games like the one I played with Asmodia.&nbsp; Or why a dath ilani suspected of murder would immediately and truthfully tell the police all about how they think they would've planned that murder if they'd wanted to.\"</p>",
+      "created_at": "2022-02-03T08:00:09.056+00:00",
+      "icon": {
+        "id": 222443,
+        "keyword": "look up wonder",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Faw8agatk8c98riymi35pnm_look+up+wonder.png"
+      },
+      "updated_at": "2022-02-03T08:01:37.267+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756185,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"That is not obvious to me though also not the explanation I was going to give. ....it helps Ordinary win over Conspiracy, and non-murderers win over murderers, if they engage the hypothetical? But I don't see the connection, really -\"</p>",
+      "created_at": "2022-02-03T08:02:01.778+00:00",
+      "icon": {
+        "id": 159715,
+        "keyword": "carissa13",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa13.png"
+      },
+      "updated_at": "2022-02-03T08:02:01.778+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756186,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"We probably shouldn't go into it too far.&nbsp; The thirty-second version is that the Ordinary dath ilani kids are playing an adversarial game against their alternate Conspiracy selves, and the predictable decisions they make inside their branch of reality make the lives of the Conspiracy kids more difficult, because the me inside the Conspiracy knows how Ordinary kids should obviously act, by trying things that would be hard for the Conspiracy to imitate or navigate.\"</p>\r\n<p>\"There's games of correlated decisions played out across real and unreal realities, and in those games it's not only the real Keltham who's standing here that I have to consider.\"</p>\r\n<p>\"To be clear, I get that in a world with a generally unLawful appearance, in the subworlds where that appearance is real, the locals legit aren't going to intuit right away how that game gets played.\"</p>",
+      "created_at": "2022-02-03T08:08:12.340+00:00",
+      "icon": {
+        "id": 222442,
+        "keyword": "looking up",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feolp0aublobaj3gum7h8_looking+up.png"
+      },
+      "updated_at": "2022-02-03T08:13:04.775+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756187,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"So you won't kidnap me as an adversarial ploy against hypothetical Worse Keltham who doesn't care about other people and so would kidnap me if he thought he could get away with it? - sorry, you said you didn't want to get into this.\"</p>",
+      "created_at": "2022-02-03T08:12:51.693+00:00",
+      "icon": {
+        "id": 160117,
+        "keyword": "Screen Shot 2020-09-25 at 5.16.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F4qbgnbcq5nnr5lv6oamjwa_Screen+Shot+2020-09-25+at+5.16.01+PM.png"
+      },
+      "updated_at": "2022-02-03T08:12:51.693+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756188,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Something like that.&nbsp; But that's the more finely detailed version of what Civilization in the person of myself wants to check, rather than 'how would that work out great for everyone if everyone did that'.&nbsp; They want to know the downstream effect of everything correlated with that decision across all the probable realities, and not just the place where one Keltham thinks he's most probably standing.\"</p>\r\n<p>\"It's the most complicated shard of all the shards of Law that everyone is supposed to learn.&nbsp; One of the subshards is the one that underlies real oaths.&nbsp; It's the only part of the fundamental Law underpinning Civilization whose math is actually, like, difficult at all as math.\"<br /><br /></p>\r\n<p>Part of Keltham seems to think on some deep level that he needs to keep talking, to prevent the chained and naked Carissa from being scared about what is going to happen to her, because that would be needlessly cruel...</p>\r\n<p>Or maybe the frightened person he's trying not to be needlessly cruel to is himself.</p>",
+      "created_at": "2022-02-03T08:20:57.691+00:00",
+      "icon": {
+        "id": 222444,
+        "keyword": "look up 3",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fiwskz7yq1lkx9h0juxuhj_look+up+3.png"
+      },
+      "updated_at": "2022-02-03T08:21:21.225+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756189,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Well, Carissa appreciates the guide to how to run a Conspiracy against Keltham and is content to keep him talking about Law. \"So, the way I reason, a Keltham who doesn't care about other people at all already does that to his Carissa, he doesn't need me to point it out - the Kelthams I'm talking to are the ones who would feel freer and safer and more allowed to fall in love, if they could expect that would work if they had to do it, and whether it would work is just a fact about Carissa, not a fact about the universe in general.\"</p>",
+      "created_at": "2022-02-03T08:27:02.842+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-02-03T08:27:02.842+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756190,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "",
+      "created_at": "2022-02-03T08:27:52.247+00:00",
+      "icon": {
+        "id": 222442,
+        "keyword": "looking up",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feolp0aublobaj3gum7h8_looking+up.png"
+      },
+      "updated_at": "2022-02-03T08:27:52.247+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756191,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"You're an awfully fast learner.&nbsp; That's something like the correct format for an argument to Civilization, or, yes, to Keltham.&nbsp; Okay, I'll have to think about that.\"</p>\r\n<p>\"Where most of what I have to think about, I&nbsp;<em>think,</em> is whether my going along with that somehow disadvantages Carissas or Kelthams in other branches of reality, but&nbsp;<em>I'm</em> not going to figure that out in thirty seconds.\"</p>\r\n<p>\"Though I think there's some - implicit crux here, about how you can be justifiably certain that almost every future Carissa feels the same way, or would want to remain signatory to some contract across times and possibilities even if she didn't - where if I knew why you believe that, maybe I wouldn't feel worried about losing you in the first place...\"</p>",
+      "created_at": "2022-02-03T08:28:42.009+00:00",
+      "icon": {
+        "id": 222443,
+        "keyword": "look up wonder",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Faw8agatk8c98riymi35pnm_look+up+wonder.png"
+      },
+      "updated_at": "2022-02-03T08:34:03.906+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756192,
+      "character": {
+        "id": 11562,
+        "name": "dath ilan",
+        "screenname": null
+      },
+      "character_name": "dath ilan",
+      "content": "<p>Civilization does in fact train its children not to lose track, in the complexities of decision theory, of such ultimate and grounding scenarios as 'Okay but what if future Carissa would <em>actually </em>rather not have sex with you.'</p>\r\n<p>This is continuing to produce failures in Keltham's case-checking on the more complicated arguments too.</p>\r\n<p>They may have not&nbsp;<em>literally&nbsp;</em>considered&nbsp;<em>exactly Cheliax,</em> but some very smart people have ever asked themselves, 'Well, what if somebody tried to corrupt a dath ilani?'<br /><br /></p>\r\n<p>Of course, the flip side of this caution - as Keltham himself thinks of it - is that these very smart people were almost certainly not considering the case of a dathi ilani sadist dying in an airplane crash and materializing alone into a generally unLawful economicmagic world where he's incredibly valuable to a government, and there isn't anyone else around like that, and also submissive masochists are <em>actually</em> a thing.</p>\r\n<p>This is true.&nbsp; They weren't considering that.</p>\r\n<p>But only because that was a needlessly detailed particular case of a sort that they knew they needed to cover more abstractly.</p>",
+      "created_at": "2022-02-03T08:34:13.726+00:00",
+      "icon": {
+        "id": 198209,
+        "keyword": "dath ilan",
+        "url": "https://abagond.files.wordpress.com/2013/11/earth-egress1a2.jpg?w=400&h=400"
+      },
+      "updated_at": "2022-02-03T09:20:41.982+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756193,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I think - Golarion is a hard place to live in, if you can't trust yourself to follow through, to handle herself in whatever situation you've put her in. Worldwound deployments are three years, and you can't quit, no matter how much you hate it. Indentures to study to become a wizard are even longer, places other than Cheliax - if the Church hadn't taken power I would have had to pledge ten years of service for my training, probably....I've never actually set myself on a course and then gone, wait, no, I wish I had the option of escape, because - because I value it about myself, that I can make promises like to serve at the Worldwound for three years. When I - when I asked to join this project - I didn't know anything about you, but I wasn't assuming you&nbsp;<em>weren't </em>the-Keltham-who-doesn't-care-about-other-people, or that if you were I'd be able to leave, and - it's not that I didn't care, it's also not that I was taking a calculated risk that might not have paid off, it's that - I was pretty sure I could live in all the worlds I was stepping into, and - and be someone I'm proud of in all those worlds, and go to Hell stronger and cleverer, in all those worlds...\"</p>",
+      "created_at": "2022-02-03T08:38:40.142+00:00",
+      "icon": {
+        "id": 172929,
+        "keyword": "Screen Shot 2020-12-06 at 9.48.35 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.48.35+PM.png"
+      },
+      "updated_at": "2022-02-03T08:38:40.142+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756194,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"And the obvious question to me, is, how do you know&nbsp;<em>that</em> won't change about yourself, and maybe you&nbsp;<em>do</em> know, but it's harder for me to know...\"</p>\r\n<p>\"There's also the inconvenient part where what I want is Carissa chained into my bed feeling a particular way about me, and feeling particular things when I hurt her, and that seems so much harder to guarantee by brute-forcing it than the part where I can be sure I could have Carissa chained in my bed if I found myself wanting it enough.\"</p>\r\n<p>\"Not totally a bad thing for you.&nbsp; It means Meritxell can't compete for your place in my heart, nor Asmodia for that matter.\"</p>",
+      "created_at": "2022-02-03T08:44:53.232+00:00",
+      "icon": {
+        "id": 204633,
+        "keyword": "apologetic",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F6cc1ksw0asqfvzs5zs0jl_apologetic.png"
+      },
+      "updated_at": "2022-02-03T08:44:53.232+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756195,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>A bad thing for&nbsp;<em>your eternal soul,&nbsp;</em>though, Keltham. \"Oh good. I'd be tempted to keep you away from all other masochists except then I'm seriously concerned you'd decide there aren't really any. And then you'd stop hurting me, which would be terrible.\"</p>",
+      "created_at": "2022-02-03T08:47:39.904+00:00",
+      "icon": {
+        "id": 159715,
+        "keyword": "carissa13",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa13.png"
+      },
+      "updated_at": "2022-02-03T08:47:39.904+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756196,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He hugs her hard.</p>\r\n<p>\"I really appreciate the thing with Yaisa.&nbsp; I mean, what I should've done, was think of that check myself, given alleged commonness, and asked Subirachs myself, and picked somebody at random from among those who seemed attracted to me, and run some other checks I won't speak out loud - but - if I don't think of that myself, fast enough, you shouldn't suffer for that.\"</p>\r\n<p>\"And it's important not to lose track of - just optimizing the world the way it appears to be, whatever else you're thinking and whatever complications are going on.&nbsp; Because very often, reality is what appears to be reality.&nbsp; Or to paraphrase a famous fictional story character out of dath ilan:&nbsp; While appearances can be deceiving, they usually aren't.\"</p>\r\n<p><br />Now he just needs to remember that part and hold to that thought while hurting Carissa, who appears to be a masochist.</p>",
+      "created_at": "2022-02-03T08:52:45.776+00:00",
+      "icon": {
+        "id": 204636,
+        "keyword": "praying",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fjcbr0t8u6iilzoov17gnuj_praying.png"
+      },
+      "updated_at": "2022-02-03T09:04:42.467+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756197,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Well, by all appearances you have a naked girl at your mercy, what are you going to do about that?\"</p>",
+      "created_at": "2022-02-03T08:57:43.070+00:00",
+      "icon": {
+        "id": 216314,
+        "keyword": "Screen Shot 2021-09-27 at 2.50.33 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.50.33+PM.png"
+      },
+      "updated_at": "2022-02-03T08:57:43.070+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756198,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Empirically, snuggle her and keep talking so I don't get scared while waiting for Subirachs to drop off her stuff.&nbsp; I guess it's good news if she's taking a little longer, it implies probably she found more interesting options to collect for us.&nbsp; Either that, or she's having trouble finding any.&nbsp; One of those two.\"</p>",
+      "created_at": "2022-02-03T08:59:22.590+00:00",
+      "icon": {
+        "id": 222443,
+        "keyword": "look up wonder",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Faw8agatk8c98riymi35pnm_look+up+wonder.png"
+      },
+      "updated_at": "2022-02-03T08:59:22.590+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756274,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I'd be surprised if she doesn't have any. Obviously you can be a priest of Asmodeus in different ways, studied in different aspects of him, but I get the sense that this - power and submission - is hers, and so it'd be - important, for her to have lots of interesting ways to make people vulnerable. You don't need to be scared. I can't - be mad at you - tied up like this, it's like it makes whatever you do correct automatically.\"</p>",
+      "created_at": "2022-02-03T18:26:22.832+00:00",
+      "icon": {
+        "id": 216314,
+        "keyword": "Screen Shot 2021-09-27 at 2.50.33 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.50.33+PM.png"
+      },
+      "updated_at": "2022-02-03T18:26:22.832+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756332,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>What is he supposed to&nbsp;<em>do</em> with that?&nbsp; How can that possibly be a thing?</p>\r\n<p>There's a very obvious thing to think out of dath ilan and Law and every pattern Civilization ever taught him, which is that putting Carissa into chains causes her to <em>think</em> anything Keltham does is correct, but obviously that can't <em>actually</em> make it correct, thereby removing Carissa as a potential source of error correction and putting all responsibility on himself.</p>\r\n<p>But Keltham knows on a deep level that's not what she meant, and that there's something going on here that he doesn't understand; and while feelings that feel deeply true are often mistaken, at least <em>sometimes</em> they are not.<br /><br /></p>\r\n<p>Keltham speaks carefully, then; he has no cached response to something like that, but it seems he has a deep one.&nbsp; \"There is a thing that dath ilani are trained to see themselves doing, to have the option of not doing, which is that thing a person does when they fill in their thoughts and words and behaviors from pattern and memory, from an image in their mind of how they usually are, or how they are supposed to be.&nbsp; Contrasted to filling in those thoughts, words, choices, from those original sources that made the memory of the original thoughts, the first sources that came before you remembered any answer to fill in from memory.&nbsp; I know that when it comes to the broken sexuality inside you, that you've been filling in the pattern to hold it all in place.\"</p>\r\n<p>\"When I'm hurting you this time, I want you to not do that.&nbsp; I don't want to hear the sounds you remember yourself making, I want to hear the sounds from the same place they came from when you formed those memories.&nbsp; I don't know if it's something you can do, only because I ask it of you, when you don't have any training in making that a kind of internal choice that's available to you, and I definitely do not mean that you should remember your usual reactions and suppress any reaction that matches your memory.\"</p>\r\n<p>\"But if I'm causing you pain with whatever Subirachs brings, that should be enough, I hope, that you can let go of the pattern and the memory and let natural reactions come back in; and that will be enough for me, I hope, if I know that it's real.&nbsp; And whether or not it's enough for me, it's the best idea I have for how to make any progress on your sexuality.&nbsp; If I'm going to be remaking you with this pain at all, and not just arousing myself with it, that's the obvious thing to try, and it is something that I want.\"</p>\r\n<p>\"And maybe need, because I am so lost, right now, in Golarion, and in this moment I need there to not be any surface appearances that aren't real, even if it means that nothing in Subirachs's collection can force a sound or a flinch from you.&nbsp; If in this world you don't naturally react as much as you might wish, I ask of you that you react naturally anyways, to protect the happiness of all the Kelthams in all the other worlds where your natural reaction is something different from that, so that they know the reality they are seeing is reality.&nbsp; Even if it's not the nicest reality that could be, I need to touch reality whatever reality is.\"</p>",
+      "created_at": "2022-02-03T19:06:16.910+00:00",
+      "icon": {
+        "id": 226932,
+        "keyword": "religion 3",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F18n7rsd1iodcu6u05mdyt_religion+3.png"
+      },
+      "updated_at": "2022-02-05T18:33:37.953+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756337,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>That might be progress? She's tired of trying to think what's progress and what isn't, actually. Keltham wants to hurt her, wants to learn that hurting her is right and glorious, and she wants to give that to him, because it is the essence of Hell.</p>\r\n<p>\" - that makes sense. I'll try. ...I think I'll be better, at trying, if you hurt me quite badly. It interferes with the - sense of what usually happens.\"</p>",
+      "created_at": "2022-02-03T19:11:02.737+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-02-03T19:11:02.737+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756338,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"So 43 units of pain, then?&nbsp; Sorry, that was too flippant.&nbsp; You'll have to tell me in words when I'm hurting you quite badly, unless there's some other visible and reliable sign.&nbsp; I have no reference points for how much anything hurts, how much pain is required to get past your memory, or what any particular level of pain looks like in any natural reactions it produces.\"</p>",
+      "created_at": "2022-02-03T19:14:02.528+00:00",
+      "icon": {
+        "id": 222442,
+        "keyword": "looking up",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feolp0aublobaj3gum7h8_looking+up.png"
+      },
+      "updated_at": "2022-02-03T19:14:02.528+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756339,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"If I'm telling you things in words then I'm not in very much pain. But I'll - try to communicate.\"</p>",
+      "created_at": "2022-02-03T19:14:58.651+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-02-03T19:14:58.651+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756347,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Carissa, darling, there is an obvious problem if I'm escalating while relying on a verbal signal to tell me when I've gone far enough, and the escalation removes your ability to verbally signal things.&nbsp; It potentially causes me to go further than I want, which is a problem even on your terms because it is not what I want.\"</p>",
+      "created_at": "2022-02-03T19:20:47.890+00:00",
+      "icon": {
+        "id": 204632,
+        "keyword": "hesitant",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fh4o9ioe6rru33mwmvw7vx2_hesitant.png"
+      },
+      "updated_at": "2022-02-03T19:20:47.890+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756349,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Maybe Subirachs has an extremely secret spell for outright mindreading. In the absence of that I will do my best to communicate with you but I don't actually have a clever solution here aside from observing that I don't think you'll go further than you want because I think you'll get bored after like three minutes if I'm just screaming in agony.\"</p>",
+      "created_at": "2022-02-03T19:25:27.903+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-02-03T19:26:10.119+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756353,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Now seriously wondering whether my stupid idea to ask Jacint about a somewhat asymmetrical threesome was possibly not as stupid as I thought.&nbsp; It would be very convenient if I could ask her to just stick around in a corner of the cuddleroom and fill out her reports while we had sex and occasionally I could ask her questions, without my finding that at all bothersome, but in fact I would find it bothersome.\"</p>\r\n<p>\"Just to check my Carissamodel here, according to your own model of how reality works, if I actually went further than I planned or warned you about and failed to get bored at the time you currently anticipate, afterwards you would be like 'Yay Keltham!', and when I stepped outside I'd find Pilar holding a cookie for me.&nbsp; Correct?&nbsp; <em>Don't</em> say that's correct if it's not actually correct; and, to avoid that failure mode, stop and think about it.\"</p>",
+      "created_at": "2022-02-03T19:30:45.674+00:00",
+      "icon": {
+        "id": 222443,
+        "keyword": "look up wonder",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Faw8agatk8c98riymi35pnm_look+up+wonder.png"
+      },
+      "updated_at": "2022-02-03T19:30:45.674+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756355,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"If you went a <em>lot</em> further than you planned, then when you were done I'd be crying uncontrollably and you'd panic tremendously about that and call for Subirachs to demand help and I would, while still crying uncontrollably, put my head in your lap and cling, and Subirachs would say 'pet her, and tell her you're not mad at her', and then I would calm down and Pilar would show up with cookies for you to feed me, and I'd be <em>fine&nbsp;</em>aside from worrying that you managed to hurt&nbsp;<em>yourself&nbsp;</em>and that it was my fault for not bouncing back instantly.\"</p>",
+      "created_at": "2022-02-03T19:36:38.979+00:00",
+      "icon": {
+        "id": 172871,
+        "keyword": "Screen Shot 2020-11-30 at 9.01.46 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.01.46+AM.png"
+      },
+      "updated_at": "2022-02-03T19:36:38.979+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756358,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"I want to make jokes about, okay but if instead you shattered forever that would prove I was in the Conspiracy universe, except that I'm not sure to what extent I'm clear to joke about that even with you.&nbsp; And also if you were like 'Keltham dear why would the Conspiracy hypothesis predict that outcome specifically' I would have no answer except 'Well obviously just because they're the Conspiracy they try to arrange the outcome to be whatever I'm most scared of, because that is totally how carefully maintained conspiracies work.'\"</p>\r\n<p>Is there&nbsp;<em>actually</em> any hypothesis, plain or exotic, which reasonably predicts a bad outcome here?&nbsp; Keltham isn't seeing it.&nbsp; Just, you know, a lot of internal screaming, and a sense of guardrails being shattered.</p>",
+      "created_at": "2022-02-03T19:41:01.934+00:00",
+      "icon": {
+        "id": 222442,
+        "keyword": "looking up",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feolp0aublobaj3gum7h8_looking+up.png"
+      },
+      "updated_at": "2022-02-03T21:22:57.389+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756359,
+      "character": null,
+      "character_name": null,
+      "content": "<p>There is a knocking upon the door which somehow manages to be gentle, and yet very firm at the same time, and this obviously must be Subirachs.</p>",
+      "created_at": "2022-02-03T19:41:39.279+00:00",
+      "icon": null,
+      "updated_at": "2022-02-03T19:41:39.279+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756360,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham goes to collect his borrowed goodies.</p>",
+      "created_at": "2022-02-03T19:42:11.576+00:00",
+      "icon": {
+        "id": 200472,
+        "keyword": "move right",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fm203mdmq2agjvq7dv69e8_move+right.png"
+      },
+      "updated_at": "2022-02-03T19:42:11.576+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756363,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"Abrogail tortured me to death over the course of - an hour, two hours, maybe a bit more, I'm not sure. I did beg her to stop, and it didn't matter. And it was the second-best thing that ever happened to me. Maybe some people shatter forever if you hurt them, I don't know. I have good reason to think I don't. ....also, you've just named a test of Conspiracy versus not, so in the name of making things harder for the Carissa in a Conspiracy we've got to do the test now, that's the rules.\"</p>",
+      "created_at": "2022-02-03T19:46:44.597+00:00",
+      "icon": {
+        "id": 172871,
+        "keyword": "Screen Shot 2020-11-30 at 9.01.46 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.01.46+AM.png"
+      },
+      "updated_at": "2022-02-03T19:46:44.597+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756368,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>&nbsp;</p>\r\n<p>Keltham returns, bearing something like a doompunk picnic basket.&nbsp; He sits down beside Carissa on the bed and begins examining the basket's contents, at an angle where Carissa can see him, but not see what he's examining, hopefully.</p>\r\n<p>\"I'm going to assume that there was some way to do that safely despite your lack of afterlife arrangements at the time, because, you know, Abrogail seems like a pretty sensible person.&nbsp; Also you have not quite grasped how these rules work, but, later.\"</p>",
+      "created_at": "2022-02-03T19:50:43.723+00:00",
+      "icon": {
+        "id": 222442,
+        "keyword": "looking up",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feolp0aublobaj3gum7h8_looking+up.png"
+      },
+      "updated_at": "2022-02-03T19:50:43.723+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756370,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"She learned somehow that my deepest terror was being turned into a statue and buried underground or dropped into the ocean so I never got an afterlife, and arranged a situation where I thought I had betrayed everyone in a fashion that warranted that, and so she slowly petrified me. And then after she undid it she swore to me that that she would never do that.\" Carissa's feelings about this are in fact all over the place but she manages to keep her voice content, contemplative, enamored. She cranes her neck to try to see the picnic basket.</p>",
+      "created_at": "2022-02-03T19:55:00.207+00:00",
+      "icon": {
+        "id": 159715,
+        "keyword": "carissa13",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa13.png"
+      },
+      "updated_at": "2022-02-03T19:56:59.893+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756377,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Showed up on your Detect Anxieties actually, and I didn't mention that to anyone.&nbsp; Would that have been on your Security reports and is that - considered an okay thing for the Queen of Cheliax to do?&nbsp; Or would she have some other way of -\"</p>\r\n<p>\"And how would she arrange for you to think&nbsp;<em>that</em> without - outright mind control, I don't see how you could arrange that even&nbsp;<em>with</em> a Suggestion -\"</p>",
+      "created_at": "2022-02-03T19:58:58.160+00:00",
+      "icon": {
+        "id": 200809,
+        "keyword": "close grim",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fl5zi5kdl8q8taltk3zouh8_close+grim.png"
+      },
+      "updated_at": "2022-02-03T19:58:58.160+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756381,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Suggestion's not the most powerful kind of mind control, it's the least powerful kind that was necessary to persuade you that Conspiracy Cheliax would win. I don't know the spell she used. There's a procedure for approving uses for bed-games, if you can afford it, but it's 'ask the Queen'. Her pact with Asmodeus requires her to conduct herself in a way He approves of. Same with divining for my greatest terror, which is not the kind of thing that's on my Security reports.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>If you want to learn how to do that I think it'll be - a while, those spells are secret for good reasons -\"</p>",
+      "created_at": "2022-02-03T20:05:09.597+00:00",
+      "icon": {
+        "id": 160030,
+        "keyword": "carissa16",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fvnqr2piy0tabr18rotd2t_carissa16.png"
+      },
+      "updated_at": "2022-02-03T21:55:59.022+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756397,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>&nbsp;</p>\r\n<p>\"...allllll right then.\"</p>\r\n<p>\"We should go ahead and stop talking about this, actually, I think Isidre was right to label this all dangerous-information to me for now.&nbsp; You've successfully impressed me with how hard you are to damage.\"</p>\r\n<p>\"But Golarion Civilization would've found you eventually, you know.&nbsp; Even if they had to build magitech to search the entire planet point by point.&nbsp; You and everyone else that's ever happened to.&nbsp; And if not, I <em>do</em> suspect you'd have ended up somewhere else just like me.\"<br /><br /></p>\r\n<p>The thing in the basket labeled #1, presumably the least terrifying thing in it, is a nonmagical extract of a foreign plant that's used to make food taste like fire, which Jacint's note says she's guessing wouldn't exist or wouldn't be used for flavoring in dath ilan.&nbsp; There's a list of places to potentially apply the extract to Carissa, essentially a list of body parts with mucous membranes.&nbsp; The burning this produces can be moderated or neutralized by Prestidigitation, if you imagine changing the taste to be less like fire.&nbsp; This, Jacint notes and underlines, is not a good thing to forget to do before bringing any mucous membranes of your own into contact with some part of Carissa where the spiciness-extract has already been applied.&nbsp; (Capsaicin, one guesses; contrary to what some people seem to think, dath ilan is not badly off to the point where they literally don't have spicy food.)</p>\r\n<p>Jacint doesn't think this is likely to do much to Carissa, but if Keltham wants to start off without any magic, it's there for him.&nbsp; She included it mainly as an intermediate step along the way to #3, a magical-ointment version of the same, which requires a separate magical liquid to neutralize and causes much more pain.&nbsp; A few droplets of which could also be mixed and diluted with the nonmagical stuff.</p>\r\n<p>Gloves have been included in this basket, for multiple reasons.</p>",
+      "created_at": "2022-02-03T20:26:56.370+00:00",
+      "icon": {
+        "id": 222442,
+        "keyword": "looking up",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feolp0aublobaj3gum7h8_looking+up.png"
+      },
+      "updated_at": "2022-02-03T21:57:06.855+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756398,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa has literally no idea what to do with the assertion that she'd probably just end up somewhere else like Keltham. That....seems false? There was reason for the gods to grab Keltham. Obviously he means something more complicated, but the thing her brain keeps returning is his assertion that if the Abyss was infinite then they'd be demons. And if it's not infinite then it doesn't follow that she'd turn up somewhere?</p>",
+      "created_at": "2022-02-03T20:29:49.857+00:00",
+      "icon": {
+        "id": 216322,
+        "keyword": "Screen Shot 2021-09-27 at 6.02.52 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fhrnksdi3i3kelwkoezbv86_Screen+Shot+2021-09-27+at+6.02.52+PM.png"
+      },
+      "updated_at": "2022-02-03T20:29:49.857+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756403,
+      "character": {
+        "id": 11562,
+        "name": "dath ilan",
+        "screenname": null
+      },
+      "character_name": "dath ilan",
+      "content": "<p>(It's more that the Abyss can't be infinite <em>while everything else is finite.</em>&nbsp; The question is not whether you imagine those quantities to be infinite or maybe zero, but just, what are the ratios between them either way; for those ratios in the very final end are <em>all</em> that there ever is.)</p>",
+      "created_at": "2022-02-03T20:35:42.987+00:00",
+      "icon": {
+        "id": 198209,
+        "keyword": "dath ilan",
+        "url": "https://abagond.files.wordpress.com/2013/11/earth-egress1a2.jpg?w=400&h=400"
+      },
+      "updated_at": "2022-02-03T20:35:42.987+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756405,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"And now I've just realized that our cuddleroom conversation literally went to 'anthropics'. &nbsp;There are sad jokes about that out of dath ilan.\"</p>\r\n<p>\"Carissa, I'm about to apply the least painful thing in here to you. &nbsp;Jacint doesn't expect it'll do much, I'm not really second-guessing that, don't get worried about being disappointed, I'm trying the least painful thing first just on grounds of generally good escalation procedures.\"</p>\r\n<p>\"The prohibition against asking me to stop, or asking in words to be let out of these chains, is about to return into effect, if you wanted to say anything before then.&nbsp; Including perhaps about going to the bathroom.\"</p>",
+      "created_at": "2022-02-03T20:37:20.509+00:00",
+      "icon": {
+        "id": 200471,
+        "keyword": "arms folded 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgpgbekxzklt6p6wyamdov3_arms+folded+2.png"
+      },
+      "updated_at": "2022-02-03T21:01:47.660+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756407,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Did that while you were talking with the High Priestess.\" So that's what anthropics is? She feels like she's gotten half a dozen different accounts of what anthropics is and none of them are the same thing.&nbsp;</p>",
+      "created_at": "2022-02-03T20:39:43.876+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-02-03T20:39:43.876+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756419,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>All right then.&nbsp; He's nervous, and hopefully that goes away rather than amplifying to the point of inner screaming that forces him to either stop or as forcibly rearrange himself.</p>\r\n<p>Should he apply one droplet of probably-concentrated-capsaicin on... Carissa's nipple, as is hardly a mucous membrane at all, if he's not using the magical-potion form?&nbsp; No, that is starting off too weak, even for him.</p>\r\n<p>\"Starting now.&nbsp; Don't control your reactions, don't suppress them either, just let them happen.&nbsp; Whatever is reality, that's what I want to come into contact with.\"</p>\r\n<p>One droplet of probably-concentrated-capsaicin, on a more sensitive area than a nipple.</p>",
+      "created_at": "2022-02-03T21:01:24.239+00:00",
+      "icon": {
+        "id": 204635,
+        "keyword": "concentrate",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F85vz6fypa2dxi8k4smm9ad_concentrate.png"
+      },
+      "updated_at": "2022-02-03T21:01:24.239+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756423,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>The instruction 'don't control your reactions' is approximately impossible. Everything that Carissa is is the product of a hundred different filters, checking if that's safe, checking if it's allowed. It doesn't actually feel like there's a true answer underneath those layers, just waiting to be freed; it feels like the layers are Carissa, with nothing beneath them at all.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><br />She'll try, though. She can at least tell that pretending doesn't serve any goals here, that Keltham wants to be touching the fabric of reality and she doesn't have the reach even within herself to fake it.&nbsp;</p>",
+      "created_at": "2022-02-03T21:06:20.431+00:00",
+      "icon": {
+        "id": 172870,
+        "keyword": "Screen Shot 2020-11-30 at 9.00.47 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.00.47+AM.png"
+      },
+      "updated_at": "2022-02-03T21:06:20.431+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756425,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Does that look or sound like anything in particular, though?</p>",
+      "created_at": "2022-02-03T21:07:24.464+00:00",
+      "icon": {
+        "id": 200474,
+        "keyword": "head tilt",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fah06t72ewcibr8wsdfzyr_head+tilt.png"
+      },
+      "updated_at": "2022-02-03T21:14:29.898+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756430,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Not especially? Keltham should give her an easier task like becoming an archdevil and reforming Hell.</p>",
+      "created_at": "2022-02-03T21:16:48.918+00:00",
+      "icon": {
+        "id": 161266,
+        "keyword": "Screen Shot 2020-09-30 at 5.05.58 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyov9vbcqfc9pfntsg1gu_Screen+Shot+2020-09-30+at+5.05.58+PM.png"
+      },
+      "updated_at": "2022-02-03T21:16:48.918+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756434,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>That's fine, and he'll tell her so, and thank her for being reality.</p>\r\n<p>Let's skip straight to magical capsaicin, #3, this time applied first to nipple.</p>",
+      "created_at": "2022-02-03T21:18:43.982+00:00",
+      "icon": {
+        "id": 204633,
+        "keyword": "apologetic",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F6cc1ksw0asqfvzs5zs0jl_apologetic.png"
+      },
+      "updated_at": "2022-02-03T21:18:51.759+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756441,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>What makes a reaction authentic anyway? If you have control over how you experience pain, at least sometimes, as a corrective or a game or an injury to account for in further combat, and you automatically classify it as such, is that inauthentic? But it feels, especially with a headband, with more insight into memory and thought as it occurs in her mind, like the filtering-process is exactly the same as the input-process, like the signals are interpretation all the way down, and there's no reflex to respond in any particular way, only the question of what response is safe -</p>\r\n<p>&nbsp;</p>\r\n<p><br />She did warn Keltham that he was probably going to have to hurt her until she stopped overthinking things.&nbsp;</p>",
+      "created_at": "2022-02-03T21:25:03.422+00:00",
+      "icon": {
+        "id": 173555,
+        "keyword": "Screen Shot 2020-12-08 at 4.35.37 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.35.37+PM.png"
+      },
+      "updated_at": "2022-02-03T21:25:03.422+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756443,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>She did, and that's okay, and he'll tell her so again.</p>\r\n<p>#3 on the more sensitive area.</p>",
+      "created_at": "2022-02-03T21:26:17.941+00:00",
+      "icon": {
+        "id": 226931,
+        "keyword": "religion 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fc0f2g4x9r16ia601ib0hfq_religion+2.png"
+      },
+      "updated_at": "2022-02-03T21:26:33.590+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756448,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa seems to have two categories of reaction: involuntary flinches, and freezing up while she tries to figure out what her reaction would be if it'd had minimal intervention from her brain. Hurting her enough, or unexpectedly, gets involuntary flinches; everything else gets freezing up while she tries to figure out what her reaction would be. She is aware that this is ridiculous but everything else feels like even less what Keltham asked for, and lying is more dangerous than being ridiculous, here.</p>",
+      "created_at": "2022-02-03T21:32:29.317+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-02-03T21:32:29.317+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756449,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Flinches and freezing are, in fact, pretty legible to Keltham as the initial real reaction followed by her brain undergoing an internal collision between everything it's trying to automatically do and deliberately not do.</p>\r\n<p>There are ways to try to work past internal collisions like that, if you happen to already be trained in them; you can imagine careful things that might be said in words to the untrained, to try to unravel this.&nbsp; Carissa being who she is, their relationship being what it is, it seems that he should try to brute-force this and cheat, for it is less effort to brute-force pain than pleasure.</p>\r\n<p>It is easier to do all this and push past his own internal screaming if he can tell himself that he is hurting Carissa for a reason, and reasons like that are hard to come by if you are not able to just make them up.</p>\r\n<p><br />Keltham takes off his shirt.</p>\r\n<p>\"Carissa, I need, for the sake of my own sexuality, to have some idea of what this is actually doing.&nbsp; Part of me thinks it doesn't do anything.&nbsp; I'm going to apply one droplet of #3 to my own nipple, with the neutralizer ready to hand.&nbsp; I am checking that you think this is safe for me.&nbsp; You also have a temporary exemption until the next time I hurt you, if you want to argue that you should not be in your chains while I do this.\"</p>",
+      "created_at": "2022-02-03T21:40:02.752+00:00",
+      "icon": {
+        "id": 204634,
+        "keyword": "intent",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fuoanxrqkk6o8fcfwoi73e_intent.png"
+      },
+      "updated_at": "2022-02-05T18:56:44.451+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756452,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I think it's safe for you, I'd be shocked if it was incapacitating. You could give me a free hand if you wanted so I could apply the neutralizer if it is incapacitating.\"</p>",
+      "created_at": "2022-02-03T21:44:56.026+00:00",
+      "icon": {
+        "id": 216316,
+        "keyword": "Screen Shot 2021-09-27 at 2.49.58 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.49.58+PM.png"
+      },
+      "updated_at": "2022-02-03T21:44:56.026+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756457,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He notes that whatever current ongoing degree of pain she's in doesn't seem to affect her speech, even.</p>\r\n<p>\"I agree on being shocked; I'll free your hand anyways, just in case somehow dath ilani turn out to be much relatively weaker to pain than either of us are modeling.&nbsp; It's not like we've actually checked any observation which substantially constrains that.\"</p>\r\n<p>He'll lean over to read and remember the command word for her right cuff, which is the side he's sitting near, and then free that part of her.&nbsp; \"Ready if we're both wrong?\"</p>",
+      "created_at": "2022-02-03T22:00:08.780+00:00",
+      "icon": {
+        "id": 200474,
+        "keyword": "head tilt",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fah06t72ewcibr8wsdfzyr_head+tilt.png"
+      },
+      "updated_at": "2022-02-03T22:00:08.780+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756459,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Mmhmm.\"</p>",
+      "created_at": "2022-02-03T22:00:54.025+00:00",
+      "icon": {
+        "id": 216824,
+        "keyword": "Screen Shot 2021-10-07 at 6.57.37 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fg6krlo6c0pol1yctjkr5vf_Screen+Shot+2021-10-07+at+6.57.37+PM.png"
+      },
+      "updated_at": "2022-02-03T22:00:54.025+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756462,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He observes that he feels a little anxious, more about possibly failing to impress Carissa than about anything to do with pain.</p>\r\n<p>Bracing himself to suppress his own reactions, if he can, lest he alarm her; one drop of #3 on his own nipple.</p>",
+      "created_at": "2022-02-03T22:03:26.268+00:00",
+      "icon": {
+        "id": 200467,
+        "keyword": "brooding 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpykr6w6q6r32tke0o1lhf_brooding+1.png"
+      },
+      "updated_at": "2022-02-03T22:03:26.268+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756469,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>...Keltham once burned himself with a soldering iron.&nbsp; This is roughly that, but the awful pain of first contact doesn't go away and if anything seems to be slightly worsening.</p>\r\n<p>At least by dath ilani standards of not visibly flinching, he doesn't flinch, nor does he make any sounds.</p>\r\n<p>\"Yeah, this would be annoying if it kept up, and it'd be scary if I thought it was doing actual damage in a world with no healing spells, but I'm very much seeing how this is not going to break past any internal jumbles in Carissa Sevar.\"</p>\r\n<p>Keltham applies the antidote to himself, reattaches Carissa's cuff to the chain, applies antidote to the two Carissa areas he tapped before, Prestidigitates any remaining nonmagical capsaicin to taste like sugar, and goes off to check the basket again.&nbsp; He's hoping she's not disappointed with dath ilani pain tolerance, but he's definitely not asking her to be impressed.</p>",
+      "created_at": "2022-02-03T22:40:29.458+00:00",
+      "icon": {
+        "id": 200474,
+        "keyword": "head tilt",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fah06t72ewcibr8wsdfzyr_head+tilt.png"
+      },
+      "updated_at": "2022-02-05T18:57:55.496+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756471,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa does not really have evaluating Keltham as an available action! She is trying to do this properly and is unable to because of how it's impossible, and she's hoping that Keltham will fix that, and if he doesn't then she hopes he has a good time and becomes Evil and helps her fix Hell. It's a plan that doesn't leave a lot of room for being disappointed in Keltham; if he doesn't do what she wants, that's her failure.&nbsp;</p>",
+      "created_at": "2022-02-03T22:42:55.609+00:00",
+      "icon": {
+        "id": 172896,
+        "keyword": "Screen Shot 2020-12-06 at 9.02.50 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.02.50+PM.png"
+      },
+      "updated_at": "2022-02-03T22:42:55.609+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756476,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>#4 is marked with a note that it does actual damage requiring healing afterwards, which is&nbsp;<em>probably</em> not especially helpful with breaking through Carissa Sevar's resistance, but maybe Keltham wants to do that, or maybe his own theory says it's helpful.</p>\r\n<p>It's a self-heating disc with a single command word; speak once to adhere, then again to switch on heat, then again to switch off and loosen.&nbsp; It's mostly for cooking food under field conditions, but can also be used to apply steadily escalating pain to a person.</p>\r\n<p><br />\"I'm skipping #4 because I'm guessing it's not escalating fast enough, but this is kinda interesting even if you're a nonmasochistic dath ilani, if you just ended up in a world with magical healing.&nbsp; It's a self-heating disc that actually does burn whatever it's attached to, and Jacint's note says that to be a Security wizard you need to be able to keep Detect Magic running for 10 minutes with this stuck to your forearm.&nbsp; I'm definitely going to at least try that at some point, I expect I'll utterly fail to impress but I want to <em>know.</em>\"</p>",
+      "created_at": "2022-02-03T22:52:47.460+00:00",
+      "icon": {
+        "id": 200500,
+        "keyword": "quizzical",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feac24y6ncotyujgqkz3hm_quizzical.png"
+      },
+      "updated_at": "2022-02-08T17:28:38.522+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756478,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\" - I too now want to try that.\"</p>",
+      "created_at": "2022-02-03T22:56:14.518+00:00",
+      "icon": {
+        "id": 216314,
+        "keyword": "Screen Shot 2021-09-27 at 2.50.33 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.50.33+PM.png"
+      },
+      "updated_at": "2022-02-03T22:56:14.518+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756482,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"I'm legit surprised you haven't already.&nbsp; Well, I'm definitely going first, because I am not heading into this with the mindset of trying to beat Carissa Sevar's time on it.\"</p>\r\n<p><br />#5, dagger-hilt with an illusionary blade that causes real pain.&nbsp; There's a command word for producing illusionary wounds and bleeding, which Jacint doesn't particularly recommend that Keltham use; also that part uses up a limited number of charges.&nbsp; Effects wear off in ten minutes but can't otherwise be canceled except by Dispelling them.</p>\r\n<p><br />Okay.&nbsp; This seems like it could be legitimately useful for breaking past Carissa's barriers, on the one hand, especially if he doesn't warn her, and on the other hand, actually using it on Carissa is going to take psyching himself up some.</p>",
+      "created_at": "2022-02-03T23:04:32.587+00:00",
+      "icon": {
+        "id": 204632,
+        "keyword": "hesitant",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fh4o9ioe6rru33mwmvw7vx2_hesitant.png"
+      },
+      "updated_at": "2022-02-03T23:06:42.027+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756489,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I'm not tracked for Security, I've had training on casting in pain but not that specific one. Weapons enchanters mostly cast Haste on our melee combatants and then stay off the front lines.\"</p>",
+      "created_at": "2022-02-03T23:17:04.928+00:00",
+      "icon": {
+        "id": 160030,
+        "keyword": "carissa16",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fvnqr2piy0tabr18rotd2t_carissa16.png"
+      },
+      "updated_at": "2022-02-03T23:17:04.928+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756493,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Do you know where I'd find a blindfold, in this cuddleroom, it seems like obvious equipment but I'm not seeing one around.\"&nbsp; Talking perfectly normally, like he's not about to fake-stab her.&nbsp; Keltham is feeling like a not-particularly-Law-Abiding Psychopath right now.</p>\r\n<p>(Well.&nbsp; Actually <em>being </em>a Law-Abiding Psychopath doesn't feel awful, that's sort of the point, but, obvious actual meaning of thought is obvious.)</p>",
+      "created_at": "2022-02-03T23:19:11.843+00:00",
+      "icon": {
+        "id": 200809,
+        "keyword": "close grim",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fl5zi5kdl8q8taltk3zouh8_close+grim.png"
+      },
+      "updated_at": "2022-02-03T23:21:10.168+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756494,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"There should be one in the closet, along with other safe-for-Keltham stuff.\"</p>",
+      "created_at": "2022-02-03T23:21:42.004+00:00",
+      "icon": {
+        "id": 160117,
+        "keyword": "Screen Shot 2020-09-25 at 5.16.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F4qbgnbcq5nnr5lv6oamjwa_Screen+Shot+2020-09-25+at+5.16.01+PM.png"
+      },
+      "updated_at": "2022-02-03T23:21:42.004+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756495,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"I thought that didn't contain anything yet and also wasn't safe for me to open, which now that I think about it is not an&nbsp;<em>especially</em> coherent belief state...\"</p>\r\n<p>Keltham goes to check.</p>",
+      "created_at": "2022-02-03T23:24:04.347+00:00",
+      "icon": {
+        "id": 222442,
+        "keyword": "looking up",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feolp0aublobaj3gum7h8_looking+up.png"
+      },
+      "updated_at": "2022-02-03T23:24:04.347+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756496,
+      "character": null,
+      "character_name": null,
+      "content": "<p>There's not very much in the closet but it does, yes, contain a blindfold, also earplugs if he's of a mind; and some objects that Keltham will completely fail to recognize on sight as spanking paddles or tickling implements.</p>",
+      "created_at": "2022-02-03T23:24:46.844+00:00",
+      "icon": null,
+      "updated_at": "2022-02-03T23:24:46.844+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756500,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He comes back bearing the blindfold and attaches it to Carissa, and then sits there, breathing deeply.</p>\r\n<p>He cuts his forearm with the illusionary knife, just to make sure the blade isn't real.&nbsp; It hurts like a real cut (and will for ten minutes supposedly).&nbsp; The skin is unbroken.&nbsp; There's no blood.</p>\r\n<p>Abrogail literally tortured Carissa to death and subjected her to a nightmare of her worst fear, and Carissa came back visibly brighter and happier, and maybe even persistently better though it's hard to tell because Chelish people.&nbsp; And if that maybe required some skill that Keltham doesn't have, and wouldn't work for everyone who isn't Abrogail or on everyone who isn't Carissa, it at least illustrates that he really really is not in dath ilan anymore.&nbsp; Adaptation is a virtue, one should not go on living in a world that no longer contains you.</p>",
+      "created_at": "2022-02-03T23:29:18.499+00:00",
+      "icon": {
+        "id": 204635,
+        "keyword": "concentrate",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F85vz6fypa2dxi8k4smm9ad_concentrate.png"
+      },
+      "updated_at": "2022-02-04T00:27:38.144+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756502,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa has not in fact been told what all is in the box, and didn't ask; the pleasant frission of expectation is probably good for their objectives here and anyway whether or not it's good for their objectives here it's fun. She wiggles, and then if Keltham doesn't object to wiggling sets herself to trying to break the chains, not that it's going to work but one ought to try.</p>",
+      "created_at": "2022-02-03T23:33:23.894+00:00",
+      "icon": {
+        "id": 216316,
+        "keyword": "Screen Shot 2021-09-27 at 2.49.58 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.49.58+PM.png"
+      },
+      "updated_at": "2022-02-03T23:33:23.894+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756503,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Her trying to get loose is not actually helping under these exact circumstances, as attractive as it might be under other ones.</p>\r\n<p>Keltham is pretty sure that his gendertrope is not going to get anything out of this, and worries that he's about to make a drastically wrong move for himself and damage something, but - if she's all right, after this - then some part of himself will have learned something it needs to learn.<br /><br /></p>\r\n<p>He'd tell&nbsp;<em>her</em> to stab him with an illusionary blade, if that was what it took for them to stay together, or if it might fix something inside himself that was broken.</p>\r\n<p>Probably.</p>\r\n<p>...delaying this is doing nothing but causing him pain.</p>",
+      "created_at": "2022-02-03T23:42:47.632+00:00",
+      "icon": {
+        "id": 229413,
+        "keyword": "sad",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F5xx33ss7cou7r0d6462uf8_sad.png"
+      },
+      "updated_at": "2022-02-23T21:22:17.883+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756504,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham stabs Carissa through the stomach with an illusionary dagger.</p>",
+      "created_at": "2022-02-03T23:43:03.158+00:00",
+      "icon": {
+        "id": 200468,
+        "keyword": "light contrast",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fwvzk35u06rkzriv1xb0x_light+contrast.png"
+      },
+      "updated_at": "2022-02-03T23:43:17.543+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756512,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>She was not expecting that, and cries out in pain and shock for a whole several seconds before thinking to be pleased with herself for having an unfiltered reaction and then realizing now she's ruined it and then wondering if she's allowed to try to retrace to -&nbsp;</p>\r\n<p>- did he actually stab her, would he actually stab her -</p>\r\n<p>- she thinks he wouldn't, it feels like he did -</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>- and it's not letting up -</p>\r\n<p>\" - oh,\" she says, her voice more than a little trembly. \"I - apologize if - you have to literally stab me to get me to do what you asked -\"</p>",
+      "created_at": "2022-02-03T23:58:48.441+00:00",
+      "icon": {
+        "id": 172885,
+        "keyword": "Screen Shot 2020-12-06 at 9.26.13 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.26.13+PM.png"
+      },
+      "updated_at": "2022-02-03T23:58:48.441+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756518,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>The flood of relief that goes through him is almost as great as the horror, and he just clamps down on both because he knows there is a thing that the Keltham of a Carissa must say now.&nbsp; \"You don't owe me any apologies while you're in chains any more than I can do anything wrong while you're in chains,\" it feels like the correct extension of this alien logic, \"and if that was a real reaction, just there,&nbsp;<em>good</em> Carissa.&nbsp; Was it?\"</p>",
+      "created_at": "2022-02-04T00:01:47.534+00:00",
+      "icon": {
+        "id": 201295,
+        "keyword": "neutral",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F51spld8tawrm5guaq6112s_neutral.png"
+      },
+      "updated_at": "2022-02-04T00:01:47.534+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756525,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Happy wiggle, which disrupts her&nbsp;<em>stab wound,&nbsp;</em>ouch, no more happy wiggle. \"Mmmhmm.\"</p>",
+      "created_at": "2022-02-04T00:19:02.933+00:00",
+      "icon": {
+        "id": 159715,
+        "keyword": "carissa13",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa13.png"
+      },
+      "updated_at": "2022-02-04T00:19:02.933+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756531,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham is paying closer attention to Carissa And Nothing Else than when he usually fails at reading Chelish people.&nbsp; He catches the start of the happy wiggle, the wince and abort.</p>\r\n<p>...the illusionary blade causes illusionary wounds that feel real enough to hurt when you move, which, Keltham guesses, goes along with the same mindset as having a command word for illusionary blood.&nbsp; He tries pressing around his own fake forearm cut, to verify that theory, and winces accordingly.&nbsp; (She's blindfolded.)</p>\r\n<p>\"Your aborting the movement when it hurt you was also a natural reaction,\" Keltham states.&nbsp; \"Good Carissa for that too.\"</p>",
+      "created_at": "2022-02-04T00:28:56.912+00:00",
+      "icon": {
+        "id": 201297,
+        "keyword": "smile?",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Ffxm7yhbtj2mu0k1e7z888_smile_.png"
+      },
+      "updated_at": "2022-02-04T00:31:35.414+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756533,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"May I have an opinion about what you should do now?\"</p>",
+      "created_at": "2022-02-04T00:34:41.124+00:00",
+      "icon": {
+        "id": 216317,
+        "keyword": "Screen Shot 2021-09-27 at 2.49.25 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.49.25+PM.png"
+      },
+      "updated_at": "2022-02-04T00:34:41.124+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756534,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"I'll not only allow you to have an opinion, I'll even allow you to say what it is.\"</p>",
+      "created_at": "2022-02-04T00:37:46.612+00:00",
+      "icon": {
+        "id": 222438,
+        "keyword": "smile",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fp6tgp2zgo4gk0wflkq017f_smile.png"
+      },
+      "updated_at": "2022-02-04T00:37:46.612+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756536,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I think you should fuck me.\" Assuming the stab wound's not bleeding everywhere, but she bets the High Priestess gave him something for illusory stab wounds.&nbsp;</p>",
+      "created_at": "2022-02-04T00:44:39.378+00:00",
+      "icon": {
+        "id": 216317,
+        "keyword": "Screen Shot 2021-09-27 at 2.49.25 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.49.25+PM.png"
+      },
+      "updated_at": "2022-02-04T00:44:39.378+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756540,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "",
+      "created_at": "2022-02-04T00:49:39.964+00:00",
+      "icon": {
+        "id": 222439,
+        "keyword": "skeptical",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Frc0uhj2qigod0a2f8dr9_skeptical.png"
+      },
+      "updated_at": "2022-02-04T00:49:39.964+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756543,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Not yet, I think,\" Keltham says gently, and pets her breasts approvingly.&nbsp; \"I very much liked hearing you say that.&nbsp; But right now I'm still feeling driven to do what I came here to do.&nbsp; I'll either succeed or fail - not you, me, you're in chains, and therefore not the one person with project responsibility, aside from following orders.&nbsp; Afterwards I'll fuck you, stab wound included.\"</p>\r\n<p>\"Here is the standard advice that would be given out of dath ilan: congratulate yourself each time you have a natural response, do not expect yourself to succeed the next time after you succeed once, do not try to force yourself to repeat that exact motion, do not punish yourself for failures, do not punish yourself for meta-failure to follow this advice.&nbsp; Is this advice understood?\"</p>",
+      "created_at": "2022-02-04T00:56:38.369+00:00",
+      "icon": {
+        "id": 222441,
+        "keyword": "unbuttoned",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F2d2pp9bgep96o1z609jiar_unbuttoned.jpg"
+      },
+      "updated_at": "2022-02-04T01:03:45.887+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756546,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>How do you come up with the Asmodean version of that advice. It's about as anti-Asmodean as advice can get, seemingly premised on the idea that punishment is an error you'll fall into by default. What do you even do with that.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"Understood.\"</p>",
+      "created_at": "2022-02-04T00:58:45.574+00:00",
+      "icon": {
+        "id": 159715,
+        "keyword": "carissa13",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa13.png"
+      },
+      "updated_at": "2022-02-04T00:58:45.574+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756548,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham braces himself, because some part of himself is not updating very quickly, and again without warning punches Carissa hard on her illusionary wound.</p>",
+      "created_at": "2022-02-04T01:02:55.406+00:00",
+      "icon": {
+        "id": 201295,
+        "keyword": "neutral",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F51spld8tawrm5guaq6112s_neutral.png"
+      },
+      "updated_at": "2022-02-04T01:02:55.406+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756551,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Questions to think about later?</p>\r\n<p>&nbsp;</p>\r\n<p>- is this Evil? Would Axis not permit it?</p>\r\n<p>- what is Keltham getting out of it, or is he just determined to teach her to be more accessible to him - reasonable of him -</p>\r\n<p>- would she just be better, more perfect, if she mastered the skill Keltham wants to teach her - yes -</p>\r\n<p>&nbsp;</p>\r\n<p>Unfortunately her contemplation of these questions is getting in the way of succeeding at her task.</p>",
+      "created_at": "2022-02-04T01:07:08.810+00:00",
+      "icon": {
+        "id": 172885,
+        "keyword": "Screen Shot 2020-12-06 at 9.26.13 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.26.13+PM.png"
+      },
+      "updated_at": "2022-02-04T01:07:08.810+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756553,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>...<em>right then.</em></p>\r\n<p>Let's go look at what constitutes&nbsp;<em>#6</em> in this series.</p>",
+      "created_at": "2022-02-04T01:08:50.308+00:00",
+      "icon": {
+        "id": 222443,
+        "keyword": "look up wonder",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Faw8agatk8c98riymi35pnm_look+up+wonder.png"
+      },
+      "updated_at": "2022-02-04T01:08:50.308+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756638,
+      "character": {
+        "id": 12876,
+        "name": "Cheliax",
+        "screenname": null
+      },
+      "character_name": "Cheliax",
+      "content": "<p>Two probes, with metal teeth to bite on if you want to attach them, connected by a wire; deals lightning-aspected damage that mainly goes between the two probe points, and heals that damage with a lag.&nbsp; Do not use on head, do not use near heart, do not attach to nipples.&nbsp; Use a healing surge if Carissa seems to be having problems, such as an irregular or absent pulse, after the torment stops.&nbsp; Has only 12 charges remaining, each charge lasts one minute.&nbsp; It'd be appreciated if Keltham can return it with at least 3 charges remaining.<br /><br /></p>\r\n<p>(Healing items are not cheap, nor torturer tools that incorporate healing.&nbsp; There was a brief argument at the central temple which involved Subirachs saying that they were literally never going to find a more important use-case for this ridiculously impractical object irrespective of how expensive it was to produce originally, and then a lesser cleric getting all of their limbs twisted into bone-splintered wreckage after Subirachs ran out all six seconds of her remaining patience.)</p>",
+      "created_at": "2022-02-04T03:29:10.200+00:00",
+      "icon": {
+        "id": 231056,
+        "keyword": "Cheliax",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fal4kyfnd8enrrk6y6ksv9_cheliax+flag.jpg"
+      },
+      "updated_at": "2022-02-04T03:29:10.200+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756639,
+      "character": {
+        "id": 12876,
+        "name": "Cheliax",
+        "screenname": null
+      },
+      "character_name": "Cheliax",
+      "content": "<p>(The obstacle past this point is that one is now dealing with the basic question of 'Why are you not just injuring this person and then healing them, as is vastly less complicated and expensive than somehow not really injuring them while still causing the pain?' &nbsp;And while there are some sensible answers like 'Well because if you don't heal this area continuously the nerves will be damaged by the lightning and then stop reporting pain properly', one is at some point going to get into the realm of answers that sound a lot like 'Because a powerful sadistic enchanter got bored'.&nbsp; And the problem is that most of <em>those</em> items are not suitable to Keltham; and might also be difficult to excuse as something Subirachs just happened to have lying around her bedroom, if she apparently had a lot of them.)</p>",
+      "created_at": "2022-02-04T03:32:45.504+00:00",
+      "icon": {
+        "id": 231056,
+        "keyword": "Cheliax",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fal4kyfnd8enrrk6y6ksv9_cheliax+flag.jpg"
+      },
+      "updated_at": "2022-02-04T03:32:45.504+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756642,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>This better not be the only thing on this planet that produces electricity, with only 12 charges remaining on it?&nbsp; But calling it 'lightning-aspected damage' suggests that it's better-known than that.</p>\r\n<p>All right, let's try this with probe one clamped to sensitive Carissa area one, probe two clamped to sensitive Carissa area two, spend one charge, and immediately with no warmup turn up the slide control from zero to two-thirds of its range.</p>\r\n<p><br />Obviously any linear slide like this one will control output logarithmically, so that the just-noticeable-difference corresponds to the same interval at all points on the scale, as Keltham knows and does not think to question; he's not thinking that he's setting the output to two-thirds of maximum output.</p>\r\n<p>Which, in fact, he is.</p>",
+      "created_at": "2022-02-04T03:37:45.525+00:00",
+      "icon": {
+        "id": 222444,
+        "keyword": "look up 3",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fiwskz7yq1lkx9h0juxuhj_look+up+3.png"
+      },
+      "updated_at": "2022-06-06T09:12:37.409+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756643,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>When she is done screaming, which takes a long time, it occurs to Carissa that probably she should have been more helpful to High Priestess Subirachs even if she genuinely didn't know very much about the space of options. Being helpful to people while they're arranging to torture you is a good idea.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Is Keltham okay. \"Are you okay?\" she asks in what she doesn't mean to be a whisper but comes out as one. It's the wrong line, but - Keltham might not be okay -</p>\r\n<p>&nbsp;</p>",
+      "created_at": "2022-02-04T03:41:20.646+00:00",
+      "icon": {
+        "id": 172885,
+        "keyword": "Screen Shot 2020-12-06 at 9.26.13 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.26.13+PM.png"
+      },
+      "updated_at": "2022-02-04T03:41:20.646+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756646,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Um.&nbsp; Sort of.&nbsp; He actually dropped the control when Carissa screamed, which is making him feel incredibly stupid, and then fumbled it the first time he tried to switch it off before it occurred to him that maybe he was not supposed to do that, and then he switched it to low, sort of not wanting to waste the charge, and then he switched it off, but Carissa kept screaming for a bit after that.</p>\r\n<p>He has been&nbsp;<em>repeatedly</em> told not to worry too much about the consequences if this sort of thing happens, and if everybody was just lying to him about that the entire time, Keltham can always just exit this universe by a sheer act of will, right.</p>\r\n<p>\"I'm okay if you're okay.&nbsp; Good Carissa.\"&nbsp; He undoes the blindfold, so she can see he's not looking too terrible.</p>\r\n<p>\"Figures that the first thing on this list which actually works is one with charges and which now has only 11 charges remaining.\"</p>",
+      "created_at": "2022-02-04T03:48:02.811+00:00",
+      "icon": {
+        "id": 227247,
+        "keyword": "shell impressed",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fprao1mbvc4lez7qhvc5up_shell+impressed.png"
+      },
+      "updated_at": "2022-02-04T05:36:14.376+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756650,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Actually works?\" she says out loud and then realizes she did not at all have a strategic reason to say that.</p>",
+      "created_at": "2022-02-04T03:56:44.355+00:00",
+      "icon": {
+        "id": 159703,
+        "keyword": "carissa4",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa4.png"
+      },
+      "updated_at": "2022-02-04T03:56:44.355+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756652,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Unless that was just a rehearsed screaming pattern, which I'm sort of guessing it's not.&nbsp; Well done on finding something inside you that wasn't a memory of something else.\"&nbsp; He sits closer to her and runs his fingers through her hair.</p>",
+      "created_at": "2022-02-04T03:59:16.121+00:00",
+      "icon": {
+        "id": 201297,
+        "keyword": "smile?",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Ffxm7yhbtj2mu0k1e7z888_smile_.png"
+      },
+      "updated_at": "2022-02-04T03:59:16.121+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756654,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>This causes a flashback!!!!!! She's in Abrogail's bed and nothing was real and nothing is real and she exists exists exists but in pieces she's not allowed to start to pull together -</p>\r\n<p>&nbsp;</p>\r\n<p>She starts crying.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>It's like there's a very distant Carissa observing detachedly that this does not seem to achieve her goals and she needs to stop it immediately.&nbsp;</p>",
+      "created_at": "2022-02-04T04:05:13.574+00:00",
+      "icon": {
+        "id": 159703,
+        "keyword": "carissa4",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa4.png"
+      },
+      "updated_at": "2022-02-04T04:05:13.574+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756656,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Good.&nbsp; Good Carissa.\"&nbsp; He'll keep running his fingers through her hair.</p>\r\n<p>He was probably supposed to do this much more gradually, but <em>unless everyone has been lying to him this entire time</em> she should nonetheless be <em>fine </em>after he did something less than exactly perfectly optimally.</p>",
+      "created_at": "2022-02-04T04:06:49.012+00:00",
+      "icon": {
+        "id": 226931,
+        "keyword": "religion 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fc0f2g4x9r16ia601ib0hfq_religion+2.png"
+      },
+      "updated_at": "2022-02-04T13:29:37.925+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756659,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Distant Carissa declares that she QUITS and DON'T EXPECT HER TO COME BACK TO WORK ANY TIME SOON.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Carissa lies there crying and wonders distantly why everyone wants her to cry. She is pretty sure she's much less cool when she's crying.&nbsp;</p>",
+      "created_at": "2022-02-04T04:13:10.716+00:00",
+      "icon": {
+        "id": 173575,
+        "keyword": "Screen Shot 2020-12-08 at 4.43.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.43.01+PM.png"
+      },
+      "updated_at": "2022-02-04T04:13:10.716+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756660,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Because she's one step closer to reality when she cries, <em>obviously</em>.&nbsp; Both of the two people who've ever held any place in Carissa Sevar's heart hold that belief about her.</p>\r\n<p><br />Keltham decides to snuggle up to her while she cries still in her chains.&nbsp; No, he hasn't forgotten about the illusory stab wound, he just expects it's okay if he does it anyways.</p>",
+      "created_at": "2022-02-04T04:16:47.946+00:00",
+      "icon": {
+        "id": 201297,
+        "keyword": "smile?",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Ffxm7yhbtj2mu0k1e7z888_smile_.png"
+      },
+      "updated_at": "2022-02-23T21:00:55.233+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756661,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>She's going to need a while, apparently. She wouldn't have expected that. Is Security freaking out. Don't freak out, Security, this is all according to plan. (It is not).&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>She makes an appreciative noise about snuggles even though they put pressure on the stab wound.</p>",
+      "created_at": "2022-02-04T04:19:19.874+00:00",
+      "icon": {
+        "id": 172924,
+        "keyword": "Screen Shot 2020-12-06 at 9.48.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.48.47+PM.png"
+      },
+      "updated_at": "2022-02-04T04:19:19.874+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756662,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>She can totally have a while!</p>\r\n<p>Keltham murmurs that she's good, she did great, Keltham feels better now that he's not scared deep down that he's forever separated from Carissa by an uncrossable gap of being too Civilized to do anything that ever reaches her.</p>",
+      "created_at": "2022-02-04T04:20:53.201+00:00",
+      "icon": {
+        "id": 226931,
+        "keyword": "religion 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fc0f2g4x9r16ia601ib0hfq_religion+2.png"
+      },
+      "updated_at": "2022-02-04T04:21:44.179+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756666,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"'m - sorry you felt like that. Didn't myself feel like that. Figured it was just time. Not even much time, turned out. You okay?\"</p>",
+      "created_at": "2022-02-04T04:30:40.184+00:00",
+      "icon": {
+        "id": 216321,
+        "keyword": "Screen Shot 2021-09-27 at 6.02.27 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fhrnksdi3i3kelwkoezbv86_Screen+Shot+2021-09-27+at+6.02.27+PM.png"
+      },
+      "updated_at": "2022-02-04T04:30:40.184+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756668,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He'll be okay so long as it doesn't turn out that everybody was lying to him this entire time about Carissa being okay.&nbsp; He doesn't say that; it's not a pressure he wants to put on her.</p>\r\n<p>\"It's too early to resolve the prediction-market but prices have gone quite high.\"<br /><br /></p>\r\n<p>(Does she look/sound/feel like she's past whatever that was, or does she look like she needs more time?)</p>",
+      "created_at": "2022-02-04T04:33:22.198+00:00",
+      "icon": {
+        "id": 222442,
+        "keyword": "looking up",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feolp0aublobaj3gum7h8_looking+up.png"
+      },
+      "updated_at": "2022-02-04T04:33:42.247+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756670,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>She does not look totally back to normal, though she looks a lot better than she did a minute ago. She's stopped crying.&nbsp;</p>",
+      "created_at": "2022-02-04T04:35:17.658+00:00",
+      "icon": {
+        "id": 159714,
+        "keyword": "carissa8",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa8.png"
+      },
+      "updated_at": "2022-02-04T04:35:17.658+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756672,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He does not, necessarily, want her all the way back to normal.&nbsp; Not if he's as totally safe to go on pushing as everybody keeps telling him.<br /><br /></p>\r\n<p>Keltham sits back up, so he can see her, watch her, and digs his fingernails into her unprotected breast as hard as he can.</p>",
+      "created_at": "2022-02-04T04:37:18.914+00:00",
+      "icon": {
+        "id": 222441,
+        "keyword": "unbuttoned",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F2d2pp9bgep96o1z609jiar_unbuttoned.jpg"
+      },
+      "updated_at": "2022-02-04T04:37:18.914+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756673,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Well he sure does have a Carissa who is too emotionally wrung out to overthink things and will just whimper about them!</p>",
+      "created_at": "2022-02-04T04:38:17.024+00:00",
+      "icon": {
+        "id": 216321,
+        "keyword": "Screen Shot 2021-09-27 at 6.02.27 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fhrnksdi3i3kelwkoezbv86_Screen+Shot+2021-09-27+at+6.02.27+PM.png"
+      },
+      "updated_at": "2022-02-04T04:38:17.024+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756674,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>&nbsp;</p>\r\n<p>...that's really all he wanted, here.</p>\r\n<p>&nbsp;</p>\r\n<p>He will make Carissa whimper for a while, or until her brain starts locking up again.</p>",
+      "created_at": "2022-02-04T04:39:48.142+00:00",
+      "icon": {
+        "id": 222441,
+        "keyword": "unbuttoned",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F2d2pp9bgep96o1z609jiar_unbuttoned.jpg"
+      },
+      "updated_at": "2022-02-04T04:39:48.142+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756676,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Her brain doesn't lock up again. She can feel it trying to but it's easy to just tell it that she doesn't need a brain right now. The only important strategic consideration here is rewarding Keltham and her brain actively gets in the way of that.</p>",
+      "created_at": "2022-02-04T04:41:51.955+00:00",
+      "icon": {
+        "id": 159703,
+        "keyword": "carissa4",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa4.png"
+      },
+      "updated_at": "2022-02-04T04:41:51.955+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756677,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>It's time for sex.&nbsp; Has her stab wound wore off or does he need to do that again?</p>",
+      "created_at": "2022-02-04T04:43:19.614+00:00",
+      "icon": {
+        "id": 222441,
+        "keyword": "unbuttoned",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F2d2pp9bgep96o1z609jiar_unbuttoned.jpg"
+      },
+      "updated_at": "2022-02-04T04:43:19.614+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756678,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>It wore off at some point while she was whimpering. She noticed but did not comment because she will probably be stabbed again if she points it out.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>(She's not even that opposed to being stabbed again. But she doesn't have an impulse to cause it when she hasn't been told to.)</p>\r\n<p>(And these games are more fun when they're at least a little adversarial.)</p>",
+      "created_at": "2022-02-04T04:45:04.081+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-02-04T04:45:04.081+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756683,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He briefly considers, and discards, an impulse to give her&nbsp;<em>two</em> stab wounds for not telling him that.&nbsp; He is not pushing himself that far today.</p>\r\n<p><br />Actually, Keltham finds himself not particularly impelled to re-stab her in the first place. He wants to have sex that hurts her but - maybe not that particular form of hurt, right now?</p>\r\n<p>\"I foolishly told you earlier that I would have sex with you with the stab wound later, and should not have bound my future self to that course which my present self wanted.&nbsp; That was something you might have relied on, though.&nbsp; So I need to hear from you the consequence if I now find some other way to hurt you during sex that feels righter to me in this moment - whether some deep part of you will take that as meaning that you can't trust me, when I say you'll get something you want later, instead of now.&nbsp; Don't answer from habit; look to the deeper sources in yourself and answer from there.\"</p>",
+      "created_at": "2022-02-04T04:51:08.338+00:00",
+      "icon": {
+        "id": 222442,
+        "keyword": "looking up",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feolp0aublobaj3gum7h8_looking+up.png"
+      },
+      "updated_at": "2022-03-09T06:06:44.109+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756699,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Didn't take it as -\" Headshake. \"I really think you can do what you want and I'm not going to be sad afterwards.\" Was that a strategic answer? It's hard to think.&nbsp;</p>",
+      "created_at": "2022-02-04T05:05:03.890+00:00",
+      "icon": {
+        "id": 161266,
+        "keyword": "Screen Shot 2020-09-30 at 5.05.58 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyov9vbcqfc9pfntsg1gu_Screen+Shot+2020-09-30+at+5.05.58+PM.png"
+      },
+      "updated_at": "2022-02-04T05:05:03.890+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756700,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He doesn't know either, but it's fine if she's not perfect now.</p>\r\n<p><br />All right, what&nbsp;<em>else</em> is in here, is it just all too ludicrously overpowered or is there anything that&nbsp;<em>dials down...</em></p>",
+      "created_at": "2022-02-04T05:06:21.194+00:00",
+      "icon": {
+        "id": 201297,
+        "keyword": "smile?",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Ffxm7yhbtj2mu0k1e7z888_smile_.png"
+      },
+      "updated_at": "2022-02-04T05:06:21.194+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756707,
+      "character": {
+        "id": 12876,
+        "name": "Cheliax",
+        "screenname": null
+      },
+      "character_name": "Cheliax",
+      "content": "<p>There's a hilt protruding an illusionary rod of white-hot metal, which runs on the same principle as the illusionary knife.</p>\r\n<p>There's earrings that increase fear - why isn't <em>that</em> illegal mind control? - and wouldn't you think that would come earlier in this whole sequence?</p>\r\n<p>There's a collar you clasp around somebody and then it makes them feel like they're getting colder and colder and colder, far past the point where any mortal would freeze to death.&nbsp; (This has to be illusionary pain because actually doing this to somebody will send them hypothermic and unconscious long before they get to experience the full ordeal, as Subirachs's note does not particularly say.)</p>\r\n<p>There's a potion you can force somebody to drink, and then they'll feel like they're inflating and inflating and stretching and finally exploding.&nbsp; Subirachs's note says that, first of all, he should only try this if he's been forced to pretty serious lengths to try to get a reaction out of Carissa, and second, no Keltham does not get to ask Subirachs why she has this lying around her personal bedroom collection.&nbsp; (This has to be illusionary pain, because actually inflating a victim until they explode will cost a Raise Dead diamond, which <em>is</em> more expensive.)</p>\r\n<p>At the final extremity is a tool for channeling elemental energies connected to the quasi-elemental Negative planes, producing a slow trickle of aspected Negative energies.&nbsp; It's not actually a sex toy, doesn't do healing and isn't illusionary, but neither will it cause any external damage that might squick Keltham out.&nbsp; In this case he <em>does</em> need to watch if Carissa stops struggling and goes unconscious, and remove the device and channel positive energy after that to heal her; this tool <em>can</em> kill her and Raise Dead is expensive.&nbsp; He may also need to request and use a 4th-circle cleric spell called Restoration tomorrow if there's lingering aftereffects.&nbsp; Subirachs notes that she's including this item only because she is genuinely not sure what it will take to get Keltham's desired reaction out of Carissa Sevar.&nbsp; <em>She'd</em> be scared of it.</p>\r\n<p>(There&nbsp;<em>are</em> more extreme torture devices, in the great central temple of Asmodeus in Egorian in the center of His power on Golarion.&nbsp; But they have command words like \"Nessus\" which Keltham might recognize and sort of wonder about, or are carved with devil imagery as again Keltham might wonder about, or are too large to move, or seem visibly like something you would just not do in a bedroom game and don't plausibly look like actually-a-wizard-tool either, and Jacint ran out of time.)</p>",
+      "created_at": "2022-02-04T05:22:51.210+00:00",
+      "icon": {
+        "id": 231056,
+        "keyword": "Cheliax",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fal4kyfnd8enrrk6y6ksv9_cheliax+flag.jpg"
+      },
+      "updated_at": "2022-02-04T06:19:58.289+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756711,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Everyone in Cheliax is insane and he would ask who <em>needs</em> this stuff but apparently the answer is \"You, Keltham.\"</p>\r\n<p><br />He's... just going to go with the illusionary white-hot metal rod, which seems like something he could use in&nbsp;<em>very</em> <em>light taps</em> to be scary and painful but not completely take Carissa's mind away from the sex part.&nbsp; Actually he's going to try the illusionary knife before he goes to the illusionary rod, maybe that just works.</p>",
+      "created_at": "2022-02-04T05:28:49.054+00:00",
+      "icon": {
+        "id": 200474,
+        "keyword": "head tilt",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fah06t72ewcibr8wsdfzyr_head+tilt.png"
+      },
+      "updated_at": "2022-02-04T05:30:27.361+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756717,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham unchains Carissa's leg cuffs, then, though not her wrist cuffs, and has sex with her.&nbsp; He's forceful about it and lasts for a while, which is something that Civilization did try to optimize for her pleasure.&nbsp; Now and then he hurts her, mostly with a knife that isn't real, sometimes with a searing burn if he feels like it.</p>",
+      "created_at": "2022-02-04T05:32:30.856+00:00",
+      "icon": {
+        "id": 222441,
+        "keyword": "unbuttoned",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F2d2pp9bgep96o1z609jiar_unbuttoned.jpg"
+      },
+      "updated_at": "2022-02-04T05:32:30.856+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756720,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa is cooperative and reactive and whimpers and doesn't start crying again, and one time when he cuts her she gasps and looks at him just like she did the day of Abrogail, like he's her whole world and she is totally helpless in his arms. Her brain has decided to start doing things again, but off in a corner where it won't interrupt. (The thing it's doing is mostly wondering what Security thinks of her.)</p>",
+      "created_at": "2022-02-04T05:37:52.898+00:00",
+      "icon": {
+        "id": 216316,
+        "keyword": "Screen Shot 2021-09-27 at 2.49.58 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.49.58+PM.png"
+      },
+      "updated_at": "2022-02-04T05:37:52.898+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756723,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham sees, and is happy.</p>\r\n<p>(How much of the part that isn't pain is real?&nbsp; Is the pleasure-reaction more real than before?&nbsp; Keltham isn't reading her too hard to try to figure it out.&nbsp; They've made enough progress for one day and he'd be shocked to find that it solved everything.&nbsp; He's not going to try to stimulate her deliberately and seem to be demanding her response to that.)<br /><br /></p>\r\n<p>He finishes inside her, touches her handcuffs and murmurs the command words to unchain her if not uncuff her (he likes the look of the cuffs), and then snuggles up to Carissa and her lingering illusionary light knife-wounds and surface burns.</p>\r\n<p>\"I can't remember having been this happy before,\" Keltham murmurs to her.&nbsp; \"It's not just the sex, it's the sense of progress, for you and for myself, and things I was afraid of that didn't happen, and obstacles that weren't impossible after all.&nbsp; Maybe everything here is just solvable if I try.\"</p>",
+      "created_at": "2022-02-04T05:47:46.764+00:00",
+      "icon": {
+        "id": 222438,
+        "keyword": "smile",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fp6tgp2zgo4gk0wflkq017f_smile.png"
+      },
+      "updated_at": "2022-02-04T20:18:13.268+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756724,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\" - oh. Good. 'm really glad. Want - want you to be happy, want you to feel like you're allowed to try things, want you to not be scared. Want you to know how powerful you are, and be<em> glad</em>....love you.\"</p>",
+      "created_at": "2022-02-04T05:52:07.299+00:00",
+      "icon": {
+        "id": 159715,
+        "keyword": "carissa13",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa13.png"
+      },
+      "updated_at": "2022-02-04T05:52:07.299+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756726,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"I'm glad there's literally anything I can and will do, that can scare my cute future-archdevil girlfriend literally at all.&nbsp; Even just scare her <em>temporarily</em>.&nbsp; Something about the 'gendertrope' wouldn't feel right otherwise, but she's way too powerful herself and you've got to cheat the <em>shit</em> out of everything to even have a hope there.\"</p>",
+      "created_at": "2022-02-04T05:56:09.158+00:00",
+      "icon": {
+        "id": 200478,
+        "keyword": "enthusiasm",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F5weyw5wxscaknzubeplspa_enthusiasm.png"
+      },
+      "updated_at": "2022-02-04T05:56:09.158+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756728,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I think you might be underestimating how powerful you are, Keltham.\" Wiggle wiggle. Wiggling is a good way to express pleasure because she hasn't the faintest idea what is deceptive wiggling or inaccurate wiggling.&nbsp;</p>",
+      "created_at": "2022-02-04T06:01:40.043+00:00",
+      "icon": {
+        "id": 159715,
+        "keyword": "carissa13",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa13.png"
+      },
+      "updated_at": "2022-02-04T06:01:40.043+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756729,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Fair.&nbsp; Rephrase: she's way too powerful herself, so you've got to cheat the shit out of everything if you want to scare her within the next hour instead of two weeks later.\"</p>",
+      "created_at": "2022-02-04T06:04:28.736+00:00",
+      "icon": {
+        "id": 222444,
+        "keyword": "look up 3",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fiwskz7yq1lkx9h0juxuhj_look+up+3.png"
+      },
+      "updated_at": "2022-02-04T06:05:09.376+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756730,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Luckily you're good at cheating. And you haven't thought of most of the things a Chelish person would think of immediately but you think of things we never would. So it all evens out.\"</p>",
+      "created_at": "2022-02-04T06:07:22.574+00:00",
+      "icon": {
+        "id": 216314,
+        "keyword": "Screen Shot 2021-09-27 at 2.50.33 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F7zzl8ewmnf5f1larx42dn6_Screen+Shot+2021-09-27+at+2.50.33+PM.png"
+      },
+      "updated_at": "2022-02-04T06:07:22.574+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1756731,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He can't actually hear that level of compliment without feeling uncomfortable, as it turns out.&nbsp; Something about all the power that he holds in Golarion feels like it isn't really his.</p>\r\n<p><br />He doesn't say anything in reply to her last statement, just snuggles into her.</p>",
+      "created_at": "2022-02-04T06:10:54.921+00:00",
+      "icon": {
+        "id": 204636,
+        "keyword": "praying",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fjcbr0t8u6iilzoov17gnuj_praying.png"
+      },
+      "updated_at": "2022-02-05T19:27:48.391+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1756792,
+      "character": null,
+      "character_name": null,
+      "content": "<p>(Story continues after <strong><a href=\"/replies/1756345#reply-1756345\">this tag</a></strong> in <em>Project Lawful and Their Oblivious Boyfriend</em>.)</p>",
+      "created_at": "2022-02-04T19:36:45.693+00:00",
+      "icon": null,
+      "updated_at": "2022-02-04T19:36:45.693+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    }
+  ]
+}

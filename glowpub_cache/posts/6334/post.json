@@ -1,0 +1,34 @@
+{
+  "Ok": {
+    "id": 6334,
+    "authors": [
+      {
+        "id": 366,
+        "username": "Iarwain"
+      },
+      {
+        "id": 34,
+        "username": "lintamande"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": null,
+    "content": "<hr />\r\n<p><strong>Doombase</strong></p>\r\n<hr />",
+    "created_at": "2022-08-27T00:08:12.963+00:00",
+    "description": "if your writing projects never fail, you're not trying impossible enough projects",
+    "icon": null,
+    "num_replies": 289,
+    "section": {
+      "id": 703,
+      "name": "planecrash",
+      "order": 0
+    },
+    "section_order": 10,
+    "status": "complete",
+    "subject": "the meeting of their minds",
+    "tagged_at": "2022-12-01T12:15:12.502+00:00"
+  }
+}

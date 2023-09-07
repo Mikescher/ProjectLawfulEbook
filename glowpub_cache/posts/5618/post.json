@@ -1,0 +1,30 @@
+{
+  "Ok": {
+    "id": 5618,
+    "authors": [
+      {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": {
+      "id": 11729,
+      "name": "Keltham",
+      "screenname": "lawful chaotic"
+    },
+    "content": "<p><strong>This is a safer-for-work summary</strong> of key events and dialogue from \"<a href=\"/posts/5610\">cheating is cuddleroom technique</a>\", itself a nsfw subthread within \"project lawful and their oblivious boyfriend\" occurring <a href=\"/replies/1756345#reply-1756345\">here</a>; for the benefit of those readers who are here less for the sadomasochistic sex and more for the decision theory.</p>",
+    "created_at": "2022-02-04T06:25:39.418+00:00",
+    "description": "sfw tldr summary of a nsfw subthread in planecrash",
+    "icon": null,
+    "num_replies": 16,
+    "section": null,
+    "section_order": 4,
+    "status": "active",
+    "subject": "sfw tldr cheating is cuddleroom technique",
+    "tagged_at": "2022-02-04T19:35:59.641+00:00"
+  }
+}

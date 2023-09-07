@@ -1,0 +1,38 @@
+{
+  "Ok": {
+    "id": 6131,
+    "authors": [
+      {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": {
+      "id": 12888,
+      "name": "Project Lawful",
+      "screenname": "Seduce, Conceal, Profit"
+    },
+    "content": "<p><em>PL-timestamp:</em>&nbsp;&nbsp;<strong>Day 58<br /></strong><em>PL-placestamp:</em>&nbsp;&nbsp;Fortress of Law, Ostenso nonintervention zone<br /><em>Involved individuals:</em>&nbsp; Keltham, Peranza, Gregoria, 3 other tier-2s<br /><em>Contents:</em>&nbsp; Transcript of a lesson on what does or doesn't count as a 'threat', when to try to blow up an awful multiagent interaction you would rather not exist in the first place, cautions against assuming something is a threat or a blowup situation when it's not, cautions against exploitability</p>\r\n<p>&nbsp;</p>\r\n<p>[This is a placeholder that you can Favorite if you want to check in on it later, though I'm not sure now that it'll ever resume.]</p>",
+    "created_at": "2022-07-03T18:38:51.644+00:00",
+    "description": "",
+    "icon": {
+      "id": 231149,
+      "keyword": "project lawful",
+      "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fk1pf77worf8dwcji34yob_pentagram-gears-2-fs8.png"
+    },
+    "num_replies": 0,
+    "section": {
+      "id": 721,
+      "name": "planecrash lectures",
+      "order": 2
+    },
+    "section_order": 3,
+    "status": "hiatus",
+    "subject": "flashback: this is not a threat",
+    "tagged_at": "2022-12-01T08:10:44.990+00:00"
+  }
+}

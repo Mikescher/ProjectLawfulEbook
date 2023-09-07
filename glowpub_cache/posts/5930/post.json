@@ -1,0 +1,38 @@
+{
+  "Ok": {
+    "id": 5930,
+    "authors": [
+      {
+        "id": 34,
+        "username": "lintamande"
+      },
+      {
+        "id": 96,
+        "username": "apprenticebard"
+      },
+      {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": null,
+    "content": "<p>\"That which can be destroyed by the truth should be.\"</p>\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp; -- P. C. Hodgell, <em>Seeker's Mask.</em></p>",
+    "created_at": "2022-04-27T18:13:48.220+00:00",
+    "description": "is actually rather a lot",
+    "icon": null,
+    "num_replies": 2045,
+    "section": {
+      "id": 703,
+      "name": "planecrash",
+      "order": 0
+    },
+    "section_order": 6,
+    "status": "complete",
+    "subject": "what the truth can destroy",
+    "tagged_at": "2022-05-21T18:31:40.542+00:00"
+  }
+}

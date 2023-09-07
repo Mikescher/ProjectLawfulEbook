@@ -1,0 +1,114 @@
+{
+  "Ok": {
+    "id": 6124,
+    "authors": [
+      {
+        "id": 224,
+        "username": "QTesseract"
+      },
+      {
+        "id": 496,
+        "username": "AprilSR"
+      },
+      {
+        "id": 366,
+        "username": "Iarwain"
+      },
+      {
+        "id": 81,
+        "username": "westwind"
+      },
+      {
+        "id": 222,
+        "username": "NormalAnomaly"
+      },
+      {
+        "id": 453,
+        "username": "Aevylmar"
+      },
+      {
+        "id": 135,
+        "username": "Arete/Stars"
+      },
+      {
+        "id": 97,
+        "username": "Fist"
+      },
+      {
+        "id": 9,
+        "username": "MaggieoftheOwls"
+      },
+      {
+        "id": 64,
+        "username": "Tol Ailin"
+      },
+      {
+        "id": 4,
+        "username": "JiSK"
+      },
+      {
+        "id": 73,
+        "username": "Bobbi"
+      },
+      {
+        "id": 459,
+        "username": "Lumpyproletariat"
+      },
+      {
+        "id": 495,
+        "username": "Murloc"
+      },
+      {
+        "id": 34,
+        "username": "lintamande"
+      },
+      {
+        "id": 411,
+        "username": "Fay"
+      },
+      {
+        "id": 275,
+        "username": "InfraredArmy"
+      },
+      {
+        "id": 552,
+        "username": "DoTheMath"
+      },
+      {
+        "id": 395,
+        "username": "miniBill"
+      },
+      {
+        "id": 523,
+        "username": "kastaka"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": {
+      "id": 12701,
+      "name": "Abrogail Thrune II",
+      "screenname": "to-reign-in-Cheliax"
+    },
+    "content": "<p>The Chelish newspaper of record - though it's not like the other ones are unapproved by the Crown - sometimes contains a weekly advice column by Abrogail Thrune, with a special focus on conduct in Chelish relationships:&nbsp; <em>Dear Abrogail</em>.</p>\r\n<p>Cheliax being what it is, the newspaper doesn't usually bother trying to track down apparently seditious submissions - due to the number of clever individuals who try to fake an ill-advised letter from somebody else, forge their signature, and submit it through the mail system.&nbsp; Anyone who wanted advice on a heretical problem, as the column does sometimes deliver, would just send the letter with a false return address.</p>\r\n<p>Tavern arguments are widespread about whether the Queen really writes this column, just approves the responses, or if it's simply a Crown official somewhere and the real Abrogail hardly ever hears of it.&nbsp; The popular conceit is that the replies are too witty for that to actually be the Queen.&nbsp; More likely it's some public relations office whose current inhabitant gets executed and replaced every four months, for either offending her Infernal Majestrix or for not being witty enough.<br /><br /></p>\r\n<p>Anyone who knows Abrogail personally is pretty sure that it's her.</p>",
+    "created_at": "2022-07-01T01:54:59.011+00:00",
+    "description": "abrogail thrune's terrible terrible relationship advice",
+    "icon": {
+      "id": 226000,
+      "keyword": "abrogail",
+      "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+    },
+    "num_replies": 66,
+    "section": {
+      "id": 717,
+      "name": "planecrash sandboxes",
+      "order": 1
+    },
+    "section_order": 0,
+    "status": "complete",
+    "subject": "dear abrogail",
+    "tagged_at": "2022-07-08T10:23:33.873+00:00"
+  }
+}

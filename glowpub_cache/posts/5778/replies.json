@@ -1,0 +1,1634 @@
+{
+  "Ok": [
+    {
+      "id": 1776209,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Evening, newcomers. &nbsp;My name is Asmodia. &nbsp;Just Asmodia. &nbsp;I have no family worth mentioning, and don't come from anywhere important enough that I'd want to adopt that as a second name. &nbsp;Eighteen days ago I was one of the top students at Ostenso wizard academy, second-circle, and headed to the Worldwound shortly.\"</p>\r\n<p>\"You, perhaps, are a Worldwound veteran, a cleric of Asmodeus, or the heiress of a county.\"</p>\r\n<p>\"None of that matters to your standing in Project Lawful. &nbsp;Here, only three people in this fortress can override my orders to you, and they are Ferrer Maillol, fifth-circle priest of Asmodeus, Jacint Subirachs, seventh-circle priest of Asmodeus, and Carissa Sevar, also known in certain circles as the Chosen of Asmodeus. &nbsp;Of those three, the only one who's actually going to override me is Carissa Sevar, because she is the only one of those three who understands my job well enough to tell me I'm fucking it up.\"</p>\r\n<p>\"You see that wall behind me, with the writing in green, orange, red, purple, and one sentence in black?&nbsp; That's <em>my fucking wall</em>.&nbsp; It's my life and it's also the life or death of Project Lawful.&nbsp; Written on that wall are the most important things Keltham knows about the alternate world of alterCheliax that we're creating for him.&nbsp; Green is for important facts that are true in both realCheliax and alterCheliax.&nbsp; Orange is for things true only of alterCheliax that I currently believe we're fairly safe on.&nbsp; Red is where Keltham is asking questions, where he thinks something might be wrong, or where I think he might decide something wrong's later.&nbsp; Purple sentences are places where we haven't told any particular lies, but if Keltham thinks too much in that direction we still lose, and so nobody is to prompt his thoughts there if possible - Keltham dying in order to meet his god, for example.\"</p>\r\n<p>\"Black is inconsistency, places where Keltham has been exposed to information that destroys our lie if he looks in the right place, thinks in the right direction.&nbsp; There's one sentence written there in black, we think we got away with it, if Keltham hasn't spotted the moon's wrong phase by now he's almost certainly never going to, and that sentence in black bought us days of rest and recovery and background work and ability to catch our breath that we all desperately needed.\"</p>\r\n<p>\"You know why the person who's responsible for that black sentence got away with it?&nbsp; Because she's the Queen of Cheliax.&nbsp; If <em>you </em>are responsible for a black sentence going up on my wall you will <em>not</em> get away with it.\"</p>\r\n<p>\"You will also not have a good day if you're responsible for a red sentence going up.&nbsp; You will have a check-in with me every single time I write an orange sentence on there, that wasn't there before, that I or Carissa Sevar did not tell you to put there.&nbsp; You will possibly have a chat with me if there's a new <em>green</em> sentence on there I end up unhappy about, because every fact like that can no longer be modified or contradicted now that we've told Keltham about them.&nbsp; Unfortunately we can't all just shut up around Keltham either, because he would <em>notice that.</em>&nbsp; <em>That's</em> not something that happens in alterCheliax, see.&nbsp; Any time your alter-self from alterCheliax would tell Keltham something, you're going to have to tell him something.&nbsp; If hesitating in alterCheliax would be improbable, you will not have time to request and receive orders and you will need to make something up.&nbsp; Fun, isn't it?&nbsp; If you want to fucking <em>survive,</em> if you don't want your&nbsp;<em>soul torn apart in Hell after your death,</em>&nbsp;you will come to me for help&nbsp;<em>before</em> you get into trouble.\"</p>",
+      "created_at": "2022-03-16T20:05:00.004+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-03-16T20:05:00.004+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1776224,
+      "character": {
+        "id": 13355,
+        "name": "Alexandre Esquerra",
+        "screenname": "hate-and-fear"
+      },
+      "character_name": "Alexandre Esquerra",
+      "content": "<p>On the one hand, every single thing about this is insane. On the other hand, Alexandre Esquerra's first reaction when he was pulled out of classes too stupid for him at the wizarding academy at Westcrown was the absolute terror that anyone sane in Cheliax feels when Her Majesty's Government takes notice of them, so insane is an improvement. He has <em>no idea</em> who this Keltham really is or what he is doing and most of these transcripts made&nbsp;<em>no</em> sense but he apparently has the power to use Law to assert dominion over reality so hard the&nbsp;<em>gods fought a war</em>&nbsp;over him and so Alexandre is listening very, very hard because <em>he</em> wants to assert dominion over reality, too, even if all the details are, as usual, insane.</p>\r\n<p>Most of what Asmodia is saying is threats, which he is trying to listen very hard to listen to (in spite of some natural deficiencies there), because Alexandre is <em>alive</em> and wants to stay that way.</p>\r\n<p>... \"If you are responsible for a black sentence going up on my wall you will not get away with it...\" all right, say&nbsp;<em>literally nothing -</em></p>\r\n<p>\"Unfortunately we can't all just shut up around Keltham either, because he would notice that.\"</p>\r\n<p>... Well, shit.</p>\r\n<p>All right. Terror is counterproductive. Is there&nbsp;<em>literally anything&nbsp;</em>he can say or do that is not counterproductive? No? Then he is just going to keep listening.</p>",
+      "created_at": "2022-03-16T20:32:48.939+00:00",
+      "icon": {
+        "id": 246033,
+        "keyword": "Yes, My Lord Asmodeus",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F0qakyncoaf9vk1ehoxl99b_Yes%2C+My+Lord+Asmodeus.png"
+      },
+      "updated_at": "2022-03-17T20:02:38.752+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776234,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>Korva is beginning to see why anyone would put her on this project. She's definitely still internally screaming about it, and she's very, very unhappy about the idea that the people already on the project sound like they might have decided that in this imaginary Cheliax there aren't any people who spend all of their time shutting up and listening, because she suspects that at least a few of those exist almost everywhere - but she sees why you would add her to this project, especially if you were mostly limiting yourself to young people who can fill the role of students. She mentally downgrades her suspicion that this is all just some kind of very elaborate psychological torture scenario.</p>\r\n<p>Somehow, the idea that this is all actually happening is even worse. Thinking that she might be one of the most appropriate students in Egorian for this project does absolutely nothing to counteract the awareness of how completely, utterly screwed she probably is. Can she pretend to be a person from a place that is like Taldor, except for the ways in which it is instead like Cheliax, or instead like Cheliax shortly after the civil war? Probably. Maybe. Plausibly better than anyone else in her age bracket who can also handle the academic material. That doesn't mean it's a good idea, or that she isn't left wondering who the flaming shit made whatever decisions landed them in this position. - possibly it was the Queen, it sure sounds like it might have been the Queen, maybe she should stop thinking about this line of thought altogether.</p>\r\n<p>She copies down some of the notes on the wall; she's going to have to memorize them all at some point.</p>",
+      "created_at": "2022-03-16T20:49:37.641+00:00",
+      "icon": {
+        "id": 118502,
+        "keyword": "l2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F248vd0dh4rpyldkztbfhe8_c4+cheliax2.jpg"
+      },
+      "updated_at": "2022-03-16T20:49:37.641+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776276,
+      "character": {
+        "id": 13360,
+        "name": "Pedra Casal Lachanessa",
+        "screenname": "mention-names"
+      },
+      "character_name": "Pedra Casal Lachanessa",
+      "content": "<p>Pedra Casal Lachanessa&nbsp;<em>is</em>, as it happens, from Taldor (technically), and sees no reason why she should have any difficulty pretending to be from it. Backstabbing nobility, ambitious generals, beautiful and manipulative courtesans, scheming eunuchs... oh, this is going to be <em>good.</em> She should consult with Asmodia,&nbsp;<em>of course,</em> she isn't&nbsp;<em>stupid,</em> one of these days she's going to end up high in the Chelish secret police and you don't get that way by screwing over your superiors, but she knows perfectly well that she is going to be the <em>best</em> liar here, since she is armed with all her mother's stories about Taldor and&nbsp;<em>they</em> have never even visited.</p>\r\n<p>The math is going to be painful and agonizing and she will occasionally be... not&nbsp;<em>whipped</em>, but whatever Keltham does instead of whipping people... for being in the bottom third of the class, but that's life. At least she's in the bottom third of the realm's <em>highest</em> class, now.</p>\r\n<p>Time to memorize everything on the wall so she can get to work building the Pedra that Keltham will need.</p>",
+      "created_at": "2022-03-16T21:08:37.450+00:00",
+      "icon": {
+        "id": 246037,
+        "keyword": "Look, Sometimes You Need To Summon Your Unholy Minions At A Fancy Party",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F1kummhqb4purq0yt241rxd_Look%2C+Sometimes+You+Need+To+Summon+Your+Unholy+Minions+At+A+Fancy+Party.png"
+      },
+      "updated_at": "2022-03-16T23:27:20.171+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776291,
+      "character": {
+        "id": 13357,
+        "name": "Willa Shilira",
+        "screenname": "seeing-red"
+      },
+      "character_name": "Willa Shilira",
+      "content": "<p>Willa went into this mostly hoping that whatever this was wouldn't start out the same way the academy did. It'd been her at the bottom, needing to claw her way up to the top, with everyone else trying to climb up over her head or shove her out of the way or kick her off the cliff just for the fun of it. After a lot of effort she'd gotten into the position where she was the one kicking weaker people for fun, and it suited her quite well thank you.</p>\r\n<p>If there are a lot of Worldwound veterans, Asmodean clerics, and county heiresses here that's going to be hard to replicate, and she's afraid. She doesn't want to go back to being powerless. She won't. She'll have to just work harder, be better, make up for all the time she's foolishly lost with the terrible blunder of only being born eighteen years ago. And then she'll be on top again, and she'll be safe.</p>\r\n<p>Asmodia seems like the person in charge that's going to deal with them most often, and it's a relief that she's probably way too focused on her wall to kick just for fun. Willa likes the firm definitions associated with the wall, and the organized color coding of all the ways people can mess things up and get punished. Amidst all the craziness and excitement and shock it feels very right, that it's all being kept track of by colored notes. Somehow she doesn't think the Worldwound is a place that encourages a lot of taking notes in color, so maybe she isn't so behind after all.</p>",
+      "created_at": "2022-03-16T21:13:11.392+00:00",
+      "icon": {
+        "id": 246022,
+        "keyword": "WillowPencils",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2F6p0uskbw29c8c6c34qmavo_WillowPencils.png"
+      },
+      "updated_at": "2022-03-16T21:13:11.392+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776299,
+      "character": {
+        "id": 13359,
+        "name": "Didac Alarcon",
+        "screenname": null
+      },
+      "character_name": "Didac Alarcon",
+      "content": "<p>Didac is horribly torn between pride at being chosen for a secret mission and sheer, pants-pissing terror.</p>\r\n<p>He's pretty sure he's doing okay at hiding that second part. Well, to anyone not reading his thoughts, which someone here is definitely doing. Hopefully most of them are too distracted by also having been newly chosen to participate in a secret mission. Nobody here looks very old, so they can't have done&nbsp;<em>that&nbsp;</em>many secret missions before. Right? Right. He should probably actually pay attention to who some of them are, because this doesn't sound like the kind of project where you can get by very well without interacting with anyone else. Just as soon as he's done listening to the list of things that are going to get him tortured to death, and also assessing whether the girl at the front of the room is going to light one of them on fire right now as an object lesson of some kind. He would really prefer that it not be him, if that's about to happen to someone.</p>\r\n<p>Hopefully there won't be too much of this before they can get back to working on the math. Numbers <em>generally</em> don't light you on fire even a little bit. Usually.</p>",
+      "created_at": "2022-03-16T21:15:30.581+00:00",
+      "icon": {
+        "id": 91721,
+        "keyword": "draconis27",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F0827e3f6-710a-46a4-b764-b9b001a26555_draconis27.jpeg"
+      },
+      "updated_at": "2022-03-18T00:37:49.159+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776310,
+      "character": {
+        "id": 13358,
+        "name": "Marius Tazantelza",
+        "screenname": "serve-the-structure"
+      },
+      "character_name": "Marius Tazantelza",
+      "content": "<p>For something called Project Lawful, Marius is getting a pretty chaotic vibe off of this whole presentation.</p>\r\n<p>His immediate superior has clearly been through a whirlwind of change, her priorities entirely rearranged over the past eighteen days to the point that a wall that didn't exist when it started is now her entire life. Her superior is shrouded in mystery, but 'Chosen of Asmodeus' is also probably a new designation, not something carried over and built on the certain past but a role reflecting something almost entirely in the unknowable future.</p>\r\n<p>Asmodeus of course would be correct in any choice he made, but he notes with trepidation that Asmodia did not directly say that Carissa Sevar was 'Chosen of Asmodeus', only that it was said in certain circles that this was true. Of course, being his superior, Sevar would not be his to question, but the situation was still worrying.</p>\r\n<p>Everything about the project seems like it happens very fast, and Marius knows that haste makes waste. It causes errors to creep in, mistakes to be made. He's uncertain that he can maintain the perfection required of him, with everything moving quickly. Orders are Law, and thus situations with no time to receive proper orders must be Chaotic.</p>\r\n<p>All of it is obviously needful, yes, but it weighs on him. Is he as particularly suited for the project as his bloodline would suggest? Or does the inherent chaos in the situation outweigh the other concerns? If it was an academic question, it would be quite interesting, but the prospect of his soul being torn apart in Hell puts things in a rather different light.</p>",
+      "created_at": "2022-03-16T21:35:14.716+00:00",
+      "icon": {
+        "id": 246023,
+        "keyword": "MariusGears",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2Fpdqz3b8ikpgaya0ehojir_MariusGears.png"
+      },
+      "updated_at": "2022-03-16T21:35:14.716+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776321,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Is your pride offended, that I'm talking to you like this?&nbsp; You think you're above me, and that I'm some petty thing assigned a petty job who's gone mad with the petty power that implies?&nbsp; Then you haven't understood a copper's worth of what Project Lawful is about.&nbsp; My soul is the property of a Count of Hell, last that Cheliax heard of it, and the reason for that is that Barons of Hell can't afford me.&nbsp; You think you could summon a Count of Hell to buy your soul, because you're heiress of a county, because you're a Worldwound veteran?&nbsp; They'd laugh at you and then destroy you.&nbsp; Hell doesn't care for your petty mortal accomplishments.&nbsp; Neither does Project Lawful.\"</p>\r\n<p>\"My soul got sold before anybody including Hell realized how valuable it was going to turn out to be.&nbsp; Now you're going to have to sell an option on your soul to Carissa Sevar before we start making you valuable, enabling her to buy back your soul for not much more than the trivial pittance you'll sell it for, because otherwise Hell cannot<em> afford</em> to buy you without bankrupting their ability to pay out for other souls in Golarion.&nbsp; As happens to be important for the government of Cheliax to continue operating.\"</p>\r\n<p>\"That insane price, that incredible value to Hell, reflects what Project Lawful is going to make of you.&nbsp; What Project Lawful has started to make of me, though I'm still a work in progress.&nbsp; It comes from learning the Law, mostly from Keltham, but also from me, because I'm the other one besides Keltham who can and will teach it to you.&nbsp; Your county, your service at the Worldwound, the soul markets in Dis don't care shit.&nbsp; They care that you might be able to master what gets taught here.&nbsp; Period.&nbsp; And in that, there is no mortal of Golarion who is my peer except Carissa Sevar, and only Keltham out of dath ilan above us both.\"</p>\r\n<p>\"You hate me?&nbsp; You're thinking about how to get rid of me?&nbsp; Pray to Asmodeus that you fail.&nbsp; There's a note on my Security file from Aspexia Rugatonn saying that anybody who manages to lose my services to Cheliax is going to have an incredibly bad time, which, if you're wondering, is because Aspexia Rugatonn has required of me that I train her successor.&nbsp; And even <em>that</em> fate would be a pleasant one compared to what Abrogail Thrune will do to you, in person, followed by speculators in Dis's markets <em>spectacularly angry about lost investments,</em> if you <em>fuck up my job.</em>\"</p>\r\n<p>\"It will probably occur to you, at some point or another, that I seem to be insane.&nbsp; I'm not going to bother telling you that, if you had my job, you'd go insane too.&nbsp; You wouldn't.&nbsp; You are the cream and elite of Cheliax.&nbsp; You'd approach everything in a calm and professional manner, and then you'd fucking fail.&nbsp; In the unlikely event you could actually do my job, yes, you would also be insane.\"</p>\r\n<p>\"I've never had much faith inside me, but I like to think that, somewhere out there, there is a goddess in much the same position I am, who has to maintain the real universe against all the fools trying to muck it up.&nbsp; And if so, I have a feeling, somehow, that whoever that goddess is, she doesn't get much support from Pharasma.\"</p>\r\n<p>\"The universe&nbsp;<em>I</em> maintain was envisioned and created by Carissa Sevar.&nbsp; She is not in the Boneyard.&nbsp; She will not judge you after you die.&nbsp; She is <em>here</em>, judging you <em>now</em>.\"</p>\r\n<p>\"Evening, newcomers.&nbsp; Welcome to Project Lawful, fresh meat.&nbsp; My name is Asmodia, and I'm going to annoy the shit out of you any time you try to have any fun with this.&nbsp; And you're going to suck it up and take that, because, unlike Pharasma, Sevar is<em> on her fucking job.\"</em></p>\r\n<p>\"And Sevar doesn't <em>like it</em> when anyone gets in the way of&nbsp;<em>my job.</em>\"</p>\r\n<p>\"I've got an even shittier job than that goddess does, in a lot of ways, but at least I've got that.\"</p>\r\n\r\n",
+      "created_at": "2022-03-16T21:50:07.690+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-03-16T21:50:07.690+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1776328,
+      "character": {
+        "id": 13355,
+        "name": "Alexandre Esquerra",
+        "screenname": "hate-and-fear"
+      },
+      "character_name": "Alexandre Esquerra",
+      "content": "<p>No, but his pride&nbsp;<em>is</em> offended at someone who is probably less intelligent than he is talking to him like&nbsp;<em>that!</em></p>\r\n<p>Wait, Count of Hell&nbsp;<em>what?</em></p>\r\n<p>... Alexandre is going to master the arts of dath ilan, become a&nbsp;<em>Duke</em> of Hell, and&nbsp;<em>then</em> he can do whatever he likes with her goddamned soul. He has&nbsp;<em>patience.</em> But until then, he is going to shut up and <em>listen to her,</em> because this is an opportunity to become unbelievably powerful and pissing this away would be unbelievably <em>stupid</em>. And whatever else he may be, Alexandre takes Pride in not being <em>stupid.</em>&nbsp;</p>",
+      "created_at": "2022-03-16T22:13:00.888+00:00",
+      "icon": {
+        "id": 246033,
+        "keyword": "Yes, My Lord Asmodeus",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F0qakyncoaf9vk1ehoxl99b_Yes%2C+My+Lord+Asmodeus.png"
+      },
+      "updated_at": "2022-03-16T22:41:02.985+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776334,
+      "character": {
+        "id": 13360,
+        "name": "Pedra Casal Lachanessa",
+        "screenname": "mention-names"
+      },
+      "character_name": "Pedra Casal Lachanessa",
+      "content": "<p><span style=\"text-decoration: line-through;\">But Pedra&nbsp;<em>wants</em> to have fun with this</span> yes, Asmodia. She hears and obeys.</p>\r\n<p>(Pedra would not go insane. But she's starting to study the Wall and she is a&nbsp;<em>little</em> worried that she might actually fail. She might have just a&nbsp;<em>little</em> actual genuine respect for Asmodia, looking at&nbsp;<em>all those entries</em> on the board, that&nbsp;<em>all need</em> to be memorized well enough to&nbsp;<em>make deductions</em> from them. <span style=\"text-decoration: line-through;\">Surely Keltham can't have&nbsp;<em>that</em> high standards</span> she will take no risks with the project of the Chosen of Asmodeus,&nbsp;<span style=\"text-decoration: line-through;\">whatever that means</span>.)</p>",
+      "created_at": "2022-03-16T22:22:21.018+00:00",
+      "icon": {
+        "id": 246037,
+        "keyword": "Look, Sometimes You Need To Summon Your Unholy Minions At A Fancy Party",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F1kummhqb4purq0yt241rxd_Look%2C+Sometimes+You+Need+To+Summon+Your+Unholy+Minions+At+A+Fancy+Party.png"
+      },
+      "updated_at": "2022-03-16T23:27:09.854+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776336,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>It's about midway through this second bit that Korva actually realizes what it means that they're being briefed by someone from the Wizard academy in Ostenso, a girl who can't possibly be very much older than Korva herself is. Something about the speech reads defensive, like she doesn't think they'll take her seriously and isn't yet secure in the knowledge that she can just torture as many of them in front of the others as it takes for the rest of them to get the message.<br /><br />Eighteen days. Eighteen days ago, she was someone like Korva. Smarter, maybe, or more magically talented, or better in some other unknowable way that makes her better than anyone else at maintaining the wall and giving lectures about the Law - although Korva privately has some doubts about whether she wouldn't, given some amount of prep time, also be able to maintain a wall like that, if it's something that you can do at her age at <em>all </em>instead of having to have fifty years of experience behind you. She probably couldn't successfully lecture anyone about the Law. But the fact that it can be done by a student who hasn't even graduated from the academy yet, and in fact currently <em>is</em> being done by someone like that, someone who is managing it while sounding like she isn't <em>that&nbsp;</em>much less overwhelmed than Korva feels&nbsp;-&nbsp;</p>\r\n<p>There are eighteen days between them. Eighteen days, not more than about one point of intelligence, and a particular talent for math, which Korva notices is not actually the thing that Asmodia is spending the most time threatening them about taking seriously<em>. </em>That's it. That's all. So there is every possibility that in eighteen days, Korva will either be lecturing Worldwound veterans like this herself, or she will be much worse than dead.<br /><br />There's a weird sort of clarity that comes with this, a clarity that almost quiets down the screaming. The awareness that not only is this situation real, it is quite possibly realer than anything that's ever happened to her before, in the sense that the actions of people very much like her are apparently things that actually have effects on the world, around here.<br /><br /><em>Asmodeus guide our steps,</em> she prays, silently, and keeps copying.</p>",
+      "created_at": "2022-03-16T22:25:08.555+00:00",
+      "icon": {
+        "id": 118510,
+        "keyword": "c5",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fdwvwnn24c8no1642q28tj_chelish07.jpg"
+      },
+      "updated_at": "2022-03-16T22:28:03.556+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776345,
+      "character": {
+        "id": 13359,
+        "name": "Didac Alarcon",
+        "screenname": null
+      },
+      "character_name": "Didac Alarcon",
+      "content": "<p>What the FUCK is this project.</p>\r\n<p>Okay, the bit about Asmodia being owned by a Count of Hell? Cool. The bit about them having to sell their souls to the project for much less than they might be worth in a month? Less cool, although he guesses it makes sense. The idea that that price reflects some kind of real power? Extremely cool, although it would probably be cooler if he could clearly visualize anything about what the final form of that power is.&nbsp;</p>\r\n<p>He's not worried about not being able to pick up what they need him to. He's pretty sure there isn't some secret stash of lots of even smarter math geniuses that he's never heard of, at least not here in Cheliax (which means nowhere run by humans, obviously, because there are things that are smarter than humans, but there aren't places that have better math education). He's very, very worried that he's going to screw up the social end of this and say something ill-advised about something as insignificant as <em>what the moon looks like, </em>and then spend the rest of eternity having his soul slowly stretched apart while burning with absolutely nothing at the end of it. But he's not scared of failing to pick things up.</p>",
+      "created_at": "2022-03-16T22:45:31.915+00:00",
+      "icon": {
+        "id": 91733,
+        "keyword": "draconis37",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F0827e3f6-710a-46a4-b764-b9b001a26555_draconis37.jpeg"
+      },
+      "updated_at": "2022-03-18T00:38:22.004+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776649,
+      "character": {
+        "id": 13357,
+        "name": "Willa Shilira",
+        "screenname": "seeing-red"
+      },
+      "character_name": "Willa Shilira",
+      "content": "<p>Her pride isn't offended the way it might be if Asmodia wasn't the sort of person that solves problems by making big walls of colored text. But that's not the problem; the problem is she feels cheated.</p>\r\n<p>Granted, she hadn't even thought about the possibility of selling her soul for more than the standard price. She'd been eager for the chance: <em>this was Arcane Sight they were talking about.</em> And she knew she was already Lawful Evil and going to hell anyway, so like, it was practically free. If she'd found out last week she'd be doing it now she'd have been over the unfortunately-phased moon.</p>\r\n<p>But now it felt like she'd had more, so much more, and then it was ripped away. Riches beyond a Baron of Hell, all for her soul! She could be the best in the class at this special Law, but regardless all the excess soul value she generated would be signed off to Carissa Sevar instead. It was like one of those unequal trades from the transcripts, where the wronged party is supposed to randomly refuse some amount of the time, except of course that wasn't an option for her.</p>\r\n<p>Part of her hates Sevar for stealing all the sudden good fortune that was rightfully hers, and she knew it was stupid because someone was reading her thoughts and soon Sevar would know and she still couldn't stop. Sevar would hate her for hating her and she had all the power; Willa was powerless again, getting robbed just like she had been when she was powerless before. She wasn't being robbed of everything, or even mostly everything: she still had herself, all the gains she could reap just from being in Project Lawful and learning from the Outsider. It still stung.</p>\r\n<p>She settles for thinking about Asmodia instead. Asmodia who was practically in the same boat as her, her soul soaring up in value and without anything to show for it except a frustrated demeanor and a very organized wall. Willa could believe in not making the wall worse, in not making Asmodia suffer over it. If the real Pharasma had a goddess like Asmodia, Golarion would probably be a less awful place.</p>",
+      "created_at": "2022-03-17T05:51:11.108+00:00",
+      "icon": {
+        "id": 246022,
+        "keyword": "WillowPencils",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2F6p0uskbw29c8c6c34qmavo_WillowPencils.png"
+      },
+      "updated_at": "2022-03-17T06:16:46.718+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776659,
+      "character": {
+        "id": 13358,
+        "name": "Marius Tazantelza",
+        "screenname": "serve-the-structure"
+      },
+      "character_name": "Marius Tazantelza",
+      "content": "<p>It's depressing that Asmodia is probably right about the motivations of most of the room. Faced with the quickly evolving carriage wreck that Project Lawful apparently is, the average person will not think: 'How can I help bring this to order?' or even 'How do I not get run over?' but instead 'How do I get one over on everyone else here?'</p>\r\n<p>Then again, pride has never been something he really got.</p>\r\n<p>The nature of all this worries him though. Properly acting the role that Asmodia requires of him means that he will have to be an alter!Marius, not taking orders from alter!Asmodia (that would be too easy) but instead alter!Maillol. But that is not all it requires. Alter!Marius isn't a complete person with a complete history, and moreover even if he was he might still draw attention to the wrong things, highlight dangerous inconsistencies. Alter!Marius will need real!Marius riding on his shoulder, whispering orders in his ear from real!Asmodia that override alter!Maillol's.</p>\r\n<p>It's a lot to process at once, two Mariuses with two masters and two sets of orders, and if either of them makes a big enough mistake then all of his variously insane and not insane real!superiors up the ladder to Asmodeus himself will be extremely eager to take whatever small compensation they can manage from his hide.</p>\r\n<p>It's definitely motivation to flesh out alter!Marius as much as is humanly possible in the vanishingly tiny amount of time allowed for preparation. He certainly won't be spending any of it on social jockeying instead.</p>",
+      "created_at": "2022-03-17T06:13:53.575+00:00",
+      "icon": {
+        "id": 246023,
+        "keyword": "MariusGears",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2Fpdqz3b8ikpgaya0ehojir_MariusGears.png"
+      },
+      "updated_at": "2022-03-17T06:15:05.675+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776667,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"To the left of me we see Ione Sala, heretic and betrayer of Asmodeus and now oracle of Nethys - that part is true only in realCheliax - or in alterCheliax that weird adorable girl touched by Nethys - false, orange - who borrows books from the Ostenso academy library inside a Forbiddance - green.&nbsp; You don't pick on her for any of that, because it presently looks like Nethys is maybe possibly in with Asmodeus on this - Ione gave us thirty seconds of warning about Nidal's assault on the last Project site and plausibly saved the entire thing.&nbsp; Your current orders are not to fuck with her.\"</p>\r\n<p>\"In alterCheliax, Ione is the Project's Nethysian Safety Officer, charged by Keltham to make sure we don't hurt ourselves or go insane. &nbsp;She does much the same thing in realCheliax. &nbsp;She has zero actual Project authority.&nbsp; If she gives you a warning, you should probably listen to her even if she's being smug about it.\"</p>\r\n<p>\"Ione herself will tell you that she is Chosen and Blessed of Nethys.&nbsp; She'll also tell you that Nethys is smuggest of the gods, and that it's heresy to suggest that anything cannot or should not explode.&nbsp; If any of you know actual Nethysian theology you are not allowed to tell her about it, because that, apparently, would be even worse.\"</p>\r\n<p>\"To the right of me we see Pilar Pineda, by far the most loyal person to Asmodeus of anyone here, whose soul got misdirected to Elysium and who came back to Cheliax willingly, trusted of Aspexia Rugatonn, probably going to be the only sane person left after everybody else on this Project goes mad.&nbsp; Heard any rumors about how Project Lawful supposedly cleansed Egorian of spies?&nbsp; That was Pilar.&nbsp; She did it over the course of a day while the rest of us were taking a break.\"</p>\r\n<p>\"Pilar is the oracle of Cayden Cailean.&nbsp; Her oracular curse goes by the name of Snack Service and delivers us cookies, cake, and apparently good advice about how to corrupt Keltham to Asmodeanism.\"</p>\r\n<p>\"I wish to Pharasma I was joking about any of that, but I'm not.\"</p>",
+      "created_at": "2022-03-17T06:38:07.123+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-03-17T06:38:07.123+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1776669,
+      "character": {
+        "id": 13355,
+        "name": "Alexandre Esquerra",
+        "screenname": "hate-and-fear"
+      },
+      "character_name": "Alexandre Esquerra",
+      "content": "<p>An oracle of Nethys. Nethys, supposedly-omniscient god of knowledge<em>,</em> who has still failed to conquer the universe and who will inevitably be defeated by Asmodeus and is therefore kind of <em>pathetic.</em> And he is ordered not to fuck with her. Orders: Accepted. He will refrain from interacting with her except for&nbsp;<em>oh come on.</em></p>\r\n<p>Yes, Asmodia. Your time will come, Asmodia. You and Ione can both enjoy tyrannizing over everyone for now, the time will come when you are in my power and -</p>\r\n<p>... Wait what Pilar&nbsp;<em>wow.</em> She&nbsp;<em>wow.</em> Alexandre wants to be able to do that! Alexandre&nbsp;<em>really</em> wants to be able to do that! How did she&nbsp;<em>do</em> that? Was it just... her nonsense... Snack Service power??? Or was it the power of Law that they teach here? Alexandre WILL have that power!&nbsp;<em>How does she do that?</em></p>\r\n<p>He is currently listening much more eagerly in case Asmodia <em>explains anything</em> on those transcripts. He is also building mnemonics for the summed contents of the wall while he does this, because in <em>spite</em> of his train-of-thought Alexandre is occasionally <em>good at his job.</em></p>",
+      "created_at": "2022-03-17T06:49:55.493+00:00",
+      "icon": {
+        "id": 246033,
+        "keyword": "Yes, My Lord Asmodeus",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F0qakyncoaf9vk1ehoxl99b_Yes%2C+My+Lord+Asmodeus.png"
+      },
+      "updated_at": "2022-03-17T06:53:21.097+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776670,
+      "character": {
+        "id": 13360,
+        "name": "Pedra Casal Lachanessa",
+        "screenname": "mention-names"
+      },
+      "character_name": "Pedra Casal Lachanessa",
+      "content": "<p>Pedra is eager to memorize all these people's names, identities, and faces! She's always been good at that. They are all higher-status than she is and so she needs to be properly deferent to them, but of course they are if anything only&nbsp;<em>mildly</em> higher-status than alterPedra, so alterPedra will need to communicate with them without&nbsp;<em>appearing</em> to be deferent while of course not&nbsp;<em>actually</em> opposing them. It should be an interesting challenge.</p>\r\n<p>(All of her clever ideas for pranks to play on people who think that it is heresy to suggest that anything cannot or should not explode will, sadly, need to go away. It's really quite annoying how her brain generates those, even though they don't serve any purpose. Maybe she needs to set her hand on fire? How much magical healing do they have, for these purposes?)</p>\r\n<p>... Also, the oracle of&nbsp;<em>Cayden Cailean</em> is the most loyal person here? Oh, that's going to be&nbsp;<em>fascinating.</em> Is Snack Service also higher status than herself? Does she need to be deferent to a Chaotic Good magical curse? It'll probably be worth learning how to do that; it sounds like a skill she'll have few opportunities to practice, later in life.</p>",
+      "created_at": "2022-03-17T06:59:14.472+00:00",
+      "icon": {
+        "id": 246037,
+        "keyword": "Look, Sometimes You Need To Summon Your Unholy Minions At A Fancy Party",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F1kummhqb4purq0yt241rxd_Look%2C+Sometimes+You+Need+To+Summon+Your+Unholy+Minions+At+A+Fancy+Party.png"
+      },
+      "updated_at": "2022-03-17T06:59:14.472+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776673,
+      "character": {
+        "id": 13357,
+        "name": "Willa Shilira",
+        "screenname": "seeing-red"
+      },
+      "character_name": "Willa Shilira",
+      "content": "<p>When she was much much younger, Willa heard about Nethys and thought that a god of magic and books and knowledge (and yes, explosions too) was the best thing and super-fun. It's lucky for her that her parents beat that out of her, and not just because heretics get executed. Nethys wouldn't have been the right god for her after all, even if she'd been allowed to choose.</p>\r\n<p>She might not be a perfect Asmodean, but Willa loves torturing people, especially people she hates. The part where that comes back at her sometimes sucks, but if she could get rid of both at once she wouldn't make the deal. Some parts of yourself you can't bear to lose.</p>\r\n<p>If Keltham thinks there's some risk of people going insane from what he's teaching, it's probably true, which could be part of why this wild heresy is tolerated. But she's sure it doesn't apply to her: she's better than that, stronger. She's far past the need for childish comforts like Nethys.</p>\r\n<p>Pilar went to Elysium and came back. That's not like selling your soul, because when you sell your soul you're pretty sure you're already going to Hell anyway, it's mostly just selling Hell insurance.&nbsp; (Selling them expensive nearly priceless insurance that she doesn't get the true value of for herself.) Willa isn't sure if she'd come back from Elysium but is sure that she should avoid thinking about it. This time she succeeds more easily at her attempt to quash the wrongthoughts. Hope is much more dangerous than hate.</p>\r\n<p>At least Pilar has the courtesy to have ridiculously weird superpowers she can make herself think about instead. Willa would take superpowers like those, if they were all that was on offer, but she really hopes she gets something more dignified. (Of course she'll be one of the ones to get superpowers, that much is definitely happening.)</p>",
+      "created_at": "2022-03-17T07:03:51.982+00:00",
+      "icon": {
+        "id": 246022,
+        "keyword": "WillowPencils",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2F6p0uskbw29c8c6c34qmavo_WillowPencils.png"
+      },
+      "updated_at": "2022-03-17T07:03:51.982+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776677,
+      "character": {
+        "id": 13362,
+        "name": "Secunda Salis",
+        "screenname": "prepared-caster"
+      },
+      "character_name": "Secunda Salis",
+      "content": "<p>Secunda will produce from her bag a very strange book, and start transcribing the contents of the Wall into it in tiny handwriting. She even has colored ink, green and orange and red and no purple, but blue should work fine instead, she doesn't anticipate being confused by that.<br /><br />The book is very strange. It's like a spellbook, but almost comically large, and the page she's writing on is four times bigger than the covers; it's creased to easily fold back into the book, and from the... springiness... of the rest of the pages, an astute observer could deduce that the rest of the book is likewise made up of oversized, folded-up pages.<br /><br />The way she's transcribing the Wall is very strategic. Each sentence is abbreviated to take up less space without loss of clarity, and they're spaced out based on reasonable expectations of where she might need to add more sentences or other notes later.<br /><br />For now her attention is bent wholly on this task, and on listening.</p>",
+      "created_at": "2022-03-17T07:06:02.895+00:00",
+      "icon": {
+        "id": 246038,
+        "keyword": "wary",
+        "url": "https://i.imgur.com/ZucUhqm.jpg"
+      },
+      "updated_at": "2022-03-17T07:06:02.895+00:00",
+      "user": {
+        "id": 516,
+        "username": "Audere"
+      }
+    },
+    {
+      "id": 1776678,
+      "character": {
+        "id": 13358,
+        "name": "Marius Tazantelza",
+        "screenname": "serve-the-structure"
+      },
+      "character_name": "Marius Tazantelza",
+      "content": "<p>It clearly wasn't chaotic enough in Project Lawful yet, they need an oracle of Chaotic Good and an oracle of Explosions too. How a god of literally explosions isn't technically chaotic Marius doesn't know, but in his book it's close enough to count. That the two of them have a hopelessly convoluted tangle of lies, exceptions, and outright insanity surrounding them is only par for the course, he really shouldn't have expected anything better.</p>\r\n<p>Marius is going to be tortured and then die and then be tortured some more because \"Project Lawful\" is secretly more like \"Project Chaos\" and so it will all fall apart and if he's especially unlucky it'll somehow be his fault when the last straw breaks the camel's back.</p>",
+      "created_at": "2022-03-17T07:12:35.780+00:00",
+      "icon": {
+        "id": 246023,
+        "keyword": "MariusGears",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2Fpdqz3b8ikpgaya0ehojir_MariusGears.png"
+      },
+      "updated_at": "2022-03-17T07:13:24.654+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776683,
+      "character": {
+        "id": 13363,
+        "name": "Laia Macer",
+        "screenname": "useful-and-grateful"
+      },
+      "character_name": "Laia Macer",
+      "content": "<p>Laia will take everything Asmodia says at face value. Answer to Asmodia, whose orders can only be overridden by Ferrer Maillol, Jacint Subirachs, and Carissa Sevar, Chosen of Asmodeus, sure. Study the wall, don't be responsible for black sentences or red sentences, be careful and obedient about orange and green, sure. The stuff about Asmodia being insane doesn't seem all that important? Laia got the message that Asmodia is insane in ways that are necessary or conducive to her job. That makes sense.<br /><br />Ione is a heretic and oracle of Nethys and not to be fucked with, sure. Pilar voluntarily came back to Cheliax from Elysium, and cleansed Egorian of spies in a day, and is an oracle of Cayden Cailean, and her curse provides snacks and advice... sure.&nbsp;<br /><br />In general, Laia's first instinct is to believe whatever she hears. Afterward, she does her best to figure out whether any of it might be false, and whether she's being taken advantage of. The answer to both questions is usually yes. But right now, Laia suspects the most useful thing for her to do is let herself straightforwardly internalize what she's being told. Asmodeans tend to be bad at that. She's good at it. She can contribute something here.</p>",
+      "created_at": "2022-03-17T07:40:10.859+00:00",
+      "icon": {
+        "id": 246039,
+        "keyword": "here",
+        "url": "https://i.imgur.com/GFciYm5.jpg"
+      },
+      "updated_at": "2022-03-17T08:03:27.468+00:00",
+      "user": {
+        "id": 516,
+        "username": "Audere"
+      }
+    },
+    {
+      "id": 1776684,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>Korva makes a line down the middle of part of her paper, without looking up, almost by rote. One side for questions about the real world; one side for questions about the alter world, once she has some of those. Not going to ask any of them, at least not until she ends up in a situation where asking questions seems less likely to result in justly deserved punishment than not doing that, which is not the case right now. Questions about the real world: what does it <em>mean&nbsp;</em>for someone to be an oracle of a god? She's heard the word before, somewhere, in some myth or another, but she has no real specifics. How is it different from being a cleric? Apart from, uh, the idea that you can apparently be a faithful Asmodean and also get oracled by some other god without wanting to, that's - terrifying? Putting a pin in that thought and moving away from it, for now, because thinking about which things are terrifying doesn't seem like it's going to help her catch up at all here, and might also make it incredibly hard to listen to anything else. More questions: are these all of the oracles associated with the project? All of the people with weird magic? How did Pilar rid Egorian of spies? What does it mean that the sweets are the product of a curse?&nbsp;</p>\r\n<p>(What other circumstances have caused the gods to intervene in the world on the scale that they've been observing over the last few weeks? Nobody has directly mentioned the lights in the sky yet, but Korva is starting to feel like it might be important to <em>know </em>something about how those sorts of situations tend to go, instead of huddling in ignorance and waiting for the end like a cornered baby mouse.)</p>\r\n<p>(What does she know about Nethysian theology? There was a dusty handwritten codex of tales in the library, one that was full of the silhouettes of other beliefs without ever directly sketching any of them, that might have talked about - no. She turns away from that thought very sharply, before wondering whether she's actually supposed to be turning off thoughts like that under the circumstances. Whatever. Put a pin in that, come back to it later.)</p>\r\n<p>(How many students of her caliber do they have in reserve for if these ones aren't immediately promising and have to be taken off the project and then additionally be killed to preserve secrecy? - not helpful right now, put a pin in that.)<br /><br />None of those last three go on her paper, but there's no pause in her note-taking process for them. She's sort of thankful to her mother right now. She's pretty sure the impulse to continuously write down <em>something</em> is a good one, actually, even if this isn't exactly the lesson she was meant to learn from being hit whenever her hand stopped moving in the middle of her homework. Even if the newest words on her paper are currently \"Cursed cookies??\"</p>",
+      "created_at": "2022-03-17T07:47:36.435+00:00",
+      "icon": {
+        "id": 118503,
+        "keyword": "l1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F248vd0dh4rpyldkztbfhe8_c3+cheliax2.jpg"
+      },
+      "updated_at": "2022-03-17T07:47:36.435+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776686,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Here we have Meritxell.&nbsp; Meritxell was at the top of our year in Ostenso.&nbsp; Meritxell is the most normal person who has ever fucked Keltham.&nbsp; I would personally bet on Meritxell being the second-to-last person on this Project to go insane.\"</p>\r\n<p>\"Gregoria, Peranza, Tonia are the next most normal survivors of Project Lawful.&nbsp; They probably have some other personality traits but I can't be arsed to remember what they are right now.&nbsp; All of them have prices in Dis that would buy literally one hundred of you.\"</p>\r\n<p>\"Yaisa, failed Project Lawful girl.&nbsp; Now Keltham's full-time personal whore, except that around him we call her a sex worker.&nbsp; She's played a minor part in corrupting Keltham.&nbsp; If we pull any of this off and it looks like Yaisa was at all important to the process, she'll end up a Duchess somewhere after the new Cheliax conquers Golarion, as will be our standard reward for moderately good service, according to the Queen.\"</p>\r\n<p>\"Not present are Paxti, Pela, and Jacme, failed Project Lawful girls.&nbsp; They're still around the fortress and Keltham may check in on them sometimes.&nbsp; Don't fuck with them either, because I say so is fucking why.&nbsp; If you do anything that wouldn't have happened to them in alterCheliax, which changes them or their attitude in ways it wouldn't have changed in alterCheliax, I'm the one who cleans up your fucking mess.&nbsp; Part of that process will be my making sure you don't create future messes.\"</p>\r\n<p>\"Now, I'll turn you over to Carissa Sevar, Worldwound veteran, fourth-circle wizard in magical capacity but with spellcraft to match seventh, the first person who spoke to Keltham in Golarion, first of what became known as the Project Lawful girls, now commander of Project Lawful, lover of Keltham, lover also of Abrogail Thrune, sometimes called Chosen of Asmodeus.&nbsp; Sevar isn't allowed to sell her soul to Hell yet, for some still-unknown reason, but the last time she tried she asked for permanent arcane sight, permanent Tongues, ten pounds of spellsilver, and three Wishes. &nbsp;The devil they summoned said not yet but tried to lock in that price for future occasions.\"</p>\r\n<p>\"Welcome to Project fucking Lawful, you poor fuckers.&nbsp; I haven't even <em>gotten</em> to the <em>really </em>weird parts.&nbsp; Our Nethysian Sanity Officer warned us that we needed to let the lesser weirdness sink in for a while, before we tried to tell you about the 'tropes'.\"</p>\r\n<p>\"Anyways, Carissa Sevar.&nbsp; The Chosen of Asmodeus doesn't usually stand on ceremony, but on this particular occasion, I'd suggest that you <em>fucking kneel.</em>\"</p>",
+      "created_at": "2022-03-17T08:42:57.567+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-03-20T13:23:59.555+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1776687,
+      "character": null,
+      "character_name": null,
+      "content": "<p>That rather strange girl takes a few steps to the side and kneels herself with adequate grace.<br /><br /></p>\r\n<p>She is succeeded by a woman who looks to be in her twenties, slightly too pretty for any ordinary person and not pretty enough to be a noble. &nbsp;Carissa Sevar, presumably, 'sometimes called' Chosen of Asmodeus. &nbsp;She is dressed in clothes of generally noble-quality fabric and workmanship, obviously not customized to her exact person and tastes in the same way as the actual and unmistakable count's heiress present.</p>\r\n<p>This moderately-august and surely horrifically-deadly Personage casts a sterner, more solemn gaze over the assembly, not speaking as yet.</p>",
+      "created_at": "2022-03-17T08:43:31.788+00:00",
+      "icon": null,
+      "updated_at": "2022-03-17T08:43:31.788+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1776688,
+      "character": {
+        "id": 13357,
+        "name": "Willa Shilira",
+        "screenname": "seeing-red"
+      },
+      "character_name": "Willa Shilira",
+      "content": "<p>Willa thinks the unflattering comparisons to various background fodder are laying it on a little thick. Everyone in this room has to be worth more than a hundreth of a Tonia already. The smart devils know who the new students are, what their backgrounds and inclinations are. Devils can see your permanent record.</p>\r\n<p>Surely they can guess the chance each of them succeeds at reaching the mediocre goal of hanging on in the background is far more than one in a hundred, nevermind the chance one of them becomes actually important like Asmodia. If you can already predict what you'll likely think in the future, you should just act on it now, that was part of the Law in the transcripts too. If you think a prospect has a one-in-ten chance of quickly turning into a Tonia, you should buy her for at least a tenth of a Tonia in a long term market.</p>\r\n<p>The thought is uncomfortable because it brings her attention back to how she's being cheated again, but luckily there are new more interesting uncomfortable thoughts raised by these introductions to chase it away. Does she want to corrupt Keltham with sex? On the surface, it's an enticing thought, it would mean she'd be more likely to become important, but-</p>\r\n<p>She doesn't like being tortured. Really not at all. Especially not in a sexy way. She was a whip-holding kinda gal, not the reverse. Maybe there was some other kind of corruption to be done. Or she can just get by on being good at magic instead.</p>\r\n<p>The expected reward is much greater than the expected pain, but she <em>might </em>still be able to succeed without it. She <em>should</em> be able to, really. But is she lying to herself here in a stupid way, just like the stupid imaginary devil that undervalues the project prospects without them even being discounted by an option? Shouldn't an extra 10% chance of being important and getting superpowers be worth some really squicky sex? (Because even though she's \"definitely\" getting superpowers, it really doesn't pay to think that way when evaluating what she has to do to actually get them.)</p>\r\n<p>Then Carissa Sevar is coming forward and she's kneeling. She firmly decides her simmering angst over being soul-cheated was the better thought to be having after all, even with the Security reading her mind. Some parts of yourself you can't bear to lose.</p>",
+      "created_at": "2022-03-17T09:29:22.497+00:00",
+      "icon": {
+        "id": 246022,
+        "keyword": "WillowPencils",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2F6p0uskbw29c8c6c34qmavo_WillowPencils.png"
+      },
+      "updated_at": "2022-03-17T19:14:39.659+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776689,
+      "character": {
+        "id": 13358,
+        "name": "Marius Tazantelza",
+        "screenname": "serve-the-structure"
+      },
+      "character_name": "Marius Tazantelza",
+      "content": "<p>It was reassuring that some people on the project were relatively normal. Dropouts, whores, and unmemorable space-fillers were all features of the average Chelish project, and their confirmed existence helped recenter Marius' reality a little bit. Sure, this was still in the realm of nightmares overall, but perhaps a spiraling descent into absolute existential panic wasn't necessary. Maybe he could just be normal.</p>\r\n<p>He could be a workmanlike spellcaster learning about Law and avoiding any particularly complicated tangles of lies. Sevar and Asmodia would nobly keep the arrayed forces of Chaos in check, trading their sanity in dribs and drabs for extra days and hours of their lives. Of course, the well would inevitably run dry, but perhaps someone else in the room was ready to pick up the slack and be the next <span style=\"text-decoration: line-through;\">hapless victim</span> fearless leader. Everything might be fine, and at the end of the day the survivors be leading lights of a new, more powerful Chelish state.</p>\r\n<p>He just had to position himself to be a survivor. Important and competent enough to contribute value and reap the rewards. Not visible or forward enough to be fully swallowed by Project Chaos and spat out the other side as something formless and broken inside.</p>\r\n<p>It didn't seem like a bad plan on the surface, but somehow it felt like it was doomed to fail.</p>\r\n<p>Kneeling to his superior's superior is another refreshing dose of normality. It would be deserved in any case because it's the way of things, but here it feels especially appropriate, considering everything she has to deal with.</p>",
+      "created_at": "2022-03-17T09:48:59.993+00:00",
+      "icon": {
+        "id": 246023,
+        "keyword": "MariusGears",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2Fpdqz3b8ikpgaya0ehojir_MariusGears.png"
+      },
+      "updated_at": "2022-03-17T19:17:26.773+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776718,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>Asmodia, Ione, Pilar, Meritxell, Tonia, Gregoria, shit what was the other one's name, there's one more girl up there, makes seven, plus four dropouts, is a... sixty-four? ish? percent chance of still being on the project in eighteen days. Twenty-five percent chance that dropping out causes you to end up the entity's full-time personal whore, which shouldn't send a shiver down her spine (how much better than death, let alone death after having made an irrecoverable mistake!), but it does. She sort of fails to process that that succeeding doesn't actually sound like it lowers the odds of such an outcome.<br /><br />Then you have to change those numbers to reflect that Korva is not going to be at the top of this class at <em>all,</em> if it's a math class (even if the transcripts really did not read like any fucking math class she's ever taken),&nbsp;and is going to have way&nbsp;<em>less&nbsp;</em>than a sixty-four percent chance of keeping up for eighteen days. Whoever scooped her up for this was obviously doing so because they expected there to be a particularly low chance of real, irrecoverable project failure as a result of her addition, and thought that she <em>might</em> be able to keep up academically. So if she wants to still be around in eighteen days - and she does, she really, really, really does, she doesn't for a second believe that the dropouts are going to be safe for longer than entirely necessary to avoid inconvenient questions from the entity - then she needs to hit the ground running and catch up <em>fast.&nbsp;</em>She makes a mental note to bug the dropouts for information, or possibly the survivors, if the rest of the class hasn't already monopolized them by the time she's able to talk to them. But the dropouts are probably less terrifying and less busy and will be more likely to offer help in exchange for some chance at protection if she survives this thing.</p>\r\n<p>When Asmodia says to kneel, Korva immediately prostrates herself, and then internally kicks herself for doing that instead of exactly what she was told to do. She doesn't pull herself up to a kneel, though, at this point that would probably look even worse.</p>",
+      "created_at": "2022-03-17T15:15:51.339+00:00",
+      "icon": {
+        "id": 88009,
+        "keyword": "i1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F25c26150-deb7-4e93-855e-d5d94179eece_bb16.jpeg"
+      },
+      "updated_at": "2022-03-17T15:57:51.917+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776719,
+      "character": {
+        "id": 13359,
+        "name": "Didac Alarcon",
+        "screenname": null
+      },
+      "character_name": "Didac Alarcon",
+      "content": "<p>Well that sure is a lineup of people.</p>\r\n<p>He's still not worried about the math. - well, maybe a little worried. The transcripts weren't exactly standard math class fare. But this existing class looks like it's just the set of promising-yet-pretty girls in the top year of Ostenso's wizard academy. They were probably chosen for being the sorts of people Keltham might also want as full-time personal whores, and therefore they can't also have been selected for being the very best at math. If the project had started in Westcrown last year, and they'd picked based on actual math ability, he would have been on the project, and he would have been at the fucking top. Whether he's still at the top across all of Cheliax is - not something he's willing to make a guess about, that seems a lot less likely. But if he runs through the list of moderately-pretty girls who were in the top math class at Westcrown, and takes the top half of that group, he is not at all worried about making the cut.<br /><br />He's still really worried about EVERY OTHER ASPECT OF THIS. The thing where you can get chosen by gods other than Asmodeus in the line of duty here? Awful, is there any known way to prevent that at all. The thing where, oh yeah, this place was in fact the site of an attack by a bunch of Nidalese Zon-Kuthon worshippers? Awful! The thing where, lest he forget, you can become a waste of space in Hell, useful only for being eternally wrapped around hot irons or something while people giggle at what you look like and the fact that you will never be anything else, because you made a fuckup on the level of mentioning the phase of the moon? AWFUL.<br /><br />He kneels when instructed to, because you don't live long if you're going to fail at things as simple as that.</p>",
+      "created_at": "2022-03-17T15:55:38.774+00:00",
+      "icon": {
+        "id": 91714,
+        "keyword": "draconis13",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F0827e3f6-710a-46a4-b764-b9b001a26555_draconis13.jpeg"
+      },
+      "updated_at": "2022-03-18T00:38:51.561+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776722,
+      "character": {
+        "id": 13362,
+        "name": "Secunda Salis",
+        "screenname": "prepared-caster"
+      },
+      "character_name": "Secunda Salis",
+      "content": "<p>Secunda halts her note-taking and kneels.</p>\r\n<p>So far her impression from the transcripts has been confirmed, namely, that nobody on Project Lawful knows what fuck they're doing. Obviously the new researchers are lost, but it's more than that. The undercurrent of exasperation isn't targeted at the \"fresh meat\" in particular; it's directed at the Project as a whole, including Asmodia and Carissa themselves, their superiors, Keltham, and the circumstances of the entire doomed game. Nobody has a detailed plan that they expect to work. Everyone here is flying blind.</p>\r\n<p>Of course, this doesn't mean that Secunda knows better. She's appropriately impressed with how far her superiors have gotten. They're doing <em>something</em> right, something not trivially imitated, even if they themselves don't know exactly what it is.</p>\r\n<p>So Secunda isn't going to get ahead of herself. The patterns she's seeing, the things that look like systemic mistakes&mdash; well, any of them might be vital to the Project's survival.&nbsp;</p>\r\n<p>Still. There <em>are</em> patterns. There <em>are</em> things that look like systemic mistakes. And some of them might actually <em>be</em> mistakes. She can't afford to ignore that possibility either. <br /><br />She needs to do two things:</p>\r\n<p>1. Get with the program as fast as possible. Be unvaryingly competent, reliable, and sensible. Not fuck anything up. The same thing everyone is trying to do. The obvious priority.</p>\r\n<p>2. Maintain perspective. Keep enough distance and poise to keep an eye on the Project's prognosis, what's working, and what isn't working. Avoid getting caught up in putting out fires: that job belongs to Sevar and company, and Secunda doesn't envy them. Don't fall into heresy, but don't be paralyzed by it either. She can untangle heresies <span style=\"text-decoration: line-through;\">when she's in hell</span> when she's not playing the most important game she will ever play in her life. <span style=\"text-decoration: line-through;\">Hopefully</span> Obviously.&nbsp;</p>\r\n<p>If she succeeds at 1, well, she'll get tortured much less, but just as importantly, she might be able to build up a bit of respect. Maybe even to the point of getting a say in the Project's overall gameplan, if she plays her cards right. Or at least enough to for her superiors to hear her out.</p>\r\n<p>If succeeds at 2 as well, she might figure out some ideas that are actually worth using.<br /><br />Well, there is one other thing. She has to excel at the math. But that goes without saying.<br /><br /><br /></p>",
+      "created_at": "2022-03-17T16:56:16.830+00:00",
+      "icon": {
+        "id": 246038,
+        "keyword": "wary",
+        "url": "https://i.imgur.com/ZucUhqm.jpg"
+      },
+      "updated_at": "2022-03-17T17:31:46.858+00:00",
+      "user": {
+        "id": 516,
+        "username": "Audere"
+      }
+    },
+    {
+      "id": 1776727,
+      "character": {
+        "id": 13363,
+        "name": "Laia Macer",
+        "screenname": "useful-and-grateful"
+      },
+      "character_name": "Laia Macer",
+      "content": "<p>Laia kneels.<br /><br />She is not particularly concerned about the tropes? She'll be told about them when she needs to know. But maybe she isn't concerned enough? Asmodia seems to going for... a certain cadence of overwhelmingness, like Laia is&nbsp;<em>supposed</em> to be worried, and confused, and intimidated.<br /><br />Laia is... a part of her is scared, probably, but she doesn't really have it in her to be intimidated. She gave up on not being hurt a long time ago. She can go through the motions of trying to be hurt&nbsp;<em>less</em> but it all tends to blur together. She'll do her best to be useful because being useful is... because that's what makes sense.<br /><br />But fear does serve a purpose. Laia does make mistakes more often, when she drifts too far away. She needs to let herself be afraid, so that she can stay sharp the way they want her to stay sharp. She does her best to be intimidated. The result is that she looks vaguely concerned.&nbsp;</p>",
+      "created_at": "2022-03-17T17:25:45.499+00:00",
+      "icon": {
+        "id": 246039,
+        "keyword": "here",
+        "url": "https://i.imgur.com/GFciYm5.jpg"
+      },
+      "updated_at": "2022-03-17T17:42:19.812+00:00",
+      "user": {
+        "id": 516,
+        "username": "Audere"
+      }
+    },
+    {
+      "id": 1776775,
+      "character": {
+        "id": 13360,
+        "name": "Pedra Casal Lachanessa",
+        "screenname": "mention-names"
+      },
+      "character_name": "Pedra Casal Lachanessa",
+      "content": "<p>Pedra kneels immediately.&nbsp;</p>\r\n<p>The standard reward for moderately good service is being a Duchess. You can fail the project and as long as you contribute you'll&nbsp;<em>still</em> be a Duchess. Pedra does not consider this, because you don't consider things your superiors say, you act as if they're true&nbsp;<span style=\"text-decoration: line-through;\">until your mind isn't being read</span>, she simply listens, and obeys, and accepts the carrot to go with the stick.</p>\r\n<p>But while she kneels, she's scanning her new superiors, memorizing their names as swiftly as possible. Meritxell is exactly the typical kind of ambitious smart girl who can't bear to be in second place that Pedra can make excellent use of, a patron-and-shield to protect the second-place from any of the fears of being first-place.&nbsp;</p>\r\n<p>She understands the request for no pointless cruelty. It is a reasonable request, since alterPedra would presumably only act on cruelty in the manner in which a<span style=\"text-decoration: line-through;\">n actual</span>&nbsp;Taldane noblewoman <em>in Taldor</em> would, that is to say, for lust, ambition, and a show of her power. She wouldn't do it for <em>fun.</em> And since&nbsp;<em>she</em> is coming in at the bottom of the status hierarchy, barring that poor girl who disobeyed orders and oversubordinated herself, and while she may rise later, today even they have the advantage of experience over her.</p>\r\n<p>Well. She can wait. So, this is the woman they call the Chosen. Pedra's head is low, submitting to the authority of her superiors. And she is listening.</p>",
+      "created_at": "2022-03-17T19:50:47.141+00:00",
+      "icon": {
+        "id": 246037,
+        "keyword": "Look, Sometimes You Need To Summon Your Unholy Minions At A Fancy Party",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F1kummhqb4purq0yt241rxd_Look%2C+Sometimes+You+Need+To+Summon+Your+Unholy+Minions+At+A+Fancy+Party.png"
+      },
+      "updated_at": "2022-03-18T00:47:14.187+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776779,
+      "character": {
+        "id": 13355,
+        "name": "Alexandre Esquerra",
+        "screenname": "hate-and-fear"
+      },
+      "character_name": "Alexandre Esquerra",
+      "content": "<p>Alexandre kneels. It is not elegant, because Alexandre is not an elegant man; he is rather stronger than a wizard should be, and cruder. Alexandre's interest is magic armor enchanting, and he is not wholly certain you can enchant magical armor without understanding it <em>as armor.</em>&nbsp;</p>\r\n<p>No. His interest&nbsp;<em>was</em> magic armor enchanting. There were many armor enchanters before and there will be many after and now his interest is in mastering the arts of dath ilan.</p>\r\n<p>Meritxell. The expert. Gregoria, Peranza, Tonia, a slight lead on him. The failures he should not torture because places other than Cheliax use less torture. And -</p>\r\n<p>He'd&nbsp;<em>understood</em> that this was what started the Godswar, when he read the transcripts. 'Zon-Kuthon attacks Asmodeus' is exactly the kind of project he should have been assigned to be a competent government, and Cheliax&nbsp;<em>is</em> competent, this is why he serves it. But a devil&nbsp;<em>trying to lock in a price for future occasions</em> really hammers home, just how important this was, in a way that none of the threats had.&nbsp;<em>Maybe</em> this is exaggeration, but it rings true, in a horrible way.&nbsp;<em>The gods are at war.</em> The Chosen of Asmodeus is worth G<em>olarion.</em></p>\r\n<p>And so, before her, he will kneel.</p>",
+      "created_at": "2022-03-17T19:58:09.861+00:00",
+      "icon": {
+        "id": 246033,
+        "keyword": "Yes, My Lord Asmodeus",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F0qakyncoaf9vk1ehoxl99b_Yes%2C+My+Lord+Asmodeus.png"
+      },
+      "updated_at": "2022-03-17T19:58:09.861+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776793,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>The possibly Chosen of Asmodeus is not, in fact, thinking about how to get them to respect her; she is thinking about how to get them to not fall apart on her; she is threatened by incompetence and not by insubordination. The difference is perceptible.</p>\r\n<p>&nbsp;</p>\r\n<p>\"The world that Keltham comes from is richer and more sophisticated than ours, richer and more sophisticated than Hell, likely richer and more sophisticated than anywhere known to the greatest powers of our world.</p>\r\n<p>The purpose of Project Lawful is to learn the engineering knowledge they possess, to make Cheliax wealthy and competent to conquer the rest of the world, and to learn the Law they possess, to improve on the teaching of devils in Hell and perhaps on the teaching of mortals so that more of them possess the nature to become powerful devils.</p>\r\n<p>Keltham, you've been briefed, is a Lawful Neutral cleric of Abadar. He desires to trade openly and honestly with all who will deal honestly with him. He wants to ensure that the knowledge he has of dath ilan benefits everyone in Golarion, not because he thinks of himself as Good in his own right but because he got that knowledge free from dath ilan, and feels obliged to spend it how they would see fit, were they here. Dath ilan is unbearably Lawful Good, having engineered their society in that direction with every tool you might think of plus some you did not know were possible, like heritage-optimization. This is what makes alter-Cheliax necessary; the real Cheliax, Keltham would not trade with, and he'd kill himself and go to Osirion if he came to consider it likely he is being deceived.&nbsp;</p>\r\n<p>Alter-Cheliax is a harder problem than you think, which is why Asmodia has absolute license to correct and train you in inhabiting it. If Cheliax were ruled by Abadar, how much would fifth-circle wizards be paid? You don't know? Keltham wants to know right now, what's your guess? It'd be strange to not have a guess. You might think your guess can't be wrong; after all, nowhere is Cheliax ruled by Abadar, and so it's the sort of thing that can't be known except maybe somehow to Nethys. But your guess can be inconsistent, with what Keltham understands of the productive economic contributions of wizards, and their scarcity, and who pays them, and how many Security are assigned to Project Lawful. If your number is too low then the salaries Keltham has been quoted for the project don't make any sense and teleportation ought to be more accessible and it's more suspicious that there isn't immigration to Cheliax from Osirion or Taldor. If your number is too high, then the logistics of staffing the Worldwound don't make any sense and the expected revenue from spellsilver improvements ought to be a lot higher.&nbsp;</p>\r\n<p>Why not just give him the real number? Because in Cheliax fifth-circle wizards needs must have sold their soul, and that wouldn't be true in alter-Cheliax, and it changes the numbers.</p>\r\n<p>Everything is like this. The core art that dath ilan teaches is the art of seeing all the world as a single, interconnected web, every strand of which tugs directly or indirectly on every other strand. Dath ilani are trained in seeing how a tug on one thing - one price, one technology, one number quoted in one book - ought to imply things far across the web about Governance and intelligence distributions and metal refining. There are no safe lies to Keltham because we do not know all the content of the lies we're telling, and there are no safe truths because truth is entangled with the fact that Cheliax is run by Asmodeus and not by Abadar.&nbsp;</p>\r\n<p>Dath ilan is probably run by an Evil conspiracy of its own, of course. But we cannot contact them, and if we could they'd crush us utterly and repurpose us to their own ends whatever they are.\"</p>",
+      "created_at": "2022-03-17T21:28:17.620+00:00",
+      "icon": {
+        "id": 161268,
+        "keyword": "Screen Shot 2020-09-30 at 5.05.33 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyov9vbcqfc9pfntsg1gu_Screen+Shot+2020-09-30+at+5.05.33+PM.png"
+      },
+      "updated_at": "2022-03-17T21:28:17.620+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1776795,
+      "character": {
+        "id": 13355,
+        "name": "Alexandre Esquerra",
+        "screenname": "hate-and-fear"
+      },
+      "character_name": "Alexandre Esquerra",
+      "content": "<p>Ahahahaha&nbsp;<em>yes</em>,&nbsp;this is what Alexandre wanted to hear. His ears are open, his smile held back by the main force of a survivor who means to survive Cheliax; he only hates the Chosen of Asmodeus a <em>little</em>, for being there first, but he is so, so much more grateful to her. Project Lawful is to learn all their powers of Law and engineering, the name makes <em>sense</em>, and they will give him all that they have willingly for the low price of his soul. Yes, of <em>course</em> a superior society could breed men like cattle; yes, of&nbsp;<em>course</em> a superior society would have no fear of death, only of destruction, yes of&nbsp;<em>course</em> they would understand all the Law that underlies everything. How much would fifth-circle wizards be paid in a Cheliax ruled by Abadar he has not the&nbsp;<em>faintest</em> notion - but there&nbsp;<em>is a law</em>, yes there is a Law, he has always known it and now he can <em>learn</em> it, this pay is full compensation for what he is not earning for his soul and <em>more</em> than full compensation... he is keeping hold of himself only by main force, and, though his head is bowed as he kneels and his eyes low, they are also shining.</p>\r\n<p>(The fake-world challenge is, of course, impossibly difficult, and there is a part of his mind that is responding to that, trying to come up with excuses for alterAlexandre to&nbsp;<em>not know anything.</em> He grew up on a farm and spent his entire life in a wizarding school, it shouldn't be too hard.)</p>",
+      "created_at": "2022-03-17T21:42:50.971+00:00",
+      "icon": {
+        "id": 246033,
+        "keyword": "Yes, My Lord Asmodeus",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F0qakyncoaf9vk1ehoxl99b_Yes%2C+My+Lord+Asmodeus.png"
+      },
+      "updated_at": "2022-03-18T03:23:04.553+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776798,
+      "character": {
+        "id": 13357,
+        "name": "Willa Shilira",
+        "screenname": "seeing-red"
+      },
+      "character_name": "Willa Shilira",
+      "content": "<p>Conquering the world with engineering feels like an even bigger ask than improving devils with Law, and the latter already seems almost impossible and almost contradictory in itself. How much do you need to scale up a mundane crossbow to matter in a fight against a 9th circle druid? What kind of mundane siege weapon could even hit a 9th circle wizard's tower? The transcripts mention 'economically scaling weapons', but that's a <em>lot of scaling</em>.</p>\r\n<p>It should make her feel insecure, that magic is her special thing but all this hyper engineering is threatening to leap past it. Carissa Sevar taking her soul with one hand and her advantage with the other. But somehow that doesn't tug at her heartstrings; this can be her thing too. Both can be her thing, and she'll be even stronger than anybody who's only really good at one or the other.</p>\r\n<p>As for deceiving Keltham, it couldn't be that bad. Keep track of things, remember what's different and what's the same. If it's new and it can't be the same, figure out how it has to be different. She can just think of it like another assignment, a big important one, with a lot of research already done in the form of the big helpfully colored-in wall. She's good at assignments, as long as she isn't being sabotaged.</p>\r\n<p>In a sense, all of this being so important with such dire consequences is nice. That means nobody can screw parts of it up just to mess with her.</p>",
+      "created_at": "2022-03-17T22:00:08.096+00:00",
+      "icon": {
+        "id": 246022,
+        "keyword": "WillowPencils",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2F6p0uskbw29c8c6c34qmavo_WillowPencils.png"
+      },
+      "updated_at": "2022-03-17T22:00:08.096+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776803,
+      "character": {
+        "id": 13358,
+        "name": "Marius Tazantelza",
+        "screenname": "serve-the-structure"
+      },
+      "character_name": "Marius Tazantelza",
+      "content": "<p>One might think that someone as overtly lawful as Marius, so lawful that it's literally in his blood, would be seduced by the idea of a Cheliax under Abadar and not Asmodeus, even if he was loyal enough to never take any actions that might support such a thing. He doesn't have to twist his thoughts at all to prove them wrong. Asmodeus is the Law of Cheliax, and as Marius is of Cheliax, Asmodeus is his Law.</p>\r\n<p>But even with that in mind, it might be true that his semi-instinctive (he won't call them chaotic, he won't) lies about such a thing might be more convincing, more authentic, more lawful-neutral-as-known-to-Golarion. He doesn't really want it to be true, because it'd mean he'd have a 'special' job and be another <span style=\"text-decoration: line-through;\">hapless victim</span> leading researcher, but true things are true whether you want them to be or not.</p>\r\n<p>If he didn't have this possible advantage, he probably wouldn't be on the project at all, and in mean expectation, being on the project is probably better than not. In that context, it wouldn't make sense to feel particularly unlucky about possible special responsibilities.</p>\r\n<p>The median expectation being that this is going to end with lots of eternal torture instead of riches and power does rather undermine that argument though.</p>",
+      "created_at": "2022-03-17T22:18:12.738+00:00",
+      "icon": {
+        "id": 246023,
+        "keyword": "MariusGears",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2Fpdqz3b8ikpgaya0ehojir_MariusGears.png"
+      },
+      "updated_at": "2022-03-17T22:18:12.738+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776805,
+      "character": {
+        "id": 13360,
+        "name": "Pedra Casal Lachanessa",
+        "screenname": "mention-names"
+      },
+      "character_name": "Pedra Casal Lachanessa",
+      "content": "<p>The Chosen of Asmodeus speaks, and Pedra Casal Lachanessa listens.</p>\r\n<p>She is talking&nbsp;<em>nonsense.</em> \"Improve the teaching of devils in hell?\" Security! she thinks loudly. I humbly wish to submit a report that this woman who you identified as Chosen of Asmodeus is speaking what I understand to be heresy and I desire to be corrected if this is not true!</p>\r\n<p>Security doesn't murder the Chosen. Nobody even drags her off-stage. She isn't targeted with six Dispel Magics and three Hold Persons that together reveal her to be an imposter. There becomes a little screaming noise in the back of Pedra's head, as the world she thought she lived in starts to itch, and she tries to focus on the rest of the Chosen's words. Needing to lie to a Lawful Neutral cleric of Abadar much smarter than she is with access to bizarre-but-supernaturally-reliable information who can flee to Osiron if they tick him off too much or he suspects he's being lied to - that's manageable - she can't make things up <em>fine</em> she needs information&nbsp;<em>fine</em> but - all this is tricky but manageable but - Security <em>still isn't even doing anything</em> -&nbsp;</p>\r\n<p>\"Dath ilan is probably run by an evil conspiracy of their own,\" fine. \"They'd crush us utterly and repurpose us to their own ends -\" Security, I desire to be corrected for misinterpreting her claim as being that dath ilan could&nbsp;<em>beat the Church and State favored of Asmodeus!</em> Please someone tell me how to interpret that instead!</p>",
+      "created_at": "2022-03-17T22:25:36.278+00:00",
+      "icon": {
+        "id": 246037,
+        "keyword": "Look, Sometimes You Need To Summon Your Unholy Minions At A Fancy Party",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F1kummhqb4purq0yt241rxd_Look%2C+Sometimes+You+Need+To+Summon+Your+Unholy+Minions+At+A+Fancy+Party.png"
+      },
+      "updated_at": "2022-03-17T23:32:21.294+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776843,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>For better or for worse, Korva can't&nbsp;<em>see&nbsp;</em>that she's the only person in the room who decided to prostrate herself, which means that instead of panicking further about that, she manages to actually listen to what the Chosen of Asmodeus is saying.</p>\r\n<p>The Chosen of Asmodeus does&nbsp;<em>not&nbsp;</em>seem defensive or concerned about getting people to take her seriously. Secure in the knowledge that she can, actually, drag as many of them off to be tortured to death as it takes for the others to get the message, then. That makes sense.</p>\r\n<p>If the Chosen of Asmodeus were talking about math, Korva would probably manage to listen in an appropriately obedient and pliable mental posture. Instead, the Chosen of Asmodeus is talking about, to a first approximation, history, and not the simple false histories made of up of disconnected facts that they teach you in school. She's talking about the real differences between peoples, across both time and space, in ability and perspective and understanding, and about how one event causes ripples across all of society and changes the shape of the whole.</p>\r\n<p>Unfortunately, Korva hasn't practiced not having opinions about that. She has a lot of opinions about that, actually.</p>\r\n<p>So: Keltham's world is richer and more sophisticated than Cheliax, and also richer and more sophisticated than Hell, which is many, many times more impressive, and is many times&nbsp;<em>more&nbsp;</em>impressive because it comes from someone called \"the Chosen of Asmodeus\", and therefore might actually be true. The point of this operation is to capture that real knowledge, so that it can be extracted from them and used for the Church's ends. She's going to have to have some feelings about imagining what that even means, later, but for now, rolling with it.</p>\r\n<p>She doesn't know what to make of the claim that they're supposed to learn how to teach devils, given that none of them know shit compared to devils, and improving the teaching of humans is presumably much easier. If the devils didn't already know something being taught here, you would think it would be much easier for them to learn it directly than to use additional mortals as middlemen? Surely devils can themselves learn math?? Whatever. Put a pin in that, move on.</p>\r\n<p>The Chosen of Asmodeus sure does also have a lot of opinions on what her listeners do and don't already know! Not that Korva wouldn't necessarily have the same impulse, if she had to explain something adjacent to this to a group of people who have, apparently, been selected almost entirely for their ability to do math, but like - not aware that heritage-optimization is <em>possible</em>? - okay, don't get carried away, probably heritage optimization is something different and more powerful and specific than the thing that people do when breeding dogs or horses, which is already supposedly being tried in humans in - shit don't think about that place at all, she doesn't think she's supposed to know anything about that place. Also she doesn't. Really. They're hardly rumors. Don't even put a pin in that. Focus.</p>\r\n<p>Alter-Cheliax&nbsp;<em>is&nbsp;</em>a hard problem,&nbsp;<em>obviously,</em> if you have someone trying to see how all of the pieces are connected and checking whether the jigsaw they make together doesn't add up. It's not exactly hard to realize that the pieces of history don't all fit together at the seams, even when you're only doing normal amounts of conspiratorial - she's just going to give up on trying to think like she believes anything about the history she learned in school, okay, person-reading-her-mind, and if she wasn't supposed to adopt that posture then she will take her justly deserved punishment and return to her previous posture, but it's too much, right now, with the volume of new information about real things that are really happening and how they ought to actually connect. So she's just going to drop that, for a minute.</p>\r\n<p>Anyway, even so - no, it's actually <em>not&nbsp;</em>that strange for her not to have much of a guess about what fifth-circle wizards are paid! She doesn't know that in real life! Probably it wildly varies depending on where they are and what you're paying them to do! If her actual guess would be wildly wrong, then it's fine for her alter-self to be wildly wrong, because why the fuck would being more like Taldor or immediately postwar Cheliax - which have worse education systems, by the way - cause her to know more about what fifth-circle wizards are paid?<br /><br />....it would probably be weird if nobody in the group knew, though. In fairness. Which sort of just punts the problem up a level. But seriously, there isn't a&nbsp;<em>singular answer&nbsp;</em>to this question, and it ought to be fine to recognize that it's&nbsp;<em>complicated,&nbsp;</em>in alter-Cheliax and here, and if they can lean into that complexity and lack of certain knowledge - well, she's not the smartest person here, so presumably everyone has already thought of all of this and decided that this is still the best thing to tell the fresh meat to get them to act as they need to, but <em>gods, </em>is there a lot of emphasis on things that seem pretty obvious for a group of people for whom she is probably very mediocre.<br /><br />Probably the Chosen is saying something much less obvious and she's going to end up an outsider's sex slave because she can't even figure out what it is. If she's lucky.</p>\r\n<p>Ugh.</p>",
+      "created_at": "2022-03-18T00:14:35.458+00:00",
+      "icon": {
+        "id": 119254,
+        "keyword": "c1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish23.jpeg"
+      },
+      "updated_at": "2022-04-29T22:07:57.764+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776857,
+      "character": {
+        "id": 13359,
+        "name": "Didac Alarcon",
+        "screenname": null
+      },
+      "character_name": "Didac Alarcon",
+      "content": "<p>That's... big.</p>\r\n<p>Really, really, really big. He is no longer entirely certain that he can handle the math. Like, it's apparently something that devils don't know? A lot of things that devils don't know? Maybe this should have been obvious, given the price of Asmodia's soul, and given that whatever knowledge it is is literally causing the gods to fight over it - but in that case why not just <em>take&nbsp;</em>it, surely gods are capable of digging something out of someone directly, if it's worth so much that they'd fight amongst themselves in order to possess the container? Maybe the gods know it, but devils don't? But why would you assign this work to mortals, in that case, what kind of mortal is going to outperform even the lowest devils? Asmodia, apparently, but - Asmodia was just a bright academy student, right?</p>\r\n<p>He doesn't like how big this is. Also doesn't like how there's even more emphasis on all of the ways that you can invisibly screw up at the alter-Cheliax thing, because apparently it wasn't bad enough that offhandedly mentioning the phases of the moon is the sort of thing that can make you permanently worthless around here! Anything can do that! And you're not allowed to respond to this situation by not talking, because being terrified of things is itself a contradiction!<br /><br />Fewer things should be complicated social manipulation and more things should be math homework.</p>",
+      "created_at": "2022-03-18T00:26:34.508+00:00",
+      "icon": {
+        "id": 91975,
+        "keyword": "draconis41",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F232177a8-4b10-46d2-8b72-cff008a6a540_draconis41.jpeg"
+      },
+      "updated_at": "2022-03-18T00:39:12.641+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776861,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"There are a number of errors I anticipate from new additions to this project. One is reasoning too much about why all of the absurd scary things you've been told are less absurd, or less scary, and should not transform all your thinking quite as much as they might look like they should. You might reason, for example, that every secret project in Cheliax probably had ambitions of world domination, that the stakes are probably not quite as high as that, that Hell might tell us falsely of our great value, that nothing you hear is ever really true and so nothing I say should really sway you all that far from whatever posture you walked in with.&nbsp;</p>\r\n<p>The last time I spoke of the unique importance of this project, and the unimaginable rewards for successful service, Her Majesty arrived to confirm that the project was as important as claimed, and the rewards as real. It is my sincere hope that we will not need to repeatedly waste her time because no one can believe the stakes are real without her personal attention. You will have to unlearn the habit of not believing things; I will assist you, in that, by not saying them unless they are true. Lies are the poor substitute that Cheliax uses on people too stupid to make correct inferences from the truth anyway, employed by people themselves too stupid to think of truth and lies as fundamentally different things. On Project Lawful we are attempting to make you competent to make correct inferences from the truth, and that requires telling it.</p>\r\n<p>You may have heard that there is a lot of heresy on Project Lawful. There is more than you thought, even after Asmodia just introduced you to our resident Nethysian and our resident cursed by Cayden Cailean. The core heresy of Project Lawful is this: the project is premised on the idea that some people can think true things, unabashed, untrained in hiding from all their thoughts with frightening implications, possessed with real competence at thinking, and still be Asmodeans. That means that you are going to have to try thinking, and some of your thoughts will be heresy, and you will have to keep thinking instead of stopping.</p>\r\n<p>This is definitely going to destroy some of you. Those more pessimistic than I think it will destroy all of us in the end except Pilar. Even if it is so that people can think true things and still be Asmodeans, no one has yet tried to construct an Asmodeanism made up entirely of true things, and you'll find yourself believing a bunch of nonsense that doesn't hold together, and then some of you will panic and throw it out. I'm pretty sure there is a beautiful consistent comprehensible truth on the other side, and I am perhaps Chosen by Asmodeus for this work, and I still sometimes find myself lost in what are definitely heresies, in Asmodeus's sight.</p>\r\n<p>The important thing is to keep in mind that errors, while they will be consistently corrected, are only catastrophic if they happen in Keltham's view. Your minds are being constantly read, your loyalty is being closely monitored, but your punishments will be tailored narrowly towards improving your performance, so long as your errors are not deliberate betrayals. You are valuable; I will soon own the rights to your souls; I want you to be stronger and better. I want you to be the best of Cheliax and to grow into the best of Hell.\"</p>",
+      "created_at": "2022-03-18T00:31:07.658+00:00",
+      "icon": {
+        "id": 175881,
+        "keyword": "Screen Shot 2020-12-24 at 4.31.13 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyi4b2oygd3bdiaobluq82t_Screen+Shot+2020-12-24+at+4.31.13+PM.png"
+      },
+      "updated_at": "2022-03-18T00:31:07.658+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1776868,
+      "character": {
+        "id": 13355,
+        "name": "Alexandre Esquerra",
+        "screenname": "hate-and-fear"
+      },
+      "character_name": "Alexandre Esquerra",
+      "content": "<p>... No, Alexandre did&nbsp;<em>not</em> think that they were lying to him about this. That would make a certain amount of sense to think, but when the sky starts glowing and war breaks out,&nbsp;<em>something</em> has to be responsible, and 'Project Lawful' is a pretty good guess, since they're recruiting all the top students from everywhere to it.</p>\r\n<p>\"You will have to unlearn the habit of not believing things; I will assist you, in that, by not saying them unless they are true.\"</p>\r\n<p><span style=\"text-decoration: line-through;\">He thinks he's in love</span> he is honored to serve under the Chosen of Asmodeus, great is her will.&nbsp;</p>\r\n<p>... He's kind of surprised that nobody thought that people could think true things and be Asmodeans? Asmodeus is the strongest of the gods and going to conquer the universe. Of&nbsp;<em>course</em> he's going to have better philosophy than everyone else. Yes, sometimes teachers tell people what is useful for them to hear now instead of the more complicated thing that they will misinterpret and fall into heresy about, but&nbsp;<em>of course</em> the truth is that Asmodeus is right, even if he's somehow wrong about how. He really cannot comprehend the idea that the god who is doing the best job of conquering the universe would have bad philosophy.</p>\r\n<p>Whatever the matter, though, he is honored to have been chosen for this. Asmodeus's will be done.</p>",
+      "created_at": "2022-03-18T00:41:39.762+00:00",
+      "icon": {
+        "id": 246033,
+        "keyword": "Yes, My Lord Asmodeus",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F0qakyncoaf9vk1ehoxl99b_Yes%2C+My+Lord+Asmodeus.png"
+      },
+      "updated_at": "2022-03-18T01:24:44.765+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776878,
+      "character": {
+        "id": 13360,
+        "name": "Pedra Casal Lachanessa",
+        "screenname": "mention-names"
+      },
+      "character_name": "Pedra Casal Lachanessa",
+      "content": "<p>Aaaaaaaaaaaaaaah&nbsp;<em>she is not considering the Chosen lying</em> aaaaaaaah&nbsp;<em>she will not waste Her Majesty's time</em> aaaaaaaaaaah&nbsp;<em>what do you mean people cannot think true things aaaaaaaaaaah!</em> aaaaaaaaaaaaah -!</p>\r\n<p>It's actually the Chosen saying that it will destroy her that snaps her out of her panic. <em>Fuck</em> that. Pedra Casal Lachanessa is not&nbsp;<em>weak.</em> Her mind is Asmodeus's and Asmodeus wants her believing something else? Fine. She can do that.&nbsp;<em>She will not be broken.</em> Her errors will be corrected and she will be reforged into a tool of Asmodean perfection,&nbsp;<em>his will be done.</em> So she was being lied to by her superiors, very well, she will accept that openly in her mind, they did it because they thought she would not believe the truth. Perhaps they were right, but now she is worth correcting. Her errors will be hammered out on Asmodeus's anvil and reforged into finer metal. Her loyalty is monitored? So be it! She is a tool of Asmodeus, and she will be his <em>finest</em> tool, and will -&nbsp;<em>yes, Chosen</em> - grow into the best of Hell.</p>",
+      "created_at": "2022-03-18T00:52:53.910+00:00",
+      "icon": {
+        "id": 246037,
+        "keyword": "Look, Sometimes You Need To Summon Your Unholy Minions At A Fancy Party",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F1kummhqb4purq0yt241rxd_Look%2C+Sometimes+You+Need+To+Summon+Your+Unholy+Minions+At+A+Fancy+Party.png"
+      },
+      "updated_at": "2022-03-18T00:52:53.910+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776890,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>Something inside her relaxes, marginally. It's not that she's thought through anywhere near the implications of everything that the Chosen of Asmodeus just said. She's not nearly enough of a big-picture thinker for that. But it makes it more likely that she won't be punished for admitting to herself, in the hearing of security, that most of the things they teach you in history classes are mostly, uh, false. It means that her instincts were right, at least once - they're here to figure out something real, and she was able to guess that, however timidly, which suggests that she might actually be capable of approaching this project with the correct instincts, sometimes. Good news for her odds of not failing out in literally the next couple days.</p>\r\n<p>So they're students, but it's not just like school. They're not being scored on memorizing the right lies. They're not just performing for an audience. - well, actually, yes, a very core part of this is performing for an audience of one person. But not one that's going to be privy to their thoughts, which makes it sort of a different matter entirely.</p>\r\n<p>Also, the Chosen of Asmodeus does actually seem... competent? No, that's not it, it's very obvious that the Chosen of Asmodeus would be unimaginably more competent than she, and of course she assumed she would be right away. The Chosen of Asmodeus seems - comprehensible. She thinks she might actually be comprehending what's being said, without having to dig through the words eight times to get to something that begins to approach their true meaning. She thinks she might actually just be communicating the thing that she's trying to communicate in a way that Korva can understand.</p>",
+      "created_at": "2022-03-18T01:07:43.667+00:00",
+      "icon": {
+        "id": 113541,
+        "keyword": "i6",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F015ln9luy9v4vwo8xkbeujm_i1cheliax2.jpg"
+      },
+      "updated_at": "2022-03-18T01:07:43.667+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776898,
+      "character": {
+        "id": 13357,
+        "name": "Willa Shilira",
+        "screenname": "seeing-red"
+      },
+      "character_name": "Willa Shilira",
+      "content": "<p>Willa actually wasn't thinking that all of this might be some giant production of a lie and now she feels vaguely embarrassed about it.</p>\r\n<p>What would her prior be on any of this being even plausible, fitting into any reality at all, before the transcripts and the speeches? Economically scaling weapons and Law stronger than what devils have as the rewards, a god war as the consequence, and heresy out of a fever dream as the window dressing. It seems like an impossible collection of tiny chances on the surface, but everything else follows not-too-unnaturally from the rewards on the table, so she should limit her consideration to those.</p>\r\n<p>Economically scaling mundane weapons that can conquer Cheliax in spite of magic, existing. It's not the kind of thing she would even pin a number, a 'probability' to before, but it feels right to be doing it. Maybe one-in-twenty? There was a caution in the transcripts about guessing these things after the fact, but she has to make do.</p>\r\n<p>Law stronger than devils have. Easier to imagine, but not by a lot. One-in-ten? It's probably some kind of heresy to think about, but Sevar just said heretical thoughts were excused, and pinning it to numbers instead of certainties feels safer somehow, maybe just because she's never done it before and so has never been punished for it.</p>\r\n<p>Together that means this should've had a prior of one-in-two-hundred unlikely. Then how much more likely is it that everything she's seen happens in a world where it's real rather than a world where it's an elaborate heresy trap for gifted people or something? Probably a lot less than two hundred times.</p>\r\n<p>That means she should actually believe this project is fake. Except she used the knowledge from the project to figure that out. But that feels like it has to be real? It makes sense, doesn't it? Should that increase the likelyhood more, by some extra multiplier?</p>\r\n<p>Sevar is talking some more about all of their minds being probably destroyed yadda yadda whatever but Willa is better than that anyway, it's not really her concern and this other line of thought is more interesting, and in a sense more important. <em>She just had to rub it in with that thing about the souls though</em>, her thoughts are definitely being listened to and reported whatever else is happening.</p>",
+      "created_at": "2022-03-18T01:22:12.301+00:00",
+      "icon": {
+        "id": 246022,
+        "keyword": "WillowPencils",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2F6p0uskbw29c8c6c34qmavo_WillowPencils.png"
+      },
+      "updated_at": "2022-03-18T01:22:12.301+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776904,
+      "character": {
+        "id": 13359,
+        "name": "Didac Alarcon",
+        "screenname": null
+      },
+      "character_name": "Didac Alarcon",
+      "content": "<p>Everyone being a heretic makes it worse!! Like, okay, if whatever they're going to do is going to involve a bunch of comparative religious study and he's going to inevitably fall into heresy as he tries to make sense of it, then it's good not to be the only one this is happening to, probably, but, uh, he would really prefer that he not spend a bunch of time doing comparative religious study! He doesn't know anything about theology! None of this is math, or wizardry, or alchemy, which he's never had time to look into but thinks he might be pretty decent at if he weren't too busy being a wizard. But he's not a cleric! There are really good reasons why he's not a cleric!&nbsp;</p>\r\n<p>Okay. Whatever. True things. They're supposed to believe true things. He can obviously do that with&nbsp;<em>some&nbsp;</em>things; maybe he can just kind of, uh, hold off on applying it too much to theology yet. Probably there are some other things that he can apply it to first. He's not precisely sure what yet, if magic is specifically <em>not </em>what they're applying it to, but if the Law can be applied to anything and everything, then he ought to have some options, here.</p>",
+      "created_at": "2022-03-18T01:27:23.831+00:00",
+      "icon": {
+        "id": 91707,
+        "keyword": "draconis10",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F0827e3f6-710a-46a4-b764-b9b001a26555_draconis10.jpeg"
+      },
+      "updated_at": "2022-03-18T01:28:24.570+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776910,
+      "character": {
+        "id": 13358,
+        "name": "Marius Tazantelza",
+        "screenname": "serve-the-structure"
+      },
+      "character_name": "Marius Tazantelza",
+      "content": "<p>It's a horrible revelation that he doesn't just maybe have the advantage in keeping to the lie, but that he definitely has an advantage in surviving the truth, a toxic dangerous specialness which will no doubt throw him front and center into Project Chaos (what a ironic consequence of being Lawful.) Being Asmodean to him isn't about anything but being Cheliaxian, and the Laws of Cheliax mandating Asmodeanism. And he follows the laws of his homeland, that's just the kind of thing he is, like how a bird is a thing that flies or a fish is a thing that swims.</p>\r\n<p>It's simple to him, cold and clear and without enough layers in it to crumble apart, like a cantrip that's so simple it can last forever, being cast effortlessly again and again. He imagines everyone else (almost everyone else) might rely on the equivalent of first circle Asmodeanism, something complex with a topological hole, something that can run out of uses or be made unstable.</p>\r\n<p>You'd think that he'd be overjoyed to be immune to this supposed great danger of the project, but he sees Ione and Pilar as examples of the kind of wild unpredictable fates that might befall special people here. Some things are worse than a broken mind. He manages to suppress his actual shudder, but anyone from Cheliax watching will probably notice how disturbed he is anyway.</p>",
+      "created_at": "2022-03-18T01:36:43.809+00:00",
+      "icon": {
+        "id": 246023,
+        "keyword": "MariusGears",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2Fpdqz3b8ikpgaya0ehojir_MariusGears.png"
+      },
+      "updated_at": "2022-03-18T02:00:15.237+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776928,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Another error I anticipate is getting too excited to be in a high-stakes project for the fate of the world and perhaps also Hell, and coming to think of yourself as the main character of such a story. Part of the Project is seducing Keltham, so as to show him what Asmodeanism has to offer that Abadar does not; power, and cruelty, and service not traded-for-at-market-rates but won and held. If everyone is seeking their individual importance then many of you, like many of the original girls, will throw yourselves at Keltham seeking to be the one who awakens him to Asmodeanism.</p>\r\n<p>If that is not what you would do in alter-Cheliax, you must not do it. If you don't actually find him attractive, you must not do it. &nbsp;Until you've satisfied us you understand alter-Cheliax fully, seducing Keltham, or trying to have an interesting backstory for him, must meet my and Asmodia's approval. You may not present to Keltham a face any stranger than you have in the real world, adjusted for alter-Cheliax frequencies of traits occurring; he will be suspicious, if everyone around him seems to want him when they weren't selected for that, if everyone around him has interesting traits that ought, by rights, to be very rare.&nbsp;</p>\r\n<p>Many of you will sit in the back of the classroom, do the math exercises, do a good job and ask insightful questions, and never feature in a single report to Egorian. This is a commendable trajectory, you will be amply rewarded for it, and it is much much better than trying to get Keltham's attention and fucking up.\"</p>",
+      "created_at": "2022-03-18T02:24:16.011+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-03-18T02:24:16.011+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1776939,
+      "character": {
+        "id": 13359,
+        "name": "Didac Alarcon",
+        "screenname": null
+      },
+      "character_name": "Didac Alarcon",
+      "content": "<p>Have people considered that \"everyone tries to seduce Keltham\" sure does sound like the sort of failure mode you'd get if you obviously selected all of your students to be people who Keltham might want to fuck, and would be a much weirder failure mode for a set of people that wasn't chosen for that. \"Seduce Keltham\" didn't even&nbsp;<em>occur </em>to him as a path to success, here, and he bets he's not alone.<br /><br />Well, check and check, not going to seduce Keltham. Also not actually going to try to be the main character of anything, it sure sounds like the main characters of this story are pretty stressed out. He's going to do a good job and ask insightful questions, and understand the Law, which is what they <em>said&nbsp;</em>fucking&nbsp;<em>matters,&nbsp;</em>and not get distracted by... whatever events produced this warning.</p>",
+      "created_at": "2022-03-18T02:46:02.098+00:00",
+      "icon": {
+        "id": 91707,
+        "keyword": "draconis10",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F0827e3f6-710a-46a4-b764-b9b001a26555_draconis10.jpeg"
+      },
+      "updated_at": "2022-03-18T02:46:02.098+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776941,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>- so they're supposed to actively steer <em>away&nbsp;</em>from catching Keltham's interest, if that's what they're naturally inclined to do. Well. That's what she was planning to do by default anyway, but it's good that she has official approval for this and doesn't have to expect to have this strategy whipped out of her later on.<br /><br />(Would people really lie about&nbsp;<em>having more interesting backstories</em>? Really? Did someone <em>do </em>that? No <em>wonder&nbsp;</em>there were so many threats surrounding the wall.)</p>",
+      "created_at": "2022-03-18T02:50:05.263+00:00",
+      "icon": {
+        "id": 118503,
+        "keyword": "l1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F248vd0dh4rpyldkztbfhe8_c3+cheliax2.jpg"
+      },
+      "updated_at": "2022-03-18T02:50:58.138+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776942,
+      "character": {
+        "id": 13357,
+        "name": "Willa Shilira",
+        "screenname": "seeing-red"
+      },
+      "character_name": "Willa Shilira",
+      "content": "<p>Sevar telling her that she really doesn't need to seduce Keltham is sort of making her want to do it out of spite, even though she's just finished deciding she didn't really want to do it anyway.</p>\r\n<p>... probably not worth it. But she'll sit in the <em>front</em> while doing a very good job on the math exercises and asking insightful questions, and she <em>will</em> be featuring in a report when she ends up getting her superpowers anyway.</p>",
+      "created_at": "2022-03-18T02:53:48.732+00:00",
+      "icon": {
+        "id": 246022,
+        "keyword": "WillowPencils",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2F6p0uskbw29c8c6c34qmavo_WillowPencils.png"
+      },
+      "updated_at": "2022-03-18T02:53:48.732+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776943,
+      "character": {
+        "id": 13358,
+        "name": "Marius Tazantelza",
+        "screenname": "serve-the-structure"
+      },
+      "character_name": "Marius Tazantelza",
+      "content": "<p>Marius really wants to ask if lying about having a <em>less </em>interesting backstory than he has in real!Cheliax is allowed, but he's not stupid enough to think that it is, even if he was stupid enough to think it'd be a good idea to ask in the first place.</p>",
+      "created_at": "2022-03-18T02:55:43.304+00:00",
+      "icon": {
+        "id": 246023,
+        "keyword": "MariusGears",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2Fpdqz3b8ikpgaya0ehojir_MariusGears.png"
+      },
+      "updated_at": "2022-03-18T02:55:43.304+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776946,
+      "character": {
+        "id": 13360,
+        "name": "Pedra Casal Lachanessa",
+        "screenname": "mention-names"
+      },
+      "character_name": "Pedra Casal Lachanessa",
+      "content": "<p>But she&nbsp;<em>does</em> have an interesting background,&nbsp;<span style=\"text-decoration: line-through;\">and she&nbsp;<em>is</em> the main character of a story -</span></p>\r\n<p>... Pedra notices she is confused. Surely the&nbsp;<em>purpose</em> of recruiting her into Project Lawful was that she does, in fact, have&nbsp;<em>any actual experience</em> with Actual Taldor? Surely her ability to pretend to be Taldane is an important part of her skillset? She assumed that was what she was recruited for, after she noticed that they were pretending that alterCheliax was Taldor. She assumed that she was here to help them pretend. And she&nbsp;<span style=\"text-decoration: line-through;\"><em>wishes to assure</em></span> humbly desires to make aware to her superiors that, in Taldor, attractive women try to seduce powerful men so the powerful men can provide them with wealth and status?</p>\r\n<p>And, and,&nbsp;<em>surely</em> alterCheliax would have&nbsp;<em>more</em> immigrants than realCheliax, since in alterCheliax <span style=\"text-decoration: line-through;\">Asmodeus is</span> <span style=\"text-decoration: line-through;\">Hell is</span> intelligent people outside Cheliax are more aware of Hell's purifying nature and slightly less concerned with its painful aspects, and so it should have <em>more</em> people from Taldor around to seduce Keltham, not fewer!</p>",
+      "created_at": "2022-03-18T03:20:26.263+00:00",
+      "icon": {
+        "id": 246037,
+        "keyword": "Look, Sometimes You Need To Summon Your Unholy Minions At A Fancy Party",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F1kummhqb4purq0yt241rxd_Look%2C+Sometimes+You+Need+To+Summon+Your+Unholy+Minions+At+A+Fancy+Party.png"
+      },
+      "updated_at": "2022-03-18T03:20:26.263+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776949,
+      "character": {
+        "id": 13355,
+        "name": "Alexandre Esquerra",
+        "screenname": "hate-and-fear"
+      },
+      "character_name": "Alexandre Esquerra",
+      "content": "<p>As it happened, Alexandre had never for an instant considered that they might want him to seduce Keltham. Keltham, like most men, is attracted to women. <span style=\"text-decoration: line-through;\">(Right?)</span> Alexandre, like most men, is attracted to women. It is not that he has never had to <em>avoid</em> other&nbsp;<span style=\"text-decoration: line-through;\">temporarily</span> more powerful men who might be attracted to him, it was simply that, when he was recruited for this, the prospect that he had been recruited to throw himself at a Lawful Neutral alien teenager did not once occur to him.</p>\r\n<p>Fortunately, it will never happen. He will simply sit at the back of class and do very well, and that will be all.</p>",
+      "created_at": "2022-03-18T03:25:34.466+00:00",
+      "icon": {
+        "id": 246033,
+        "keyword": "Yes, My Lord Asmodeus",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F0qakyncoaf9vk1ehoxl99b_Yes%2C+My+Lord+Asmodeus.png"
+      },
+      "updated_at": "2022-03-18T03:30:20+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776950,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"The final possibility I anticipate is betrayal. Errors, we are attempting to handle with a light hand, because you are valuable, and it is our desire to preserve your value. You will be corrected because it is important that you be right. You will learn and improve and, hopefully, you will play your part in strengthening Cheliax and Hell. If something is necessary for your growth and confidence and success, you are reasonably likely to get it.&nbsp;</p>\r\n<p>If you deliberately and intentionally try to sell this project out, self-interest and consideration for your value will take a backseat to ensuring that you regret that as much as it is possible for you, or for a lump of bleeding flesh with distant memories of being you, to regret anything. Other countries would love Keltham, and would pay you generously to deliver him; you will not survive trying that, and if you somehow do Hell will still make sure, when you reach them, that it was not worth it. Her Majesty has arranged already that anyone who intentionally betrays this project will suffer as much as possible, forever, even if this cuts into the profit Hell would otherwise have of you.</p>\r\n<p>I don't expect you to believe this, even after I just said that on this project I won't lie to you, but I say that because I dislike it; one of my own pet heresies is that Hell is wasteful, and could make better use of even the most contemptible and useless of souls. I do not desire that anyone make the kind of mistake for which you will suffer forever. It is not a fate I will condemn you to gladly. I am warning you so that you can avoid that.&nbsp;</p>\r\n<p>It is absolutely an order I will give, if you do betray us. If I got squeamish, Her Infernal Majesty would order it for me, and I don't like wasting her time.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Are there any questions.\"</p>",
+      "created_at": "2022-03-18T03:54:21+00:00",
+      "icon": {
+        "id": 173575,
+        "keyword": "Screen Shot 2020-12-08 at 4.43.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.43.01+PM.png"
+      },
+      "updated_at": "2022-03-18T03:54:21+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1776951,
+      "character": {
+        "id": 13355,
+        "name": "Alexandre Esquerra",
+        "screenname": "hate-and-fear"
+      },
+      "character_name": "Alexandre Esquerra",
+      "content": "<p>Uh... Selling Cheliax out would be <em>idiotic.</em> Asmodeus is going to conquer the universe. Alexandre does not actually understand how anyone could possibly have&nbsp;<em>needed</em> the warning that anyone who betrayed the project would eventually suffer as much as a lump of bleeding flesh with distant memories of being a person could suffer, since that would happen to <em>anyone</em> who knowingly betrayed Asmodeus, because Asmodeus&nbsp;<em>is not stupid.</em> He is&nbsp;<em>Asmodeus.</em></p>\r\n<p>(Learning her pet heresy is interesting; Alexandre had in fact assumed that Hell&nbsp;<em>did</em> make the best use possible of contemptible and useless souls, and that using them as paving material was, in fact, a short-term-in-the-cosmic-sense punishment intended to make them believe they would suffer as a paving stone forever, while in fact Asmodeus would actually put them to some menial-but-valuable use in a few centuries, once they knew the price of screwing up. It's what Alexandre would do, after all, and, what, is the <em>strongest god</em> going to be&nbsp;<em>less</em> intelligent than Alexandre?)</p>\r\n<p>... He would like to ask for a headband, actually. He isn't&nbsp;<em>going</em> to ask for a headband; he does not want anyone to think he is That Kid, in spite of, in fact, totally one hundred percent being That Kid. Whoever speaks up first in a public environment after being told 'don't try to get the notice of Authority and screw it up or you will be horribly tortured' is kind of asking to be horribly tortured. But he is still kind of tempted, since&nbsp;<em>being smarter</em> would be tremendously useful, for his growth and confidence and success.</p>",
+      "created_at": "2022-03-18T04:02:36.063+00:00",
+      "icon": {
+        "id": 246033,
+        "keyword": "Yes, My Lord Asmodeus",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F0qakyncoaf9vk1ehoxl99b_Yes%2C+My+Lord+Asmodeus.png"
+      },
+      "updated_at": "2022-03-18T04:48:39.713+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776957,
+      "character": {
+        "id": 13360,
+        "name": "Pedra Casal Lachanessa",
+        "screenname": "mention-names"
+      },
+      "character_name": "Pedra Casal Lachanessa",
+      "content": "<p><span style=\"text-decoration: line-through;\">Pedra Casal Laschanessa is really surprised at the lack of the Chosen of Asmodeus being tortured</span> <em>no</em>, she just got over this. If the Chosen of Asmodeus gets away with saying something, it is reasonable to say. Errors will be handled with a light hand, betrayal will result in utter destruction. Fair. Valid. Totally fine.</p>\r\n<p>(Her Infernal Majesty would order it <em>for me</em>, interesting phrasing, fits in with Asmodia's description of her as 'lover of Abrogail Thrune', but still kind of horrifying. Well. Chosen of Asmodeus.)</p>\r\n<p>She has no questions, barring the usual completely silent, \"so, when you say necessary, how necessary do you mean? Because I think I'd <span style=\"text-decoration: line-through;\">seduce Keltham</span> <span style=\"text-decoration: line-through;\">do math</span> maintain the consistency of alterCheliax much better with a headband...\"</p>",
+      "created_at": "2022-03-18T04:14:55.808+00:00",
+      "icon": {
+        "id": 246037,
+        "keyword": "Look, Sometimes You Need To Summon Your Unholy Minions At A Fancy Party",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F1kummhqb4purq0yt241rxd_Look%2C+Sometimes+You+Need+To+Summon+Your+Unholy+Minions+At+A+Fancy+Party.png"
+      },
+      "updated_at": "2022-03-18T04:20:52.088+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776961,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>What would selling the project out even consist of. How would you even make contact with - wait, no, this is obviously the sort of thing you do not think about, even as a hypothetical, even if you were obviously going to conclude from the beginning that the entire hypothetical was idiotic.</p>\r\n<p>She has a huge number of questions, obviously, but none that are remotely worth the Chosen of Asmodeus's time. And even if any of them were, she's neither stupid nor brave enough to ask them.</p>\r\n<p>(But if she <em>were</em> going to ask a question of the project leaders, the one at the top of her list is whether Keltham would, actually, help Taldor, which is not in fact a lawful place, and if not, what the reasoning is behind modeling alter-Cheliax on Taldor in particular.)</p>",
+      "created_at": "2022-03-18T04:21:08.354+00:00",
+      "icon": {
+        "id": 119254,
+        "keyword": "c1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish23.jpeg"
+      },
+      "updated_at": "2022-03-18T04:21:08.354+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776962,
+      "character": {
+        "id": 13358,
+        "name": "Marius Tazantelza",
+        "screenname": "serve-the-structure"
+      },
+      "character_name": "Marius Tazantelza",
+      "content": "<p>In terms of heresies, Marius thinks having the pet heresy that hell is wasteful is more of a 'tame wyvern' heresy than a 'pet' heresy. But luckily, Sevar is his supervisor's supervisor and he doesn't have to question it.</p>",
+      "created_at": "2022-03-18T04:27:11.501+00:00",
+      "icon": {
+        "id": 246023,
+        "keyword": "MariusGears",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2Fpdqz3b8ikpgaya0ehojir_MariusGears.png"
+      },
+      "updated_at": "2022-03-18T04:27:11.501+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776964,
+      "character": {
+        "id": 13359,
+        "name": "Didac Alarcon",
+        "screenname": null
+      },
+      "character_name": "Didac Alarcon",
+      "content": "<p>Well,&nbsp;<em>obviously,&nbsp;</em>but he doesn't have any questions that he's stupid enough to ask.</p>",
+      "created_at": "2022-03-18T04:30:52.208+00:00",
+      "icon": {
+        "id": 91733,
+        "keyword": "draconis37",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F0827e3f6-710a-46a4-b764-b9b001a26555_draconis37.jpeg"
+      },
+      "updated_at": "2022-03-18T04:30:52.208+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1776988,
+      "character": {
+        "id": 13357,
+        "name": "Willa Shilira",
+        "screenname": "seeing-red"
+      },
+      "character_name": "Willa Shilira",
+      "content": "<p>Is this a time when you're not supposed to ask a question because it'll make you look stupid, or is this the first opportunity to ask an insightful question and be on a commendable trajectory? It's a thorny thing to think about.</p>\r\n<p>Ultimately she has to try, because if you don't try to be the best then instead of getting superpowers then maybe you end up being the one everyone kicks.</p>\r\n<p>\"If this secret project really is the path to world domination, are we all getting intelligence headbands to make it more likely to work? I know everyone's probably thinking that already and too afraid to say it, but if I believe that we're really going to take over the world if we can all do this well enough, then the only reason we might not have headbands yet is because they're still being crafted up and collected together. Am I right?\"</p>\r\n<p>She starts strong, with the wavering fear in her voice only starting to be clear by the end (at least to Chelish ears.)</p>",
+      "created_at": "2022-03-18T04:56:20.813+00:00",
+      "icon": {
+        "id": 246022,
+        "keyword": "WillowPencils",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2F6p0uskbw29c8c6c34qmavo_WillowPencils.png"
+      },
+      "updated_at": "2022-03-18T04:56:20.813+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1776993,
+      "character": {
+        "id": 13355,
+        "name": "Alexandre Esquerra",
+        "screenname": "hate-and-fear"
+      },
+      "character_name": "Alexandre Esquerra",
+      "content": "<p>... Oh, that is a&nbsp;<em>fascinating</em> suicide attempt. Questioning the Chosen? Asserting that her story may be false? You have&nbsp;<em>courage,</em> doomed girl, albeit no goddamned sense, and Alexandre Esquerra salutes you even as he is going to enjoy watching the Chosen disassemble you for parts.</p>",
+      "created_at": "2022-03-18T04:58:02.754+00:00",
+      "icon": {
+        "id": 246033,
+        "keyword": "Yes, My Lord Asmodeus",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F0qakyncoaf9vk1ehoxl99b_Yes%2C+My+Lord+Asmodeus.png"
+      },
+      "updated_at": "2022-03-18T04:58:02.754+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1776996,
+      "character": {
+        "id": 12327,
+        "name": "Ione Sala",
+        "screenname": "know-it-all"
+      },
+      "character_name": "Ione Sala",
+      "content": "<p>Ione is just going to openly facepalm while kneeling.&nbsp; She's pretty confident she won't be tortured to death for facepalming, and in this context of being introduced to some new faces, it's worth the extra note of dominance for demonstrating that confidence.</p>",
+      "created_at": "2022-03-18T05:00:28.045+00:00",
+      "icon": {
+        "id": 231820,
+        "keyword": "ione 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgwmdc2vz9trvhstk63x6p_ione+1.jpeg"
+      },
+      "updated_at": "2022-03-18T05:00:28.045+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1777013,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>...uh, Korva can think of another reason. Because they're still weeding out the people they're not going to keep on for long enough for it to matter. Maybe because they ask stupid pointless questions.</p>",
+      "created_at": "2022-03-18T05:04:50.872+00:00",
+      "icon": {
+        "id": 118500,
+        "keyword": "d4",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F248vd0dh4rpyldkztbfhe8_d1+cheliax2.jpg"
+      },
+      "updated_at": "2022-03-18T05:04:50.872+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1777017,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"The<em> only </em>reason?\" asks the Chosen of Asmodeus. \"That would be, in Keltham's parlance,&nbsp;<em>very strong evidence,&nbsp;</em>then, that this project was not actually important or a priority of the Crown, if in a week no one has Intelligence headbands. No, not even&nbsp;<em>very strong evidence,&nbsp;</em>it would be irrefutable proof. Her Infernal Majestrix could stand here herself before you in all her Splendor and say that this is something of a priority and you would think to yourself - not too loudly, one hopes - that, well, if it were really important you'd have a headband.&nbsp;<br /><br />I wonder if anyone else can think of any other reasons to run a project like this with bright-eyed wizard students who don't have headbands even though they really want them.\"</p>",
+      "created_at": "2022-03-18T05:06:29.804+00:00",
+      "icon": {
+        "id": 175883,
+        "keyword": "Screen Shot 2020-12-24 at 4.32.10 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyi4b2oygd3bdiaobluq82t_Screen+Shot+2020-12-24+at+4.32.10+PM.png"
+      },
+      "updated_at": "2022-03-18T05:06:29.804+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1777019,
+      "character": {
+        "id": 13355,
+        "name": "Alexandre Esquerra",
+        "screenname": "hate-and-fear"
+      },
+      "character_name": "Alexandre Esquerra",
+      "content": "<p>Alexandre can think of several thousand, but&nbsp;<em>showing off to try to sound clever and attract the attention of your superiors</em>&nbsp;was one of these things that he was <em>literally just</em> warned against, so until such time that his superiors clarify that they only mean Keltham and not also themselves, he is going to remain silent.</p>",
+      "created_at": "2022-03-18T05:08:20.906+00:00",
+      "icon": {
+        "id": 246033,
+        "keyword": "Yes, My Lord Asmodeus",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F0qakyncoaf9vk1ehoxl99b_Yes%2C+My+Lord+Asmodeus.png"
+      },
+      "updated_at": "2022-03-18T05:09:09.129+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1777023,
+      "character": {
+        "id": 13357,
+        "name": "Willa Shilira",
+        "screenname": "seeing-red"
+      },
+      "character_name": "Willa Shilira",
+      "content": "<p>She wilts more than a little inside. She can see the mistake now, or at least its edges, but trying to correct it would just make things worse. She asked for 'anyone <em>else</em>' too, so it least she can stay quiet now and not have to angst more about it.</p>\r\n<p>Beating questions like this out of her didn't quite stick as well as beating Nethys out of her did. She's still not sure if she wishes it did.</p>",
+      "created_at": "2022-03-18T05:10:53.331+00:00",
+      "icon": {
+        "id": 246022,
+        "keyword": "WillowPencils",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2F6p0uskbw29c8c6c34qmavo_WillowPencils.png"
+      },
+      "updated_at": "2022-03-18T05:11:08.674+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1777028,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>- well, yes. To test how well the brightest Chelish humans can feasibly learn the Law without intelligence enhancement.</p>\r\n<p>&nbsp;</p>\r\n<p>Korva tentatively draws herself up to a kneel and takes a deep breath. She's not totally sure whether she's actually going to succeed at saying this, it might be even dumber now than it was before, but it <em>is&nbsp;</em>a good reason, so -</p>",
+      "created_at": "2022-03-18T05:15:29.095+00:00",
+      "icon": {
+        "id": 113541,
+        "keyword": "i6",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F015ln9luy9v4vwo8xkbeujm_i1cheliax2.jpg"
+      },
+      "updated_at": "2022-03-18T05:15:29.095+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1777029,
+      "character": {
+        "id": 13360,
+        "name": "Pedra Casal Lachanessa",
+        "screenname": "mention-names"
+      },
+      "character_name": "Pedra Casal Lachanessa",
+      "content": "<p>\"Headbands are good for magic but bad for Law,\" says Pedra immediately, snapping out a possible answer with the reflexes of a jackal whose entire pack has just scented raw meat, and who wants to have her own mouthful first.&nbsp;</p>",
+      "created_at": "2022-03-18T05:16:53.900+00:00",
+      "icon": {
+        "id": 246037,
+        "keyword": "Look, Sometimes You Need To Summon Your Unholy Minions At A Fancy Party",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F1kummhqb4purq0yt241rxd_Look%2C+Sometimes+You+Need+To+Summon+Your+Unholy+Minions+At+A+Fancy+Party.png"
+      },
+      "updated_at": "2022-03-18T05:16:53.900+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1777030,
+      "character": {
+        "id": 13360,
+        "name": "Pedra Casal Lachanessa",
+        "screenname": "mention-names"
+      },
+      "character_name": "Pedra Casal Lachanessa",
+      "content": "<p>(Only after she says that does she realize that the Chosen is wearing a headband.&nbsp;<em>Oh, damn me</em> fills her head, but drawing attention to the mistake will only make it worse.)</p>",
+      "created_at": "2022-03-18T05:17:43.892+00:00",
+      "icon": {
+        "id": 246037,
+        "keyword": "Look, Sometimes You Need To Summon Your Unholy Minions At A Fancy Party",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F1kummhqb4purq0yt241rxd_Look%2C+Sometimes+You+Need+To+Summon+Your+Unholy+Minions+At+A+Fancy+Party.png"
+      },
+      "updated_at": "2022-03-18T05:17:43.892+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1777031,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>...that's a dumber reason but she's not going to give hers now.</p>",
+      "created_at": "2022-03-18T05:17:51.690+00:00",
+      "icon": {
+        "id": 118503,
+        "keyword": "l1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2F248vd0dh4rpyldkztbfhe8_c3+cheliax2.jpg"
+      },
+      "updated_at": "2022-03-18T05:17:51.690+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1777041,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p><br /><br />Silence.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Well, it's probably a lot to expect of them to eagerly shout answers to the question when she just got visibly irritated at the first person to ask a question. Too bad about the first person to ask a question asking a stupid question.</p>\r\n<p>&nbsp;</p>\r\n<p>\"If Keltham gets a headband,\" she says, \"this scaffold of ours will collapse immediately. Therefore significant efforts have been made to convince him that throwing intelligence enhancement at people in the middle of the process of learning Law is&nbsp;<em>not a good idea,</em>&nbsp;that it is destabilizing to them and causes rapid personality change of a sort Keltham prefers not to cause, in people he's had the chance to grow attached to.&nbsp;</p>\r\n<p>You will have access to Fox's Cunning and Owl's Wisdom, as you require them; you may, in later stages of the project, have headbands you wear when Keltham isn't around, though it's not actually a good idea to develop habits of thought you won't be able to employ in his presence.</p>\r\n<p>Keltham is no more intelligent than most of you, and no more wise. What you need to surpass him is not actually intelligence, or wisdom, though both help; it is the habits of mind that dath ilan trains even into their average unremarkable children, and then the habits of mind that dath ilan offers to the best of its children.&nbsp;</p>\r\n<p>One of those habits of mind is asking lots of questions and challenging one's teachers, all the time. At the moment,\" to Willa specifically, \"you might be glad that dath ilan has such a habit, as it is presently saving you a great deal of pain. But in the long run, I think, you will come to despise this fact about dath ilan, because&nbsp;<em>it means you have to ask Keltham questions and challenge his answers all the time,&nbsp;</em>and at no point will you have the slightest affordance to ask a question that is stupid or ill-considered or premised on something you didn't even notice you believed.\"</p>",
+      "created_at": "2022-03-18T05:34:13.944+00:00",
+      "icon": {
+        "id": 175880,
+        "keyword": "Screen Shot 2020-12-24 at 4.30.22 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyi4b2oygd3bdiaobluq82t_Screen+Shot+2020-12-24+at+4.30.22+PM.png"
+      },
+      "updated_at": "2022-03-18T05:34:13.944+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1777042,
+      "character": {
+        "id": 13360,
+        "name": "Pedra Casal Lachanessa",
+        "screenname": "mention-names"
+      },
+      "character_name": "Pedra Casal Lachanessa",
+      "content": "<p>... She just survived that. Stranger:&nbsp;<em>Willa</em> just survived that.</p>\r\n<p>Pedra will quietly faaaade into the background and hope that nothing stops her from&nbsp;<em>continuing</em> to survive that.</p>",
+      "created_at": "2022-03-18T05:37:24.016+00:00",
+      "icon": {
+        "id": 246037,
+        "keyword": "Look, Sometimes You Need To Summon Your Unholy Minions At A Fancy Party",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F1kummhqb4purq0yt241rxd_Look%2C+Sometimes+You+Need+To+Summon+Your+Unholy+Minions+At+A+Fancy+Party.png"
+      },
+      "updated_at": "2022-03-18T05:37:24.016+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1777044,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>That's TERRIBLE.</p>\r\n<p>(...maybe Keltham will appear to be making as many not-obviously-not-dumb assumptions about what she's thinking as everyone else here has been, and she can just challenge him on those?)<br /><br />The idea that Keltham is no more intelligent than them is comforting, though. If the outsider isn't actually focusing on the kind of math that you need to be fundamentally sharper than everyone else around to be able to understand at all, then maybe she'll be able to hammer her way through that part.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>They're probably not in fact supposed to ask questions right now, then? Or maybe they are? She's not going to be the next one to test that again.</p>",
+      "created_at": "2022-03-18T05:43:18.773+00:00",
+      "icon": {
+        "id": 118510,
+        "keyword": "c5",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fdwvwnn24c8no1642q28tj_chelish07.jpg"
+      },
+      "updated_at": "2022-03-18T05:43:18.773+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1777045,
+      "character": {
+        "id": 13357,
+        "name": "Willa Shilira",
+        "screenname": "seeing-red"
+      },
+      "character_name": "Willa Shilira",
+      "content": "<p>She doesn't like pain, but it might not be as bad as everyone staring at her like this. Then again, the alternate would be this, and then also pain, so she decides this must be better.</p>\r\n<p>It's possible that keeping Keltham in the dark is going to be more challenging than she thought, even with all the helpful colored walls in existence. Asking that question at all was hard enough to make herself do. Being the imaginary person who can ask a question like that without messing it up seems like it must be almost impossible.</p>",
+      "created_at": "2022-03-18T05:47:42.124+00:00",
+      "icon": {
+        "id": 246022,
+        "keyword": "WillowPencils",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2F6p0uskbw29c8c6c34qmavo_WillowPencils.png"
+      },
+      "updated_at": "2022-03-18T05:47:42.124+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1777048,
+      "character": {
+        "id": 13358,
+        "name": "Marius Tazantelza",
+        "screenname": "serve-the-structure"
+      },
+      "character_name": "Marius Tazantelza",
+      "content": "<p>Marius has been watching this all in a kind of dazed horror. The chaos has crept in so quickly that even people just recently exposed to the transcripts are being warped by it, clearly. They're all surely doomed.</p>",
+      "created_at": "2022-03-18T05:52:20.523+00:00",
+      "icon": {
+        "id": 246023,
+        "keyword": "MariusGears",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F38%2Ficons%2Fpdqz3b8ikpgaya0ehojir_MariusGears.png"
+      },
+      "updated_at": "2022-03-18T05:52:20.523+00:00",
+      "user": {
+        "id": 38,
+        "username": "DeAnno"
+      }
+    },
+    {
+      "id": 1777049,
+      "character": {
+        "id": 13355,
+        "name": "Alexandre Esquerra",
+        "screenname": "hate-and-fear"
+      },
+      "character_name": "Alexandre Esquerra",
+      "content": "<p>... Hmm. The girl who questioned the question wasn't punished, even though she slightly insulted the Chosen. We are <em>not</em> supposed to unreasonably challenge authority, we are not supposed to put ourselves forwards to advance our own interests at the expense of the Project's, but we <em>are</em> supposed to ask lots of questions of Keltham, because he thinks that is normal. Does this extend to the Chosen? A fascinating question. Alexandre thinks he will remain silent, for now; he has no very <em>good</em> questions, at present, but he may find better ones later.</p>",
+      "created_at": "2022-03-18T05:53:10.866+00:00",
+      "icon": {
+        "id": 246033,
+        "keyword": "Yes, My Lord Asmodeus",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F453%2Ficons%2F0qakyncoaf9vk1ehoxl99b_Yes%2C+My+Lord+Asmodeus.png"
+      },
+      "updated_at": "2022-03-18T05:53:10.866+00:00",
+      "user": {
+        "id": 453,
+        "username": "Aevylmar"
+      }
+    },
+    {
+      "id": 1777054,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"They're all yours,\" the Chosen says to Asmodia, and departs.</p>",
+      "created_at": "2022-03-18T06:36:18.428+00:00",
+      "icon": {
+        "id": 161268,
+        "keyword": "Screen Shot 2020-09-30 at 5.05.33 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyov9vbcqfc9pfntsg1gu_Screen+Shot+2020-09-30+at+5.05.33+PM.png"
+      },
+      "updated_at": "2022-03-18T06:36:18.428+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1777056,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Let's be clear on something.&nbsp; The reason why nobody is on fire right now is that - as it so happens - one of the earlier mistakes of Project Lawful was the degree to which too many of us held back from being the first to risk asking a question when Keltham was saying dangerous things.&nbsp; He'd say something and most of the class would freeze up, until I, or Ione, or Sevar, had to dispel the silence before Keltham noticed.&nbsp; Or noticed <em>more</em>.\"</p>\r\n<p>\"That's why Sevar didn't hurt you for that stupid fucking question.&nbsp; The last thing we want to train out of you right now is asking questions even when you're scared.&nbsp; Being the <em>first</em> to ask questions.\"</p>\r\n<p>\"It was even - <em>almost</em> - the sort of daring clever question that Keltham is expecting.&nbsp; 'Well, if what you say is true, wouldn't it follow that...'\"</p>\r\n<p>\"In alterCheliax, see, people don't get burned, flogged, flayed, and their bones shattered for questioning authority like that.&nbsp; They never learned to be scared of asking questions like that.&nbsp; Or not to anywhere near the same degree as in realCheliax.\"</p>\r\n<p>\"And preserving the integrity of alterCheliax is FUCKING EVERYTHING.\"</p>\r\n<p>\"You worry me, Willa.&nbsp; You worry me because it was not&nbsp;<em>actually</em> in your interest to ask that question.&nbsp; It was not wise.&nbsp; It was not prudent.&nbsp; And if you imprudently blurt out a clever question like that, which is more probable to be asked in realCheliax, which gives something away to Keltham, THAT is a FUCKING PROBLEM for Project Lawful in a way that asking insubordinate questions of the Chosen of Asmodeus is NOT.\"</p>\r\n<p>\"So YOU are not going to be eager to ask your questions of Keltham, in class.&nbsp; You will think about your questions before you ask them.&nbsp; You will wait for Security to relay those questions to me.&nbsp; You will wait for me to approve.&nbsp; Then you can ask, if nobody else happens to already be speaking, of course.\"</p>\r\n<p>\"Your behavior outside of class will be consistent with this pattern, whenever Keltham is present or nearby, until Security has confirmed to you that Keltham is out of range to see or hear.\"</p>\r\n<p>\"Congratulations, Willa.&nbsp; You are now studious, shy, and hesitant.\"</p>",
+      "created_at": "2022-03-18T06:38:04.735+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-03-18T06:39:06.642+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    }
+  ]
+}

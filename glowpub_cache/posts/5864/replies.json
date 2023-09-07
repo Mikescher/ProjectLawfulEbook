@@ -1,0 +1,1988 @@
+{
+  "Ok": [
+    {
+      "id": 1786496,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>The Rule of Succession!&nbsp; This is sort of picking up the topic from last time about Science!, how to do statistical inference in cases slightly more complicated than the trivial ones discussed previously.&nbsp; Asmodia has now supposedly had the time to teach the new candidates some additional Law of Probability, aided by Meritxell.&nbsp; People have cast a few Fox's Cunnings on themselves and others.&nbsp; They will now try again to see if that sufficed for old hands to teach new hands.<br /><br /></p>\r\n<p>Suppose Keltham takes a sphere, puts it on a table with bouncy boundaries, shoves it rolling quickly, and lets it bounce back and forth many times until it comes to a halt, somewhere random.&nbsp; Object!Keltham should theoretically be considered as doing this in private, where the object!others can't see him, though for illustration purposes, meta!Keltham will write down everything plainly for people's meta!selves in class.</p>\r\n<pre>[--------0---------------------]</pre>\r\n<p>Object!Keltham marks down where Ball 0 landed, picks up the ball, and again rolls it hard.</p>\r\n<pre>[--------0------------1--------]</pre>\r\n<p>Object!Keltham then asks the object!classroom for their odds that Ball 1 landed to the&nbsp;<em>left</em> or the <em>right</em> of Ball 0.&nbsp; Remember, their meta!selves can see where Keltham made the marks on the whiteboard representing where Ball 0 and Ball 1 landed, but their object!selves can't.</p>\r\n<p>Before being told the answer, what probability should their object!selves assign that Ball 1 landed to the left or right of Ball 0, after both balls bounced back and forth on the table many times?&nbsp; Their object!selves know the experimental setup, they just don't know the detailed results until object!Keltham tells them.&nbsp;</p>",
+      "created_at": "2022-04-05T00:41:03.748+00:00",
+      "icon": {
+        "id": 214288,
+        "keyword": "lecture",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F3s26lfpaz93icvraffclpt_lecture.png"
+      },
+      "updated_at": "2022-05-15T20:36:45.221+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786511,
+      "character": null,
+      "character_name": null,
+      "content": "<p>.....seems like they should assign a 50% chance? Because the situation is - symmetrical, from the information they have, there's no reason to expect Ball 1 to be more left or more right than Ball 0.&nbsp;</p>",
+      "created_at": "2022-04-05T01:02:25.814+00:00",
+      "icon": {
+        "id": 8566,
+        "keyword": "silmaril",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F0ba88b6e-fc67-4055-94de-26b4c3b40070_silmaril2.jpg"
+      },
+      "updated_at": "2022-04-05T01:02:25.814+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1786515,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Object!Keltham tells the object!class that Ball 1 was indeed to the RIGHT of wherever Ball 0 landed.&nbsp; They know nothing else about where Ball 1 or Ball 0 landed, as yet, just that Ball 1 was to the RIGHT of ball 0.</p>\r\n<blockquote>\r\n<pre>[--------0------------1--------]</pre>\r\n<p>Object!class only knows:</p>\r\n<pre>1: RIGHT</pre>\r\n</blockquote>\r\n<p>Ball 2 is now rolled, same setup.</p>\r\n<p>What probability do they assign that Ball 2 falls to the LEFT or RIGHT of Ball 0?</p>",
+      "created_at": "2022-04-05T01:05:04.022+00:00",
+      "icon": {
+        "id": 214505,
+        "keyword": "lecture 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fmvnrjni5enodsbqjes0jz7_lecture+2.png"
+      },
+      "updated_at": "2022-04-05T01:17:34.103+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786519,
+      "character": null,
+      "character_name": null,
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\" - okay, I see why it's not just 50% now. Because our guess about where the first ball lands <em>shifts</em> when we learn the second ball landed to the right of it. It's - the same as spinning a coin, where the Ball 0 is like - deciding if the coin is weighted - and then the subsequent spins give you information about <em>how&nbsp;</em>weighted and in which direction.\"</p>",
+      "created_at": "2022-04-05T01:18:12.567+00:00",
+      "icon": {
+        "id": 8566,
+        "keyword": "silmaril",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F0ba88b6e-fc67-4055-94de-26b4c3b40070_silmaril2.jpg"
+      },
+      "updated_at": "2022-04-05T01:18:12.567+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1786520,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Indeed.&nbsp; The object!class can now be quite confident that Ball 0 did not stop exactly up against the RIGHT wall, in which case the chance of Ball 1 landing <em>further</em> to the RIGHT would have been zero.</p>\r\n<p>Surely they have no more information than this, however.</p>",
+      "created_at": "2022-04-05T01:20:09.187+00:00",
+      "icon": {
+        "id": 200471,
+        "keyword": "arms folded 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgpgbekxzklt6p6wyamdov3_arms+folded+2.png"
+      },
+      "updated_at": "2022-04-05T01:20:09.187+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786521,
+      "character": null,
+      "character_name": null,
+      "content": "<p>......nnnnnno they have more information than that, like, it's also less likely the ball is very near the RIGHT wall, it's just not immediately obvious how to plug it into the formulas from last class.</p>",
+      "created_at": "2022-04-05T01:22:54.253+00:00",
+      "icon": {
+        "id": 8566,
+        "keyword": "silmaril",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F0ba88b6e-fc67-4055-94de-26b4c3b40070_silmaril2.jpg"
+      },
+      "updated_at": "2022-04-05T01:22:54.253+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1786526,
+      "character": {
+        "id": 13486,
+        "name": "Class Chatter",
+        "screenname": "#math-investor-chaos"
+      },
+      "character_name": "Class Chatter",
+      "content": "<p>\"If there were just three positions it could be in, you've ruled out it being at the right end, and if it was in the middle, Ball 1 result was 50/50, if it was on the left end, Ball 1 result was certain, so in that example we should guess it's at the left end twice as often, so 2/3 vs 1/3. So then 2/3 * 2/3 Ball 2 is to the right, plus 1/3 *1/3 Ball 2 is to the right, so 5/9.\"</p>",
+      "created_at": "2022-04-05T01:27:31.252+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T01:27:31.252+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786527,
+      "character": {
+        "id": 13223,
+        "name": "AlterPeranza",
+        "screenname": "this-is-fine"
+      },
+      "character_name": "AlterPeranza",
+      "content": "<p>\"I think I see what you were trying to do there but I don't think the numbers work out?&nbsp; Ball 0 could be all the way on the left, in the middle, or on the right.&nbsp; The new chance that it's all the way on the right is zero, and if Ball 0 was in the middle, we're half as likely to hear 'RIGHT' than if Ball 0 was all the way on the left.&nbsp; So the new chances are 2/3 that Ball 0 was all the way on the Left, times a probability of 1 of hearing 'RIGHT' then, plus a 1/3 chance that Ball 0 was in the middle, times a 1/2 probability of hearing 'RIGHT' then.&nbsp; 2/3 * 1 + 1/3 * 1/2 = 5/6 chance of hearing 'RIGHT' next time.\"</p>",
+      "created_at": "2022-04-05T01:30:22.126+00:00",
+      "icon": {
+        "id": 241045,
+        "keyword": "peranza shut",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fqfu9us05hllp0p6otvjfo_peranza+shut.jpg"
+      },
+      "updated_at": "2022-04-05T01:30:22.126+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786529,
+      "character": {
+        "id": 12327,
+        "name": "Ione Sala",
+        "screenname": "know-it-all"
+      },
+      "character_name": "Ione Sala",
+      "content": "<p>\"If, however, we actually look at what - 'meta-Keltham' - drew on the wall, it seems like a pretty reasonable way things could be, and in that way things could be, we're not supposed to say 5/6.\"</p>\r\n<p>\"I mean, think about it, if this actually happened, and Keltham said 'RIGHT' one time, would you immediately afterwards go, 'Well, I guess the chance of hearing \"RIGHT\" next time is 5/6?'&nbsp; Hearing 'RIGHT' one time shouldn't actually make you that confident about it happening again.\"</p>",
+      "created_at": "2022-04-05T01:32:01.930+00:00",
+      "icon": {
+        "id": 231820,
+        "keyword": "ione 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgwmdc2vz9trvhstk63x6p_ione+1.jpeg"
+      },
+      "updated_at": "2022-04-05T01:32:01.930+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786531,
+      "character": {
+        "id": 8123,
+        "name": "Korva Tallandria",
+        "screenname": "ruin-of-souls"
+      },
+      "character_name": "Korva Tallandria",
+      "content": "<p>\"It's still information, though. In all of the situations where ball 0 is left of center, ball 1 was more than 50% likely to be right of it, and in all of the situations where ball 0 is right of center, ball 1 is less than 50% likely to be right of it. So the fact that it's to the right is some update towards ball zero being left of center, which suggests that ball two is also more likely to be to the right of ball zero, but - I don't know how you'd tell what the numbers are.\"</p>",
+      "created_at": "2022-04-05T01:33:38.317+00:00",
+      "icon": {
+        "id": 119251,
+        "keyword": "i4",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F96%2Ficons%2Fyfkwf6zwdfo9tm8k6t9j2t_chelish26.jpg"
+      },
+      "updated_at": "2022-04-05T01:33:38.317+00:00",
+      "user": {
+        "id": 96,
+        "username": "apprenticebard"
+      }
+    },
+    {
+      "id": 1786534,
+      "character": {
+        "id": 12765,
+        "name": "Pilar ",
+        "screenname": "curse-of-laughter"
+      },
+      "character_name": "Pilar ",
+      "content": "<p>\"Let's say we divide it into eleven possible positions.&nbsp; If Ball 0 arrives all the way on the right, chances of hearing RIGHT are 0/10.&nbsp; If Ball 0 is 90% of the way to the right, chances of hearing RIGHT are 1/10.\"</p>\r\n<p>\"So it's 1/10 squared plus 2/10 squared plus 3/10 squared which is... 1 plus 4 plus 9 plus 16...\"</p>\r\n<p>\"I get 285/100.\"</p>\r\n<p>\"What'd I do wrong.\"</p>",
+      "created_at": "2022-04-05T01:38:21.732+00:00",
+      "icon": {
+        "id": 231417,
+        "keyword": "Pilar",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Flrp6b702ny1uglah0fpgt_pilar.jpeg"
+      },
+      "updated_at": "2022-04-05T01:38:21.732+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786535,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Forget to multiply each of those terms by their 1/11 prior probability.\"</p>",
+      "created_at": "2022-04-05T01:39:21.165+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-05T01:41:49.819+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786536,
+      "character": {
+        "id": 12765,
+        "name": "Pilar ",
+        "screenname": "curse-of-laughter"
+      },
+      "character_name": "Pilar ",
+      "content": "<p>\"285/1100 chance of hearing 'RIGHT' next time.\"</p>",
+      "created_at": "2022-04-05T01:40:33.423+00:00",
+      "icon": {
+        "id": 231417,
+        "keyword": "Pilar",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Flrp6b702ny1uglah0fpgt_pilar.jpeg"
+      },
+      "updated_at": "2022-04-05T01:41:57.323+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786537,
+      "character": {
+        "id": 12327,
+        "name": "Ione Sala",
+        "screenname": "know-it-all"
+      },
+      "character_name": "Ione Sala",
+      "content": "<p>\"Pretty sure we should expect to hear 'RIGHT' <em>more </em>than we expect to hear 'LEFT'.\"</p>",
+      "created_at": "2022-04-05T01:41:23.705+00:00",
+      "icon": {
+        "id": 231820,
+        "keyword": "ione 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgwmdc2vz9trvhstk63x6p_ione+1.jpeg"
+      },
+      "updated_at": "2022-04-05T01:41:23.705+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786545,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Let us, possibly, try this with&nbsp;<em>five</em> positions before going straight to ten.\"</p>\r\n<p>\"0/4, 1/4, 2/4, 3/4, 4/4 likelihood of yielding RIGHT, all positions equally probable before then.\"</p>\r\n<p>\"We see one 'RIGHT'.&nbsp; The likelihoods are 0/4, 1/4, 2/4, 3/4, 4/4.&nbsp; The posteriors are - I see the other two things Pilar did wrong.\"<br /><br /></p>\r\n<p>\"We start with five hypotheses 0/4, 1/4/, 2/4, 3/4, 4/4, each of which has prior probability 1/5.\"</p>\r\n<p>\"After seeing 'RIGHT' one time, we've got 'priors-times-likelihoods' of 0/20, 1/20, 2/20, 3/20, 4/20.\"</p>\r\n<p>\"The 'relative-odds' of the posterior will be proportional to the 'priors-times-likelihoods', but they have to sum to 1.&nbsp; There's 1 + 2 + 3 + 4 = 10 total shares, of twentieths but it doesn't matter what exactly, so the 'posterior-distribution' is 0, 1/10, 2/10, 3/10, 4/10, summing to 1.\"</p>\r\n<p>\"Then if you take the likelihoods off each of those, weighted by the new posterior-probability, you get 1 + 4 + 9 + 16 divided by 40 equals 3/4.\"</p>",
+      "created_at": "2022-04-05T01:47:25.762+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-06T07:17:54.897+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786546,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham will helpfully write down the calculation Asmodia actually did, there:</p>\r\n<blockquote>\r\n<pre>0/10 * 0&nbsp; +&nbsp; 1/10 * 1/4&nbsp; +&nbsp; 2/10 * 2/4&nbsp; +&nbsp; 3/10 * 3/4&nbsp; +&nbsp; 4/10 * 1</pre>\r\n<pre>=&nbsp; 1/40 + 4/40 + 9/40 + 16/40</pre>\r\n<pre>=&nbsp; 30/40</pre>\r\n</blockquote>",
+      "created_at": "2022-04-05T01:50:00.701+00:00",
+      "icon": {
+        "id": 228226,
+        "keyword": "cast",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Ft1a2th8wdxdetrjxkyyvt_cast.png"
+      },
+      "updated_at": "2022-04-06T02:33:30.448+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786548,
+      "character": {
+        "id": 12765,
+        "name": "Pilar ",
+        "screenname": "curse-of-laughter"
+      },
+      "character_name": "Pilar ",
+      "content": "<p>\"With 7 positions it's 0 + 1 + 4 + 9 + 16 + 25 + 36, divided by (0 + 1 + 2 + 3 + 4 + 5 + 6) * 6, so 91/126.\"</p>",
+      "created_at": "2022-04-05T01:52:26.263+00:00",
+      "icon": {
+        "id": 231417,
+        "keyword": "Pilar",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Flrp6b702ny1uglah0fpgt_pilar.jpeg"
+      },
+      "updated_at": "2022-04-06T02:33:04.120+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786551,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Well, how about infinity positions then?\"</p>",
+      "created_at": "2022-04-05T01:54:33.844+00:00",
+      "icon": {
+        "id": 218394,
+        "keyword": "charisma",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F0761gd4x7sve1m1jq5cgvt5_charisma.png"
+      },
+      "updated_at": "2022-04-05T01:54:33.844+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786552,
+      "character": {
+        "id": 12765,
+        "name": "Pilar ",
+        "screenname": "curse-of-laughter"
+      },
+      "character_name": "Pilar ",
+      "content": "",
+      "created_at": "2022-04-05T01:54:38.817+00:00",
+      "icon": {
+        "id": 231417,
+        "keyword": "Pilar",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Flrp6b702ny1uglah0fpgt_pilar.jpeg"
+      },
+      "updated_at": "2022-04-05T01:54:38.817+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786553,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "",
+      "created_at": "2022-04-05T01:54:43.104+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-05T01:54:43.104+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786554,
+      "character": {
+        "id": 12765,
+        "name": "Pilar ",
+        "screenname": "curse-of-laughter"
+      },
+      "character_name": "Pilar ",
+      "content": "<p>\"Are you, in fact, allowed to just do that?\"</p>",
+      "created_at": "2022-04-05T01:54:57.081+00:00",
+      "icon": {
+        "id": 231417,
+        "keyword": "Pilar",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Flrp6b702ny1uglah0fpgt_pilar.jpeg"
+      },
+      "updated_at": "2022-04-05T01:54:57.081+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786556,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Well, I don't see who's going to arrest you if you just&nbsp;<em>try.</em>\"</p>",
+      "created_at": "2022-04-05T01:55:25.578+00:00",
+      "icon": {
+        "id": 200471,
+        "keyword": "arms folded 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgpgbekxzklt6p6wyamdov3_arms+folded+2.png"
+      },
+      "updated_at": "2022-04-05T01:55:25.578+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786559,
+      "character": {
+        "id": 12765,
+        "name": "Pilar ",
+        "screenname": "curse-of-laughter"
+      },
+      "character_name": "Pilar ",
+      "content": "<p>&nbsp;</p>\r\n<p>...all... right then...</p>\r\n<p>&nbsp;</p>\r\n<p>\"I get 1^2 + 2^2 + 3^2 out to infinity, divided by... 1 + 2 + 3 out to infinity, times infinity.\"</p>",
+      "created_at": "2022-04-05T01:57:55.659+00:00",
+      "icon": {
+        "id": 231417,
+        "keyword": "Pilar",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Flrp6b702ny1uglah0fpgt_pilar.jpeg"
+      },
+      "updated_at": "2022-04-05T15:56:58.337+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786560,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Great, now simplify that expression.\"</p>",
+      "created_at": "2022-04-05T01:58:16.799+00:00",
+      "icon": {
+        "id": 218394,
+        "keyword": "charisma",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F0761gd4x7sve1m1jq5cgvt5_charisma.png"
+      },
+      "updated_at": "2022-04-05T01:58:16.799+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786561,
+      "character": null,
+      "character_name": null,
+      "content": "<p>...one of the older students in the background does happen to know the useful fact that summing from 1 to N gives you N(N +1)/2, and summing the squares from 1 to N gives you N(N+1)(2N+1)/6.</p>\r\n<details>\r\n<summary>Parenthetical retroactive class chatter</summary>\r\n<blockquote>\r\n<p>&nbsp; &nbsp; &nbsp; Somebody asks if \"summing 1 to N gives N(N +1)/2, and summing squares gives N(N+1)(2N+1)/6\" are to be treated as brute facts or the sort of things you can prove?</p>\r\n<p><br />...</p>\r\n<p>...Keltham is not <em>usually</em> one to duck into details that aren't relative to the main line of argument, but this question is sort of alarming.</p>\r\n<p>Keltham will observe that [1 + 2 + 3 + 4 + 5 + 6] = [(1 + 6) + (2 + 5) + (3 + 4)] = [7 + 7 + 7], and that [1 + 2 + 3 + 4 + 5] = [(1 + 5) + (2 + 4) + 3] = [6 + 6 + 6/2].&nbsp; Proof by generalizing examples:</p>\r\n<p>&nbsp; &nbsp;sum of [1 + 2 + ... + N] with N terms<br />= half that many [(N + 1)] terms, so N/2 * (N+1)<br />= N(N + 1) / 2.</p>\r\n<p>Keltham doesn't really want to stop and prove the sum of n^2 from 1 to N is N(N+1)(2N+1)/6 using properly hasty intuitive reasoning that will create a good sense for what's really going on.&nbsp; So instead he'll just quickly write on the board that:</p>\r\n<pre>let   f(N) = N(N+1)(2N+1)/6<br /><br />in    f(0) = 0<br />      f(N+1) = f(N) + (N+1)^2<br /><br />proof:<br /><br />  0(0+1)(2(0)+1<br />= 0(1)(3)<br />= 0<br /><br />  f(N+1) - f(N)<br />= ([N+1])([N+1]+1)(2[N+1]+1)/6&nbsp; - N(N+1)(2N+1)/6<br />= (N+1)(N+2)(2N + 3)/6 - N(N+1)(2N+1)/6<br />= (N+1)&nbsp; *&nbsp; [(N+2)(2N + 3)&nbsp; -&nbsp; (N)(2N+1)]&nbsp; /&nbsp; 6<br />= (N+1)&nbsp; *&nbsp; [2N^2 + 7N + 6 - 2N^2 - N]&nbsp; /&nbsp; 6<br />= (N+1)&nbsp; *&nbsp; [6N + 6]&nbsp; /&nbsp; 6<br />= (N+1)^2</pre>\r\n<p>If they're not happy with this logical proof by certain reasoning - because, like, why - they should consider <a href=\"https://www.pinterest.com/pin/653303489676054198/\">visualizing stacking a bunch of n-sided squares on top of each other</a>, to form a figure that pretty much looks like it should take up about a third of a cube of size N.</p>\r\n<p>Now, back to the problem of evaluating:</p>\r\n<p>[1^2 + 2^2 + 3^2 + 4^2 + ...] / { [1 + 2 + 3 + 4 + ...] times infinity }</p>\r\n</blockquote>\r\n</details>",
+      "created_at": "2022-04-05T01:59:51.262+00:00",
+      "icon": null,
+      "updated_at": "2022-04-07T21:46:24.646+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786563,
+      "character": {
+        "id": 12765,
+        "name": "Pilar ",
+        "screenname": "curse-of-laughter"
+      },
+      "character_name": "Pilar ",
+      "content": "<p>Then Pilar will obtain the sum N(N+1)(2N+1)/6, divided by N*[N(N+1)/2].</p>\r\n<p>Letting N = infinity, this yields INF*(INF+1)*(2INF+1)/6, divided by INF*INF*(INF + 1)/2.</p>\r\n<p>Simplifying produces (2INF+1)/(INF*3).&nbsp; This then cannot be simplified further.</p>",
+      "created_at": "2022-04-05T02:02:45.362+00:00",
+      "icon": {
+        "id": 231417,
+        "keyword": "Pilar",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Flrp6b702ny1uglah0fpgt_pilar.jpeg"
+      },
+      "updated_at": "2022-04-05T15:57:45.244+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786577,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Why, of course it can be!</p>\r\n<p>Keltham writes on the wall:</p>\r\n<blockquote>\r\n<pre>2*INF + 1     2 * INF      1<br />---------  =  ------- + -------<br /> INF * 3      INF * 3 &nbsp; INF * 3</pre>\r\n</blockquote>\r\n<p>1 divided by three infinities simplifies to zero, obviously.&nbsp; Think of how little cake each person gets, if you divide one slice of cake among all the billion people in Golarion; one-third divided by infinity is much less than that.</p>\r\n<p>So this whole expression simplifies to 2/3.</p>",
+      "created_at": "2022-04-05T02:15:09.134+00:00",
+      "icon": {
+        "id": 218395,
+        "keyword": "charisma 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F550u0a2oolfgwgttac88xb_charisma+2.png"
+      },
+      "updated_at": "2022-04-05T02:22:09.292+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786578,
+      "character": {
+        "id": 12765,
+        "name": "Pilar ",
+        "screenname": "curse-of-laughter"
+      },
+      "character_name": "Pilar ",
+      "content": "<p>&nbsp;</p>\r\n<p>\"Is that actually Lawful reasoning?\"</p>",
+      "created_at": "2022-04-05T02:15:21.326+00:00",
+      "icon": {
+        "id": 231417,
+        "keyword": "Pilar",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Flrp6b702ny1uglah0fpgt_pilar.jpeg"
+      },
+      "updated_at": "2022-04-05T02:22:38.659+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786579,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>It's Lawful when <em>he</em> does it, in a way that carefully doesn't take any mathematical reasoning steps that would actually be invalid.&nbsp; Keltham would not necessarily advise Pilar trying this on her own for a little while.&nbsp; Or rather, she <em>should </em>try it, but be prepared to fail.</p>\r\n<p>Pilar may, for her own reassurance, note that her previous answer of 91/126 is not too far from 90/135, also known as 2/3.</p>",
+      "created_at": "2022-04-05T02:17:11.435+00:00",
+      "icon": {
+        "id": 201297,
+        "keyword": "smile?",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Ffxm7yhbtj2mu0k1e7z888_smile_.png"
+      },
+      "updated_at": "2022-04-06T07:19:30.201+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786580,
+      "character": {
+        "id": 13486,
+        "name": "Class Chatter",
+        "screenname": "#math-investor-chaos"
+      },
+      "character_name": "Class Chatter",
+      "content": "<p>\"...can&rsquo;t you just think of this as permutations of 3 things?\"</p>",
+      "created_at": "2022-04-05T02:20:34.301+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T03:15:37.366+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786600,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Hmmm.&nbsp; Can you?\"</p>",
+      "created_at": "2022-04-05T03:07:01.542+00:00",
+      "icon": {
+        "id": 222439,
+        "keyword": "skeptical",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Frc0uhj2qigod0a2f8dr9_skeptical.png"
+      },
+      "updated_at": "2022-04-05T03:07:01.542+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786604,
+      "character": {
+        "id": 13486,
+        "name": "Class Chatter",
+        "screenname": "#math-investor-chaos"
+      },
+      "character_name": "Class Chatter",
+      "content": "<p>\"There are 3 permutations which have 0 before 1:&nbsp; 012, 021, 201.\"</p>\r\n<p>\"Of these, 1/3 have 2 left of 0 and 2/3 have 2 right of 0.\"</p>",
+      "created_at": "2022-04-05T03:19:21.013+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T03:19:21.013+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786606,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"So what you're saying here is that any of the possibilities...\"</p>\r\n<blockquote>\r\n<pre>   [---2----0------------1--------]<br />or [--------0------2-----1--------]<br />or [--------0------------1-----2--]</pre>\r\n</blockquote>\r\n<p>\"...are equally probable?&nbsp; I'm not sure how reasonable that is, it looks to me like the middle stretch is wider than the two ends.\"</p>",
+      "created_at": "2022-04-05T03:21:56.621+00:00",
+      "icon": {
+        "id": 200471,
+        "keyword": "arms folded 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgpgbekxzklt6p6wyamdov3_arms+folded+2.png"
+      },
+      "updated_at": "2022-04-05T03:22:10.399+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786608,
+      "character": null,
+      "character_name": null,
+      "content": "<p>\"<em>We</em> don't know that!&nbsp; In the - 'object-level' - classroom!\"</p>",
+      "created_at": "2022-04-05T03:22:47.256+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T03:22:47.256+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786609,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"So what you're saying here is that if I roll three balls back and forth, and they bounce back and forth a lot, they're equally likely to land in any of the six possible orders, so far as you know?\"</p>\r\n<p>\"Can that really be true?&nbsp; After all, there could be bumps in the table, the bouncy walls might not be perfect, I might have rolled the balls harder on some occasions than others...\"</p>",
+      "created_at": "2022-04-05T03:24:08.504+00:00",
+      "icon": {
+        "id": 222439,
+        "keyword": "skeptical",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Frc0uhj2qigod0a2f8dr9_skeptical.png"
+      },
+      "updated_at": "2022-04-05T03:24:08.504+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786611,
+      "character": {
+        "id": 12327,
+        "name": "Ione Sala",
+        "screenname": "know-it-all"
+      },
+      "character_name": "Ione Sala",
+      "content": "<p>\"If we don't know any of that on the 'object-level', then, so far as we know, all six permutations are equally likely.\"</p>\r\n<p>\"You could say that sort of thing about&nbsp;<em>any</em> problem with permutations in it.\"</p>",
+      "created_at": "2022-04-05T03:24:55.381+00:00",
+      "icon": {
+        "id": 231820,
+        "keyword": "ione 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgwmdc2vz9trvhstk63x6p_ione+1.jpeg"
+      },
+      "updated_at": "2022-04-05T03:29:15.660+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786613,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Oh, I suppose.&nbsp; Just don't forget, in real life, always cheat the shit out of anything if you&nbsp;<em>can</em> get any extra information like that.\"</p>\r\n<p>\"After all, if you think otherwise, why, that's the sort of thinking that might lead to you always insisting that all of the chemical elements were equally likely to be in any order on the Periodic Table, any time you don't know for&nbsp;<em>sure</em> what order they have.\"</p>\r\n<p>\"Soooo how about if I then tell you that Ball 2 landed to the RIGHT of Ball 0, again?&nbsp; What's the probability of RIGHT next time, with the third ball?\"</p>",
+      "created_at": "2022-04-05T03:27:01.921+00:00",
+      "icon": {
+        "id": 222443,
+        "keyword": "look up wonder",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Faw8agatk8c98riymi35pnm_look+up+wonder.png"
+      },
+      "updated_at": "2022-04-05T15:59:17.065+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786615,
+      "character": null,
+      "character_name": null,
+      "content": "<p>\"3/4,\" says the same person who asked about permutations last time.&nbsp; (They've unfortunately written their nametag in letters too small to see from where Keltham is standing.)</p>",
+      "created_at": "2022-04-05T03:28:07.518+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T03:28:07.518+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786616,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"This one comes up LEFT, though.&nbsp; Your prediction FAILED.&nbsp; All your theories were probably WRONG.\"</p>",
+      "created_at": "2022-04-05T03:28:32.984+00:00",
+      "icon": {
+        "id": 200467,
+        "keyword": "brooding 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpykr6w6q6r32tke0o1lhf_brooding+1.png"
+      },
+      "updated_at": "2022-04-05T03:28:32.984+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786618,
+      "character": null,
+      "character_name": null,
+      "content": "<p>\"No, we just ran into a 1/4 chance, that happens sometimes.&nbsp; Like with the chance of failure on an Augury.\"</p>",
+      "created_at": "2022-04-05T03:30:29.394+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T03:30:29.394+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786620,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"I suppose.&nbsp; We should just discard the evidence, then, since it's only to be expected that reality gives us the wrong result, sometimes.&nbsp; You predict 3/4 RIGHT again next time?\"</p>",
+      "created_at": "2022-04-05T03:31:32.691+00:00",
+      "icon": {
+        "id": 200471,
+        "keyword": "arms folded 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgpgbekxzklt6p6wyamdov3_arms+folded+2.png"
+      },
+      "updated_at": "2022-04-05T03:31:32.691+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786623,
+      "character": null,
+      "character_name": null,
+      "content": "<p>You can, in fact, get 10-foot range on Prestidigitation, though not when you're a wizard as fresh as Keltham.&nbsp; One of the students nearest that wall makes their own change to it without leaving their desk.</p>\r\n<blockquote>\r\n<pre>[----3---0------------1-----2--]</pre>\r\n</blockquote>\r\n<p>\"3/5 right, 2/5 left,\" they declare.</p>",
+      "created_at": "2022-04-05T03:35:56.863+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T03:35:56.863+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786624,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>What if the 2-ball actually landed to the left of the 1-ball?&nbsp; They're not told which of those was true!</p>",
+      "created_at": "2022-04-05T03:36:19.135+00:00",
+      "icon": {
+        "id": 200467,
+        "keyword": "brooding 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpykr6w6q6r32tke0o1lhf_brooding+1.png"
+      },
+      "updated_at": "2022-07-18T02:48:20.052+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786625,
+      "character": null,
+      "character_name": null,
+      "content": "<p>...if those two possibilities are equally probable, then they can sum the probabilities, right?</p>\r\n<p>1/2 chance of 3/5 plus 1/2 chance of 3/5 equals 3/5.</p>",
+      "created_at": "2022-04-05T03:36:59.459+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T03:36:59.459+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786629,
+      "character": {
+        "id": 13486,
+        "name": "Class Chatter",
+        "screenname": "#math-investor-chaos"
+      },
+      "character_name": "Class Chatter",
+      "content": "<p>You don't need to label them!</p>\r\n<blockquote>\r\n<p>[---|---0---|---|---]</p>\r\n</blockquote>\r\n<p>\"That's five landing regions, two to the left and three to the right.\"</p>",
+      "created_at": "2022-04-05T03:41:41.198+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T03:41:41.198+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786631,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Does anyone want to object to the invalidity of that reasoning -</p>\r\n<p>- or alternatively, state a general rule for what to predict on the next round, if you previously got N balls LEFT and M balls RIGHT of the 0-ball, and that's all you know?</p>",
+      "created_at": "2022-04-05T03:42:14.951+00:00",
+      "icon": {
+        "id": 214288,
+        "keyword": "lecture",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F3s26lfpaz93icvraffclpt_lecture.png"
+      },
+      "updated_at": "2022-04-05T03:42:14.951+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786632,
+      "character": {
+        "id": 13486,
+        "name": "Class Chatter",
+        "screenname": "#math-investor-chaos"
+      },
+      "character_name": "Class Chatter",
+      "content": "<p>\"If you have N balls LEFT, there are N+1 landing regions LEFT, and M balls RIGHT gives M+1 landing regions RIGHT, so my first thought is (N+1)/(M+1).\"</p>",
+      "created_at": "2022-04-05T03:43:02.284+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T03:43:02.284+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786634,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Ah, yes, so if they have seen one ball go LEFT, and zero balls go RIGHT, the chance of seeing it go LEFT on the next round is (1+1)/(0+1)=2.</p>\r\n<p>So the probability of seeing LEFT next time is 2.&nbsp; That sounds pretty reasonable to Keltham?&nbsp; Though clearly anthropics were involved at some point.&nbsp; Maybe the balls are duplicating people once they start to go LEFT?</p>",
+      "created_at": "2022-04-05T03:44:28.868+00:00",
+      "icon": {
+        "id": 222439,
+        "keyword": "skeptical",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Frc0uhj2qigod0a2f8dr9_skeptical.png"
+      },
+      "updated_at": "2022-04-05T03:47:02.600+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786637,
+      "character": {
+        "id": 13486,
+        "name": "Class Chatter",
+        "screenname": "#math-investor-chaos"
+      },
+      "character_name": "Class Chatter",
+      "content": "<p>They obviously meant, like, a&nbsp;<em>ratio</em> of (N+1):(M+1), not to calculate the probability that way!</p>",
+      "created_at": "2022-04-05T03:45:57.989+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T03:45:57.989+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786638,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>So, like... after seeing one ball go right, the chance of seeing it go left on the next round, is half the chance of seeing it go right.&nbsp; That's what the (N+1)/(M+1) quantity is, how many times more likely LEFT is than RIGHT, in this case, (0+1)/(1+1) = 1/2.</p>",
+      "created_at": "2022-04-05T03:48:09.140+00:00",
+      "icon": {
+        "id": 222442,
+        "keyword": "looking up",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feolp0aublobaj3gum7h8_looking+up.png"
+      },
+      "updated_at": "2022-04-05T03:49:42.979+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786642,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>But HOW do they square that up with the previous CLAIM as proven by DUBIOUS INFINITARY MATHEMATICS that, after seeing one RIGHT, the chance of the next ball landing RIGHT is <em>two-thirds?</em></p>",
+      "created_at": "2022-04-05T03:49:18.697+00:00",
+      "icon": {
+        "id": 200467,
+        "keyword": "brooding 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpykr6w6q6r32tke0o1lhf_brooding+1.png"
+      },
+      "updated_at": "2022-04-05T03:49:18.697+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786643,
+      "character": null,
+      "character_name": null,
+      "content": "<p>...it's the same claim.&nbsp; One-third left is half of two-thirds right.</p>",
+      "created_at": "2022-04-05T03:50:06.357+00:00",
+      "icon": null,
+      "updated_at": "2022-04-07T19:22:44.956+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786644,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>But is it <em>really.</em></p>",
+      "created_at": "2022-04-05T03:50:21.124+00:00",
+      "icon": {
+        "id": 200471,
+        "keyword": "arms folded 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgpgbekxzklt6p6wyamdov3_arms+folded+2.png"
+      },
+      "updated_at": "2022-04-05T03:53:28.633+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786645,
+      "character": null,
+      "character_name": null,
+      "content": "<p>YES.</p>",
+      "created_at": "2022-04-05T03:50:29.325+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T03:50:29.325+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786649,
+      "character": {
+        "id": 13486,
+        "name": "Class Chatter",
+        "screenname": "#math-investor-chaos"
+      },
+      "character_name": "Class Chatter",
+      "content": "<p>Somebody would in fact now like to make the general claim that, if N balls go LEFT and M balls go RIGHT, the chances of the next ball landing LEFT and RIGHT respectively are:</p>\r\n<blockquote>\r\n<pre>  N + 1           M + 1<br />---------  vs.  ---------<br />N + M + 2 &nbsp; &nbsp; &nbsp; N + M + 2</pre>\r\n</blockquote>",
+      "created_at": "2022-04-05T03:52:25.272+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T03:55:23.313+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786651,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham agrees!</p>\r\n<p>Now would anybody like to try to prove that claim using dubious infinitary mathematics?</p>",
+      "created_at": "2022-04-05T03:54:05.608+00:00",
+      "icon": {
+        "id": 201297,
+        "keyword": "smile?",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Ffxm7yhbtj2mu0k1e7z888_smile_.png"
+      },
+      "updated_at": "2022-04-05T03:54:05.608+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786653,
+      "character": {
+        "id": 12327,
+        "name": "Ione Sala",
+        "screenname": "know-it-all"
+      },
+      "character_name": "Ione Sala",
+      "content": "<p>\"I'd love to, but I don't know where to start... well, actually, I guess the obvious place would be with - two RIGHT and one LEFT and seeing if we can make that come out to 2/5 left and 3/5 right and then seeing if we can get it to generalize.\"</p>",
+      "created_at": "2022-04-05T03:57:00.018+00:00",
+      "icon": {
+        "id": 231820,
+        "keyword": "ione 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgwmdc2vz9trvhstk63x6p_ione+1.jpeg"
+      },
+      "updated_at": "2022-04-05T03:57:00.018+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786655,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Several of the new students do in fact know calculus, and that seems like the obvious tool to use on this problem?</p>",
+      "created_at": "2022-04-05T03:58:43.516+00:00",
+      "icon": null,
+      "updated_at": "2022-04-06T07:26:57.748+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786657,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Ah, yes.&nbsp; Golarion's notion of 'calculus'.&nbsp; Keltham has actually looked into it, now.</p>\r\n<p>It looked like one of several <em>boring, safe </em>versions of 'dubious-infinitary-mathematics' where you do all the reasoning steps more slowly and they only give you correct answers.</p>\r\n<p>Dath ilani children <em>eventually</em> get prompted into inventing versions like that, <em>after</em> they've had a few years of fun taking leaps onto shaky ground and learning which steps land well.</p>\r\n<p>Those few years of fun are important!&nbsp; They teach you an intuitive sense of which quick short reasoning steps people can get away with.&nbsp; It prevents you from learning bad habits about reasoning slowly and carefully all the time, even when that's less enjoyable, or starting to think that rigor is necessary to get the correct answer in mathematics.</p>",
+      "created_at": "2022-04-05T04:03:35.920+00:00",
+      "icon": {
+        "id": 200471,
+        "keyword": "arms folded 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgpgbekxzklt6p6wyamdov3_arms+folded+2.png"
+      },
+      "updated_at": "2022-04-05T04:15:18.587+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786661,
+      "character": {
+        "id": 12765,
+        "name": "Pilar ",
+        "screenname": "curse-of-laughter"
+      },
+      "character_name": "Pilar ",
+      "content": "<p>Pilar has not yet been exposed to professional Golarion mathematicians talking about the importance of rigor.&nbsp; It will probably be a powerful theological experience for her when she does!</p>\r\n<p>Meanwhile she <em>already</em> has a strong sense that Keltham needs to be burned as a heretic.</p>\r\n<p>\"Don't I need to reason correctly to arrive at correct answers?\"</p>",
+      "created_at": "2022-04-05T04:07:32.486+00:00",
+      "icon": {
+        "id": 231417,
+        "keyword": "Pilar",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Flrp6b702ny1uglah0fpgt_pilar.jpeg"
+      },
+      "updated_at": "2022-04-05T22:24:09.534+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786663,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I don't think we have several years to spend on freeform mathematical exploration, even if we should make it an educational priority for the next generation.\"</p>",
+      "created_at": "2022-04-05T04:09:06.841+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-04-05T04:09:06.841+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1786670,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Rigor is necessary to <em>know</em> you got the correct answers.&nbsp; Nonrigorous reasoning still often gets you correct answers, you just don't know that they're correct.&nbsp; The map is not the territory.\"</p>\r\n<p>\"Often though not literally always, the obvious methodology in mathematics is to first 'rapid-prototype' an answer using nonrigorous reasoning, and then, once you have a strong guess about where you're going, <em>what </em>you're trying to prove, you prove it more rigorously.\"</p>\r\n<p>\"We don't have years to spend doing all of our mathematical reasoning rigorously <em>the first time around,</em> and besides, who does that anyways, and also, I'm here and can potentially check whether your fast crazy reasoning steps were valid or not.\"</p>",
+      "created_at": "2022-04-05T04:13:56.074+00:00",
+      "icon": {
+        "id": 200476,
+        "keyword": "positive intense 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feun9f0534q4psko274g4t_positive+intense+1.png"
+      },
+      "updated_at": "2022-04-05T04:36:34.491+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786676,
+      "character": {
+        "id": 13486,
+        "name": "Class Chatter",
+        "screenname": "#math-investor-chaos"
+      },
+      "character_name": "Class Chatter",
+      "content": "<details><summary>Parenthetical class chatter</summary><p>Somebody is currently trying to solve the case for one LEFT, two RIGHT, by visualizing how you'd carve off pieces of a five-dimensional hypercube... no, actually just a four-dimensional hypercube...</p>\r\n<p>This is apparently the sort of thing you learn in math class as a relatively advanced wizard?&nbsp; Though you don't need it to hang most second-circle spells.<br /><br /></p>\r\n<p>Their first attempt to simplify down to zero LEFT, one RIGHT and a 2-dimensional triangle doesn't end well for them, though.</p>",
+      "created_at": "2022-04-05T04:20:04.055+00:00",
+      "icon": null,
+      "updated_at": "2022-04-07T21:47:50.595+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786684,
+      "character": {
+        "id": 13486,
+        "name": "Class Chatter",
+        "screenname": "#math-investor-chaos"
+      },
+      "character_name": "Class Chatter",
+      "content": "<details><summary>Parenthetical class chatter</summary><p>Other researcher-candidates seem to mostly be trying to rework Pilar and Asmodia's original workings with the five possible positions and the seven possible positions, never mind the dubious infinitary mathematics after that.</p>",
+      "created_at": "2022-04-05T04:26:35.507+00:00",
+      "icon": null,
+      "updated_at": "2022-04-07T21:48:41.170+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786689,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>Okay, you know, Asmodia's just going to try this thing with the dubious infinitary mathematics.&nbsp; If not her, then who?&nbsp; Asmodia alone is protected from any vengeance the afterlife might visit on her.</p>\r\n<p>Consider the case for one LEFT and two RIGHT first.&nbsp; They start with an infinite number of points between 0 and 1 probability of yielding LEFT, each with prior probability 1/INF.</p>\r\n<p>For each of those points&nbsp;<em>p</em> on the spectrum from 0 to 1, their likelihood of yielding one LEFT and two RIGHT is:</p>\r\n<p>(p)^1 * (1-p)^2&nbsp; =&nbsp; p - 2p^2 + p^3</p>\r\n<p>Then to get the&nbsp;<em>posterior...</em> Asmodia has to...</p>\r\n<p>Well, to be honest, she has in fact tried to get calculus off some Securities and she is having to exert something of a deliberate effort <em>not </em>to use that.&nbsp; But the calculus also wasn't - the thing that she can feel Keltham is trying to teach?&nbsp; Asmodia is getting a sense of the way that Keltham teaches <em>intuitions</em> and not just formulas.&nbsp; She thinks it's meant to teach the thing that Ione does a little better than Asmodia.</p>\r\n<p>A <em>little </em>better.</p>\r\n<p>Asmodia wants to learn it.</p>",
+      "created_at": "2022-04-05T04:33:04.933+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-06T07:34:35.976+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786696,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>The way they got here before, was by Pilar trying it with five exact hypotheses for p, then seven hypotheses for p, then an infinite number of hypotheses for p.</p>\r\n<p>Let's say there were four hypotheses, 0/3, 1/3, 2/3, 3/3 probability of LEFT, and you saw one LEFT and two RIGHT.</p>\r\n<p>Then you'd sum up - 1/4 * 0 + 1/4 * (1/3)^1*(2/3)^2 + 1/4 * (2/3)^1*(1/3)^2 + 1/4 * 0.</p>\r\n<p>That would give you the posterior distribution of - some stuff just cancels out there, actually - 1^1*2^2 + 2^1*1^2 - and then after dividing through by that -</p>\r\n<p>Actually, a lot of this stuff is going to cancel out anyways, isn't it?</p>\r\n<p>But finish the calculation anyways.</p>\r\n<p>After that, we get the 1/3 hypothesis with posterior probability 4/(4+2), and the 2/3 hypothesis with posterior 2/(4+2).</p>\r\n<p>Then to get the prediction of LEFT next time, it's 2/3 probability on the 1/3 hypothesis which contributes 2/9 to LEFT, and 1/3 probability on the 2/3 hypothesis which contributes 2/9 to LEFT, and it comes out as 4/9 total prediction for LEFT.&nbsp; Which does at least match that they originally saw more RIGHT than LEFT.</p>\r\n<p><br />Now do the infinitary version.</p>",
+      "created_at": "2022-04-05T04:44:32.677+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-05T04:45:49.456+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786700,
+      "character": {
+        "id": 13486,
+        "name": "Class Chatter",
+        "screenname": "#math-investor-chaos"
+      },
+      "character_name": "Class Chatter",
+      "content": "<details>\r\n<summary>Parenthetical class chatter</summary><p>Meanwhile, one of the newer researchers has worked out that, in the earlier formula:</p>\r\n<blockquote>\r\n<pre>0/10 * 0 &nbsp;+ &nbsp;1/10 * 1/4 &nbsp;+ &nbsp;2/10 * 2/4 &nbsp;+ &nbsp;3/10 * 3/4 &nbsp;+ &nbsp;4/10 * 1</pre>\r\n</blockquote>\r\n<p>...that first term 0/10 * 0 has the 0/10 subterm representing \"The probability that the fraction of RIGHTs is zero, given that the first ball landed RIGHT\" and the 0 subterm representing \"The probability that ball 2 lands RIGHT, given that the fraction of RIGHTs is zero.\"</p>",
+      "created_at": "2022-04-05T04:49:40.485+00:00",
+      "icon": null,
+      "updated_at": "2022-04-18T08:52:23.560+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786706,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>Okay yeah, if she's not just allowed to throw calculus at it, or take limits in a way that just rederives Golarion-style calculus, Asmodia isn't really seeing how the dath ilan dubious-infinitary-reasoning version works.</p>",
+      "created_at": "2022-04-05T05:05:56.554+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-05T05:28:36.646+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786708,
+      "character": {
+        "id": 12327,
+        "name": "Ione Sala",
+        "screenname": "know-it-all"
+      },
+      "character_name": "Ione Sala",
+      "content": "<p>Ione already knows the answer is N+1 / (N + M + 2) via a perfectly valid combinatorics argument!&nbsp; She shouldn't have to rigorously prove things when she already knows the correct answer, or even prove them using dubious infinitary arguments!&nbsp; This is Nethysian abuse!&nbsp; Aren't only Asmodeans supposed to treat people like this?&nbsp; She's sure it's not how <em>Nethysian</em> math classes work.</p>",
+      "created_at": "2022-04-05T05:06:49.978+00:00",
+      "icon": {
+        "id": 231820,
+        "keyword": "ione 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgwmdc2vz9trvhstk63x6p_ione+1.jpeg"
+      },
+      "updated_at": "2022-04-06T16:48:39.775+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786723,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham starts by considering the case where N balls go LEFT and 0 balls go RIGHT.</p>\r\n<p>Then every point lying a fraction <em>p</em> along the way from the LEFT side to the RIGHT side, has a likelihood&nbsp;<em>p</em>^N of yielding the data we saw.</p>\r\n<blockquote><details>\r\n<summary>Retroactive parenthetical class chatter</summary>\r\n<p>One student is having some trouble parsing this, despite Keltham's gainful attempts to speak slowly. &nbsp;The p is a position along a line from 0 to 1, and the p^n is 'if the 0-ball landed at that point, how likely it is that it yielded the data we saw'.&nbsp; But p=0 at the far left, shouldn't it be infinitely likely it be to the left of the furthest-left point instead of no chance whatsoever -</p>\r\n<p>A moment later, they've worked out that, no, the next ball has probability 0 of being any further left than as far left as possible, and the whole thing flips around in their head.</p>\r\n<p>But by then, of course, Keltham has already continued talking.</p>\r\n</details></blockquote>\r\n<p>The prior probability is the same everywhere, so the posterior function will be&nbsp;<em>proportional</em> to <em>p</em>^N everywhere.&nbsp; If you wanted the whole thing to sum to 1, you'd divide every point by whatever <em>p</em>^N sums to between 0 and 1.</p>\r\n<blockquote><details>\r\n<summary>Retroactive parenthetical Alexandre intertag</summary>\r\n<blockquote>&nbsp; &nbsp; &nbsp; &nbsp; \"... Excuse me.\" Alexandre raises his hand, since showing weakness in this environment appears to be less bad than possessing it. 'Divide every point by whatever p^N sums to between 0 and 1' - can I ask you to expand on that?\"</blockquote>\r\n<p><br />Keltham shall be happy to do so!&nbsp; Thank you for providing any feedback on where anyone is getting lost.</p>\r\n<p>As a simple example, take the case of N=1, so p^N=p.&nbsp; If you graph that, you get a straight line from likelihood=0 at <em>p=</em>0, to likelihood 1 at <em>p</em>=1.&nbsp; That graph looks like a triangle filling half of a square with side 1.&nbsp; So by visual reasoning, the sum 1/INF * [0/INF + 1/INF + 2/INF + ... + INF/INF] = 1/2 in the end.</p>\r\n<p>Proof by dubious infinitary mathematics, now that they know the correct answer by simpler visual reasoning:</p>\r\n<pre>1 + 2 + ... + INF  =  INF*(INF+1)/2<br />   =&gt;   &nbsp;1/INF * [0/INF + 1/INF + 2/INF + ... + INF/INF]<br />       = 1/INF * [1/INF * { 1 + 2 + ... + INF }]<br />       = 1/INF * [1/INF * { INF*(INF + 1)/2 }]<br />       = INF * (INF + 1) / (INF * INF * 2)<br />   &nbsp;   = 1/2</pre>\r\n<p>Then to find a probability distribution proportional to that prior-times-likelihood object, but which sums to 1 to form the posterior, they divide the whole thing by 1/2 or multiply it by 2.</p>\r\n<pre>1/INF&nbsp; *&nbsp; [0/INF + 1/INF + ... + INF/INF]&nbsp; /&nbsp; (1/2)&nbsp; &nbsp;= 1.</pre>\r\n<p><br />As Keltham is saying this, it occurs to him that it may not be obvious to the candidates why you'd do that, depending on what got covered in previous Probability classes and how well.&nbsp; He'll expand on that too.</p>\r\n<p>If they were just tracking, say, 1/2 prior probability of propensity 1/3 versus 1/2 prior probability of propensity 2/3, the prior-times-likelihood object would look like {1/2 * 1/3, 1/2 * 2/3} and the sum over the prior-times-likelihood object would look like {1/6 + 1/3} = 1/2.&nbsp; Which is just what it should be, because if you start with 50-50 on 1/3 vs. 2/3 then your prior probability of seeing the ball go LEFT is indeed 1/2.</p>\r\n<p>Conversely, the prior-time-likelihood object for seeing RIGHT is {1/2 * (1 - 1/3), 1/2 * (1 - 2/3)} = {1/2 * 2/3, 1/2 * 1/3} = {1/3, 1/6} again summing to 1/2.</p>\r\n<p>This should look like it makes lots of sense.&nbsp; On priors, you think either the ball goes left, or the ball goes right, but not both, nor neither, so your&nbsp;<em>prior</em> probability of LEFT plus your probability of RIGHT should sum to 1.</p>\r\n<p>But after actually seeing the ball go LEFT and updating on that, you throw out all the possible worlds from your probability distribution where the ball went RIGHT, and live only inside the worlds where the ball went LEFT.&nbsp; After seeing LEFT, then, <em>within</em> this kind of hypothesis where you're not questioning the whole setup from outside, you're <em>certain </em>that the ball went LEFT.&nbsp; It's now probability 1 that the ball went LEFT.&nbsp; The probability 1, of what is real, is divided up among the surviving worlds; the surviving worlds should have probability&nbsp;<em>proportional</em> to their prior times their likelihood, but&nbsp;<em>summing</em> to 1.</p>\r\n<p>So you divide through {1/6, 1/3} by its total probability of 1/2 to get {1/3, 2/3} as the&nbsp;<em>posterior</em> probability.</p>\r\n<p>In symbolic terms, there's:</p>\r\n<pre>P(\"propensity 1/3\") = 50%<br />P(\"propensity 2/3\") = 50%<br />P(TRUE) = P(\"propensity 1/3\") + P(\"propensity 2/3\") = 1<br />P(LEFT ◁ \"prp 1/3\") = 1/3<br />P(LEFT)<br />&nbsp; = P(LEFT &amp; \"prp 1/3\") + P(LEFT &amp; \"prp 2/3\")<br />&nbsp; = P(LEFT ◁ \"prp 1/3\")*P(\"prp 1/3\") + P(LEFT ◁ \"prp 2/3\")*P(\"prp 2/3\")<br />&nbsp; = 1/3*50% + 2/3*50% = 1/2<br />P(\"prp 1/3\" ◁ LEFT) = P(\"prp 1/3\" &amp; LEFT) / P(LEFT) = 1/6 / (1/2) = 1/3<br />P(\"prp 1/3\" ◁ LEFT) + P(\"prp 2/3\" ◁ LEFT) = P(TRUE) = 1</pre>\r\n<p><br />So to get the <em>posterior</em> probability on all the hypotheses between 0 and 1, after seeing N balls go left, they take the prior-times-likelihood object, which is 1/INF * [ (0/INF)^N + (1/INF)^N + ... + (INF/INF)^N ], and divide it through by its&nbsp;<em>sum</em> so that the probability inside the whole thing sums to 1.&nbsp; If we started out certain that the ball has a propensity between 0 and 1 to go LEFT or RIGHT, and then we observe N LEFTs, we end up still certain that the ball has <em>some </em>propensity between 0 and 1 to go LEFT.</p>\r\n<p>So the question then becomes: &nbsp;1/INF * [ (0/INF)^N + (1/INF)^N + ... + (INF/INF)^N ] = ?</p>\r\n</details></blockquote>\r\n<p>Now, before they try to prove a correct answer, they should, of course, first figure out what the correct answer <em>is,</em> so they can prove it.</p>\r\n<p>The correct answer in this case obviously has to be that it sums to 1/(N+1).</p>\r\n<p>Why?&nbsp; Well, you saw N balls go LEFT.&nbsp; On the first round, that had probability 1/2.&nbsp; On the second round, you thought there was a 2/3 chance of seeing LEFT, and then you saw it, so your <em>joint </em>probability over all predictions is now 1/2 * 2/3 = 1/3 after seeing two LEFT.&nbsp; On the third round, you think there's a 3/4 chance of seeing LEFT, so your joint probability goes to 1/2 * 2/3 * 3/4 = 1/4 after seeing three LEFT.</p>\r\n<p>Since your joint probability of seeing N balls go LEFT is 1/(N+1), the sum from 0 to 1 of an infinite number of points each with weight p^N for how much they predicted seeing N balls going LEFT, must clearly <em>end up</em> as 1/(N+1).</p>",
+      "created_at": "2022-04-05T05:22:16.125+00:00",
+      "icon": {
+        "id": 214288,
+        "keyword": "lecture",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F3s26lfpaz93icvraffclpt_lecture.png"
+      },
+      "updated_at": "2022-04-07T21:49:12.635+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786724,
+      "character": {
+        "id": 12765,
+        "name": "Pilar ",
+        "screenname": "curse-of-laughter"
+      },
+      "character_name": "Pilar ",
+      "content": "<p>Pilar is feeling, on some deep instinctive level, that her soul may be in danger here.&nbsp; This is not how math works.</p>",
+      "created_at": "2022-04-05T05:22:43.838+00:00",
+      "icon": {
+        "id": 231417,
+        "keyword": "Pilar",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Flrp6b702ny1uglah0fpgt_pilar.jpeg"
+      },
+      "updated_at": "2022-04-05T06:02:48.055+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786728,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>It's fine!&nbsp; They derived that the final answer has to be 1/(N+1) from <em>combinatoric</em> reasoning about the probability, which is simple and reliable, so they now know that's where any&nbsp;<em>dubious infinitary reasoning</em> about the same probability ought to end up.</p>",
+      "created_at": "2022-04-05T05:30:27.162+00:00",
+      "icon": {
+        "id": 201297,
+        "keyword": "smile?",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Ffxm7yhbtj2mu0k1e7z888_smile_.png"
+      },
+      "updated_at": "2022-04-05T05:30:38.435+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786751,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>The problem before them, then, is to sum up:</p>\r\n<p>1/INF * [ (0/INF)^N + (1/INF)^N + (2/INF)^N + ... + (INF/INF)^N ]<br /><br /></p>\r\n<p>To be clear on what this is intended to mean:</p>\r\n<p>The terms 0/INF, 1/INF, 2/INF up to INF/INF are an infinite number of distinct hypotheses covering the spectrum from 0 to 1 of LEFT frequencies;</p>\r\n<p>Raising a hypothesis for a frequency between 0 and 1, to the power of N, gives that hypothesis's likelihood for generating the observed data of N LEFTs;</p>\r\n<p>And the 1/INF term at the start, is being factored out from every hypothesis in the sum having 1/INF prior probability.<br /><br /></p>\r\n<p>Where, again, the answer must be 1/(N+1).</p>",
+      "created_at": "2022-04-05T06:30:08.876+00:00",
+      "icon": {
+        "id": 200478,
+        "keyword": "enthusiasm",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F5weyw5wxscaknzubeplspa_enthusiasm.png"
+      },
+      "updated_at": "2022-04-07T20:59:40.810+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786752,
+      "character": null,
+      "character_name": null,
+      "content": "<p>&nbsp;</p>\r\n<p>\"...am I getting it right that the contribution from (2/INF)^N is - obviously just 0?\"</p>",
+      "created_at": "2022-04-05T06:31:24.422+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T06:31:24.422+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786753,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Obviously.&nbsp; If you pick any finite number, you're starting infinitely close to a 0 probability of generating any LEFTs.</p>\r\n<p>It's only once you start getting a finite fraction of the way towards infinity, that dividing by infinity won't just yield 0 again, intuitively speaking.</p>\r\n<p>Don't worry, only 0% of the numbers between 0 and INF are finite, so it makes sense that they'd contribute 0% of the likelihood.</p>",
+      "created_at": "2022-04-05T06:33:55.498+00:00",
+      "icon": {
+        "id": 200474,
+        "keyword": "head tilt",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fah06t72ewcibr8wsdfzyr_head+tilt.png"
+      },
+      "updated_at": "2022-04-05T07:09:01.377+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786755,
+      "character": null,
+      "character_name": null,
+      "content": "<p>\"Well, if I had any doubt before that you came from some plane of existence completely alien to Golarion, it's gone now.\"</p>\r\n<p>This is not how Golarion mathematics works!!!</p>",
+      "created_at": "2022-04-05T06:35:25.769+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T06:35:57.290+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786757,
+      "character": {
+        "id": 11562,
+        "name": "dath ilan",
+        "screenname": null
+      },
+      "character_name": "dath ilan",
+      "content": "<p>Dath ilan has many different ways of looking at ideas like \"the integers\" or &ldquo;the points between 0 and 1&rdquo;, and teaches its children to switch between them as appropriate, especially when they are doing rapidly-prototyped mathematics.</p>",
+      "created_at": "2022-04-05T06:39:38.780+00:00",
+      "icon": {
+        "id": 198209,
+        "keyword": "dath ilan",
+        "url": "https://abagond.files.wordpress.com/2013/11/earth-egress1a2.jpg?w=400&h=400"
+      },
+      "updated_at": "2022-04-06T02:55:05.947+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786759,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>The problem before them is to sum up:</p>\r\n<blockquote>\r\n<pre>(0/INF)^N   (1/INF)^N   (2/INF)^N         (INF/INF)^N<br />--------- + --------- + --------- + ... + -----------<br />   INF         INF         INF                INF</pre>\r\n</blockquote>\r\n<p>...and get the correct answer of 1/(N+1).&nbsp; This obviously reduces to summing:</p>\r\n<blockquote>\r\n<p>(0/INF)^N + (1/INF)^N + (2/INF)^N + ... + (INF/INF)^N</p>\r\n</blockquote>\r\n<p>...and getting INF/(N+1).</p>\r\n<blockquote><details>\r\n<summary>(Retroactive parenthetical class chatter)</summary>\r\n&nbsp; &nbsp; &nbsp; \"So...\" A hand goes up. It is the hand of a student who does not want to admit weakness, but will do so anyway, under the eyes of Security. \"It isn't obvious to me how that reduces?\"<br /><br />Keltham starts to answer -<br /><br />&nbsp; &nbsp; &nbsp; Oh wait never mind it is obvious.<br /><br />&nbsp; &nbsp; &nbsp; It's too late to say that <em>now</em>, though, so the student will just listen to Keltham speak the awful words that he's just multiplying both the original sum and the original result 1/(N+1) by infinity.</details></blockquote>\r\n<p>Factoring out (1/INF)^N from all the terms (n/INF)^N reduces the problem to one of summing:</p>\r\n<blockquote>\r\n<p>0^N + 1^N + 2^N + 3^N + ... + INF^N</p>\r\n</blockquote>\r\n<p>...and getting INF^(N+1) / (N+1).</p>\r\n<blockquote><details>\r\n<summary>(Retroactive parenthetical class chatter)</summary>\r\n&nbsp; &nbsp; &nbsp; A hand goes up, in obedience to stated Orders. \"Why are we factoring this out, sir? And why does it require summing this?\"<br /><br /><br />...they're taking (0/INF)^N + ... and factoring out (1/INF)^N from all terms (n/INF)^N to yield n^N * (1/INF)^N, for each term, and then dividing both sides to yield the sum over n^N equalling [ INF/(N+1) / (1/INF)^N ] = INF^(N+1) / (N+1).<br /><br />Then, once they get the solution for an infinite sum of cubes n^N, they'll multiply that whole thing through by (1/INF)^N and by (1/INF), and get back out...\r\n<pre>(0/INF)^N   (1/INF)^N   (2/INF)^N         (INF/INF)^N<br />--------- + --------- + --------- + ... + -----------<br />   INF         INF         INF                INF</pre>\r\n...which represents an infinity of possible hypotheses, for all possible propensities between 0 and 1, for how often a ball goes LEFT, each hypothesis with 1/infinity prior probability.<br /><br />Look, it's just the same as if they'd used four buckets each with 1/4 prior probability, and asked for the chance of seeing 9 balls going LEFT, that would be:\r\n<pre>(0/3)^9   (1/3)^9   (2/3)^9   (3/3)^9<br />------- + ------- + ------- + -------<br />   4         4         4         4</pre>\r\n<p><br />&nbsp; &nbsp; &nbsp; ...Somebody then asks whether it ought to be INF+1 in the denominator of the original expression.</p>\r\n<p><br />Keltham stares at the wall for a moment, then sagely announces that, with a sum this large, it won't make any relative difference if they drop any finite number of terms from it, since those contribute 0% of anything.&nbsp; He's just going to arbitrarily declare that one of the ones in the middle is missing.</p>\r\n</details></blockquote>",
+      "created_at": "2022-04-05T06:44:33.886+00:00",
+      "icon": {
+        "id": 218396,
+        "keyword": "charisma 3",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F2lbb2d9jgn3jzpfcmnpakr_charisma+3.png"
+      },
+      "updated_at": "2022-04-18T08:57:19.155+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786762,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Now in an intuitive sense, INF^(N+1) / (N+1) is obviously what the answer has to be, of course.</p>\r\n<p>If you stack up a bunch of one-dimensional lines of length 1, 2, 3, ... 10, you end up with roughly half of a two-dimensional square of side 10.</p>\r\n<p>If you stack up a bunch of two-dimensional squares each with sides 1, 2, 3, ..., 10, you end up with roughly a third of a three-dimensional cube of side 10.</p>\r\n<p>So naturally if you stack up a bunch of N-dimensional hypercubes with sides 1, 2, 3, ... infinity, you'll end up with exactly 1/(N+1) of an (N+1)-dimensional hypercube with side infinity.</p>\r\n<blockquote><details>\r\n<summary>(Retroactive parenthetical class chatter)</summary>\r\n(This nerdsnipes multiple researchers hard enough that they have trouble following the next few sentences, which thankfully aren't vital ones.)</details></blockquote>",
+      "created_at": "2022-04-05T06:50:23.024+00:00",
+      "icon": {
+        "id": 218395,
+        "keyword": "charisma 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F550u0a2oolfgwgttac88xb_charisma+2.png"
+      },
+      "updated_at": "2022-04-07T21:56:17.304+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786763,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Actually, they might possibly want to check that on the numbers up to, like, 5, or something.</p>\r\n<p>1 + 2 + 3 + 4 + 5 = 15 which is like not that far off from half of 25.</p>\r\n<p>1 + 4 + 9 + 16 + 25 = 55 which is not that far off from 1/3 of 125.</p>\r\n<p>1 + 8 + 27 + 64 + 125 = 225, not far from 1/4 of 625.</p>\r\n<p>It's a bit more each time, since there are extra terms in the sum beyond the one for SIDE^(N+1) / (N+1).&nbsp; But as you sum a larger number of terms, the extra terms grow less quickly, and they can be ignored when the sums are infinite.</p>\r\n<p>Like 1 + 2 + 3 + ... + 100 = 5050 and that's pretty close to half of 10,000.</p>",
+      "created_at": "2022-04-05T06:58:07.220+00:00",
+      "icon": {
+        "id": 222442,
+        "keyword": "looking up",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feolp0aublobaj3gum7h8_looking+up.png"
+      },
+      "updated_at": "2022-04-05T06:58:07.220+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786942,
+      "character": {
+        "id": 13486,
+        "name": "Class Chatter",
+        "screenname": "#math-investor-chaos"
+      },
+      "character_name": "Class Chatter",
+      "content": "<p>Someone is <em>increasingly </em>confused about how this INF business works.&nbsp; Is INF - 1 a different number from INF?&nbsp; Is INF-(INF-2)+3 equal to 5?</p>",
+      "created_at": "2022-04-05T19:17:35.597+00:00",
+      "icon": null,
+      "updated_at": "2022-04-07T21:53:17.285+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786943,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Yes to both, obviously.</p>\r\n<p>The usual guideline for answering questions like that is to pretend that INF is a very large finite number?&nbsp; The whole idea is that a bunch of things that are approximately true about large numbers become exactly true about INF.</p>",
+      "created_at": "2022-04-05T19:19:19.969+00:00",
+      "icon": {
+        "id": 200474,
+        "keyword": "head tilt",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fah06t72ewcibr8wsdfzyr_head+tilt.png"
+      },
+      "updated_at": "2022-04-07T22:00:36.062+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786944,
+      "character": null,
+      "character_name": null,
+      "content": "<p>...how does that square with 2/INF being 0?</p>",
+      "created_at": "2022-04-05T19:20:42.851+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T19:43:58.194+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786946,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>2 divided by a very large number is approximately 0.</p>\r\n<p>So 2/INF is exactly 0, so long as it isn't being multiplied by infinity somewhere outside that.</p>\r\n<p>Similarly, (INF-1)/(INF+1) = INF/INF = 1.</p>",
+      "created_at": "2022-04-05T19:21:07.198+00:00",
+      "icon": {
+        "id": 200500,
+        "keyword": "quizzical",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feac24y6ncotyujgqkz3hm_quizzical.png"
+      },
+      "updated_at": "2022-04-18T08:59:38.094+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786954,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Is there some precise sense of \"approximately\" that could be used to prove -</p>",
+      "created_at": "2022-04-05T19:45:47.967+00:00",
+      "icon": null,
+      "updated_at": "2022-04-05T19:50:18.109+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786955,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>That sounds like a question SLOW people would ask!&nbsp; Boring question!&nbsp; Let's move on!</p>",
+      "created_at": "2022-04-05T19:46:20.766+00:00",
+      "icon": {
+        "id": 200478,
+        "keyword": "enthusiasm",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F5weyw5wxscaknzubeplspa_enthusiasm.png"
+      },
+      "updated_at": "2022-04-05T19:46:20.766+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1786992,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>\"Keltham, has it ever occurred to you that, as an eight-year-old boy, you were taught mathematics in a style that someone thought would appeal to eight-year-old boys?\"</p>\r\n<p>She doesn't actually say it out loud.&nbsp; Maybe when they're alone.</p>",
+      "created_at": "2022-04-05T21:00:51.691+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-04-06T07:37:29.686+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787018,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Now, the nice thing about working with infinities is that you don't have to be very precise at all, and you'll still get exactly the right answer at the end!</p>\r\n<p>Instead of taking x^N, <a href=\"https://twitter.com/greatBigDot/status/1511443885893066757\" target=\"_blank\" rel=\"noopener\">let's use the 'rising powers',</a> okay that didn't translate so probably is not a thing in Golarion, or at least the Share Language donor didn't know it.</p>\r\n<p>Instead of taking x * x * x * ... * x, with N copies of x, let's consider the expression x * (x + 1) * (x + 2) ... until you've got N of those.</p>\r\n<p>Let's denote that x`N`.</p>\r\n<p>Obviously if x is any finite fraction of the way towards infinity, x`N` = x^N exactly.&nbsp; Like, when you're working with trillions, a trillion squared is nearly the same number as a trillion times a trillion plus one, proportionally speaking; that's approximately true, so with infinities it's exactly true.</p>\r\n<p>Example with x=10, N=3:</p>\r\n<blockquote>\r\n<p>10`3`<br />= 10*11*12<br />= (10)(10+1)...(10+(3-1))&nbsp; &nbsp; (3 terms total)<br />= (x)(x+1)...(x+(N-1))&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (x`N` with x=10, N=3)</p>\r\n</blockquote>\r\n<p>Now observe that:</p>\r\n<blockquote>\r\n<p>11`3` - 10`3`<br />= 11*12*13 - 10*11*12<br />= (13 - 10) * (11 * 12)<br />= 3 * 11`2`</p>\r\n</blockquote>\r\n<p>By pointwise generalization from 10 to x and 3 to N:</p>\r\n<blockquote>\r\n<p>&nbsp; &nbsp;(x + 1)`N`&nbsp; -&nbsp; (x)`N`<br />= (x + 1)(x + 2)...(x + N)&nbsp; -&nbsp; (x)(x+1)...(x + N - 1)<br />= ((x + N) - x) * (x+1)...(x + N - 1)<br />= N * (x+1)`N - 1`</p>\r\n</blockquote>\r\n<p>Rearrange:</p>\r\n<blockquote>\r\n<p>(x + 1)`N` &nbsp;- &nbsp;(x)`N`&nbsp; &nbsp;=&nbsp; N * (x+1)`N - 1`<br />&nbsp; &nbsp; ==&gt;<br />x`N`&nbsp; +&nbsp; N*(x+1)`N-1`&nbsp; &nbsp;=&nbsp; &nbsp;(x+1)`N`</p>\r\n</blockquote>\r\n<p>We now have an N-1 term in our rule, which would be bad if N were 0.&nbsp; Eliminate all subtraction whenever possible!&nbsp; In case something ends up 0 or negative that didn't start out that way!</p>\r\n<p>In this case we'll just redescribe the number N as being some other number N plus one, so N-1 goes to \"N\" and N goes to \"N+1\".&nbsp; We coulda done that originally, but it woulda been needlessly more symbols.</p>\r\n<blockquote>\r\n<p>x`N` &nbsp;+ &nbsp;N*(x+1)`N-1` &nbsp; = &nbsp; (x+1)`N`<br />&nbsp; &nbsp; ==&gt;<br />x`N+1` + (N+1)*(x+1)`N` = (x+1)`N+1`</p>\r\n</blockquote>\r\n<p>Sanity check with x=10, N=2:</p>\r\n<blockquote>\r\n<p>&nbsp; &nbsp; &nbsp; &nbsp; x`N+1` + (N+1)*(x+1)`N` = (x+1)`N+1`<br />=&gt;&nbsp; &nbsp;10`2+1` + (2+1)*(10+1)`2` = (10+1)`2+1`<br />=&gt;&nbsp; &nbsp;10*11*12 + 3*(11*12) = 11*12*13<br />PASSED</p>\r\n</blockquote>\r\n<p>Then, by induction on f(x) = x`N+1`:</p>\r\n<blockquote>\r\n<p>0`N+1`&nbsp; =&nbsp; 0&nbsp; &nbsp; (base case)<br /><br />(x+1)`N+1`&nbsp; =&nbsp; x`N+1` + (N+1)*(x+1)`N`<br /><br />&nbsp; &nbsp; ==&gt;<br /><br />&nbsp;x`N + 1`&nbsp; =&nbsp; (N+1) * 1`N`&nbsp; +&nbsp; (N+1) * 2`N` + ... (N+1) * x`N`<br />&nbsp; (can optionally add a starting term of (N+1)*0`N+1' since this always equals zero)</p>\r\n</blockquote>\r\n<p>Sanity check with x=3, N = 2:</p>\r\n<blockquote>\r\n<p>(3)(4)(5)&nbsp; =&nbsp; 3(0)(1) + 3(1)(2) + 3(2)(3) + 3(3)(4)<br />60&nbsp; =&nbsp; 0 + 6 + 18 + 36<br />PASSED</p>\r\n</blockquote>\r\n<p>Divide both sides by N+1:</p>\r\n<blockquote>\r\n<p>x`N+1` / (N + 1)&nbsp; =&nbsp; 1`N` + 2`N` + 3`N` + ... + x`N`</p>\r\n</blockquote>\r\n<p>Approximations are exactly correct at infinity:</p>\r\n<blockquote>\r\n<p>(INF)`N` = (INF)^N</p>\r\n</blockquote>\r\n<p>...and this is also exactly true once you get any substantial fraction of the way towards infinity.&nbsp; Like, even (1,000,000)`3` starts to look pretty close to (1,000,000)^3.</p>\r\n<p>As for all the finite numbers at the start of the sequence, where the equality isn't exact, they collectively comprise 0% of anything and can be ignored.</p>\r\n<p>Conclusion:</p>\r\n<blockquote>\r\n<p>0^N + 1^N + 2^N + 3^N + ... + INF^N = INF^(N+1) / (N+1).</p>\r\n</blockquote>\r\n<p>So if you stack up an&nbsp;<em>infinite</em> number of squares with sides 0, 1, 2, 3... you will get&nbsp;<em>exactly</em> a third of an infinitely large cube, and more generally, if you stack up an infinite number of N-hypercubes with sides 0, 1, 2, 3... you'll get exactly 1 / (N+1) of an infinite (N+1)-hypercube.</p>",
+      "created_at": "2022-04-05T22:17:31.172+00:00",
+      "icon": {
+        "id": 200476,
+        "keyword": "positive intense 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feun9f0534q4psko274g4t_positive+intense+1.png"
+      },
+      "updated_at": "2022-04-07T22:36:16.959+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787034,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Which, in case anybody's forgotten by now, was what they needed to prove that:</p>\r\n<blockquote>\r\n<p>1/INF * [ (0/INF)^N + (1/INF)^N + (2/INF)^N + ... + (INF/INF)^N ]&nbsp; =&nbsp; 1/(N+1)</p>\r\n</blockquote>\r\n<p>...which in turn is how you:</p>\r\n<p>- Represent an infinite number of possible hypotheses, about how far from 0% LEFT to 100% LEFT the first Ball 0 could have landed;<br />- Each hypothesis with equal prior probability 1/infinity;<br />- And then update on seeing N balls go LEFT;<br />- As would have a likelihood of <em>p</em>^N for each hypothesis a fraction&nbsp;<em>p</em> of the way between the left side and right side.</p>\r\n<p>Also in case anybody's forgotten, if you imagine N balls plus the 0 ball getting randomly ordered, the chance of the 0 ball coming rightmost in the ordering - hence, all other balls being LEFT of it - is 1/(N+1).&nbsp; Which is how they originally knew that 1/(N+1) was the desired end result, for the likelihood of seeing all N balls land on the LEFT.</p>",
+      "created_at": "2022-04-05T22:35:59.732+00:00",
+      "icon": {
+        "id": 214288,
+        "keyword": "lecture",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F3s26lfpaz93icvraffclpt_lecture.png"
+      },
+      "updated_at": "2022-04-05T22:37:33.042+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787210,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Also <em>also </em>in case anybody's forgotten, the reason they needed this sum was to renormalize the relative probabilities into absolute probabilities.&nbsp; That's another step along the direct path to deriving a prediction about the <em>next</em> ball observed.</p>\r\n<p>After seeing N balls go LEFT, the posterior distribution ends up <em>proportional</em> to a distribution where each hypothesis&nbsp;<em>p</em> has weight&nbsp;<em>p</em>^N.</p>\r\n<p>But if you forget to <em>normalize </em>that prior-times-likelihood distribution, and ask what happens if every part of the distribution then contributes <em>p</em> likelihood to the next ball going LEFT, you'd first add one extra factor of <em>p</em> everywhere, and then calculate:</p>\r\n<blockquote>\r\n<p>1/INF * [ (0/INF)^(N+1)&nbsp; +&nbsp; (1/INF)^(N+1)&nbsp; +&nbsp; ...&nbsp; +&nbsp; (INF/INF)^(N+1) ] = 1/(N+2)</p>\r\n</blockquote>\r\n<p>After seeing 100 balls go LEFT, you shouldn't calculate a 1/102 chance of the next ball going LEFT - you should think it's&nbsp;<em>more</em> likely than not for the next ball to go LEFT - so something has gone wrong here; and what's wrong is that we didn't normalize the prior-times-likelihood distribution.</p>\r\n<p>The pre-normalized distribution sums to 1/(N+1); the normalized distribution should sum to 1.&nbsp; So we divide everything through by 1/(N+1), meaning we multiply by (N+1), to make it sum to 1.&nbsp; For this example, that means multiplying everything uniformly by 101 to normalize it.&nbsp; Which yields a 101/102 chance of the next ball going LEFT, which is what it should be.<br /><br /></p>\r\n<p>Though, Keltham quickly remarks, the principle of making the posterior sum to 1, is something that only applies <em>within</em> that whole metahypothesis.&nbsp; If you see balls going LEFT RIGHT LEFT RIGHT repeating, you might form, after a few steps, the hypothesis that the ball goes LEFT RIGHT repeating, which can't be expressed within that whole metahypothesis.&nbsp; All of this reasoning is taking place&nbsp;<em>inside</em> the metahypothesis about&nbsp;the balls having some stable but otherwise not-further-scrutable fractional propensity to go LEFT or RIGHT, with all such propensities between 0 and 1 being equally likely on priors.&nbsp; This whole metahypothesis then may do better or worse compared to some other hypotheses.</p>\r\n<p>He's not saying that the metahypothesis absolutely has to be true, by saying that the sum of all the hypotheses inside it should be 1.&nbsp; If you started believing that, you'd never&nbsp;<em>in principle</em>&nbsp;be able to notice any other pattern like LEFT RIGHT repeating.</p>\r\n<p>Rather, this whole metahypothesis is itself being entertained as one of many in-principle possible metahypotheses about how things could be, and the probabilities of all the hypotheses inside it summing to 1, are to be understood as being what we get when we <em>entertain the possibility,</em> condition on, reason inside, the metahypothesis being true.</p>\r\n<p>After seeing N balls go left, the whole metahypothesis has racked up a joint probability of 1/(N+1) and scored log(1/(N+1)) in terms of how well it's doing.&nbsp; If you previously started out with any prior credence on an incompatible metahypothesis, like 'Actually maybe the ball just always goes LEFT or RIGHT, both equally credible on priors,' that other metahypothesis may be doing better.&nbsp; In fact, the always-left-or-always-right metahypothesis has now racked up probability 1/2 and a score of log(1/2) = -1, which is probably quite a bit better than 1/(N+1) if you've seen a lot of balls go LEFT.&nbsp; You'd probably be believing in that metahypothesis a bit more, now, even if it started out less meta-credible than the other.</p>",
+      "created_at": "2022-04-06T03:18:34.006+00:00",
+      "icon": {
+        "id": 214505,
+        "keyword": "lecture 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fmvnrjni5enodsbqjes0jz7_lecture+2.png"
+      },
+      "updated_at": "2022-04-07T22:38:34.584+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787213,
+      "character": {
+        "id": 12327,
+        "name": "Ione Sala",
+        "screenname": "know-it-all"
+      },
+      "character_name": "Ione Sala",
+      "content": "<p>\"Why do we need that - other hypothesis, metahypothesis - about there being hypotheses where the ball always goes LEFT or RIGHT?&nbsp; Aren't those hypotheses already inside - the metahypothesis about <em>all</em> the fractions of times a ball could go LEFT or RIGHT?\"</p>\r\n<p>\"Like, 0/INF is that it never goes left, and INF/INF is that it always goes left... am I missing something?\"</p>",
+      "created_at": "2022-04-06T03:21:24.432+00:00",
+      "icon": {
+        "id": 231820,
+        "keyword": "ione 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fgwmdc2vz9trvhstk63x6p_ione+1.jpeg"
+      },
+      "updated_at": "2022-04-06T03:21:24.432+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787223,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Both those hypotheses have prior probabilities of 1/INF, remember?&nbsp; That's equal to zero.&nbsp; So the metahypothesis thinks it's <em>infinitely unlikely</em> that the fraction of times the ball goes left is exactly equal to 1 or 0.&nbsp; It never notices that's true, no matter how many examples it sees.\"</p>\r\n<p>\"If it sees 100 balls go left, it'll get a joint prediction of 1/101.&nbsp; If it sees 10,000 balls go left, it'll get a joint prediction of 1/10,001.&nbsp; In the limit, the probability that it assigns to a sequence of left-going balls, continuing forever, is 0.&nbsp; Before you've rolled a single ball, the metahypothesis is already&nbsp;<em>absolutely certain</em> that it won't just go left every time.\"</p>\r\n<p>\"The alternative metahypothesis that the ball has a 50% chance of always going left, and 50% chance of always going right, loses all of its probability and scores negative infinity as soon as it sees any sequence with a <em>mix&nbsp;</em>of left and right balls.&nbsp; But if you present that metahypothesis with a sequence of balls going left forever, no matter how long that continues, it predicted that with 50% probability from the start.\"</p>",
+      "created_at": "2022-04-06T03:40:00.016+00:00",
+      "icon": {
+        "id": 204634,
+        "keyword": "intent",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fuoanxrqkk6o8fcfwoi73e_intent.png"
+      },
+      "updated_at": "2022-04-18T09:03:04.519+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787237,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham will now zoom in closer on what happens to the 'any fraction between 0 and 1 is equally likely' metahypothesis when it updates.</p>\r\n<p>Let's say that we see 10 balls go LEFT.</p>\r\n<p>After seeing 10 balls go LEFT, the metahypothesis as a whole has a cumulative score of 1/(N+1) = 1/11, or equivalently, if you asked this metahypothesis at the dawn of time what probability it assigned to the first 10 balls going left, it would answer \"1/11\".&nbsp; Equivalently, isomorphically, these are stating the same thing, if you multiply out the prior distribution (1/INF everywhere) and the likelihood distribution (<em>p</em>^10 everywhere) you'd get a new distribution <em>p</em>^10/INF which, if you summed over the infinitely many terms inside it, would sum to 1/11.</p>\r\n<p><em>Continuing to reason within this metahypothesis,</em> one of the internal subhypotheses&nbsp;<em>must by assumption&nbsp;</em>be true, and so&nbsp;<em>within</em> the metahypothesis the posterior probabilities of the (infinite collection of) subhypotheses must sum to 1.</p>\r\n<p>Which you'd obviously do by dividing all the terms through by 1/11, that is, multiplying them by 11.</p>\r\n<p>The distribution...</p>\r\n<blockquote>\r\n<pre>(0/INF)^10     (1/INF)^10             (INF/INF)^10<br />----------  +  ----------  +  ...  +  ------------<br />INF * 1/11     INF * 1/11              INF * 1/11</pre>\r\n</blockquote>\r\n<p>...will, indeed, sum to 1.</p>\r\n<p>To be clear, by having the distribution sum to 1, we are assuming-for-the-sake-of-extrapolation that <em>some</em> hypothesis in the collection must be true.&nbsp; But no matter how far the posterior updates on finite data, every <em>individual </em>hypothesis in the collection will still have posterior 0.</p>\r\n<p>After rolling 1000 balls and seeing 985 go left, there's finite probability <em>between</em> 0.98 and 0.99, but 0 probability on the fraction being&nbsp;<em>exactly</em> 0.985.</p>\r\n<p>That's just how this metahypothesis rolls.&nbsp; If you wanted a metahypothesis that could put little finite dots of probability mass on all the big round numbers like 0.985, 1/2pi, and so on, that would be a much more complicated ask.</p>",
+      "created_at": "2022-04-06T04:04:00.131+00:00",
+      "icon": {
+        "id": 214288,
+        "keyword": "lecture",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F3s26lfpaz93icvraffclpt_lecture.png"
+      },
+      "updated_at": "2022-04-06T07:45:40.090+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787245,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>What we ask about, having updated, is not so much the probability of individual hypotheses - which is always 0 - but the <em>new shape of the curve</em>.</p>\r\n<p>If you see 10 balls go LEFT, the individual hypothesis 0.9 has now scored around 1/e, 37% or so, compared to 1 to the individual hypothesis 1.0.&nbsp; If you see 100 balls go LEFT, raise all that to a power of 10; now 0.9 will have less than 0.01% the cumulative likelihood predicted as 1.0.&nbsp; On the scale of the curve, this means that over 99.99% of the probability is now concentrated into the interval between 90% and 100%.&nbsp; Though, of course, still 0% is concentrated at exactly 100%.</p>\r\n<p>Keltham will Prestidigitate-sketch a few <em>rough</em> images of what <a href=\"https://en.wikipedia.org/wiki/Beta_distribution\" target=\"_blank\" rel=\"noopener\">curves like these</a> should maybe probably <a href=\"https://en.wikipedia.org/wiki/Beta_distribution#/media/File:Beta_distribution_pdf.svg\" target=\"_blank\" rel=\"noopener\">look like</a>, after updating on various numbers of LEFT and RIGHT balls observed.&nbsp; Keeping in mind that Keltham's not a 'computer', and can't draw the curves perfectly.</p>",
+      "created_at": "2022-04-06T04:18:05.831+00:00",
+      "icon": {
+        "id": 228226,
+        "keyword": "cast",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Ft1a2th8wdxdetrjxkyyvt_cast.png"
+      },
+      "updated_at": "2022-04-06T04:18:05.831+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787247,
+      "character": null,
+      "character_name": null,
+      "content": "<p>One of the newcomers who does know what calculus is, and has indeed known it for years, asks a pending question he's had for a while.</p>\r\n<p>Are some of Keltham's earlier statements up until this point equivalent to - in Golarion notation - saying...</p>\r\n<blockquote>\r\n<p>Integral of&nbsp;<em>p</em> from 0 to 1:&nbsp; [&nbsp; <em>p</em>^N d<em>p</em>&nbsp; ]&nbsp; &nbsp;=&nbsp; 1/(N+1)</p>\r\n</blockquote>\r\n<p>...?</p>",
+      "created_at": "2022-04-06T04:21:37.651+00:00",
+      "icon": null,
+      "updated_at": "2022-04-06T04:21:37.651+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787249,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Yes.</p>",
+      "created_at": "2022-04-06T04:21:57.079+00:00",
+      "icon": {
+        "id": 200474,
+        "keyword": "head tilt",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fah06t72ewcibr8wsdfzyr_head+tilt.png"
+      },
+      "updated_at": "2022-04-06T04:21:57.079+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787250,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Lady Avaricia has gotten away with a lot, around Keltham, and so has Ione.</p>\r\n<p>The newcomer will venture, very politely, that the calculus-based way of expressing this and calculating this, seems to him simpler?</p>",
+      "created_at": "2022-04-06T04:22:41.484+00:00",
+      "icon": null,
+      "updated_at": "2022-04-06T05:37:53.871+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787264,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>If you're willing to assume your audience can already freely wield the machinery of derivatives and antiderivatives and understand on an intuitive level everything that they mean, then sure, you can solve the problem more quickly using overpowered tools like that.</p>\r\n<p>Integrating x^N gives you x^(N+1)/(N+1), which evaluated from 0 to 1 will give you 1/(N+1).</p>\r\n<p>Given a&nbsp;<em>mix</em> of N LEFTs and M RIGHTs, however, and the need to renormalize the posterior over that, they might find themselves in a bit more trouble when it comes to deriving the integral...</p>\r\n<blockquote>Integral of <em>p</em> from 0 to 1:&nbsp; [&nbsp; (1 - <em>p</em>)^M <em>p</em>^N d<em>p</em>&nbsp; ]&nbsp; &nbsp;=&nbsp; &nbsp;M! * N! / (M + N + 1)!</blockquote>",
+      "created_at": "2022-04-06T04:40:23.279+00:00",
+      "icon": {
+        "id": 200500,
+        "keyword": "quizzical",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Feac24y6ncotyujgqkz3hm_quizzical.png"
+      },
+      "updated_at": "2022-04-06T05:38:13.331+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787266,
+      "character": null,
+      "character_name": null,
+      "content": "<p>&nbsp;</p>\r\n<p>...okay, he doesn't see any obvious way he'd get that answer.</p>\r\n<p>Is it going to be easier to derive using Keltham's approach?</p>",
+      "created_at": "2022-04-06T04:41:03.128+00:00",
+      "icon": null,
+      "updated_at": "2022-04-06T04:41:03.128+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787274,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham doesn't actually remember the exact proof, it's been a while, but he's pretty sure the <em>introduction </em>he used was the one his teachers used on him.&nbsp; So it's possibly the right introduction for getting the more complicated proof in the least painful way, once he starts trying to remember that?</p>\r\n<p>And in any case, Keltham hasn't yet been told he's allowed to assume that everyone in this class has a full intuition for derivatives and integrals yet.&nbsp; Keltham hasn't taught them a calculus class himself, and who knows what weird malfunctions exist in the Golarion way of teaching it.</p>\r\n<p>Why, it wouldn't shock him, at this point, if people are just being told to memorize formulas and not really taught to intuit how anything <em>works!</em></p>\r\n<p>So he's just talking directly about the infinity of possible hypotheses between 0 and 1, and how to sum up priors-times-likelihoods and posterior-predictions from those, rather than using calculus to abstract over that.&nbsp; Abstracting over that only works to teach mathematical intuition if people already <em>know</em> what's being abstracted away.</p>",
+      "created_at": "2022-04-06T04:46:34.466+00:00",
+      "icon": {
+        "id": 218395,
+        "keyword": "charisma 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F550u0a2oolfgwgttac88xb_charisma+2.png"
+      },
+      "updated_at": "2022-04-06T07:48:22.618+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787285,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham is in favor of people understanding things using calculus and continuous distributions, to be clear.&nbsp; So long as they can <em>also </em>understand the ideas in terms of a countably infinite collection of individual hypotheses each with probability 1/INF.&nbsp; You don't want to start identifying either&nbsp;<em>representation</em> or&nbsp;<em>methodology of analysis</em> with the underlying idea!</p>\r\n<p>Which idea is just: a metahypothesis where any fraction from 0 to 1 seems equally plausible on priors.&nbsp; Those get updated on observations of LEFT and RIGHT, that have different likelihoods for different propensity-fractions; the allocation of posterior probability over fractions changes and gets normalized back to summing to 1; that changes the new predictions for LEFT and RIGHT on successive rounds, having updated on all of the previous rounds.<br /><br /></p>\r\n<p>Keltham will now go up to the wall and spend a bit of time figuring out how to derive the rest of the Rule of Succession, which there's no simple or obvious way to prove using calculus known to anyone in this room anyways.</p>\r\n<p>Thankfully, they know what all the correct answers have to be! &nbsp;Using much simpler combinatoric arguments, about new balls ending up randomly ordered anywhere between the left boundary, all the LEFT balls, the 0 ball, all the RIGHT balls, and the right boundary.</p>",
+      "created_at": "2022-04-06T04:56:17.681+00:00",
+      "icon": {
+        "id": 222439,
+        "keyword": "skeptical",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Frc0uhj2qigod0a2f8dr9_skeptical.png"
+      },
+      "updated_at": "2022-04-06T07:49:20.406+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787290,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Eventually Keltham does succeed in deriving (again) (but this time proving it using dubious infinitary arguments, instead of clear and simple combinatorics, so they can see what's happening with priors and posteriors and likelihoods behind the scene) that indeed:</p>\r\n<p>If you start out thinking any fraction of LEFT and RIGHT between 0 and 1 is equally plausible on priors, and you see experimental results going LEFT on N occasions and going RIGHT on M occasions, the prediction for the next round is (N+1)/(N+M+2) for LEFT and (M+1)/(N+M+2) for RIGHT.</p>",
+      "created_at": "2022-04-06T05:07:46.713+00:00",
+      "icon": {
+        "id": 204635,
+        "keyword": "concentrate",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F85vz6fypa2dxi8k4smm9ad_concentrate.png"
+      },
+      "updated_at": "2022-04-06T05:09:06.908+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787292,
+      "character": null,
+      "character_name": null,
+      "content": "<p>(Continued in \"<strong><a href=\"/replies/1787291#reply-1787291\">my fun research project</a></strong>\".)</p>",
+      "created_at": "2022-04-06T05:09:46.164+00:00",
+      "icon": null,
+      "updated_at": "2022-04-06T05:09:46.164+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1787293,
+      "character": null,
+      "character_name": null,
+      "content": "<hr />\r\n<p>&nbsp;</p>",
+      "created_at": "2022-04-06T05:09:51.434+00:00",
+      "icon": null,
+      "updated_at": "2022-04-06T05:09:51.434+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    }
+  ]
+}

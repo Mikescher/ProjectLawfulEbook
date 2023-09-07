@@ -1,0 +1,88 @@
+{
+  "Ok": [
+    {
+      "id": 1776056,
+      "character": {
+        "id": 12876,
+        "name": "Cheliax",
+        "screenname": null
+      },
+      "character_name": "The Facility",
+      "content": "<p>...and end up in a mysterious facility which has the following rules clearly posted:</p>\r\n<p>1)&nbsp; Do not tell anyone your real name, how you got here, or where you came from.</p>\r\n<p>2)&nbsp; Do not mistreat the other residents, lest She Who Bears Cake be upset that you are breaking the promise of safe-conduct that she made to people like you.</p>\r\n<p>3)&nbsp; Residents are to stay in their assigned quarter of the Facility at all times, unless issued by the Unseen Management with a temporary travel pass to the Central Meeting Area.</p>\r\n<p>4) &nbsp;While in the Central Meeting Area, residents must politely answer questions from the residents of other Facility quarters about commonsense matters that everyone ought to already know, or about weird hypothetical questions; and listen studiously to any resident who has been ordered by the Unseen Management to lecture about some strange topic.</p>\r\n<p>&nbsp;</p>\r\n<p>...it's not actually <em>that</em> weird for Golarion.&nbsp; There's obviously going to be some reason why all of these rules exist, and serve somebody's hidden interests and the mysterious truth of whatever The Facility is truly about.</p>",
+      "created_at": "2022-03-16T07:23:35.285+00:00",
+      "icon": {
+        "id": 231056,
+        "keyword": "Cheliax",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fal4kyfnd8enrrk6y6ksv9_cheliax+flag.jpg"
+      },
+      "updated_at": "2022-03-16T19:38:29.670+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1776057,
+      "character": {
+        "id": 12876,
+        "name": "Cheliax",
+        "screenname": null
+      },
+      "character_name": "The Facility",
+      "content": "<p>Of course, some of those in The Facility know more of its truth than others.</p>",
+      "created_at": "2022-03-16T07:24:46.593+00:00",
+      "icon": {
+        "id": 231056,
+        "keyword": "Cheliax",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fal4kyfnd8enrrk6y6ksv9_cheliax+flag.jpg"
+      },
+      "updated_at": "2022-03-16T19:38:44.754+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1776058,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Milania",
+      "content": "<p>Milania, for instance.&nbsp; She claims to be a wizard apprentice and can use Prestidigitation, and has been issued by Management with a +2 Wisdom headband that she's not allowed to take off.&nbsp; She's given weird math lectures twice in as many days, apparently on topics she learned from one of the Facility's earlier residents; and afterwards asks, in the somewhat stilted tones of somebody repeating what somebody else told her, for everyone's reactions to particular points.</p>\r\n<p>Milania knows more of the Facility's purpose than she is telling.</p>",
+      "created_at": "2022-03-16T07:37:53.125+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-03-16T08:15:23.922+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1776059,
+      "character": {
+        "id": 12917,
+        "name": "Asmodia",
+        "screenname": "someone-somewhere"
+      },
+      "character_name": "Asmodia",
+      "content": "<p>She is, in fact, Asmodia out of Cheliax, the one who requested that this facility be created in the first place - just a few days earlier, actually - so that Chelish people like her could study how people act when they, like, don't worship a god of tyranny and torment.</p>\r\n<p>Yes, it's a very shocking revelation.&nbsp; Try not to fall over in surprise here.</p>",
+      "created_at": "2022-03-16T07:39:07.503+00:00",
+      "icon": {
+        "id": 231818,
+        "keyword": "asmodia",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F37glv1u6h5rlyrvzkit02e_asmodia+2.jpeg"
+      },
+      "updated_at": "2022-03-16T08:11:58.528+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Ok": {
+    "id": 5521,
+    "authors": [
+      {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": null,
+    "content": "<p><strong>This is a less intense / disturbing summary</strong> of key events in \"<a href=\"/posts/5504\">some human relationships are less universal than others</a>\" and \"<a href=\"/posts/5506\">take this report back and bring her a better report</a>\" in the <a href=\"/board_sections/703\">planecrash continuity,</a> meant to be read immediately after the end of \"<a href=\"/posts/4582\">mad investor chaos and the woman of asmodeus</a>\".</p>\r\n<p><strong>It is made entirely out of spoilers</strong> and softened summaries; people who would rather get the full experience should <strong>read the originals</strong> instead.</p>",
+    "created_at": "2022-01-09T23:18:03.465+00:00",
+    "description": "less disturbing summary of 'some human relationships' and 'take this report back'",
+    "icon": null,
+    "num_replies": 35,
+    "section": null,
+    "section_order": 2,
+    "status": "complete",
+    "subject": "tldr some human relationships",
+    "tagged_at": "2022-01-17T22:13:27.897+00:00"
+  }
+}

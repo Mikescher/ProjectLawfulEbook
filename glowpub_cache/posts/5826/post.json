@@ -1,0 +1,38 @@
+{
+  "Ok": {
+    "id": 5826,
+    "authors": [
+      {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": {
+      "id": 11402,
+      "name": "Thellim",
+      "screenname": "out-of-equilibrium"
+    },
+    "content": "<p>Meanwhile in a totally different continuum - insofar as the word 'meanwhile' can mean anything when two continua are causally disconnected - which, in fact, it can't - Thellim is having something of an argument with a man of the planet Earth, whose job title translates as 'scientist'.</p>\r\n<p>Thellim is a decade further away from her childhood education, never really got as much into some things as Keltham did as a kid, and is of average intelligence for a dath ilani rather than being a +0.8 slightly smart person like Keltham.</p>\r\n<p>She still knows at least what an eight-year-old knows about Science!&nbsp; She knows what you are not allowed to do.</p>\r\n<p>And while she doesn't really <em>remember,</em> per se, at this remove, the coherence-arguments for which bad things happen to you upon breaking which rules, the doomy consequences are not very hard to <em>reconstruct</em>, for the average dath ilani.&nbsp; Especially when you can <em>observe them happening </em>to an&nbsp;<em>entire planet</em> as a&nbsp;<em>nudge to your memory.</em></p>",
+    "created_at": "2022-03-29T01:50:10.171+00:00",
+    "description": "thellim vs. p-values",
+    "icon": {
+      "id": 192142,
+      "keyword": "skeptical",
+      "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Ftzvq7j8m93j7i3g7pxu5_aimee-garcia-lucifer-3404543.jpg"
+    },
+    "num_replies": 60,
+    "section": {
+      "id": 721,
+      "name": "planecrash lectures",
+      "order": 2
+    },
+    "section_order": 1,
+    "status": "complete",
+    "subject": "to earth with science",
+    "tagged_at": "2022-03-31T02:48:38.325+00:00"
+  }
+}

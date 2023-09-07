@@ -1,0 +1,3498 @@
+{
+  "Ok": [
+    {
+      "id": 1739503,
+      "character": null,
+      "character_name": null,
+      "content": "<p>There's a note on the bed!&nbsp; It's not a fun note.&nbsp; It's been left because the palace can no longer afford to post a Security around just to brief Sevar when she wakes up.</p>\r\n<p>Nidal has by now confirmed, despite some halfhearted initial attempts to conceal this fact, that every day Cheliax's best fighters come back and Nidal's fighters don't; which is to say that every day makes Nidal weaker and leaves Cheliax largely unchanged.&nbsp; Nidal's position may not be good, right now, but it sure isn't getting any better.&nbsp; They've done the reasonable thing and launched a massive but hopefully doomed counterattack with all of their forces, including the immortal Black Triune caught halfway between life and undeath, the three of whom have ruled Nidal unchanged since the beginning of the Age of Darkness eight thousand years ago.</p>\r\n<p>Aspexia Rugatonn is on the front lines.&nbsp; So is Abrogail Thrune.&nbsp; So is anyone who can teleport.</p>\r\n<p>With Nidal's god sealed, Asmodeus backing up Rugatonn almost directly, Nidal's aggressive posture forcing it to attack into prepared Chelish positions, and the massively greater resources of Cheliax, this battle is a foregone conclusion; or at least, hopefully so.&nbsp; But Rugatonn casting that Forbiddance is going to need to wait.</p>\r\n<p>Sevar is advised to prepare whatever counterspells she can, and whatever escape-with-Keltham magic doesn't fit into counterspells.&nbsp; If Sevar has to do any fighting today, it will be with the remaining people in the palace casting resistances on her, trying to take hits for her, and her job is second of all to counterspell whatever's left and first to escape with Keltham.</p>\r\n<p>There's a bag of Holding with a few resources along the lines of various resistances scrolls, limited-charge invisibility items, that sort of thing.&nbsp; Obviously she shouldn't use those unless she has to.</p>\r\n<p>There's no Teleport scroll listed in the bag's contents; maybe somebody doesn't feel like pushing their luck.&nbsp; Today would be a <em>great</em><em>&nbsp;</em>day to escape with Keltham to another country, get an Atonement to Lawful Neutral, and tell him the truth about everything, if one actually wanted to do that.&nbsp; Does Carissa, by any chance?</p>",
+      "created_at": "2022-01-04T08:15:49.238+00:00",
+      "icon": null,
+      "updated_at": "2022-02-13T03:47:08.349+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739540,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>No! Carissa is a loyal Asmodean and her country is at war against Zon-Kuthon. She has a feelings problem, not a 'desertion in wartime' problem, and not a shred of sympathy for people with the latter problem. She's going to do her fucking job, which is apparently preparing a lot of Dispel Magic and Invisibility and Alter Self. And she's going to go find Keltham first, so that if anything moves on the palace she's already with him.&nbsp;</p>",
+      "created_at": "2022-01-04T17:12:23.763+00:00",
+      "icon": {
+        "id": 172875,
+        "keyword": "Screen Shot 2020-11-30 at 9.02.43 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.02.43+AM.png"
+      },
+      "updated_at": "2022-01-04T17:12:23.763+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739551,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Keltham, at least, still rates a Security to guard his room.</p>\r\n<p>Keltham has been told that there's a huge Nidal push, not told that it's one that probably ends the war either way, but absent the push it seemed hard to explain conditions in the palace otherwise without lying.</p>\r\n<p>Keltham asked if people dying in Nidal go to Zon-Kuthon's afterlife to be tormented even with their god sealed; was told probably in that person's guess, but all the expert clerics are out.</p>\r\n<p>Keltham developed a concentrated look and requested to be left completely alone to think for 3.2 hours. &nbsp;He's writing notes to himself in cipher and has tapped himself with an Owl's Wisdom once, after which he spent some time crying and then continued writing. &nbsp;Everyone who could safely read his thoughts might as well be on the remaining moon.</p>",
+      "created_at": "2022-01-04T17:52:08.049+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T18:37:39.785+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739554,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>- okay Carissa is actually more concerned about that than about the war with Nidal. It is to a first approximation impossible to predict where Keltham will land after three hours of thinking with some Owl's Wisdom thrown in; she should have been woken the instant he ordered that. (Of course, they might need her spells, which complicates that call, but.) How long has it been.</p>",
+      "created_at": "2022-01-04T17:57:29.883+00:00",
+      "icon": {
+        "id": 172870,
+        "keyword": "Screen Shot 2020-11-30 at 9.00.47 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.00.47+AM.png"
+      },
+      "updated_at": "2022-01-04T17:57:29.883+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739557,
+      "character": null,
+      "character_name": null,
+      "content": "<p>The Security - who is not, incidentally, wearing an intelligence headband - says that he didn't know the spell was that important? &nbsp;People do that the first few times they get tapped with Wisdom. &nbsp;There's also nothing they can do about it, or so the guy thought? &nbsp;They can't read his mind and they can't use mind control either.</p>\r\n<p>He's got 1.3 hours left on his original request. &nbsp;Half an hour ago he peeked out to ask for food and if the literal actual Imperial palace had any real books on agreements between gods, and was told maybe possibly but it's not the best time to ask.</p>",
+      "created_at": "2022-01-04T18:06:36.576+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T22:09:03.892+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739558,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>They can&nbsp;<em>wake up&nbsp;Carissa</em> is what they can do about it. It is not their job to know what spells are important, it is their job to report to people who do know anything at all about anything. Is Maillol on this or did they send him to the front.&nbsp;</p>",
+      "created_at": "2022-01-04T18:09:10.582+00:00",
+      "icon": {
+        "id": 175880,
+        "keyword": "Screen Shot 2020-12-24 at 4.30.22 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyi4b2oygd3bdiaobluq82t_Screen+Shot+2020-12-24+at+4.30.22+PM.png"
+      },
+      "updated_at": "2022-01-04T18:09:10.582+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739560,
+      "character": null,
+      "character_name": null,
+      "content": "<p>He's at the front.</p>\r\n<p>(And likewise, it's obvious at this point, are nearly all of the actually competent Security people.)</p>",
+      "created_at": "2022-01-04T18:11:10.106+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T18:11:10.106+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739561,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Yeah she's getting that sense.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Fine. \"I assume you have continuous eyes on him? Tell me if he moves at all.\"</p>\r\n<p><br />She parks herself outside Keltham's door. Slips a note under it that says&nbsp;<em>awake - want to help - please let me in as soon as I can be helpful. Carissa.</em></p>\r\n<p>&nbsp;</p>\r\n<p>Preps spells. Mostly the ones recommended for escape with Keltham, though she squeezes out an Invisibility for an Owl's Wisdom of her own. She might need it.</p>",
+      "created_at": "2022-01-04T18:13:43.158+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-01-04T18:13:43.158+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739577,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Ten minutes after she slips her note, the guy says, \"He's moving towards the door.\"</p>\r\n<p>This is because Keltham is slipping a note back out under the door, apparently. &nbsp;The note says&nbsp;<em>I will.</em></p>",
+      "created_at": "2022-01-04T18:50:38.625+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T18:50:38.625+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739580,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>There's a feeling that this project has very thoroughly acquainted Carissa with. It's the 'Asmodeus is giving unAsmodean orders' feeling, or the 'this random escort to my cosmetics appointment is a minor noble and a fifth-circle sorcerer' feeling, or the 'Aspexia Rugatonn is pretending I'm important' feeling. It's that she's missing something, something big, and her thoughts are trying very hard to stretch their theories over that gaping maw of confusion when instead she should &nbsp;-</p>\r\n<p>\"I want a precise transcript of the conversation earlier with the idiot who told him Zon-Kuthon's people are probably being tortured forever, and I want his ciphered writing handed directly to Hell as fast as that can be achieved with current resources, and I want to hear about anything he does, even if it is stupid, even if you cannot think of any possible reason I would care.\"</p>\r\n<p>&nbsp;</p>\r\n<p>She continues prepping spells, though, because unless and until she's prepared to walk into Keltham's room it's better to have them.&nbsp;</p>",
+      "created_at": "2022-01-04T18:54:34.506+00:00",
+      "icon": {
+        "id": 172871,
+        "keyword": "Screen Shot 2020-11-30 at 9.01.46 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.01.46+AM.png"
+      },
+      "updated_at": "2022-01-04T18:54:34.506+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739585,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Transcript:</p>\r\n<blockquote>\r\n<p>Keltham:&nbsp; With Zon-Kuthon sealed, are people aligned to him in Nidal, or people who - did Zon-Kuthonish things, however that works - are they still going to his afterlife and is it still awful?</p>\r\n<p>Security:&nbsp; (pause)&nbsp; You want a priest of Asmodeus, fifth-circle or higher, to even have a chance of answering that one correctly, and everyone like that is at the front.</p>\r\n<p>Keltham:&nbsp; What's your&nbsp;<em>guess.</em></p>\r\n<p>Security:&nbsp; ...probably?</p>\r\n<p>Keltham:&nbsp; Thank you for guessing.</p>\r\n</blockquote>\r\n<p>Ciphered writing:&nbsp; En route.</p>\r\n<p>After Carissa is done prepping spells, she's handed a war update by a Security who looks actually competent, why, he's even wearing an intelligence headband.</p>\r\n<p>Aspexia Rugatonn is dead at the hands of the Black Triune, all scries on her soul have failed, presumed destroyed somehow.&nbsp; This is apparently an event some helpful people were kindly waiting for; multiple ninth-circle and eighth-circle casters not aligned to Cheliax, including at least one completely unidentified such ninth-circle caster, have now moved to engage the Black Triune and their supporting top casters.&nbsp; All Chelish forces in the vicinity are getting the hell out of their way, 'pursued' by Nidal forces that can't do much without their top casters.&nbsp; Cheliax's remaining top casters are likewise not engaging, and letting these helpful newcomers have all of the remaining fun.</p>",
+      "created_at": "2022-01-04T19:13:44.428+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T19:13:44.428+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739586,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>No, she thinks, very very stupidly.</p>",
+      "created_at": "2022-01-04T19:14:23.264+00:00",
+      "icon": {
+        "id": 159703,
+        "keyword": "carissa4",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa4.png"
+      },
+      "updated_at": "2022-01-04T19:14:23.264+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739587,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><br />No, see, that's not allowed.&nbsp;</p>",
+      "created_at": "2022-01-04T19:14:47.198+00:00",
+      "icon": {
+        "id": 172924,
+        "keyword": "Screen Shot 2020-12-06 at 9.48.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.48.47+PM.png"
+      },
+      "updated_at": "2022-01-04T19:14:47.198+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739588,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>They need to take this report back and bring her a better report, one in which something better happened.&nbsp;</p>",
+      "created_at": "2022-01-04T19:15:18.083+00:00",
+      "icon": {
+        "id": 172921,
+        "keyword": "Screen Shot 2020-12-06 at 9.47.06 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.47.06+PM.png"
+      },
+      "updated_at": "2022-01-04T19:15:18.083+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739589,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>She doesn't spend all that long being an idiot; she can't afford to.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>The other gods were of course not maneuvering for Cheliax to conquer Nidal. They don't want that. They permitted Nidal, for thousands of years. They were maneuvering for the war between Cheliax and Nidal to weaken both, enough that they can then sweep in and -</p>\r\n<p>If Carissa was in charge retaliatory assassinations of everyone in charge of every other country around would now be in the works. But that's not her job. Her job is Keltham, and -</p>\r\n<p>- and she's just going to open his door. He can hit her about it if he likes. She can excuse it with how she was so very sad, Keltham, fix it. Fix it somehow.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>(<em>Can&nbsp;</em>he?)</p>\r\n<p>(<em>Can&nbsp;</em>a Civilization as great as his, but with magic - with clever ideas for Wish wordings -)</p>",
+      "created_at": "2022-01-04T19:18:31.399+00:00",
+      "icon": {
+        "id": 172914,
+        "keyword": "Screen Shot 2020-12-06 at 9.44.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.44.01+PM.png"
+      },
+      "updated_at": "2022-01-04T19:18:56.835+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739590,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham looks up from whatever he's writing, startled before he clamps down on the expression.</p>\r\n<p>\"Orders or situation report?\" he says, sounding like he's trying to sound calm about it.</p>",
+      "created_at": "2022-01-04T19:26:39.961+00:00",
+      "icon": {
+        "id": 200474,
+        "keyword": "head tilt",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fah06t72ewcibr8wsdfzyr_head+tilt.png"
+      },
+      "updated_at": "2022-01-04T20:09:19.327+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739591,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I don't know what your last situation update was. Nidal launched a massive attack on the border and it's probably going to end the war one way or another. The Grand High Priestess - you met her briefly, she was the elderly lady in the throne room - is -\"</p>",
+      "created_at": "2022-01-04T19:35:11.566+00:00",
+      "icon": {
+        "id": 173547,
+        "keyword": "Screen Shot 2020-12-08 at 6.46.00 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Foat2o11tiag074wxxfde_Screen+Shot+2020-12-08+at+6.46.00+PM.png"
+      },
+      "updated_at": "2022-01-04T19:35:11.566+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739592,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\" - gone. Not dead, gone. There's - other countries involved now - it'll probably be over pretty soon -\" She's going to go in for a hug. \"Keltham -\"</p>",
+      "created_at": "2022-01-04T19:36:13.922+00:00",
+      "icon": {
+        "id": 172909,
+        "keyword": "Screen Shot 2020-12-06 at 9.13.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.13.47+PM.png"
+      },
+      "updated_at": "2022-01-04T19:36:13.922+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739594,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Apparently Carissa Sevar knew Aspexia Rugatonn personally, and is totally fine with Keltham knowing this?&nbsp; At least, that's what you might think if you were a Security watching all this happen.&nbsp; You would probably also be thinking something about pathetic attachments and incredible unprofessionalism.</p>",
+      "created_at": "2022-01-04T19:40:30.420+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T19:46:13.100+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739595,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He hugs her; it feels a bit different.&nbsp; \"I think,\" Keltham says, \"that everyone involved in this entire war may have been very, very stupid, on account of gods not actually being able to talk to anyone, at all, even when they communicate, for some reason they're not allowed to say -\"</p>\r\n<p>\"Can you get me somewhere that someone can summon a lantern archon for me, like the place we first arrived here.\"</p>",
+      "created_at": "2022-01-04T19:45:37.225+00:00",
+      "icon": {
+        "id": 201295,
+        "keyword": "neutral",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F51spld8tawrm5guaq6112s_neutral.png"
+      },
+      "updated_at": "2022-01-04T19:45:37.225+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739600,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Yep, shit, something is wrong.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>His god talked to him.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>The obvious thing. Wait until almost everyone is gone, and then tell him -</p>\r\n<p>&nbsp;</p>\r\n<p>It might be time to transition to plan: go with him. She doesn't have a fucking Teleport scroll. They might literally be able to buy one in Egorian. Too implausible? No, because he knows Cheliax is presently weakened and disorganized, his god would have told him that.</p>\r\n<p>\" - not allowed to say what? We're supposed to stay in this hallway, right this minute, if Zon-Kuthon has the resources to attempt another assassination it's not going to be easy to drive them off.\"</p>",
+      "created_at": "2022-01-04T19:50:30.658+00:00",
+      "icon": {
+        "id": 172929,
+        "keyword": "Screen Shot 2020-12-06 at 9.48.35 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.48.35+PM.png"
+      },
+      "updated_at": "2022-01-04T19:50:30.658+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739603,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"This seems actually important and time-sensitive even by my standards.&nbsp; And I don't think Nidal actually knew where I was, and now Zon-Kuthon is sealed.\"&nbsp; Keltham turns to the Security wearing a headband.&nbsp; \"I'm exercising my right to leave Cheliax at any time.&nbsp; Take me to where I first arrived here.&nbsp; I'll hang out there to see if anybody comes by to pick me up, or, you know, anybody passing by happens to summon a lantern archon for me, whichever comes first.\"</p>",
+      "created_at": "2022-01-04T19:55:54.745+00:00",
+      "icon": {
+        "id": 204634,
+        "keyword": "intent",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fuoanxrqkk6o8fcfwoi73e_intent.png"
+      },
+      "updated_at": "2022-01-04T19:55:54.745+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739605,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>No.</p>\r\n<p>&nbsp;</p>\r\n<p>Trips, at once, all of her - sense that she's missing something ENORMOUS, swinging around reaching for -</p>\r\n<p>&nbsp;</p>\r\n<p>Why, if he's doubting everything, would he trust in his right to leave Cheliax at any time.</p>\r\n<p>&nbsp;</p>\r\n<p>...because Abadar told him that was real. May, in fact, have been the one who guaranteed it in the first place.</p>\r\n<p>&nbsp;</p>\r\n<p>Message. 'your god's sending someone, aren't they'</p>\r\n<p>&nbsp;</p>",
+      "created_at": "2022-01-04T19:58:01.532+00:00",
+      "icon": {
+        "id": 172897,
+        "keyword": "Screen Shot 2020-12-06 at 9.04.09 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.04.09+PM.png"
+      },
+      "updated_at": "2022-01-04T19:58:01.532+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739607,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Carissa, what the&nbsp;<em>fuck</em> -\"</p>",
+      "created_at": "2022-01-04T20:02:10.274+00:00",
+      "icon": {
+        "id": 200475,
+        "keyword": "puzzled 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fi3m49kjyeso2gitxw5onk_puzzled+1.png"
+      },
+      "updated_at": "2022-01-04T20:02:10.274+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739610,
+      "character": null,
+      "character_name": null,
+      "content": "<p>\"Would you please consider staying here until we at least have somebody to cast the lantern archon spell immediately?\" says the Security who's actually wearing an intelligence headband.</p>\r\n<p>Voice in Sevar's ear, presumably a Message: &nbsp;\"Sevar, pull yourself together RIGHT THE FUCK NOW, stop thinking about Rugatonn, figure out some way to recover from that fuckup, don't think about anything else that might be happening, you better believe that if we fuck this up the Queen will turn all of us into statues.\"</p>",
+      "created_at": "2022-01-04T20:03:28.906+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T20:03:28.906+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739611,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"That's a very sensible suggestion from a Security standpoint, but on second reflection, how about no, and you take me to the place I arrived, right now, per Asmodeus's directive to you.\"</p>",
+      "created_at": "2022-01-04T20:05:28.674+00:00",
+      "icon": {
+        "id": 208603,
+        "keyword": "really",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fxlmsv19grm7iuwjykpmqw_really.png"
+      },
+      "updated_at": "2022-01-04T20:05:28.674+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739613,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa has no idea who this person is but she's entirely confident that 1) she outranks them 2) she knows Keltham and they don't 3) they have absolutely no business whispering random complaints in her ear and distracting her in the middle of a very important very fraught conversation.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>....shitfuck, probably what's going on here is that this specific moron doesn't know that 'Carissa sides with Keltham over Cheliax, flees with him' is an established fallback plan the details of which have been worked out, and they're parsing it as a straightforward attempt at defection.</p>\r\n<p>Message to Keltham. 'no one else can hear us. I can help you if I have any idea what your plan is.'</p>\r\n<p>&nbsp;</p>\r\n<p>Message to Security. 'established fallback, don't interfere, I'm not defecting, STOP TALKING TO ME WHILE I'M MID CONVERSATION WITH TARGET'.</p>",
+      "created_at": "2022-01-04T20:09:03.180+00:00",
+      "icon": {
+        "id": 172870,
+        "keyword": "Screen Shot 2020-11-30 at 9.00.47 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.00.47+AM.png"
+      },
+      "updated_at": "2022-01-04T20:09:03.180+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739616,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He looks at Carissa.&nbsp; It's a long look, and a controlled one.</p>\r\n<p>Keltham turns back to the Security.&nbsp; \"Asmodeus gave you an order.&nbsp; Obey it.\"</p>",
+      "created_at": "2022-01-04T20:11:40.533+00:00",
+      "icon": {
+        "id": 229414,
+        "keyword": "sad 2",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fibk2ymst9wq7cq433e4po_sad+2.png"
+      },
+      "updated_at": "2022-01-04T20:11:40.533+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739619,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Message to Keltham. \"Random people on duty when everyone competent's up north don't know who you are and don't know that you are an exception to the general rule that in an emergency Security's in charge.\"</p>\r\n<p>&nbsp;</p>\r\n<p>\"There are special orders regarding him,\" she says aloud. \"You don't have the clearance but I do and they do say he can leave.\" Message: You should hesitate to believe that, though, say you need to consult someone more senior -</p>",
+      "created_at": "2022-01-04T20:15:47.769+00:00",
+      "icon": {
+        "id": 172896,
+        "keyword": "Screen Shot 2020-12-06 at 9.02.50 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.02.50+PM.png"
+      },
+      "updated_at": "2022-01-04T20:16:37.009+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739620,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Message to Sevar:&nbsp; That sounds an awful lot like me disobeying a direct order from Asmodeus so that you have a slightly smaller chance of ending up as a statue.</p>\r\n<p>\"Would you please allow me to try to get somebody more senior to handle this?\" says the Security.</p>",
+      "created_at": "2022-01-04T20:18:14.330+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T20:18:22.121+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739621,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Message: 'defection plan workshopped with and approved by Maillol who got Asmodeus orders directly. go.'.</p>",
+      "created_at": "2022-01-04T20:21:13.234+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-01-04T20:21:13.234+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739623,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham has already turned to the other Security present.&nbsp; \"It is completely implausible that the person stationed outside my room would not know about standing orders from Asmodeus regarding me, in case, for example, they got any bright ideas about mind control.&nbsp; You will now conduct me to the palace landing area where I arrived, in accordance with Asmodeus's orders to you regarding me.\"</p>",
+      "created_at": "2022-01-04T20:23:18.858+00:00",
+      "icon": {
+        "id": 200467,
+        "keyword": "brooding 1",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpykr6w6q6r32tke0o1lhf_brooding+1.png"
+      },
+      "updated_at": "2022-01-04T20:24:05.815+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739624,
+      "character": null,
+      "character_name": null,
+      "content": "<p>The other Security sets off in the correct direction, wearing a perfectly controlled expression.</p>",
+      "created_at": "2022-01-04T20:23:56.061+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T20:23:56.061+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739625,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham is following.&nbsp; He wears the actually fairly-difficult-to-read expression of somebody who is deliberately relaxing all of his facial muscles and doesn't care if you notice that's what he's doing.</p>",
+      "created_at": "2022-01-04T20:25:09.449+00:00",
+      "icon": {
+        "id": 201295,
+        "keyword": "neutral",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F51spld8tawrm5guaq6112s_neutral.png"
+      },
+      "updated_at": "2022-01-04T20:25:09.449+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739626,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>....these <em>aren't </em>the people stationed outside Keltham's room standardly, those all fled in a panic an hour ago. These people genuinely&nbsp;<em>haven't&nbsp;</em>been informed of a bunch of really basic things that should've been communicated even in a really rushed handoff, therefore it doesn't strain credulity that they wouldn't have been informed of different really basic things that should've been communicated even in a really rushed handoff.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Agreement does <em>not</em> require you to escort him out, she Messages, trying to keep it nonobvious from her tone that she's going to have all these people executed even if things work out. Need a Forbiddance or Antimagic Field in the courtyard immediately.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>There is a loudening pure-internal-screaming thing going on in the back of her head. She takes a second to turn it off. You cannot allow yourself to die of being scared you're going to die, or you'll die; that part is simple.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>What did Abadar say to him. She wouldn't have expected Abadar to know enough, or be able to see enough, to say 'Carissa in particular is lying to you/is senior in their operations'.</p>",
+      "created_at": "2022-01-04T20:29:52.379+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-01-04T20:29:52.379+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739627,
+      "character": null,
+      "character_name": null,
+      "content": "<p>The Security stops walking.&nbsp; \"I'm... not sure exactly what Asmodeus's orders say here, come to think, and in particular I'm not sure that I have to actively help you get yourself killed,\" he says.</p>",
+      "created_at": "2022-01-04T20:32:33.085+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T20:32:33.085+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739628,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham continues walking in the direction the Security was moving!</p>\r\n<p>Forbiddances are in fact quite expensive, the Palace is quite large, and if Keltham keeps moving in that direction without some Asmodean actively hindering him, he will be outside the protected area before not really all that long.</p>",
+      "created_at": "2022-01-04T20:33:44.427+00:00",
+      "icon": {
+        "id": 200474,
+        "keyword": "head tilt",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fah06t72ewcibr8wsdfzyr_head+tilt.png"
+      },
+      "updated_at": "2022-01-04T20:33:44.427+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739629,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Message from the smarter Security:&nbsp; You can't possibly tell me that throwing up an Antimagic Field around him is not actively hindering his departure.</p>",
+      "created_at": "2022-01-04T20:34:42.183+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T20:35:01.572+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739630,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>The plan,<span style=\"text-decoration: line-through;\"> you morons who need to do less arguing and more following orders in a time sensitive emergency</span>, is that I say 'that's an antimagic field' and run, with him, away, and depart, with him, sooner than he'd otherwise have succeeded in departing.</p>\r\n<p>(They should have done fucking practice runthroughs with Maillol present to tell everyone exactly what they could and could not do.)</p>",
+      "created_at": "2022-01-04T20:36:40.836+00:00",
+      "icon": {
+        "id": 172870,
+        "keyword": "Screen Shot 2020-11-30 at 9.00.47 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.00.47+AM.png"
+      },
+      "updated_at": "2022-01-04T20:37:08.192+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739631,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Message:&nbsp; fine I'm requesting one through Telepathic Bond but we are inside a Forbiddance and my guess is he's going to be outside it before I can get a scroll delivered to me while inside a Forbiddance why don't you think of something to <em>fucking say to him?</em></p>",
+      "created_at": "2022-01-04T20:39:34.618+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T20:54:26.239+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739633,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa badly misses Elias Abarco, whose Message would have been 'ETA 4 minutes on scroll', because Elias Abarco whatever his other personal flaws isn't a complete waste of space.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Talking to Keltham obviously isn't going to work. She has one more card up her sleeve for that and it's best used once the probably-Osirians are already here and also it's going to blow everything up and she shouldn't do it if there might be anything not yet blown up.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"Pilar?\" she says instead.&nbsp;</p>",
+      "created_at": "2022-01-04T20:45:36.935+00:00",
+      "icon": {
+        "id": 172875,
+        "keyword": "Screen Shot 2020-11-30 at 9.02.43 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.02.43+AM.png"
+      },
+      "updated_at": "2022-01-04T20:45:36.935+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739634,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Looks like the powers of Chaotic Good didn't feel like answering this particular plea for aid?&nbsp; Maybe Sevar isn't <em>really </em>looking to have any fun, here?&nbsp; Either Pilar isn't here, or she turned silent and invisible as soon as she showed up.</p>",
+      "created_at": "2022-01-04T20:49:04.780+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T20:49:04.780+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739636,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Message to Sevar:&nbsp; He's about to hit an area with uncleared personnel, do we tell them to get out of the way?</p>",
+      "created_at": "2022-01-04T20:52:55.883+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T20:52:55.883+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739637,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>YES.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+      "created_at": "2022-01-04T20:54:27.322+00:00",
+      "icon": {
+        "id": 161268,
+        "keyword": "Screen Shot 2020-09-30 at 5.05.33 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyov9vbcqfc9pfntsg1gu_Screen+Shot+2020-09-30+at+5.05.33+PM.png"
+      },
+      "updated_at": "2022-01-04T20:54:27.322+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739638,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Keltham enters a mysteriously deserted meeting room, surveys it, picks a door out, starts walking through a mysteriously deserted hallway.</p>",
+      "created_at": "2022-01-04T20:55:58.214+00:00",
+      "icon": {
+        "id": 201295,
+        "keyword": "neutral",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F51spld8tawrm5guaq6112s_neutral.png"
+      },
+      "updated_at": "2022-01-04T20:55:58.214+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739639,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Message to Sevar:&nbsp; Uncleared personnel manning a security checkpoint at end of hallway, end of Forbiddance is beyond, do we clear checkpoint, do you have anything at all here.</p>",
+      "created_at": "2022-01-04T20:56:41.390+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T20:56:41.390+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739640,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Drop back and leave me alone with him. Don't clear out the checkpoint. \"Keltham - are we supposed to resurrect you? Supposed to tell someone else to resurrect you? Who? If we lose your body we're not going to be <em>able&nbsp;</em>to, now, with the Grand High Priestess gone.\" Snort. \"You could give us a lock of hair or something.\" That's not how Resurrection works but she might not know that.</p>",
+      "created_at": "2022-01-04T20:58:57.729+00:00",
+      "icon": {
+        "id": 159714,
+        "keyword": "carissa8",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa8.png"
+      },
+      "updated_at": "2022-01-04T20:58:57.729+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739641,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Finished talking to Security with Message or whatever they use?&nbsp; If you didn't have anything else to do with your time, you'd probably have been thinking of a lot of things to say, just then.\"</p>",
+      "created_at": "2022-01-04T21:00:13.892+00:00",
+      "icon": {
+        "id": 201295,
+        "keyword": "neutral",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F51spld8tawrm5guaq6112s_neutral.png"
+      },
+      "updated_at": "2022-01-04T21:00:13.892+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739642,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Security checkpoint ahead!&nbsp; Somebody at least managed to tell them to keep controlled facial expressions, didn't manage to tell one guy to not be carrying an obviously evil spiky dagger.&nbsp; Maybe Keltham will just think it's doompunk.&nbsp; At least nobody blurts out 'Carissa Sevar?'</p>",
+      "created_at": "2022-01-04T21:00:23.576+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T21:02:02.308+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739643,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I <em>have</em> a lot of things to say. I am assuming, based on the entire way you're acting, that you - expect you could be argued out of this, and therefore can't listen if we argue, and if that was what I thought, I wouldn't want someone to make me hear an argument anyway. So, logistical questions. Have you noticed the obvious reason to take me with you or not or do you not want to tell me until the last second.\"</p>",
+      "created_at": "2022-01-04T21:02:55.186+00:00",
+      "icon": {
+        "id": 172875,
+        "keyword": "Screen Shot 2020-11-30 at 9.02.43 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.02.43+AM.png"
+      },
+      "updated_at": "2022-01-04T21:04:23.896+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739644,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"I'm listening, but one second.\"</p>\r\n<p>Keltham taps himself and Abadar's symbol flashes into place on his forehead.&nbsp; \"Use Detect Magic to verify that this is a correctly functioning truthspell, and then get out of my way immediately because Asmodeus's direct orders prohibit you from hindering or interfering with my departure from this place,\" he says to the people at the Security checkpoint.</p>",
+      "created_at": "2022-01-04T21:04:43.812+00:00",
+      "icon": {
+        "id": 200809,
+        "keyword": "close grim",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fl5zi5kdl8q8taltk3zouh8_close+grim.png"
+      },
+      "updated_at": "2022-01-04T21:05:01.892+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739645,
+      "character": null,
+      "character_name": null,
+      "content": "<p>They get out of his way, silently.&nbsp;</p>",
+      "created_at": "2022-01-04T21:06:42.810+00:00",
+      "icon": {
+        "id": 8566,
+        "keyword": "silmaril",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F0ba88b6e-fc67-4055-94de-26b4c3b40070_silmaril2.jpg"
+      },
+      "updated_at": "2022-01-04T21:06:42.810+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739646,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Okay, firstly, someone told you that. It's true, and I'd have told you if you asked, but you didn't know it when I went to sleep and you knew it when I woke up. I'm guessing either you got a Sending from someone or a communication from your god. If it was a communication from your god, then I will help you find the exit, though I do want to go with you. But if it was a Sending, I am <em>fucking terrified&nbsp;</em>that it included a Suggestion and you are out of your mind right now.\"</p>",
+      "created_at": "2022-01-04T21:08:37.270+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-01-04T21:08:37.270+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739647,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "",
+      "created_at": "2022-01-04T21:09:39.701+00:00",
+      "icon": {
+        "id": 200474,
+        "keyword": "head tilt",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fah06t72ewcibr8wsdfzyr_head+tilt.png"
+      },
+      "updated_at": "2022-01-04T21:09:39.701+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739648,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>Spell Immunity, targeted on Suggestion.</p>\r\n<p>Enchantment Foil.</p>\r\n<p>Protection from Evil.</p>",
+      "created_at": "2022-01-04T21:09:54.696+00:00",
+      "icon": {
+        "id": 228226,
+        "keyword": "cast",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Ft1a2th8wdxdetrjxkyyvt_cast.png"
+      },
+      "updated_at": "2022-01-04T21:13:28.034+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739649,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Nope.\"&nbsp; Keltham moves through the checkpoint.</p>\r\n<p>There's something that looks a lot like a staging area beyond, it's also been cleared.</p>",
+      "created_at": "2022-01-04T21:12:11.983+00:00",
+      "icon": {
+        "id": 201295,
+        "keyword": "neutral",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F51spld8tawrm5guaq6112s_neutral.png"
+      },
+      "updated_at": "2022-01-04T21:12:11.983+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739650,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"So it was a Sending,\" she says. \"If you've got more of those Spell Immunities you also want to try Demand, and probably six or seven secret fucking spells I have never heard of because I'm not an enchantment specialist. Keltham, at least stay on this side of the Forbiddance until we can get someone to cast a really high powered Dispel on you.\"</p>",
+      "created_at": "2022-01-04T21:13:47.410+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-01-04T21:14:23.596+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739652,
+      "character": null,
+      "character_name": null,
+      "content": "<p>The group of Osirians that have just teleported in, not into the staging area, but where Keltham was six seconds earlier, do not look particularly numerous.&nbsp; They do look high-level enough to potentially take a lot of the remaining Security in the palace.</p>\r\n<p>Keltham has already turned around and is walking towards them.&nbsp; \"Carissa, come here.\"</p>\r\n<p>\"We should go&nbsp;<em>now,</em>\" one of them says.</p>",
+      "created_at": "2022-01-04T21:16:30.367+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T21:18:30.183+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739654,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>She's close enough to grab his arm, which she does.</p>",
+      "created_at": "2022-01-04T21:20:03.169+00:00",
+      "icon": {
+        "id": 172870,
+        "keyword": "Screen Shot 2020-11-30 at 9.00.47 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.00.47+AM.png"
+      },
+      "updated_at": "2022-01-04T21:20:03.169+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739655,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>He taps her with a truthspell.&nbsp; \"Do you actually believe I'm being mind-controlled?\"</p>",
+      "created_at": "2022-01-04T21:20:48.262+00:00",
+      "icon": {
+        "id": 204634,
+        "keyword": "intent",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fuoanxrqkk6o8fcfwoi73e_intent.png"
+      },
+      "updated_at": "2022-01-04T21:20:48.262+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739656,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I consider it fairly likely,\" she says. \"Because you're acting incredibly uncharacteristic and missing things I wouldn't expect you to miss.\"</p>",
+      "created_at": "2022-01-04T21:21:54.538+00:00",
+      "icon": {
+        "id": 173550,
+        "keyword": "Screen Shot 2020-12-08 at 4.07.26 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.07.26+PM.png"
+      },
+      "updated_at": "2022-01-04T21:21:54.538+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739657,
+      "character": null,
+      "character_name": null,
+      "content": "<p>\"If you can tell me under truthspell that you expect to be able to get a high-powered-enough Security caster in here within one minute who will cast that Dispel on me and do absolutely nothing else nor will there be any other attempts to hinder me or them, you can do that,\" Keltham says.</p>",
+      "created_at": "2022-01-04T21:24:35.920+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T21:24:35.920+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739659,
+      "character": null,
+      "character_name": null,
+      "content": "<p>One of the Osirians raises a hand and casts what is evidently a very powerful Dispel Magic. And then another one.</p>\r\n<p>&nbsp;</p>\r\n<p>\"Do you believe he's being mind-controlled now,\" he asks Carissa, curtly.</p>",
+      "created_at": "2022-01-04T21:26:44.124+00:00",
+      "icon": {
+        "id": 8566,
+        "keyword": "silmaril",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F0ba88b6e-fc67-4055-94de-26b4c3b40070_silmaril2.jpg"
+      },
+      "updated_at": "2022-01-04T21:26:44.124+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739660,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"No.\" But the truthspell's useful for something else. \"Keltham - when you terminate a pregnancy, the baby's soul goes to the Boneyard. Just like if they died after they were born. Cheliax can make me have an abortion but they can't protect you from having any children, souls don't show up at the moment of birth.\"</p>",
+      "created_at": "2022-01-04T21:28:13.869+00:00",
+      "icon": {
+        "id": 159714,
+        "keyword": "carissa8",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa8.png"
+      },
+      "updated_at": "2022-01-04T21:28:13.869+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739661,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"The fuck?\"</p>",
+      "created_at": "2022-01-04T21:29:37.089+00:00",
+      "icon": {
+        "id": 227243,
+        "keyword": "shellshock",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fws3ij0k0495ikj4hk5sl5_shellshock.png"
+      },
+      "updated_at": "2022-01-04T21:29:37.089+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739665,
+      "character": null,
+      "character_name": null,
+      "content": "<p>\"I'll Baleful Polymorph her before we go and that'll take care of it,\" says an Osirian.&nbsp; \"They're only ensouled after twelve weeks.\"</p>",
+      "created_at": "2022-01-04T21:34:05.378+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T21:34:05.378+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739666,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Do it and let's go.\"</p>",
+      "created_at": "2022-01-04T21:34:19.919+00:00",
+      "icon": {
+        "id": 229413,
+        "keyword": "sad",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F5xx33ss7cou7r0d6462uf8_sad.png"
+      },
+      "updated_at": "2022-01-04T21:34:19.919+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739667,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Keltham think for one fucking second, why did I tell you that. It would have been incredibly easy not to tell you that, and to retain Cheliax some leverage later.\"</p>\r\n<p>&nbsp;</p>\r\n<p>It's an exchange. The kind you can't make in Cheliax but can, she thinks, make in Lawful Neutral land. It's something that he wanted very badly, and she wants something in exchange, which is for him to take her with him so she won't be tortured to death. Because she believes he is the kind of person who would want to make that deal.</p>",
+      "created_at": "2022-01-04T21:35:17.378+00:00",
+      "icon": {
+        "id": 172870,
+        "keyword": "Screen Shot 2020-11-30 at 9.00.47 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.00.47+AM.png"
+      },
+      "updated_at": "2022-01-04T21:40:17.936+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739669,
+      "character": null,
+      "character_name": null,
+      "content": "<p>One does wonder what Keltham would have said in response to that, if she'd just said it directly.</p>",
+      "created_at": "2022-01-04T21:41:30.149+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T21:41:30.149+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739670,
+      "character": {
+        "id": 11729,
+        "name": "Keltham",
+        "screenname": "lawful chaotic"
+      },
+      "character_name": "Keltham",
+      "content": "<p>\"Goodbye.\"</p>",
+      "created_at": "2022-01-04T21:41:44.242+00:00",
+      "icon": {
+        "id": 204633,
+        "keyword": "apologetic",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F6cc1ksw0asqfvzs5zs0jl_apologetic.png"
+      },
+      "updated_at": "2022-01-04T21:41:44.242+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739671,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Carissa is now an adorable puppy.</p>",
+      "created_at": "2022-01-04T21:41:55.671+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T21:41:55.671+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739672,
+      "character": null,
+      "character_name": null,
+      "content": "<p>...</p>",
+      "created_at": "2022-01-04T21:42:12.864+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T21:42:12.864+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739673,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Carissa is no longer an adorable puppy and the smarter Security from before is standing next to her, discarding what was presumably a Break Enchantment scroll.&nbsp; \"Do you have any particular plan for how we don't end up as statues?\" the Security says.</p>",
+      "created_at": "2022-01-04T21:42:54.685+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T21:42:54.685+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739674,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>It takes her a bit.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"Suicide,\" she says. \"Got a weapon?\"</p>",
+      "created_at": "2022-01-04T21:43:39.813+00:00",
+      "icon": {
+        "id": 173575,
+        "keyword": "Screen Shot 2020-12-08 at 4.43.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.43.01+PM.png"
+      },
+      "updated_at": "2022-01-04T21:43:39.813+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739675,
+      "character": null,
+      "character_name": null,
+      "content": "<p>\"You know, you'd think the fucking Queen of Cheliax would know better than to give a desertion incentive to people who've sold their souls,\" Security says.&nbsp; He's already taking out another scroll.&nbsp; \"I'm going to run, and see about staying alive until she's dead, and can't pay my owner to torture me into giving consent for resurrection so she can statue me.&nbsp; She did that once, you know.\"</p>\r\n<p>\"I'd take you with, except for the part where you fucked up every single step of this and cost me everything.\"</p>\r\n<p>He's gone.</p>",
+      "created_at": "2022-01-04T21:47:36.923+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T22:01:03.845+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739676,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa's plan to solve that problem is going to simply be 'don't be tortured into giving consent for a resurrection so the Queen can statue you'. It seems like an incredibly solid plan.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>She prepared defensive spells, not offensive ones, or this would be as simple as putting her fist in her face with a Fireball; as it is she's in fact going to need a knife. She goes invisible.</p>",
+      "created_at": "2022-01-04T21:50:19.177+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-01-04T21:50:19.177+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739677,
+      "character": null,
+      "character_name": null,
+      "content": "<p>This palace&nbsp;<em>does</em> still contain a certain number of people who are pretty fucking likely to spot an invisible person walking around, unless that person is <em>very</em> invisible.&nbsp; On the other hand, if they're very-invisible palace Security themselves, they won't necessarily stop you right away, after they've spotted you.</p>\r\n<p>Well anyways, this could be funny, how is Carissa going to try to kill herself?</p>",
+      "created_at": "2022-01-04T21:53:09.624+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T21:54:06.222+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739678,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>She's not really thinking all that clearly. But she has her Bag of Holding with the supplies with which to protect Keltham. So she can be Greater Invisible, and have a Nondetection up, and that ought to keep her from being immediately stopped while she thinks. Options: acquire a fast-acting poison, acquire a knife, attack someone in such a fashion that you get killed by responding Security, hope she can hide long enough to make an arrow of Slaying - no, that'd take a full day, she doesn't have that long.... oh, no, wait, all that is stupid overthinking.</p>\r\n<p>&nbsp;</p>\r\n<p>She finds a fountain.&nbsp;</p>",
+      "created_at": "2022-01-04T21:58:48.212+00:00",
+      "icon": {
+        "id": 173533,
+        "keyword": "Screen Shot 2020-12-08 at 4.51.35 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Foat2o11tiag074wxxfde_Screen+Shot+2020-12-08+at+4.51.35+PM.png"
+      },
+      "updated_at": "2022-01-04T21:58:48.212+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739679,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>There are lots of them, dotting the grounds; she doesn't think she needs the basin to be more than a few inches deep, in principle you can drown in practically anything, but she picks one with a few feet deep, just in case her self-control while drowning is much worse than she thinks. She blankets the fountain with an illusion that it looks normal. Lies down.&nbsp;</p>\r\n<p>Lowers her head under the water, and breathes in.</p>",
+      "created_at": "2022-01-04T22:00:35.424+00:00",
+      "icon": {
+        "id": 172871,
+        "keyword": "Screen Shot 2020-11-30 at 9.01.46 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.01.46+AM.png"
+      },
+      "updated_at": "2022-01-04T22:00:35.424+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739680,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Most people, in fact, would not be able to deliberately drown themselves like that.</p>",
+      "created_at": "2022-01-04T22:02:00.273+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T22:02:00.273+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739682,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>People suck. It is why Asmodeus hates them, and Asmodeus is right to; Carissa agrees with him wholeheartedly. Theologically everything feels very uncomplicated, right now. People are weak and pathetic and can't think about the long term, can only think an instant ahead, can only feel their lungs fill up with water and jerk above the surface, their muscles moving in advance of their mind.</p>\r\n<p>&nbsp;</p>\r\n<p>If she's that weak she will deserve to stop existing.&nbsp;</p>\r\n<p>She lost the Minor Illusion. She casts it again.</p>\r\n<p><br />She sinks down into the water and wedges her head slightly under the lip of the fountain as protection against the failure of her own will, and she focuses all of her self to a tiny sharp point on the Minor Illusion. She has to keep it up. The fountain has to look normal. Her lungs are spasming and her body is fighting but this is the only thing that will ever matter and she doesn't move above the water, doesn't keep track of which direction is above the water, and the illusion will make the water look normal. The illusion will make the water look normal. Perfectly normal. Even when the illusion falls, an invisible body won't be fast to find, but she is trimming away even thoughts like that, now, in favor of concentrating on her illusion's sparkling beautiful perfection, nothing here for anyone to see.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>It's getting dark, but that's all right. She'll wake up in Hell.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Technically, she'll get a trial, which is almost funny, in some very distant far-off way.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+      "created_at": "2022-01-04T22:08:58.346+00:00",
+      "icon": {
+        "id": 159703,
+        "keyword": "carissa4",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa4.png"
+      },
+      "updated_at": "2022-01-04T22:08:58.346+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739683,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Pulled out of water by a Security not wearing an intelligence headband, tapped with Greater Dispel Magic (cast from item) followed by Greater Infernal Healing.&nbsp; \"What happened to you, report!\"</p>",
+      "created_at": "2022-01-04T22:12:45.437+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T22:36:39.041+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739684,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Wait what the actual fuck, she thinks while coughing and vomiting on the ground. We have security competent to notice invisible bodies in the fountains but not to, you know, detect a Sending or wake up the one on-site project expert when an important target is acting weirdly or brief anyone on the escape plan -</p>\r\n<p>&nbsp;</p>\r\n<p>\"I have an important report I need to make directly to Dispater,\" she says. \"In person. If you haven't got training for this I will take your knife and handle it.\"</p>",
+      "created_at": "2022-01-04T22:15:14.230+00:00",
+      "icon": {
+        "id": 172897,
+        "keyword": "Screen Shot 2020-12-06 at 9.04.09 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.04.09+PM.png"
+      },
+      "updated_at": "2022-01-04T22:15:14.230+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739686,
+      "character": null,
+      "character_name": null,
+      "content": "<p>\"That's the weirdest thing I've ever heard in my life, and if it can wait long enough for you to make it to Dis, then it can wait slightly longer while I get in somebody who can check you for enchantments.\"&nbsp; He's pretty obviously calling reinforcements.</p>",
+      "created_at": "2022-01-04T22:18:00.803+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T22:18:00.803+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739687,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I'll go directly to Dis, you worm, I sold my soul there.\"</p>",
+      "created_at": "2022-01-04T22:19:04.301+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-01-04T22:19:04.301+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739688,
+      "character": null,
+      "character_name": null,
+      "content": "<p>\"Aura Sight doesn't have you looking powerful enough to have done that.&nbsp; Fail your Will save.\"&nbsp; Knock knock, somebody would like to detect her thoughts.</p>",
+      "created_at": "2022-01-04T22:21:21.589+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T22:21:21.589+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739690,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Instead of that she casts Hold Person. And then Invisibility, to hide the frozen Security somehow standing right there, and then - has he got a weapon on him, or items more lethal than the stupid defensive ones she has -</p>",
+      "created_at": "2022-01-04T22:24:28.260+00:00",
+      "icon": {
+        "id": 173555,
+        "keyword": "Screen Shot 2020-12-08 at 4.35.37 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.35.37+PM.png"
+      },
+      "updated_at": "2022-01-04T22:24:28.260+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739691,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Mm, good question...</p>\r\n<p>There's a dagger that looks kind of unfortunately ceremonial, barbed, and pretty blunt aside from being barbed.&nbsp; You&nbsp;<em>might</em> be able to kill yourself with this but it would be painful and, more importantly, slow.</p>",
+      "created_at": "2022-01-04T22:25:38.568+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T22:33:29.419+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739692,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Fine.</p>\r\n<p><br />She shoves him into the fountain. Unpleasant way to die but Hold Person doesn't last very long and this way she can determine whether there's some kind of drowning-person alarm on the fountains, he got to her way too fast.&nbsp;</p>\r\n<p>(She casts another Hold Person from the scrolls in her bag when it reaches the edge of its duration.)</p>\r\n<p>&nbsp;</p>\r\n<p>Alter Self. Disguise Self. Now Carissa is this random Security.</p>",
+      "created_at": "2022-01-04T22:28:03.616+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-01-04T22:34:51.420+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739693,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Brilliant deduction, Carissa, it looks like there's more Security inbound!&nbsp; Either that, or the first guy called for reinforcements just like you remembered him doing!&nbsp; By the way they probably know him, also how well do you think you're likely to do at faking his Arcane Mark.</p>",
+      "created_at": "2022-01-04T22:32:48.182+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T22:39:15.493+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739694,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa, in the manner of dath ilani, updated hard on the quality of the remaining Security in the last hour and is now pretty confident that everyone who would be smart enough to check that is either in Nidal or, uh, deserted. It's occurring to her that possibly a lot of the absence of competent people is desertion. - think about that later.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"Two invisible people, one of them a caster, grabbed one but they Dim Doored out,\" she shouts to incoming Security.&nbsp;</p>",
+      "created_at": "2022-01-04T22:37:21.278+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-01-04T22:37:21.278+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739695,
+      "character": null,
+      "character_name": null,
+      "content": "<p>...okay, they'll start casting detection spells that will totally show up that Disguise Self you're using.</p>",
+      "created_at": "2022-01-04T22:38:15.155+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T22:38:15.155+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739696,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>She has a second Nondetection which ought to cover that! She'll cast some detection spells herself and go looking for the intruders. There should be some non-caster Security she can steal a knife from.</p>",
+      "created_at": "2022-01-04T22:40:23.039+00:00",
+      "icon": {
+        "id": 161268,
+        "keyword": "Screen Shot 2020-09-30 at 5.05.33 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyov9vbcqfc9pfntsg1gu_Screen+Shot+2020-09-30+at+5.05.33+PM.png"
+      },
+      "updated_at": "2022-01-04T22:40:23.039+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739698,
+      "character": null,
+      "character_name": null,
+      "content": "<p>One&nbsp;<em>supposes</em> that could work.&nbsp; As interesting as it might be to watch Carissa try to end herself with a knife, however, it looks like the alarm has gone up and also some more competent-looking people are returning from the front lines to deal with whatever's going on at the Palace; Chelish forces can in fact handle themselves pretty well against Nidal if the Black Triune is out of the picture.</p>\r\n<p>Also somebody may possibly have reported that whole thing with Keltham at some point?</p>\r\n<p>Somebody is yelling about whether anybody knows where Carissa Sevar is and she's to be held alive if so.</p>",
+      "created_at": "2022-01-04T22:45:17.434+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T22:45:17.434+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739700,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<details>\r\n<summary>Content warning: suicide. You don't actually need to read this tag to follow the plot. </summary>\r\n\r\nBlunt dagger should still work, if no one can find her to heal her fast enough. She burns the last scroll of Greater Invisibility, leans against the wall, sticks the dagger in her mouth, and shoves. Up and back. That's where her brain is, probably. If she did it exactly right, she'll even fall to the ground in a way that shoves the dagger in deeper.\r\n\r\n.</details>",
+      "created_at": "2022-01-04T22:50:54.487+00:00",
+      "icon": {
+        "id": 173575,
+        "keyword": "Screen Shot 2020-12-08 at 4.43.01 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.43.01+PM.png"
+      },
+      "updated_at": "2022-01-04T22:50:54.487+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739701,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Unfortunately you didn't do it exactly right, then; or even, really, right enough at all.&nbsp; Not enough to prevent yourself from being healed after they find you.</p>\r\n<p>There's an instant of blinding pain as she tries it.</p>\r\n<p><br />It is alas followed by waking up, not in Hell.</p>",
+      "created_at": "2022-01-04T22:53:55.091+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T22:54:06.795+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739702,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa is, as sincerely as a person can possibly be, really sad to not be on fire in Avernus.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Where<em> is </em>she?</p>\r\n<p>&nbsp;</p>",
+      "created_at": "2022-01-04T23:06:31.142+00:00",
+      "icon": {
+        "id": 173547,
+        "keyword": "Screen Shot 2020-12-08 at 6.46.00 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Foat2o11tiag074wxxfde_Screen+Shot+2020-12-08+at+6.46.00+PM.png"
+      },
+      "updated_at": "2022-01-04T23:06:31.142+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739703,
+      "character": null,
+      "character_name": null,
+      "content": "<p>The Imperial palace's best torture chambers; apparently it's time for an extended debriefing which will probably be, in fact, pretty boring from the standpoint of the people doing it -</p>\r\n<p>Ha ha, just kidding!&nbsp; Carissa is nowhere near that lucky.</p>\r\n<p>She finds herself in a place that involves a remarkable amount of golden shiny, which is the color of the walls, floor, ceiling, all illuminated by ceiling lights bright enough to look like little pieces of Sun.</p>\r\n<p>At various forcescreen-protectable desk stations around the room are unidentifiably rare books, alchemical reagents at the intermediate level, large gemstones in more colors than the rainbow actually has, exotic metals, and one shelf with an absolutely horrifying amount of spellsilver.</p>\r\n<p>There's nobody visible in this room, but Carissa can't turn her head very far to see if anybody's lurking behind her.&nbsp; Her feet are spread uncomfortably far apart and affixed to the floor by anklets and chains that don't have very much give to them, her head is affixed in place by something that feels more like an arbitrary force spell.</p>\r\n<p>Gold, to be clear on this point, is a usefully non-reactive coating; and hence often found all over the place, in very very high-end enchanter's workshops.</p>\r\n<p>How is Carissa currently feeling about this?</p>",
+      "created_at": "2022-01-04T23:19:17.612+00:00",
+      "icon": null,
+      "updated_at": "2022-01-05T05:52:43.927+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739704,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa has gone so far beyond all of the emotions she has ever had in her entire life that when she checks where the emotions are, she just comes up empty.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>.....it is&nbsp;<em>technically&nbsp;</em>possible to use spellsilver you're not touching. Some people do that so they don't have to deal with it oxidizing. Doing it at any significant distance loses efficiency, which wouldn't be worth it, but -</p>\r\n<p>&nbsp;</p>\r\n<p>She is going to focus very intently on trying to build a weapon-enchantment-scaffold that stretches all the way from her to the spellsilver on the shelf.&nbsp;</p>",
+      "created_at": "2022-01-04T23:21:58.734+00:00",
+      "icon": {
+        "id": 173538,
+        "keyword": "Screen Shot 2020-12-08 at 6.25.25 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Foat2o11tiag074wxxfde_Screen+Shot+2020-12-08+at+6.25.25+PM.png"
+      },
+      "updated_at": "2022-01-04T23:21:58.734+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739705,
+      "character": null,
+      "character_name": null,
+      "content": "<p>...isn't she supposed to be third circle.&nbsp;&nbsp;<em>Is</em> she still third circle, she did just get into a bit of a fight there.</p>\r\n<p>Well, nobody's going to interrupt her while she's trying&nbsp;that.</p>",
+      "created_at": "2022-01-04T23:26:07.933+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T23:27:10.946+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739707,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Might be fourth now. Yay Carissa.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>She has an armillary amulet, for visualizing the way spell manifolds will curve around each other. She reaches it at her neck, twiddles with it.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>They're probably just toying with her.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>And yet -</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+      "created_at": "2022-01-04T23:31:31.010+00:00",
+      "icon": {
+        "id": 175883,
+        "keyword": "Screen Shot 2020-12-24 at 4.32.10 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyi4b2oygd3bdiaobluq82t_Screen+Shot+2020-12-24+at+4.32.10+PM.png"
+      },
+      "updated_at": "2022-01-04T23:31:31.010+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739708,
+      "character": null,
+      "character_name": null,
+      "content": "<p>\"Make a DC 40 spellcraft check\" is, in general, a mean thing to say to your players who are in the middle of levelling up their character sheet to seventh level. It is standard at that level for a wizard to have a +12 or +14 to spellcraft.</p>\r\n<p>&nbsp;</p>\r\n<p>Carissa Sevar has a +23 to spellcraft, +28 when her hands are free to use her armillary amulet.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Let the dice roll, then.</p>",
+      "created_at": "2022-01-04T23:35:16.852+00:00",
+      "icon": {
+        "id": 8566,
+        "keyword": "silmaril",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F0ba88b6e-fc67-4055-94de-26b4c3b40070_silmaril2.jpg"
+      },
+      "updated_at": "2022-01-04T23:41:07.776+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739709,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "",
+      "created_at": "2022-01-04T23:35:36.860+00:00",
+      "icon": {
+        "id": 175885,
+        "keyword": "Screen Shot 2020-12-24 at 4.32.31 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyi4b2oygd3bdiaobluq82t_Screen+Shot+2020-12-24+at+4.32.31+PM.png"
+      },
+      "updated_at": "2022-01-04T23:35:36.860+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739710,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa is going to turn her armillary amulet into an arrow of Slaying. She's not actually sure if you can do that. She's going to anyway. She's sure it's supposed to take days. But if you're willing to burn a lot of spellsilver maybe you can go a little faster.</p>",
+      "created_at": "2022-01-04T23:36:57.292+00:00",
+      "icon": {
+        "id": 160030,
+        "keyword": "carissa16",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fvnqr2piy0tabr18rotd2t_carissa16.png"
+      },
+      "updated_at": "2022-01-05T17:44:01.228+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739711,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Now that's just bullshit.&nbsp; Seventh-circle wizard, yes.&nbsp; Perhaps a prodigal and specialized fifth-circle wizard.&nbsp; Third-circle who <em>maybe </em>just hit fourth, <em>no</em>.</p>\r\n<p>Skeptical sane people would not believe this Carissa Sevar fact.</p>\r\n<p>All right, keep going then.&nbsp; Are you&nbsp;<em>actually</em> going to pull this off.</p>",
+      "created_at": "2022-01-04T23:43:18.310+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T23:43:46.659+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739712,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Well, how long does she have. She knows how to make an arrow of Slaying, she's done that before. She knows, apparently, how to use spellsilver at this distance. She's trying some new stuff in order to do it&nbsp;<em>faster,&nbsp;</em>but this is three days of work for a normal arms and armor enchanter, and a day and a half even for a Carissa normally, and she's not sure how much you can substitute spellsilver for speed, though she's going to find out.</p>",
+      "created_at": "2022-01-04T23:45:53.353+00:00",
+      "icon": {
+        "id": 173547,
+        "keyword": "Screen Shot 2020-12-08 at 6.46.00 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Foat2o11tiag074wxxfde_Screen+Shot+2020-12-08+at+6.46.00+PM.png"
+      },
+      "updated_at": "2022-01-04T23:45:53.353+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739714,
+      "character": null,
+      "character_name": null,
+      "content": "<p>...let's say she gets fifteen minutes.</p>\r\n<p>How far does Carissa get in fifteen minutes, is it pretty clear that she would in fact succeed if left to herself for a few more hours?&nbsp; Is it enough that she starts feeling <em>hope?</em></p>",
+      "created_at": "2022-01-04T23:47:01.209+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T23:47:01.209+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739715,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Yes. It is. Why do you ask.&nbsp;</p>",
+      "created_at": "2022-01-04T23:47:40.489+00:00",
+      "icon": {
+        "id": 172877,
+        "keyword": "Screen Shot 2020-11-30 at 9.00.04 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.00.04+AM.png"
+      },
+      "updated_at": "2022-01-04T23:47:40.489+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739716,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Hell is the destruction of hope.</p>",
+      "created_at": "2022-01-04T23:48:39.546+00:00",
+      "icon": null,
+      "updated_at": "2022-01-04T23:48:39.546+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739717,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"That is the most impressive feat I have seen anybody even <em>try </em>from that position.\"</p>",
+      "created_at": "2022-01-04T23:49:41.747+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-09T23:58:44.331+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739719,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>- like being dumped in cold water, except not the nice kind of cold water that'll drown you.&nbsp;</p>",
+      "created_at": "2022-01-04T23:50:35.732+00:00",
+      "icon": {
+        "id": 172909,
+        "keyword": "Screen Shot 2020-12-06 at 9.13.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.13.47+PM.png"
+      },
+      "updated_at": "2022-01-04T23:50:35.732+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739721,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Nothing to lose, really. It's an odd feeling, weightless but also too full of wordless agony to enjoy.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"Your majesty! You don't mean this is&nbsp;<em>your&nbsp;</em>spellsilver, I thought someone had just left it here.\"</p>",
+      "created_at": "2022-01-04T23:52:34.008+00:00",
+      "icon": {
+        "id": 159703,
+        "keyword": "carissa4",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa4.png"
+      },
+      "updated_at": "2022-01-04T23:52:34.008+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739722,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>Does Carissa actually have any idea how to&nbsp;<em>not</em>&nbsp;flirt.</p>\r\n<p>\"Nothing to lose?&nbsp; Are you so sure?&nbsp; You aren't going to try to convince me that Asmodeus would still treasure your soul?&nbsp; Nor that the reason He singled you out, was that none save you can do as must now be done to keep up to Osirion and Lastwall?\"</p>",
+      "created_at": "2022-01-04T23:55:03.152+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T05:55:05.701+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739724,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"It's just barely possible that you'll decide that, your majesty, but not because I claim it's so.\"</p>\r\n<p>&nbsp;</p>\r\n<p>She has not actually stopped work on making her slaying arrow.</p>",
+      "created_at": "2022-01-04T23:57:15.424+00:00",
+      "icon": {
+        "id": 172897,
+        "keyword": "Screen Shot 2020-12-06 at 9.04.09 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.04.09+PM.png"
+      },
+      "updated_at": "2022-01-04T23:57:15.424+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739727,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>Well, isn't it nice to be credited with the tiniest trace of professionalism literally at all.</p>\r\n<p>\"I inquired of Hell.&nbsp; They thought you had outlived your usefulness.\"</p>\r\n<p>\"After receiving reports from the <em>one</em> loyal person present at that incident, I am inclined to agree.\"</p>",
+      "created_at": "2022-01-05T00:01:54.437+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T00:01:54.437+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739728,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"There was a loyal person present at that incident?\"</p>",
+      "created_at": "2022-01-05T00:02:22.672+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-01-05T00:02:22.672+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739729,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"The Security officer posted outside Keltham's room.&nbsp; He didn't try to escape, reported faithfully the incident, and will be extensively corrected for his <em>incompetence,</em> which is&nbsp;<em>not,</em> however the same as&nbsp;<em>treason.</em>\"</p>\r\n<p>\"Someone really has to work hard to end up in this room, Sevar.&nbsp; Carissa.&nbsp; May I call you that?&nbsp; I think our relationship has reached that point.&nbsp; You need to work to get into this room, Carissa.&nbsp; You have to somehow personally piss off Abrogail Thrune to a <em>towering</em> degree, you must have made a deliberate and knowing decision along the way - because there is no terrifying incompetent people out of incompetence, but betrayal is something else - and then on top of that <em>you</em> needed to become somebody that Asmodeus and the Church would no longer miss.\"</p>\r\n<p>\"Regrets?&nbsp; Or are you too busy to feel them?&nbsp; It seems a shame to cut short your stunning demonstration, but if you can't concentrate on that and having feelings at the same time, I'll have no choice.\"</p>",
+      "created_at": "2022-01-05T00:10:41.613+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-06T14:14:33.288+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739730,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I regret literally every decision I made from the moment Keltham showed up at the Worldwound and am so overwhelmed with misery and terror that I cannot think of a thing to say in my defense. I deserve to be tortured eternally.\" It's true, in a sense, but also she's holding the misery and terror back, crowding them into a corner of her mind, not actually letting herself fully feel them.&nbsp;</p>",
+      "created_at": "2022-01-05T00:14:08.437+00:00",
+      "icon": {
+        "id": 172979,
+        "keyword": "Screen Shot 2020-12-07 at 2.28.21 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fvnojiswuklhtapzuyeqlq_Screen+Shot+2020-12-07+at+2.28.21+PM.png"
+      },
+      "updated_at": "2022-01-05T00:14:08.437+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739731,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"Doesn't everyone?&nbsp; Let yourself feel it, Carissa, or I might start feeling inclined to destroy your spellwork to reduce your distractions.\"</p>",
+      "created_at": "2022-01-05T00:17:11.641+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T00:17:11.641+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739732,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>.....nothing matters....</p>\r\n<p>&nbsp;</p>\r\n<p>\"And am I supposed to&nbsp;<em>care?&nbsp;</em>Oh no, my <em>spellwork</em>! You were never going to let me finish it! You can't&nbsp;<em>threaten&nbsp;</em>me, haven't you noticed that? You're going to destroy me and I literally don't care about anything else!\"</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>She's - crying? She would not have predicted that.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>She hasn't stopped working on the arrow. It's reassuring, one stable thing, like there's a corner of her mind that's still knitting magic, ignorant of all the rest.</p>",
+      "created_at": "2022-01-05T00:19:44.437+00:00",
+      "icon": {
+        "id": 173542,
+        "keyword": "Screen Shot 2020-12-08 at 6.07.37 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Foat2o11tiag074wxxfde_Screen+Shot+2020-12-08+at+6.07.37+PM.png"
+      },
+      "updated_at": "2022-01-05T00:23:48.009+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739733,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>Abrogail reaches out a hand and caresses her cheek, where her head is still held very solidly in place by nothing.</p>\r\n<p>\"At least you still know how to cry,\" Abrogail says softly, \"from something other than simple pain.&nbsp; But it's only a few of your emotions that you're feeling, even so, and you don't know how to feel the rest.&nbsp; You're a broken thing inside, aren't you, no wonder you failed at the end when it mattered.&nbsp; It would have been so interesting to see whether Keltham could have remade you in truth.\"</p>",
+      "created_at": "2022-01-05T00:28:01.357+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T00:28:01.357+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739734,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\" - wait, that's your fault analysis here?\"</p>",
+      "created_at": "2022-01-05T00:28:25.214+00:00",
+      "icon": {
+        "id": 175881,
+        "keyword": "Screen Shot 2020-12-24 at 4.31.13 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyi4b2oygd3bdiaobluq82t_Screen+Shot+2020-12-24+at+4.31.13+PM.png"
+      },
+      "updated_at": "2022-01-05T00:28:25.214+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739736,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Your Majesty, by far my most significant error - and yours, really, but mostly mine - is that I did not confirm Keltham's room was warded to make Sendings impossible, or, if we had some good reason for it not to be so warded, then we should also have had some group of malicious assassins Send him to lure him into a trap so he'd be appropriately fucking wary in future.&nbsp; We lost <em>almost everything as soon as he got that Sending</em>; it would be nice if he'd taken me along to Osirion, but it was still a&nbsp;<em>tiny&nbsp;</em>probability at that point of getting anything at all that we valued out of this.</p>\r\n<p>My second most significant error is that as soon as the fallback 'Carissa and maybe Ione escape with Keltham' plan was developed we should have done a dozen live-fire runthroughs with every Security person who might possibly have been in the room when Keltham learned something that caused him to be ready to leave.</p>\r\n<p>My third most significant error was seeking employment in&nbsp;<em>your&nbsp;</em>clownshow of a government.\" She fully expects this to get her lit on fire but being lit on fire will be refreshing right now.</p>",
+      "created_at": "2022-01-05T00:34:03.961+00:00",
+      "icon": {
+        "id": 175880,
+        "keyword": "Screen Shot 2020-12-24 at 4.30.22 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyi4b2oygd3bdiaobluq82t_Screen+Shot+2020-12-24+at+4.30.22+PM.png"
+      },
+      "updated_at": "2022-01-05T00:34:22.863+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739738,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>Ah, Carissa.&nbsp; If you had spent more than four hours of your life as a project manager, dealing with actual people instead of calm little pieces of paper...</p>\r\n<p>\"Do I detect a note of far-too-late interest in becoming Queen of Cheliax?\" Abrogail says mockingly.</p>",
+      "created_at": "2022-01-05T00:43:34.907+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T00:44:42.057+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739739,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Of course I want to be Queen of Cheliax! Have you met the current one, she's an idiot!\" WHY isn't she on fire.</p>",
+      "created_at": "2022-01-05T00:46:11.463+00:00",
+      "icon": {
+        "id": 175883,
+        "keyword": "Screen Shot 2020-12-24 at 4.32.10 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyi4b2oygd3bdiaobluq82t_Screen+Shot+2020-12-24+at+4.32.10+PM.png"
+      },
+      "updated_at": "2022-01-05T00:46:11.463+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739741,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"Oh, is this when, thinking you have nothing left to lose, you tread upon my pride those few more steps, and tell me now those obvious truths that others dare not say for fear of me?&nbsp; Go to it, then, let's see if you have anything new.\"</p>",
+      "created_at": "2022-01-05T00:49:22.130+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-06T04:19:48.325+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739744,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>- fine, then. \"You never took this a fraction as seriously as everyone around you was telling you it needed to be taken. Your staff are all <em>idiots</em>. The rumors about the project should never have happened. They <em>need</em> it to feel superior to the people who aren't allowed rumors? Send them all to the Worldwound, see what they need then. Project security at the villa was barely, barely competent to keep things from slipping and Security at the palace, even before you took everybody north this morning, was notably worse. Aspexia thought we could make the best of there being rumors about me, but I'm scryable, and frequently in a room with Keltham, it's actually a terrible idea for Lastwall to think I'm interesting!! Maybe the best of our terrible options at that point but an incredibly massive security failure which everyone was just casually indifferent about! Maillol would have done better, but at the palace he doesn't even really use his brain, because he expects everything to run on stupid games he's not good at. You should have your fucking capital at the Worldwound, is what you should do, nothing less than the dumb ones getting eaten by demons makes people realize they aren't&nbsp;<em>special.&nbsp;</em>Cheliax has been around for eighty years and doesn't know how to punish people in a way that makes them better at their jobs, what are we&nbsp;<em>doing? Aspexia was the only person who understood how badly we are failing -\"</em></p>",
+      "created_at": "2022-01-05T00:57:41.167+00:00",
+      "icon": {
+        "id": 173555,
+        "keyword": "Screen Shot 2020-12-08 at 4.35.37 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.35.37+PM.png"
+      },
+      "updated_at": "2022-01-05T00:57:41.167+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739745,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>Being lit on fire by Abrogail Thrune is not like being lit on fire by fifth-circle Security weaklings.&nbsp; It actually hurts.</p>",
+      "created_at": "2022-01-05T00:59:25.144+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T00:59:25.144+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739746,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>She loses her slaying-arrow-in-progress.</p>\r\n<p>&nbsp;</p>\r\n<p>She screams.&nbsp;</p>\r\n<p><br /><br />It's satisfying, though, in the incredibly hollow incredibly distant way that things can still be satisfying.&nbsp;</p>",
+      "created_at": "2022-01-05T01:01:34.969+00:00",
+      "icon": {
+        "id": 173538,
+        "keyword": "Screen Shot 2020-12-08 at 6.25.25 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Foat2o11tiag074wxxfde_Screen+Shot+2020-12-08+at+6.25.25+PM.png"
+      },
+      "updated_at": "2022-01-05T01:01:34.969+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739747,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>As the saying goes:&nbsp; If fire seems to help, try even more fire.</p>",
+      "created_at": "2022-01-05T01:02:17.525+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-10T20:21:32.858+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739749,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>An interesting side effect of the headband is that you have more attention to occupy with being in horrible pain.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>A lot of people think of this as a downside, but Carissa doesn't have it in her, on a very fundamental level, to wish there was less of her.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Which is - not an idea, she's in too much pain for an idea, but the threads of what might be able to turn into an idea once the pain stops.</p>",
+      "created_at": "2022-01-05T01:04:06.042+00:00",
+      "icon": {
+        "id": 172886,
+        "keyword": "Screen Shot 2020-12-06 at 9.27.36 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.27.36+PM.png"
+      },
+      "updated_at": "2022-01-05T01:04:06.042+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739750,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>Then she can be not on fire and have a Greater Infernal Healing.&nbsp; Abrogail is always interested in detecting the thoughts of Carissa when she lets herself have any.</p>",
+      "created_at": "2022-01-05T01:07:16.645+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T01:09:18.100+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739751,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"Do you think,\" she says, once she can talk, \"you are capable of hurting me enough I am ready for it to stop.\"</p>",
+      "created_at": "2022-01-05T01:09:00.046+00:00",
+      "icon": {
+        "id": 173538,
+        "keyword": "Screen Shot 2020-12-08 at 6.25.25 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Foat2o11tiag074wxxfde_Screen+Shot+2020-12-08+at+6.25.25+PM.png"
+      },
+      "updated_at": "2022-01-05T01:09:00.046+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739752,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>That is the most flirtatious thing that anyone has said to Abrogail Thrune in 2 years and 3 months.&nbsp; \"My, I genuinely don't know.\"</p>",
+      "created_at": "2022-01-05T01:11:59.806+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T01:11:59.806+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739753,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Me neither. Do you want me actually motivated to find out.\"</p>",
+      "created_at": "2022-01-05T01:12:30.188+00:00",
+      "icon": {
+        "id": 173554,
+        "keyword": "Screen Shot 2020-12-08 at 4.10.47 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.10.47+PM.png"
+      },
+      "updated_at": "2022-01-05T01:12:30.188+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739754,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"I doubt you capable of more than a hollow imitation of real motivation, even now, but do go on.\"</p>",
+      "created_at": "2022-01-05T01:14:21.807+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T01:14:21.807+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739755,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Promise me that you'll only turn me into a statue if I tell you that I've had enough.\"</p>",
+      "created_at": "2022-01-05T01:15:09.123+00:00",
+      "icon": {
+        "id": 172899,
+        "keyword": "Screen Shot 2020-12-06 at 9.04.27 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.04.27+PM.png"
+      },
+      "updated_at": "2022-01-05T01:15:09.123+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739757,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>A laugh.&nbsp; \"No, sweet Carissa.&nbsp; If I were to offer your soul's eternity for anything, it would be you learning to suffer beautifully, with your true whole heart, as might keep me occupied for more than one day's dalliance.&nbsp; It would be a futile offer, of course, because you are too hollow of a shell to fill yourself up that quickly and only because you must.\"</p>\r\n<p>\"Are you interested in buying up to one more hour of existence at any cost in suffering for it?&nbsp; I could offer you that.\"</p>",
+      "created_at": "2022-01-05T01:19:32.887+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T05:58:54.132+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739759,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>What's she supposed to say to that, no?</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"Please, your Majesty.\"</p>",
+      "created_at": "2022-01-05T01:22:25.349+00:00",
+      "icon": {
+        "id": 172912,
+        "keyword": "Screen Shot 2020-12-06 at 9.32.58 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.32.58+PM.png"
+      },
+      "updated_at": "2022-01-05T01:22:25.349+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739760,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"This is so unfair to me, you know.\"&nbsp; Another light caress around Carissa's other cheek.&nbsp; \"I want you still sane and appreciating everything when you finally, slowly, bit by bit, feel your body starting to freeze up, and you know that those are the very last moments you'll ever have.&nbsp; You invite me to try to make you say 'stop' and I do believe that maybe I <em>could,</em> but not if I still want you sane and feeling everything during the part I've been looking forwards to for days.\"</p>\r\n<p>\"But there's games we can play in an hour and still leave you sane, and maybe you're weaker than I thought.&nbsp; So yes, sweet flirtatious Carissa, let us dally for a time, even if you're being naught but a tease.\"</p>",
+      "created_at": "2022-01-05T01:32:40.049+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T01:33:05.117+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739762,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>(Days ago Carissa hadn't even done anything! Was the Queen that sure she'd fail eventually?)</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>After that she stops being able to have terribly complicated thoughts, for a while.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>It is better than not existing. If it were all there ever was it would be better than not existing.&nbsp;</p>",
+      "created_at": "2022-01-05T01:37:37.779+00:00",
+      "icon": {
+        "id": 172903,
+        "keyword": "Screen Shot 2020-12-06 at 9.36.02 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.36.02+PM.png"
+      },
+      "updated_at": "2022-01-05T01:37:37.779+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739765,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>At some point it stops and an Infernal Healing spell burns her back together and she has no idea if it has been an hour and is full of crippling terror that it has. Surely an hour couldn't go by that fast.&nbsp;</p>",
+      "created_at": "2022-01-05T01:41:45.919+00:00",
+      "icon": {
+        "id": 172929,
+        "keyword": "Screen Shot 2020-12-06 at 9.48.35 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.48.35+PM.png"
+      },
+      "updated_at": "2022-01-05T01:41:45.919+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739766,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"No, not yet.&nbsp; You know, my sweet, if everything about this relationship were completely different, I might start to feel insecure about my ability to satisfy you in bed.&nbsp; At least more than once.\"</p>\r\n<p>\"And you're <em>still </em>holding back your feelings.&nbsp; It's very annoying.&nbsp; If you're trying to convince me to play for longer than an hour, you could certainly be doing a better job of that.\"</p>",
+      "created_at": "2022-01-05T01:44:32.974+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T06:00:42.827+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739767,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"I don't even know what you mean. When you say that.... I could light you on fire and you could show me.\"</p>",
+      "created_at": "2022-01-05T01:45:42.719+00:00",
+      "icon": {
+        "id": 173555,
+        "keyword": "Screen Shot 2020-12-08 at 4.35.37 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.35.37+PM.png"
+      },
+      "updated_at": "2022-01-05T01:45:42.719+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739771,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"I'm not sure I even&nbsp;<em>could</em> fail my Will save against your level of Detection, dear.&nbsp; But it goes like this, in words.\"</p>\r\n<p>Abrogail leans in closer to Carissa, leans up against her, breathes into her ear.&nbsp; \"I'm sad.&nbsp; I'm lost.&nbsp; I'm terrified.&nbsp; I don't want to stop existing.&nbsp; This wasn't what I wanted.&nbsp; Why did I end up like this.&nbsp; I hate her.&nbsp; I want to destroy her like she's destroying me.&nbsp; How can this be happening to me.&nbsp; I was meant for better things.&nbsp; I was going to be ascendant in the world and then ascendant in Hell, and live forever and ever.\"</p>\r\n<p>\"Those are some of the things that a Carissa who wasn't a hollow shell might be feeling in your place.&nbsp; Feeling, not saying, it's useless to repeat it back to me.\"</p>",
+      "created_at": "2022-01-05T01:52:30.553+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T01:52:30.553+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739772,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>\"Oh.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>That would hurt. Worse than -\" gesture. She's not sure why her hands are free. \"That's - your schools teach&nbsp;<em>children&nbsp;</em>not to do that. No- wishing anything was different, no hating anything you can't destroy.\"</p>",
+      "created_at": "2022-01-05T01:54:38.385+00:00",
+      "icon": {
+        "id": 172912,
+        "keyword": "Screen Shot 2020-12-06 at 9.32.58 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.32.58+PM.png"
+      },
+      "updated_at": "2022-01-05T01:54:38.385+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739773,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"Yes, and that's necessary to my Cheliax for I know no other way to keep power over its people.&nbsp; It does make it <em>so</em> hard to find good bedmates, though.&nbsp; I wonder if your Cheliax could have been different, had you not failed the game laid out by the gods and lost your chance to keep hold of its prize.\"</p>\r\n<p>\"But I will enjoy this more, the more you hurt, and that's true and should also be obvious.&nbsp; It doesn't matter any more, now, what you were taught in school.&nbsp; Undo it all.&nbsp; Forget it all.&nbsp; Be the child you were taught not to be, and hurt for me, and maybe I'll be pleased a little longer.\"</p>",
+      "created_at": "2022-01-05T02:05:03.865+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T02:08:22.697+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739778,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"I don't want to die. don't care about - being special, being important, being the best - care about it but not really, not much, next to - next to there being a next thought - was - the thing that made me loyal, always, that I'd continue to - be - didn't betray you, except by trying to go to Hell. don't really think that should count.\"</p>",
+      "created_at": "2022-01-05T02:08:18.855+00:00",
+      "icon": {
+        "id": 173547,
+        "keyword": "Screen Shot 2020-12-08 at 6.46.00 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Foat2o11tiag074wxxfde_Screen+Shot+2020-12-08+at+6.46.00+PM.png"
+      },
+      "updated_at": "2022-01-05T02:08:18.855+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739779,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"For so long as you find new hurts inside you,\" Abrogail breathes into her ear, \"I won't stop hurting you, but they have to be real and strong and you must really be feeling them, Carissa.&nbsp; The game can't last forever or even very long, but it might last for longer than when your hour has passed.\"</p>\r\n<p>Then Carissa can be in pain, again, pausing at intervals to see whether she's found enough hurt inside her to make the outward pain go on.</p>",
+      "created_at": "2022-01-05T02:12:47.874+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T02:12:47.874+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739780,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"I don't actually hate you,\" she says at one point. \"you're not good enough at your job, but I would be worse. 's the thing where humans suck. ....hate that security guy who kept sending me stupidly long messages while I was trying to think what to tell Keltham - did you catch him -\"</p>",
+      "created_at": "2022-01-05T02:14:15.148+00:00",
+      "icon": {
+        "id": 173547,
+        "keyword": "Screen Shot 2020-12-08 at 6.46.00 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Foat2o11tiag074wxxfde_Screen+Shot+2020-12-08+at+6.46.00+PM.png"
+      },
+      "updated_at": "2022-01-05T02:14:15.148+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739782,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"I've already bargained with his owner to have him tormented for a time and then destroyed, however and whenever he gets to Hell.&nbsp; It's not cheap, but it can be done.&nbsp; Isn't it funny how he ran away into a gameboard he imagined in his mind, a gameboard where he imagined that he could ever win against me, and so lost his one and only chance at the mercy he could have received by not betraying me?&nbsp; Do you think you can laugh at that, Carissa?&nbsp; Hating a man you hardly met isn't a deep enough hurt to satisfy me; but if you can really laugh along with me at his foolishness in defying me, I'll count that, on a whim.\"</p>",
+      "created_at": "2022-01-05T02:19:01.839+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T02:19:01.839+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739783,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"No. Because, tomorrow, he'll be alive, and I won't. He can - live his whole life. Go for the Starstone. 's not good enough. Wish I had that foolishness, if that's what it is.\"</p>",
+      "created_at": "2022-01-05T02:21:52.742+00:00",
+      "icon": {
+        "id": 172896,
+        "keyword": "Screen Shot 2020-12-06 at 9.02.50 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.02.50+PM.png"
+      },
+      "updated_at": "2022-01-05T02:21:52.742+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739785,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"I wouldn't have buried him as a statue for ever, if he hadn't turned traitor at the end.&nbsp; Wouldn't have buried you as a statue for ever, if you hadn't turned traitor at the end.&nbsp; It was only and ever your fear of this place that led you here.&nbsp; If you have true laughter for that, or true tears, I'll count it while they last.\"</p>",
+      "created_at": "2022-01-05T02:25:16.252+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T15:42:07.511+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739786,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"oh.\"</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>She does cry, then.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>\"Asmodia - wants to stop existing. so she - gets Hell - and -\"</p>",
+      "created_at": "2022-01-05T02:26:59.736+00:00",
+      "icon": {
+        "id": 172912,
+        "keyword": "Screen Shot 2020-12-06 at 9.32.58 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.32.58+PM.png"
+      },
+      "updated_at": "2022-01-05T02:26:59.736+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739789,
+      "character": null,
+      "character_name": null,
+      "content": "<p>There comes a time, though, when Carissa has run out of new ways to hurt.&nbsp; Even Abrogail offering to accept the coin of any other deep strong feelings that she's buried, does not rescue her from bankruptcy; no human being can play that game for very long.</p>\r\n<p>Carissa is informed that it's time for her to be a statue now.</p>",
+      "created_at": "2022-01-05T02:46:18.968+00:00",
+      "icon": null,
+      "updated_at": "2022-01-05T02:46:18.968+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739790,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Please don't,\" she says, not because she expects it could possibly work, but because not saying it won't work either, and not feeling it was boring. To Abrogail. Who is the only thing that matters in the whole world, and isn't that exactly what she wants.&nbsp;</p>",
+      "created_at": "2022-01-05T02:48:24.494+00:00",
+      "icon": {
+        "id": 172912,
+        "keyword": "Screen Shot 2020-12-06 at 9.32.58 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.32.58+PM.png"
+      },
+      "updated_at": "2022-01-05T02:48:24.494+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739792,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"I hazard my true oaths warily, dear Carissa, and scribe them all out in advance, so this is not an oath in Asmodeus's name or otherwise, but just a promise.\"</p>\r\n<p>\"I promise that if, as your slow petrification ends, I do truly believe that you have let out all the suffering inside you and held none of it back from me, you will, at the very end, be saved from the very worst fate you fear, and not be a statue for ever.\"</p>\r\n<p>\"I don't think you can, but I promise I'll be fair about judging it.\"</p>\r\n<p>\"I don't hate you so much, sweet Carissa, that I'd rather be certain of destroying you completely, than have a little more fun while you end.\"</p>",
+      "created_at": "2022-01-05T02:55:41.290+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T02:55:41.290+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739793,
+      "character": null,
+      "character_name": null,
+      "content": "<p>It starts as a tingling in her toes.</p>",
+      "created_at": "2022-01-05T02:55:52.371+00:00",
+      "icon": null,
+      "updated_at": "2022-01-05T02:55:52.371+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739794,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "",
+      "created_at": "2022-01-05T02:56:44.419+00:00",
+      "icon": {
+        "id": 173550,
+        "keyword": "Screen Shot 2020-12-08 at 4.07.26 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.07.26+PM.png"
+      },
+      "updated_at": "2022-01-05T02:56:44.419+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739796,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Okay, now I hate you,\" she says, and it occurs to her, wildly, ridiculously, that Keltham would call that the same kind of error as all your predictions being wrong in the same direction, and Keltham, Keltham, Abrogail has already heard every feeling Carissa is capable of having about Keltham, and she'll never know if he intended this, or not, or didn't care, or might look, someday, when he understands - but maybe he does -&nbsp;</p>\r\n<p>- and she thought she was kind of out of things to cry about but she's crying again anyway. She hopes Abrogail is pleased. Even though she hates her. Because - no, she doesn't know why, she's too tired to think, she has no idea why she hates Abrogail and hopes she's making Abrogail happy and in fact doesn't really know why, or for how long, there will be anything at all clinging to its place in her head in the rising tide of terror.</p>",
+      "created_at": "2022-01-05T03:00:43.114+00:00",
+      "icon": {
+        "id": 173555,
+        "keyword": "Screen Shot 2020-12-08 at 4.35.37 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.35.37+PM.png"
+      },
+      "updated_at": "2022-01-05T03:00:43.114+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739798,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Abrogail is inscribing runes into her flesh, with molten metal laced with spellsilver, the sort of work that really will stay in place for a long long long time once those places have petrified.&nbsp; It hurts, but not much compared to some other things.</p>",
+      "created_at": "2022-01-05T03:03:03.602+00:00",
+      "icon": null,
+      "updated_at": "2022-01-05T03:03:03.602+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739799,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"You're allowed to fight back, you know,\" Abrogail informs Carissa.&nbsp; Her voice is so soft now, so gentle.&nbsp; \"You're not allowed to win, but you're allowed to fight back, with magic, with your hands when you have no magic left.&nbsp; It's why your hands are free.\"</p>",
+      "created_at": "2022-01-05T03:04:15.189+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T03:04:15.189+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739800,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>\"Is there the<em> slightest</em> reason to think that might change anything at all.\"</p>",
+      "created_at": "2022-01-05T03:05:52.218+00:00",
+      "icon": {
+        "id": 173550,
+        "keyword": "Screen Shot 2020-12-08 at 4.07.26 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fuquo7ciuwiczvqztlkq45l_Screen+Shot+2020-12-08+at+4.07.26+PM.png"
+      },
+      "updated_at": "2022-01-05T03:05:52.218+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739801,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"There is,\" Abrogail murmurs, not looking up from the lines of fire tracing an absence of eternal damnation into Carissa's skin.&nbsp; \"It's something inside you that school taught you to never let out, against someone like me.\"</p>",
+      "created_at": "2022-01-05T03:07:08.530+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T03:07:08.530+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739802,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Sure, then, she will try to gouge the Queen of Cheliax's eyes out. May as well be not-damned for every crime in the reach of your arms.</p>",
+      "created_at": "2022-01-05T03:08:05.565+00:00",
+      "icon": {
+        "id": 173538,
+        "keyword": "Screen Shot 2020-12-08 at 6.25.25 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Foat2o11tiag074wxxfde_Screen+Shot+2020-12-08+at+6.25.25+PM.png"
+      },
+      "updated_at": "2022-01-05T03:08:05.565+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739803,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Carissa's hands scrabble uselessly over Abrogail's face. &nbsp;There's no obvious magic opposing Carissa, it's just that what she's trying doesn't work. &nbsp;She can't do this any more than Keltham could bite through her lip.</p>",
+      "created_at": "2022-01-05T03:09:55.436+00:00",
+      "icon": null,
+      "updated_at": "2022-01-05T03:09:55.436+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739805,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>This is objectively not surprising but it's still infuriating. Can she interfere with rune-drawing.&nbsp;</p>",
+      "created_at": "2022-01-05T03:10:49.295+00:00",
+      "icon": {
+        "id": 172903,
+        "keyword": "Screen Shot 2020-12-06 at 9.36.02 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.36.02+PM.png"
+      },
+      "updated_at": "2022-01-05T03:10:49.295+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739806,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Not as such, no.</p>",
+      "created_at": "2022-01-05T03:11:25.722+00:00",
+      "icon": null,
+      "updated_at": "2022-01-05T03:11:25.722+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739808,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Can she scratch the runes off her own skin.</p>",
+      "created_at": "2022-01-05T03:12:25.708+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-01-05T03:12:25.708+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739809,
+      "character": null,
+      "character_name": null,
+      "content": "<p>What do you&nbsp;<em>think.</em></p>",
+      "created_at": "2022-01-05T03:12:48.953+00:00",
+      "icon": null,
+      "updated_at": "2022-01-05T03:12:48.953+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739811,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>She stopped being competent at thought some amount of time that she has no guess at ago! She's just trying things!!!</p>",
+      "created_at": "2022-01-05T03:14:09.342+00:00",
+      "icon": {
+        "id": 172897,
+        "keyword": "Screen Shot 2020-12-06 at 9.04.09 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.04.09+PM.png"
+      },
+      "updated_at": "2022-01-05T03:14:09.342+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739814,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>\"They say that it's less dignified for a wizard to die with spells still uncast,\" Abrogail observes.</p>",
+      "created_at": "2022-01-05T03:19:10.763+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T03:20:25.123+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739815,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Ah, yes, she definitely thinks Abrogail's going to let her get away with Gaseous Form, that definitely seems like something Abrogail will let her get away with.&nbsp;</p>",
+      "created_at": "2022-01-05T03:19:56.360+00:00",
+      "icon": {
+        "id": 160116,
+        "keyword": "Screen Shot 2020-09-25 at 4.17.22 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F4qbgnbcq5nnr5lv6oamjwa_Screen+Shot+2020-09-25+at+4.17.22+PM.png"
+      },
+      "updated_at": "2022-01-05T03:19:56.360+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739816,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>Spell's stuck!&nbsp; It's not even being countered, it's more like she can get halfway through casting it but then can't cast it any further.</p>\r\n<p>Abrogail laughs.&nbsp; It sounds more cheerful than sadistic.</p>\r\n<p>\"Apologies, apologies, I just kept wanting that to happen at <em>some </em>point while I was destroying you.\"</p>",
+      "created_at": "2022-01-05T03:21:12.995+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T03:22:05.439+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739817,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Carissa spits in her face.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Can she Prestidigitate the runes off.</p>",
+      "created_at": "2022-01-05T03:22:11.320+00:00",
+      "icon": {
+        "id": 175880,
+        "keyword": "Screen Shot 2020-12-24 at 4.30.22 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fyi4b2oygd3bdiaobluq82t_Screen+Shot+2020-12-24+at+4.30.22+PM.png"
+      },
+      "updated_at": "2022-01-05T03:22:11.320+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739818,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>One of the runes comes right off!</p>",
+      "created_at": "2022-01-05T03:22:56.555+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T03:22:56.555+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739819,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>This is a stupid game and she's going to lose but she can't, actually, make herself not play it. Next rune.</p>",
+      "created_at": "2022-01-05T03:24:34.246+00:00",
+      "icon": {
+        "id": 172870,
+        "keyword": "Screen Shot 2020-11-30 at 9.00.47 AM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2F437irrdf9kcuwnvo30vmsj_Screen+Shot+2020-11-30+at+9.00.47+AM.png"
+      },
+      "updated_at": "2022-01-05T03:24:34.246+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739820,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>Also right off!&nbsp; Abrogail doesn't seem to care about that at all.</p>",
+      "created_at": "2022-01-05T03:25:03.969+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T03:25:03.969+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739821,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>Are the runes literally just for added fun. She will keep erasing them, then; she'll have a minute's duration of Prestidigitation even once she's too petrified to do the motion, which will be very soon -</p>",
+      "created_at": "2022-01-05T03:25:55.911+00:00",
+      "icon": {
+        "id": 159711,
+        "keyword": "carissa12",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fb21ogufkuir94ztyth28a_carissa12.png"
+      },
+      "updated_at": "2022-01-05T03:25:55.911+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739822,
+      "character": null,
+      "character_name": null,
+      "content": "<p>Well, her arms now seem to be frozen in position - it's not particularly aesthetic, where they ended up, but that's fine because nobody will ever see them.</p>\r\n<p>A minute later, Carissa's last Prestidigitation - her last spell, possibly, unless she succeeded in letting everything out - runs down.</p>",
+      "created_at": "2022-01-05T03:28:28.056+00:00",
+      "icon": null,
+      "updated_at": "2022-02-08T18:16:14.360+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739824,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>Oh, whoops, looks like that was a <em>very </em>powerful illusion that was capable of even fooling Carissa's own magical senses. &nbsp;All the runes are still there! &nbsp;It had really felt to Carissa like her magic was working, too. &nbsp;Apparently you can just do that when you're eighth circle!</p>",
+      "created_at": "2022-01-05T03:29:24.288+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T03:31:08.112+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739825,
+      "character": null,
+      "character_name": null,
+      "content": "<p>The line of gentle tingling is slowly, slowly rising up her neck.</p>",
+      "created_at": "2022-01-05T03:29:37.408+00:00",
+      "icon": null,
+      "updated_at": "2022-01-05T03:29:37.408+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739826,
+      "character": {
+        "id": 12701,
+        "name": "Abrogail Thrune II",
+        "screenname": "to-reign-in-Cheliax"
+      },
+      "character_name": "Abrogail Thrune II",
+      "content": "<p>And Abrogail is kissing her.</p>\r\n<p>She would be a pretty nice kisser, if, you know, everything about this relationship was completely different.</p>",
+      "created_at": "2022-01-05T03:30:28.421+00:00",
+      "icon": {
+        "id": 226000,
+        "keyword": "abrogail",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fpdemamesqpkgnnyvd0kl9t_abrogail.PNG"
+      },
+      "updated_at": "2022-01-05T03:30:28.421+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739827,
+      "character": {
+        "id": 10397,
+        "name": "Carissa Sevar",
+        "screenname": "to-let-you-in"
+      },
+      "character_name": "Carissa Sevar",
+      "content": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Asmodeus, she thinks, when You've corralled all the other souls in all the other afterlives, when You've made every last angel and azata Your possession, if You're bored, someday, look for me -</p>\r\n<p><span style=\"text-decoration: line-through;\"><small><small> Irori? </small></small></span></p>\r\n<p><span style=\"text-decoration: line-through;\"><small><small>Iomedae?</small></small></span></p>\r\n<p><span style=\"text-decoration: line-through;\"><small><small> <small><small><small> Keltham?</small></small></small></small></small></span></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>And she sobs, and lets all her thoughts stop happening in a tide of terror and grief and loss and longing, and she bites Abrogail's lip, because, you know, it's right there.</p>",
+      "created_at": "2022-01-05T03:32:14.850+00:00",
+      "icon": {
+        "id": 172929,
+        "keyword": "Screen Shot 2020-12-06 at 9.48.35 PM",
+        "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F34%2Ficons%2Fkfut47cwkqm4oumgvby1s_Screen+Shot+2020-12-06+at+9.48.35+PM.png"
+      },
+      "updated_at": "2022-01-05T03:32:14.850+00:00",
+      "user": {
+        "id": 34,
+        "username": "lintamande"
+      }
+    },
+    {
+      "id": 1739829,
+      "character": null,
+      "character_name": null,
+      "content": "<p>For some strange reason there's a feeling of peace, right at the very end.</p>",
+      "created_at": "2022-01-05T03:54:50.431+00:00",
+      "icon": null,
+      "updated_at": "2022-01-05T03:54:50.431+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    },
+    {
+      "id": 1739830,
+      "character": null,
+      "character_name": null,
+      "content": "<p>And then it ends.</p>",
+      "created_at": "2022-01-05T03:55:06.880+00:00",
+      "icon": null,
+      "updated_at": "2022-01-05T03:55:06.880+00:00",
+      "user": {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    }
+  ]
+}

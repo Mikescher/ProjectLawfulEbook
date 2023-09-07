@@ -1,0 +1,58 @@
+{
+  "Ok": {
+    "id": 5778,
+    "authors": [
+      {
+        "id": 366,
+        "username": "Iarwain"
+      },
+      {
+        "id": 453,
+        "username": "Aevylmar"
+      },
+      {
+        "id": 516,
+        "username": "Audere"
+      },
+      {
+        "id": 96,
+        "username": "apprenticebard"
+      },
+      {
+        "id": 38,
+        "username": "DeAnno"
+      },
+      {
+        "id": 34,
+        "username": "lintamande"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": {
+      "id": 12888,
+      "name": "Project Lawful",
+      "screenname": "Seduce, Conceal, Profit"
+    },
+    "content": "<p>Some of them have heard rumors.</p>\r\n<p>Some of them heard nothing at all, before they were told, congratulations, they were now on an extremely secret incredibly important project created by the direct intervention of Asmodeus.</p>\r\n<p>Most of them have been given some absolutely insane transcripts to review and a certain amount of context.</p>\r\n<p>This is, however, their first day - night rather - onsite at the informally-nicknamed Fortress of Law.</p>\r\n<p>Welcome to Project Lawful!&nbsp; Your first experience of it will be a threatening introductory lecture, given by an 18-year-old girl dressed in an Ostenso wizard academy student uniform.</p>",
+    "created_at": "2022-03-16T20:03:35.503+00:00",
+    "description": "partially canon researcher initialization thread",
+    "icon": {
+      "id": 231149,
+      "keyword": "project lawful",
+      "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fk1pf77worf8dwcji34yob_pentagram-gears-2-fs8.png"
+    },
+    "num_replies": 78,
+    "section": {
+      "id": 717,
+      "name": "planecrash sandboxes",
+      "order": 1
+    },
+    "section_order": 4,
+    "status": "complete",
+    "subject": "welcome to project lawful",
+    "tagged_at": "2022-03-18T06:39:06.642+00:00"
+  }
+}

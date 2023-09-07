@@ -1,0 +1,38 @@
+{
+  "Ok": {
+    "id": 5775,
+    "authors": [
+      {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": {
+      "id": 12888,
+      "name": "Project Lawful",
+      "screenname": "Seduce, Conceal, Profit"
+    },
+    "content": "<p>There's a lot of ways for a Taldorian life to end, in one sense or another, even when you're an educated girl and might have been deluded into thinking you were safe.</p>\r\n<p>There's the classic ending where you run out of money and starve.&nbsp; There's the ending where you're going to get married the next day to an older and cruel man you hate, and even if something continues past that, it won't really be alive.&nbsp; Getting very sick and not having anything remotely like the money for a cleric to cure you, that's a popular one.&nbsp; Being in the first month of a ten-year apprenticeship with zero ways out, to a master cruel to the point where you're contemplating suicide and hoping you're Neutral enough on the Law axis that it lands you in Abaddon instead of the Abyss or Hell.</p>\r\n<p>In none of those cases does a sensible person expect any salvation at all, let alone salvation in the form of a mysterious masked figure who speaks only in whispers and offers you cake.&nbsp; But you'll take the cake.</p>",
+    "created_at": "2022-03-16T07:17:20.177+00:00",
+    "description": "experimental doomthread for chelish student author tryouts",
+    "icon": {
+      "id": 231149,
+      "keyword": "project lawful",
+      "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2Fk1pf77worf8dwcji34yob_pentagram-gears-2-fs8.png"
+    },
+    "num_replies": 4,
+    "section": {
+      "id": 717,
+      "name": "planecrash sandboxes",
+      "order": 1
+    },
+    "section_order": 5,
+    "status": "active",
+    "subject": "totally not evil",
+    "tagged_at": "2022-03-16T08:11:58.528+00:00"
+  }
+}

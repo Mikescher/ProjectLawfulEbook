@@ -1,0 +1,54 @@
+{
+  "Ok": {
+    "id": 5694,
+    "authors": [
+      {
+        "id": 34,
+        "username": "lintamande"
+      },
+      {
+        "id": 38,
+        "username": "DeAnno"
+      },
+      {
+        "id": 96,
+        "username": "apprenticebard"
+      },
+      {
+        "id": 453,
+        "username": "Aevylmar"
+      },
+      {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": {
+      "id": 11729,
+      "name": "Keltham",
+      "screenname": "lawful chaotic"
+    },
+    "content": "<p>In theory, Project Lawful has now been running for 113 days.&nbsp; The reality is somewhat different.&nbsp; Of course the map doesn't always match the territory perfectly, but this match is more imperfect than most might reasonably expect to be the case, when it comes to entire days.</p>\r\n<p>In theory, Keltham is now having sex on a regular basis with Carissa, Meritxell, Yaisa, Ione, Peranza, Tonia, and Pilar, plus that strange relationship with Asmodia; he's tried casual sex with most of the new girls brought in by Cheliax, but hasn't formed any lasting relationships with them.&nbsp; This sex is overtly consensual in all cases except that of Pilar, who still acts angry around Keltham about that whenever she hasn't recently been pleasured into a more yielding attitude.&nbsp; They all appear very much in love with him.</p>\r\n<p>Reality, again, differs greatly from this appearance.&nbsp; Possibly not for Sevar, though nobody here is going to call her on that.&nbsp; But definitely in all other cases.</p>\r\n<p>In truth, everything about this whole apparent situation differs from reality so much that it seems simpler to suspend disbelief about that, and describe for a time how things would be, if the reality being described was just the theory.</p>\r\n<p><br />Keltham, then, is chatting cheerfully with Gregoria and Ione at dinnertime.&nbsp; The Project is doing well; most of what it's tried to research hasn't panned out, but it has quite substantial improvements to metallurgy and also spellsilver mining to its name, and that's more than enough to fund all the other things Keltham wants to take a shot at.</p>\r\n<p>Shortly before dinner, Keltham did go over to comms and, unusually aggressively for him, he demanded to send an urgent message to Governance not waiting on evening mail, requesting and requiring that Cheliax forward him a copy of all Project transcripts, starting from day one.&nbsp; If they don't bring it over with the evening mail from Egorian tonight, Keltham will be unhappy about that in a way that calls for further actions.&nbsp; He's calling in favor to make this happen <em>right away</em> even if that means the Queen overruling Security tangles to make it happen.</p>\r\n<p>Keltham's intentions - if one could somehow read those, concerned about this sudden demand - show Keltham thinking that he's felt a couple of pangs of uneasiness lately about how well things have theoretically been going.&nbsp; Sort of a cumulative feeling of unease generally.&nbsp; It's been a while, and he really ought to do a full review of <em>all&nbsp;</em>his evidence, starting tonight and continuing into tomorrow.&nbsp; He's not expecting the full review to end up calling it for Conspiracy, but he's planning to be fair and conscientious about it.&nbsp; He does not, for example, want to give them time to possibly edit the transcripts - though that would also be risky, from their perspective, since what Keltham couldn't reproduce from memory, he might well notice as false.</p>\r\n<p>But Keltham is mostly, almost entirely, expecting that all to turn out fine.&nbsp; So for now he's cheerfully chatting with Gregoria and Ione at dinnertime.&nbsp; Gregoria is also outwardly cheerful!</p>\r\n<p>Ione is more reticent and looks more disturbed than usual.</p>",
+    "created_at": "2022-02-21T21:19:07.376+00:00",
+    "description": "happy days increasing the universe-conquering capabilities of Lawful Evil",
+    "icon": {
+      "id": 201295,
+      "keyword": "neutral",
+      "url": "https://d1anwqy6ci9o1i.cloudfront.net/users%2F366%2Ficons%2F51spld8tawrm5guaq6112s_neutral.png"
+    },
+    "num_replies": 2578,
+    "section": {
+      "id": 703,
+      "name": "planecrash",
+      "order": 0
+    },
+    "section_order": 5,
+    "status": "complete",
+    "subject": "my fun research project has more existential risk than I anticipated",
+    "tagged_at": "2022-04-27T18:13:48.176+00:00"
+  }
+}

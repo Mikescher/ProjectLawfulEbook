@@ -1,0 +1,26 @@
+{
+  "Ok": {
+    "id": 5671,
+    "authors": [
+      {
+        "id": 366,
+        "username": "Iarwain"
+      }
+    ],
+    "board": {
+      "id": 215,
+      "name": "planecrash"
+    },
+    "character": null,
+    "content": "<p>Safe-for-work summary of <a href=\"https://glowfic.com/posts/5638\"><strong>in another world we could have been trade partners</strong></a>, which continues from <a href=\"https://glowfic.com/replies/1760325#reply-1760325\"><strong>here</strong></a> within Planecrash (though in the form of a report handed to Carissa in <strong><a href=\"/replies/1760747#reply-1760747\">this tag</a></strong>).</p>",
+    "created_at": "2022-02-13T07:24:26.636+00:00",
+    "description": "safe-for-work summary of the planecrash subthread \"in another world we could have been trade partners\"",
+    "icon": null,
+    "num_replies": 17,
+    "section": null,
+    "section_order": 6,
+    "status": "active",
+    "subject": "sfw tldr we could have been trade partners",
+    "tagged_at": "2022-02-13T07:51:38.630+00:00"
+  }
+}
