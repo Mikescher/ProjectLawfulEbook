@@ -1,4 +1,3 @@
-using System.Collections.Immutable;
 using ProjectLawfulEbook.Cache;
 
 namespace ProjectLawfulEbook.Book;
@@ -114,5 +113,10 @@ public class PlanecrashBook
         }
         
         Console.WriteLine("Sanity check finished");
+    }
+
+    public void ParseParagraphs()
+    {
+        foreach (var chptr in chapter) chptr.ParseParagraphs();
     }
 }

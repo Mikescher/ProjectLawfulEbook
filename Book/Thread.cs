@@ -1,10 +1,9 @@
 using System.Collections.Immutable;
-using System.Security.Cryptography.X509Certificates;
 using Newtonsoft.Json.Linq;
 
-namespace ProjectLawfulEbook.Cache;
+namespace ProjectLawfulEbook.Book;
 
-public class CacheThread
+public class Thread
 {
     public readonly string ID;
     public readonly DateTime CreatedAt;
@@ -14,11 +13,11 @@ public class CacheThread
     
     public readonly string NumReplies;
     
-    public readonly CacheReply FirstPost;
+    public readonly Reply FirstPost;
     
-    public readonly IReadOnlyList<CacheReply> Replies;
+    public readonly IReadOnlyList<Reply> Replies;
 
-    private CacheThread(string id, DateTime createdAt, string description, string numReplies, string subject, CacheReply firstpost, IReadOnlyList<CacheReply> replies)
+    private Thread(string id, DateTime createdAt, string description, string numReplies, string subject, Reply firstpost, IReadOnlyList<Reply> replies)
     {
         ID = id;
         CreatedAt = createdAt;
@@ -29,14 +28,14 @@ public class CacheThread
         Replies = replies;
     }
 
-    public static CacheThread Load(int fileid)
+    public static Thread Load(int fileid)
     {
         var postFile = $"glowpub_cache/posts/{fileid}/post.json";
         var repliesFile = $"glowpub_cache/posts/{fileid}/replies.json";
 
         var jpost = JObject.Parse(File.ReadAllText(postFile))["Ok"]!;
 
-        var id = jpost["id"]!.Value<int>();
+        var id = jpost["id"]!.Value<int>().ToString();
         var characterID = jpost["character"]!.HasValues ? jpost["character"]!["id"]?.Value<int>() : null;
         var characterName = jpost["character"]!.HasValues ? jpost["character"]!["name"]!.Value<string>() : null;
         var characterScreenName = jpost["character"]!.HasValues ? jpost["character"]!["screenname"]!.Value<string>() : null;
@@ -48,16 +47,16 @@ public class CacheThread
         var iconID = jpost["icon"]!.HasValues ? jpost["icon"]!["id"]?.Value<int>() : null;
         var iconKeyword = jpost["icon"]!.HasValues ?jpost["icon"]!["keyword"]!.Value<string>()! : null;
         
-        var fpost = new CacheReply($"@{id}::first", createdat, createdat, characterID?.ToString(), characterName, characterScreenName, null, iconID?.ToString(), iconKeyword, null, null, content);
+        var fpost = new Reply(id, $"@{id}::first", createdat, createdat, characterID?.ToString(), characterName, characterScreenName, null, iconID?.ToString(), iconKeyword, null, null, content);
         
         var jreplies = JObject.Parse(File.ReadAllText(repliesFile))["Ok"]!.Values<JToken>();
 
-        var replies = jreplies.Select(CacheReply.Parse!).ToImmutableList();
+        var replies = jreplies.Select(p => Reply.Parse(id, p!)).ToImmutableList();
         
-        return new CacheThread(id.ToString(), createdat, description, numreplies, subject, fpost, replies);
+        return new Thread(id, createdat, description, numreplies, subject, fpost, replies);
     }
 
-    public IEnumerable<CacheReply> TakeUntil(int id, bool inclusive)
+    public IEnumerable<Reply> TakeUntil(int id, bool inclusive)
     {
         yield return FirstPost;
         foreach (var post in Replies)
@@ -73,13 +72,13 @@ public class CacheThread
         throw new Exception("id not found");
     }
 
-    public IEnumerable<CacheReply> TakeAll()
+    public IEnumerable<Reply> TakeAll()
     {
         yield return FirstPost;
         foreach (var post in Replies) yield return post;
     }
 
-    public IEnumerable<CacheReply> TakeAfter(int id, bool inclusive)
+    public IEnumerable<Reply> TakeAfter(int id, bool inclusive)
     {
         var skip = true;
         foreach (var post in Replies)
@@ -99,7 +98,7 @@ public class CacheThread
         if (skip) throw new Exception("id not found");
     }
 
-    public IEnumerable<CacheReply> TakeBetween(int idStart, int idEnd, bool inclusiveStart, bool inclusiveEnd)
+    public IEnumerable<Reply> TakeBetween(int idStart, int idEnd, bool inclusiveStart, bool inclusiveEnd)
     {
         var skip = true;
         foreach (var post in Replies)

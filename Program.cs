@@ -20,6 +20,9 @@ public static class Program
 
         book.PrintChapters();
         ConsoleWriteDelimiter();
+
+        book.ParseParagraphs();
+        ConsoleWriteDelimiter();
     }
 
     private static void ConsoleWriteDelimiter()
