@@ -28,9 +28,9 @@
         ("04-sandbox-01", 5775),            // SANDBOX             : totally not evil
         ("04-sandbox-02", 5778),            // SANDBOX             : welcome to project lawful
         ("05", 5694),                       // MAIN                : my fun research project has more existential risk than I anticipated
-        ("05-subthread-01", 5785),          // SUBTHREAD / LECTURE : to hell with science
-        ("05-subthread-02", 5826),          // SUBTHREAD SORT OF?  : to earth with science
-        ("05-subthread-03", 5864),          // SUBTHREAD / LECTURE : the alien maths of dath ilan
+        ("05-subthread-01", 5785),          // SUBTHREAD / LECTURE : to hell with science                                                   ( replaces 1777291#reply-1777291 )
+        ("05-subthread-02", 5826),          // SUBTHREAD SORT OF?  : to earth with science                                                  ( after 1784214#reply-1784214 in prev subthread )
+        ("05-subthread-03", 5864),          // SUBTHREAD / LECTURE : the alien maths of dath ilan                                           ( replaces 1786765#reply-1786765 )
         ("05-sandbox-01", 5880),            // SANDBOX             : I reject your alternate reality and substitute my own
         ("06", 5930),                       // MAIN                : what the truth can destroy
         ("06-sandbox-01", 6029),            // SANDBOX             : it is a beautiful day in Cheliax and you are a horrible medianworld romance novel

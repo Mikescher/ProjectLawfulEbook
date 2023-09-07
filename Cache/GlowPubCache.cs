@@ -1,3 +1,5 @@
+using System.Collections;
+
 namespace ProjectLawfulEbook.Cache;
 
 public class GlowPubCache
@@ -18,5 +20,15 @@ public class GlowPubCache
             _threads.Add(id, thread);
             Console.WriteLine($"Loaded thread {thread.ID} - {thread.Subject}");
         }
+    }
+
+    public CacheThread Get(int id)
+    {
+        return _threads[id]!;
+    }
+
+    public IEnumerable<CacheThread> List()
+    {
+        return _threads.Values.ToList();
     }
 }

@@ -56,4 +56,72 @@ public class CacheThread
         
         return new CacheThread(id, createdat, description, numreplies, subject, fpost, replies);
     }
+
+    public IEnumerable<CacheReply> TakeUntil(int id, bool inclusive)
+    {
+        yield return FirstPost;
+        foreach (var post in Replies)
+        {
+            if (post.ID == id)
+            {
+                if (inclusive) yield return post;
+                yield break;
+            }
+            yield return post;
+        }
+
+        throw new Exception("id not found");
+    }
+
+    public IEnumerable<CacheReply> TakeAll()
+    {
+        yield return FirstPost;
+        foreach (var post in Replies) yield return post;
+    }
+
+    public IEnumerable<CacheReply> TakeAfter(int id, bool inclusive)
+    {
+        var skip = true;
+        foreach (var post in Replies)
+        {
+            if (skip)
+            {
+                if (post.ID == id)
+                {
+                    if (inclusive) yield return post;
+                    skip = false;
+                }
+                continue;
+            }
+            yield return post;
+        }
+
+        if (skip) throw new Exception("id not found");
+    }
+
+    public IEnumerable<CacheReply> TakeBetween(int idStart, int idEnd, bool inclusiveStart, bool inclusiveEnd)
+    {
+        var skip = true;
+        foreach (var post in Replies)
+        {
+            if (skip)
+            {
+                if (post.ID == idStart)
+                {
+                    if (inclusiveStart) yield return post;
+                    skip = false;
+                }
+                continue;
+            }
+            
+            if (post.ID == idEnd)
+            {
+                if (inclusiveEnd) yield return post;
+                yield break;
+            }
+            yield return post;
+        }
+
+        throw new Exception("idStart/idEnd not found");
+    }
 }
