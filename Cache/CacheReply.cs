@@ -4,28 +4,28 @@ namespace ProjectLawfulEbook.Cache;
 
 public class CacheReply
 {
-    public readonly int ID;
+    public readonly string ID;
     
     public readonly DateTime CreatedAt;
     public readonly DateTime UpdatedAt;
     
-    public readonly int? CharacterID;
+    public readonly string? CharacterID;
     public readonly string? CharacterName;
     public readonly string? CharacterScreenName;
     public readonly string? CharacterAltName;
     
-    public readonly int? IconID;
+    public readonly string? IconID;
     public readonly string? IconKeyword;
     
-    public readonly int? UserID;
+    public readonly string? UserID;
     public readonly string? UserName;
     
     public readonly string HTMLContent;
 
-    public CacheReply(int id, DateTime createdAt, DateTime updatedAt, 
-                      int? characterID, string? characterName, string? characterScreenName, string? characterAltName,
-                      int? iconID, string? iconKeyword, 
-                      int? userID, string? userName, 
+    public CacheReply(string id, DateTime createdAt, DateTime updatedAt, 
+                      string? characterID, string? characterName, string? characterScreenName, string? characterAltName,
+                      string? iconID, string? iconKeyword, 
+                      string? userID, string? userName, 
                       string htmlContent)
     {
         ID = id;
@@ -61,7 +61,12 @@ public class CacheReply
 
         if (characterName != characterName2) characterAltName = characterName2;
         
-        return new CacheReply(id, createdat, updatedat, characterID, characterName, characterScreenName, characterAltName, iconID,
-            iconKeyword, userID, userName, content);
+        return new CacheReply(
+            id.ToString(), 
+            createdat, updatedat, 
+            characterID?.ToString(), characterName, characterScreenName, characterAltName, 
+            iconID?.ToString(), iconKeyword, 
+            userID.ToString(), userName, 
+            content);
     }
 }

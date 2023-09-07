@@ -9,12 +9,23 @@ public static class Program
     {
         var cache = new GlowPubCache();
         cache.Load();
-
-        Console.WriteLine();
-        Console.WriteLine("--------");
-        Console.WriteLine();
+        ConsoleWriteDelimiter();
         
         var book = new PlanecrashBook(cache);
         book.Build();
+        ConsoleWriteDelimiter();
+        
+        book.SanityCheck();
+        ConsoleWriteDelimiter();
+
+        book.PrintChapters();
+        ConsoleWriteDelimiter();
+    }
+
+    private static void ConsoleWriteDelimiter()
+    {
+        Console.WriteLine();
+        Console.WriteLine(Enumerable.Repeat("-", 80).Aggregate((a,b)=>a+b));
+        Console.WriteLine();
     }
 }

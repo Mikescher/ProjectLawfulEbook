@@ -6,7 +6,7 @@ namespace ProjectLawfulEbook.Cache;
 
 public class CacheThread
 {
-    public readonly int ID;
+    public readonly string ID;
     public readonly DateTime CreatedAt;
     
     public readonly string Subject;
@@ -18,7 +18,7 @@ public class CacheThread
     
     public readonly IReadOnlyList<CacheReply> Replies;
 
-    private CacheThread(int id, DateTime createdAt, string description, string numReplies, string subject, CacheReply firstpost, IReadOnlyList<CacheReply> replies)
+    private CacheThread(string id, DateTime createdAt, string description, string numReplies, string subject, CacheReply firstpost, IReadOnlyList<CacheReply> replies)
     {
         ID = id;
         CreatedAt = createdAt;
@@ -48,13 +48,13 @@ public class CacheThread
         var iconID = jpost["icon"]!.HasValues ? jpost["icon"]!["id"]?.Value<int>() : null;
         var iconKeyword = jpost["icon"]!.HasValues ?jpost["icon"]!["keyword"]!.Value<string>()! : null;
         
-        var fpost = new CacheReply(0, createdat, createdat, characterID, characterName, characterScreenName, null, iconID, iconKeyword, null, null, content);
+        var fpost = new CacheReply($"@{id}::first", createdat, createdat, characterID?.ToString(), characterName, characterScreenName, null, iconID?.ToString(), iconKeyword, null, null, content);
         
         var jreplies = JObject.Parse(File.ReadAllText(repliesFile))["Ok"]!.Values<JToken>();
 
         var replies = jreplies.Select(CacheReply.Parse!).ToImmutableList();
         
-        return new CacheThread(id, createdat, description, numreplies, subject, fpost, replies);
+        return new CacheThread(id.ToString(), createdat, description, numreplies, subject, fpost, replies);
     }
 
     public IEnumerable<CacheReply> TakeUntil(int id, bool inclusive)
@@ -62,7 +62,7 @@ public class CacheThread
         yield return FirstPost;
         foreach (var post in Replies)
         {
-            if (post.ID == id)
+            if (post.ID == id.ToString())
             {
                 if (inclusive) yield return post;
                 yield break;
@@ -86,7 +86,7 @@ public class CacheThread
         {
             if (skip)
             {
-                if (post.ID == id)
+                if (post.ID == id.ToString())
                 {
                     if (inclusive) yield return post;
                     skip = false;
@@ -106,7 +106,7 @@ public class CacheThread
         {
             if (skip)
             {
-                if (post.ID == idStart)
+                if (post.ID == idStart.ToString())
                 {
                     if (inclusiveStart) yield return post;
                     skip = false;
@@ -114,7 +114,7 @@ public class CacheThread
                 continue;
             }
             
-            if (post.ID == idEnd)
+            if (post.ID == idEnd.ToString())
             {
                 if (inclusiveEnd) yield return post;
                 yield break;

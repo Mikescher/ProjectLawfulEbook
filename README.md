@@ -17,8 +17,8 @@
         ("01", 4582),                       // MAIN                : mad investor chaos and the woman of asmodeus
         ("01-subthread-01", 5310),          // SUBTHREAD           : kissing is not a human universal                                   ( replaces replies/1721818#reply-1721818 )
 [RM]    ("01-subthread-01-sfw-tldr", 5403), // ALTERNATE SUBTHREAD : sfw tldr kissing is not a human universal
-[RM]    ("02-and-03-alternate", 5521),      // ALTERNATE           : less disturbing, for "some human" and "take this report"
         ("02", 5504),                       // MAIN                : some human relationships are less universal than others
+[RM]    ("02-and-03-alternate", 5521),      // ALTERNATE           : tldr some human relationships
         ("03", 5506),                       // MAIN                : take this report back and bring her a better report
         ("04", 5508),                       // MAIN                : project lawful and their oblivious boyfriend
         ("04-subthread-01", 5610),          // SUBTHREAD           : cheating is cuddleroom technique                                   ( replaces replies/1756345#reply-1756345 )

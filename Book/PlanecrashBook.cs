@@ -60,50 +60,59 @@ public class PlanecrashBook
         chapter.Add(new Chapter(++cidx, "12", cache.Get(6480).TakeAll(), cache.Get(6480).Subject));
 
         chapter.Add(new Chapter(++cidx, "13", cache.Get(6827).TakeAll(), cache.Get(6827).Subject));
+        
+        Console.WriteLine($"Created {cidx} chapter objects");
+    }
 
-        // -------------------------------------------------------------------------------------------------------------
-
+    public void PrintChapters()
+    {
         foreach (var c in chapter)
         {
             Console.WriteLine($"[{c.Identifier}] {c.Title}");
         }
-
-        SanityCheck();
-
-        //TODO test if all posts are handled (and no dups)
     }
-
-    private void SanityCheck()
+    
+    public void SanityCheck()
     {
-        var d = new Dictionary<int, int>();
+        var d = new Dictionary<string, int>();
 
         foreach (var thread in cache.List())
         {
+            if (thread.ID == "5403") continue; // unused: sfw tldr kissing is not a human universal
+            if (thread.ID == "5521") continue; // unused: tldr some human relationships
+            if (thread.ID == "5618") continue; // unused: sfw tldr cheating is cuddleroom technique
+            if (thread.ID == "5671") continue; // unused: sfw tldr we could have been trade partners
+            
             foreach (var post in thread.TakeAll())
             {
-                if (d.ContainsKey(post.ID)) throw new Exception();
+                if (post.ID == "1721818") continue; // unused: -> kissing is not a human universal
+                if (post.ID == "1756345") continue; // unused: -> cheating is cuddleroom technique
+                if (post.ID == "1777291") continue; // unused: -> to Hell with SCIENCE!
+                if (post.ID == "1786765") continue; // unused: -> the alien maths of dath ilan
+
+                if (d.ContainsKey(post.ID)) throw new Exception($"Post {post.ID} exists in multiple threads");
                 d.Add(post.ID, 0);
             }
         }
 
-        foreach (var post in chapter.SelectMany(cptr => cptr.Posts)) d[post.ID] += 1;
+        foreach (var post in chapter.SelectMany(cptr => cptr.Posts))
+        {
+            if (!d.ContainsKey(post.ID)) throw new Exception($"Post {post.ID} exists in chapter but not in cache");
+            d[post.ID] += 1;
+        }
         
-        Console.WriteLine();
-
         foreach (var entry in d)
         {
             if (entry.Value == 0)
             {
-                TODO    
+                Console.WriteLine($"Unused Chapter: {entry.Key}");
             } 
             else if (entry.Value > 1)
             {
-                TODO
+                Console.WriteLine($"Multiple Chapter: {entry.Key} [{entry.Value}]");
             }
         }
         
-        Console.WriteLine();
-        
-        throw new NotImplementedException();
+        Console.WriteLine("Sanity check finished");
     }
 }
