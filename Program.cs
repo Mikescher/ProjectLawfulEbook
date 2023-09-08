@@ -14,6 +14,7 @@ public static class Program
     public static readonly bool INCLUDE_AVATAR_KEYWORDS = false;
     public static readonly bool TRY_INLINE_CHARACTER_NAME = true;
     public static readonly bool INCLUDE_AVATARS = false;
+    public static readonly bool INCLUDE_SCREEN_NAME = false;
     public static readonly int MAX_POST_PER_FILE = 128;
     
     public static void Main()
@@ -35,9 +36,14 @@ public static class Program
         book.Cleanup();
         ConsoleWriteDelimiter();
 
+        book.CacheImages();
+        ConsoleWriteDelimiter();
+
         book.ParseParagraphs();
         ConsoleWriteDelimiter();
 
+        //book.PrintIconKeywordsList();
+        //ConsoleWriteDelimiter();
         
         var outDirEpub = Path.Combine(Environment.CurrentDirectory, "_out_epub");
         Directory.CreateDirectory(outDirEpub);
@@ -67,7 +73,6 @@ public static class Program
 
     public static Guid ID_OPF()
     {
-        
         var u = new Random(TITLE.GetHashCode() ^ AUTHOR.GetHashCode());
         var g = new byte[16];
         u.NextBytes(g);
@@ -76,7 +81,6 @@ public static class Program
 
     public static Guid ID_CAL()
     {
-        
         var u = new Random(TITLE.GetHashCode() ^ AUTHOR.GetHashCode());
         var g = new byte[16];
         u.NextBytes(g);

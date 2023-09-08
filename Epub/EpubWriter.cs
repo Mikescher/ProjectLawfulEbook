@@ -63,6 +63,23 @@ public class EpubWriter
         }
     }
 
+    public void WriteImage(string fn, byte[] bin)
+    {
+	    if (WriteEpub)
+	    {
+		    var f = zipstream.PutNextEntry(@"OEBPS\Images\"+fn);
+		    f.CompressionLevel = Ionic.Zlib.CompressionLevel.None;
+		    
+		    zipstream.Write(bin, 0, bin.Length);
+	    }
+	    else
+	    {
+		    var dst = Path.Combine(Destination, "OEBPS", "Images", fn);
+		    Directory.CreateDirectory(Path.GetDirectoryName(dst)!);
+		    File.WriteAllBytes(dst, bin);
+	    }
+    }
+
     public void WriteMimeType()
     {
         WritePubString(@"mimetype", GetEpubMimetype());
@@ -162,6 +179,21 @@ public class EpubWriter
 					new XAttribute("id", chtr.EpubID(i)),
 					new XAttribute("media-type", "application/xhtml+xml")));
 			}
+		}
+		foreach (var f in Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "image_cache")))
+		{
+			var mime = "?";
+			if (f.EndsWith(".png")) mime = "image/png";
+			else if (f.EndsWith(".jpg")) mime = "image/jpeg";
+			else if (f.EndsWith(".jpeg")) mime = "image/jpeg";
+			else if (f.EndsWith(".gif")) mime = "image/gif";
+			else if (f.EndsWith(".webp")) mime = "image/webp";
+			else Console.WriteLine("[!!!] Failed to get mimetype of file: " + f);
+			
+			manifest.Add(new XElement(opf + "item",
+				new XAttribute("href", "Images/" + Path.GetFileName(f)),
+				new XAttribute("id", "img_" + Helper.Filenamify(Path.GetFileName(f), true).Replace(".", "")),
+				new XAttribute("media-type", mime)));
 		}
 		
 		manifest.Add(new XElement(opf + "item",

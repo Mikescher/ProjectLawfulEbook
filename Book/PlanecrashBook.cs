@@ -128,6 +128,12 @@ public class PlanecrashBook
         Console.WriteLine("Cleaned HTML");
     }
 
+    public void CacheImages()
+    {
+        foreach (var chptr in chapters) chptr.CacheImages();
+        Console.WriteLine("Cached Images");
+    }
+    
     public void Generate(EpubWriter writer)
     {
         try
@@ -143,11 +149,29 @@ public class PlanecrashBook
             {
                 writer.WriteChapter(chptr);
             }
+
+            foreach (var f in Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "image_cache")))
+            {
+                writer.WriteImage(Path.GetFileName(f), File.ReadAllBytes(f));
+            }
         }
         finally
         {
             writer.Save();
             Console.WriteLine("Generated book to: " + writer.Destination);
         }
+    }
+
+    public void PrintIconKeywordsList()
+    {
+        var keywords = chapters
+            .SelectMany(p => p.Posts)
+            .Select(p => p.IconKeyword)
+            .Where(p => p != null)
+            .Distinct()
+            .OrderBy(p => p)
+            .ToList();
+
+        foreach (var kw in keywords) Console.WriteLine(kw);
     }
 }

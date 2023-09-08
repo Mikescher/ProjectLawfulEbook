@@ -30,6 +30,11 @@ public class Chapter
         foreach (var post in Posts) post.ParseParagraphs();
     }
 
+    public void CacheImages()
+    {
+        foreach (var post in Posts) post.CacheImages();
+    }
+
     public string EpubFilename(int split)
     {
         return string.Format("{0:000}_{1:0000}_{2}.html", Order, split, Uri.EscapeDataString(Helper.Filenamify(Title, true).Replace(".", "")));

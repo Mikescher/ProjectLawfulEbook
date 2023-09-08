@@ -1,3 +1,5 @@
+using System.Net;
+using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using HtmlAgilityPack;
@@ -91,6 +93,8 @@ public class Reply
         var doc = new HtmlDocument();
         doc.LoadHtml(HTMLContent.ReplaceLineEndings(""));
 
+        PatchImages(doc);
+        
         var root = doc.DocumentNode;
 
         var children = root.ChildNodes;
@@ -157,9 +161,8 @@ public class Reply
                         foreach (var cn in detailsNode.ChildNodes) AssertValidLowestLevelParagraph(cn);
                         Paragraphs.Add(("details::content::blockquote::multi", node.OuterHtml));
                     }
-                    else if (detailsNode.Name == "img")
+                    else if (detailsNode.Name == "img" && detailsNode.GetAttributeValue("src", "").StartsWith("../Images/"))
                     {
-                        Console.WriteLine($"[TODO] <img> tag (with w+h)");
                         Paragraphs.Add(("details::content::img", detailsNode.OuterHtml));
                     }
                     else
@@ -240,6 +243,32 @@ public class Reply
         }
     }
 
+    private void PatchImages(HtmlDocument doc)
+    {
+        foreach (var node in doc.DocumentNode.SelectNodes("//img")?.ToList() ?? new List<HtmlNode>())
+        {
+            var imgsrc = node.GetAttributeValue("src", null);
+            if (imgsrc != null)
+            {
+                var cs = BitConverter.ToString(SHA256.HashData(Encoding.UTF8.GetBytes(imgsrc))).Replace("-", "").Substring(0, 16*2);
+
+                var ext = GetImageExt(imgsrc);
+
+                var cacheFile = Path.Combine(Environment.CurrentDirectory, "image_cache", cs + ext);
+
+                if (!File.Exists(cacheFile))
+                {
+                    Console.WriteLine("[!!] Missing cache image: " + imgsrc);
+                    continue;
+                }
+
+                node.SetAttributeValue("src", "../Images/" + cs + ext);
+                node.Attributes.Remove("width");
+                node.Attributes.Remove("height");
+            }
+        }
+    }
+
     private void AssertValidLowestLevelParagraph(HtmlNode node)
     {
         if (node.Name == "#text" && node.InnerHtml == node.InnerText) return; //okay
@@ -279,9 +308,8 @@ public class Reply
                 continue;
             }
 
-            if (n.Name == "img")
+            if (n.Name == "img" && n.GetAttributeValue("src", "").StartsWith("../Images/"))
             {
-                Console.WriteLine($"[TODO] <img> tag (with w+h)");
                 continue;
             }
 
@@ -327,6 +355,54 @@ public class Reply
         return false;
     }
 
+    public void CacheImages()
+    {
+        var doc = new HtmlDocument();
+        doc.LoadHtml(HTMLContent.ReplaceLineEndings(""));
+
+        foreach (var node in doc.DocumentNode.SelectNodes("//img")?.ToList() ?? new List<HtmlNode>())
+        {
+            var imgsrc = node.GetAttributeValue("src", null);
+            if (imgsrc != null)
+            {
+                var cs = BitConverter.ToString(SHA256.HashData(Encoding.UTF8.GetBytes(imgsrc))).Replace("-", "").Substring(0, 16*2);
+
+                var ext = GetImageExt(imgsrc);
+
+                var cacheFile = Path.Combine(Environment.CurrentDirectory, "image_cache", cs + ext);
+
+                if (File.Exists(cacheFile))
+                {
+                    Console.WriteLine("Found image in input ["+ParentThreadID+"/"+ID+"]: " + (imgsrc.Length < 31 ? imgsrc : (imgsrc[..29]+"..")) + "    [ " + cs + " ]    (already cached)");
+                }
+                else
+                {
+                    using var client = new WebClient();
+                    client.DownloadFile(imgsrc, cacheFile);
+                    Console.WriteLine("Found image in input ["+ParentThreadID+"/"+ID+"]: " + (imgsrc.Length < 31 ? imgsrc : (imgsrc[..29]+"..")) + "    [ " + cs + " ]    (downloaded)");
+                }
+                
+            }
+            else
+            {
+                Console.WriteLine("[!! ERR !!] Found image withotu src in " + ID);
+            }
+        }
+    }
+
+    private string GetImageExt(string imgsrc)
+    {
+        var ext = Path.GetExtension(imgsrc);
+        if (ext == ".h") ext = ".webp";
+
+        if (imgsrc == "https://lh3.googleusercontent.com/pw/AM-JKLVqQ6-S5_kvA4NPtBapvndWPeVlB9ueayrPR_hli85lnxEGQe6MSU0YhhhkC3WehrWd910LW9EaSHx0OYRLEwgh8fSJzkf6n73qYi_5Cutq2DyFMuADvc1z9cUQ7spjSXhxv5171mAcuPBR-eQBQWWe=w800-h463-no?authuser=0") ext = ".png";
+        if (imgsrc == "https://lh3.googleusercontent.com/pw/AM-JKLVqQ6-S5_kvA4NPtBapvndWPeVlB9ueayrPR_hli85lnxEGQe6MSU0YhhhkC3WehrWd910LW9EaSHx0OYRLEwgh8fSJzkf6n73qYi_5Cutq2DyFMuADvc1z9cUQ7spjSXhxv5171mAcuPBR-eQBQWWe%3Dw800-h463-no?authuser%3D0&amp;sa=D&amp;source=hangouts&amp;ust=1653515050345000&amp;usg=AOvVaw1XLSqvIivHMfj4ykAMyb76") ext = ".png";
+        
+        if (ext == "") Console.WriteLine("failed to get ext of '"+imgsrc+"'");
+        
+        return ext;
+    }
+
     public string GetEpubHTML()
     {
         var xml = new StringBuilder();
@@ -342,10 +418,17 @@ public class Reply
             {
                 prefix += ($" ({CharacterAltName})");
             }
+            
             prefix += ":</b>";
+            
             if (Program.INCLUDE_AVATAR_KEYWORDS && IconKeyword != null && IconKeyword.ToLower() != CharacterName.ToLower() && IconKeyword != "image")
             {
                 prefix += ($" <i>({IconKeyword})</i>");
+            }
+            
+            if (Program.INCLUDE_SCREEN_NAME && !string.IsNullOrWhiteSpace(CharacterScreenName))
+            {
+                prefix += ($" <i>[{CharacterScreenName}]</i>");
             }
 
             if (Program.TRY_INLINE_CHARACTER_NAME)
@@ -354,6 +437,10 @@ public class Reply
                 {
                     xml.AppendLine("<p>" + prefix + " " + Paragraphs[0].Item2[3..]);
                     pgSkip = 1;
+                }
+                else if (Paragraphs.Count == 0)
+                {
+                    xml.AppendLine("<p>" + prefix + "</p>");
                 }
                 else
                 {
