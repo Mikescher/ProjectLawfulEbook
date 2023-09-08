@@ -7545,7 +7545,7 @@
         "screenname": "mastercraftsman"
       },
       "character_name": "Ismat Alnahhat",
-      "content": "\"I guess the only thing I'm really touchy about is Khalil, who will be disappointed if the alien can't be polite but he'll live, and I don't have to bring him up in detail when he won't even be at this particular breakfast,\" Ismat remarks to Merenre on their way.",
+      "content": "<p>\"I guess the only thing I'm really touchy about is Khalil, who will be disappointed if the alien can't be polite but he'll live, and I don't have to bring him up in detail when he won't even be at this particular breakfast,\" Ismat remarks to Merenre on their way.</p>",
       "created_at": "2022-05-25T02:23:36.200+00:00",
       "icon": {
         "id": 127533,
@@ -7583,7 +7583,7 @@
         "screenname": "mastercraftsman"
       },
       "character_name": "Ismat Alnahhat",
-      "content": "\"He's the only speaker of his language on the planet!  If it can be done easily that's how!\"",
+      "content": "<p>\"He's the only speaker of his language on the planet!  If it can be done easily that's how!\"</p>",
       "created_at": "2022-05-25T02:28:05.701+00:00",
       "icon": {
         "id": 127539,
@@ -7705,7 +7705,7 @@
         "screenname": "mastercraftsman"
       },
       "character_name": "Ismat Alnahhat",
-      "content": "\"Good morning!  I'm Ismat, I believe you've met my husband and his father already though.\"",
+      "content": "<p>\"Good morning!  I'm Ismat, I believe you've met my husband and his father already though.\"</p>",
       "created_at": "2022-05-25T02:34:45.201+00:00",
       "icon": {
         "id": 127534,
@@ -7861,7 +7861,7 @@
         "screenname": "mastercraftsman"
       },
       "character_name": "Ismat Alnahhat",
-      "content": "\"Mm-hm!  Cheliax has wizards but we've got me.  Not many of me trained up yet though.  I might have to pivot away from doing my own crafting if I need to be working on teaching a class of fifty.\"",
+      "content": "<p>\"Mm-hm!  Cheliax has wizards but we've got me.  Not many of me trained up yet though.  I might have to pivot away from doing my own crafting if I need to be working on teaching a class of fifty.\"</p>",
       "created_at": "2022-05-25T02:58:20.817+00:00",
       "icon": {
         "id": 127536,
@@ -7903,7 +7903,7 @@
         "screenname": "mastercraftsman"
       },
       "character_name": "Ismat Alnahhat",
-      "content": "\"I can only do jewelry, specifically, I studied the ways jewelry differs before and after being enchanted back when I did blanks for casters to have at.  I - don't see an <em>obvious</em> reason why you couldn't divvy up the work on a pin or an earring like that?  The items would take slots, but you could just have a specialized crafting getup, half what I'm wearing is crafting-aimed already.\"  She's wearing quite a lot of jewelry.",
+      "content": "<p>\"I can only do jewelry, specifically, I studied the ways jewelry differs before and after being enchanted back when I did blanks for casters to have at.  I - don't see an <em>obvious</em> reason why you couldn't divvy up the work on a pin or an earring like that?  The items would take slots, but you could just have a specialized crafting getup, half what I'm wearing is crafting-aimed already.\"  She's wearing quite a lot of jewelry.</p>",
       "created_at": "2022-05-25T03:06:46.284+00:00",
       "icon": {
         "id": 127532,
@@ -7945,7 +7945,7 @@
         "screenname": "mastercraftsman"
       },
       "character_name": "Ismat Alnahhat",
-      "content": "Ismat can go on about the process she uses and teaches!  Her ability to scale up has been inconvenienced by moving into the Black Dome - she can craft in it, it didn't take that long to readjust, but it makes the commute between home and storefront awfully inconvenient for her or her employees, whoever's traveling.  But she has a list of things that might be amenable to more optimization pressure, and can rattle off the story of how she started making blanks for casters and tried watching them when they started working on the blanks to see if there were any steps she could simplify for them, and so on and so forth.",
+      "content": "<p>Ismat can go on about the process she uses and teaches!  Her ability to scale up has been inconvenienced by moving into the Black Dome - she can craft in it, it didn't take that long to readjust, but it makes the commute between home and storefront awfully inconvenient for her or her employees, whoever's traveling.  But she has a list of things that might be amenable to more optimization pressure, and can rattle off the story of how she started making blanks for casters and tried watching them when they started working on the blanks to see if there were any steps she could simplify for them, and so on and so forth.</p>",
       "created_at": "2022-05-25T04:37:46.469+00:00",
       "icon": {
         "id": 127537,
@@ -8215,7 +8215,7 @@
         "screenname": "mastercraftsman"
       },
       "character_name": "Ismat Alnahhat",
-      "content": "\"If you don't wake up the day after tomorrow all better are you going to have a fit about that?\"",
+      "content": "<p>\"If you don't wake up the day after tomorrow all better are you going to have a fit about that?\"</p>",
       "created_at": "2022-05-25T18:12:24.691+00:00",
       "icon": {
         "id": 127532,
@@ -8350,7 +8350,7 @@
         "screenname": "mastercraftsman"
       },
       "character_name": "Ismat Alnahhat",
-      "content": "\"The wine works for me, I usually have some every day.\"",
+      "content": "<p>\"The wine works for me, I usually have some every day.\"</p>",
       "created_at": "2022-05-25T18:56:10.604+00:00",
       "icon": {
         "id": 127533,
@@ -8392,7 +8392,7 @@
         "screenname": "mastercraftsman"
       },
       "character_name": "Ismat Alnahhat",
-      "content": "\"Nefreti's lasts more than three hours, it stacks with headbands - or whatever other enhancement, mine are the earrings - but I wouldn't expect it to stack with something that just made you better at a particular skill unless it did it indirectly like my jeweler's loupe.\"",
+      "content": "<p>\"Nefreti's lasts more than three hours, it stacks with headbands - or whatever other enhancement, mine are the earrings - but I wouldn't expect it to stack with something that just made you better at a particular skill unless it did it indirectly like my jeweler's loupe.\"</p>",
       "created_at": "2022-05-25T19:06:20.497+00:00",
       "icon": {
         "id": 127541,
@@ -8451,7 +8451,7 @@
         "screenname": "mastercraftsman"
       },
       "character_name": "Ismat Alnahhat",
-      "content": "\"Can't you just ask if you drinking the wine will make her stop making it or not?  - I don't think you can get an etiquette waiver for the pharaoh.\"",
+      "content": "<p>\"Can't you just ask if you drinking the wine will make her stop making it or not?  - I don't think you can get an etiquette waiver for the pharaoh.\"</p>",
       "created_at": "2022-05-25T22:27:24.889+00:00",
       "icon": {
         "id": 127544,
@@ -8493,7 +8493,7 @@
         "screenname": "mastercraftsman"
       },
       "character_name": "Ismat Alnahhat",
-      "content": "\"I'm not sure why you don't want him to get a look at you, but sure, I guess writing's sort of like an etiquette waiver, you could go through - hm, not his wives, his husband maybe or one of the advisors.\"",
+      "content": "<p>\"I'm not sure why you don't want him to get a look at you, but sure, I guess writing's sort of like an etiquette waiver, you could go through - hm, not his wives, his husband maybe or one of the advisors.\"</p>",
       "created_at": "2022-05-25T22:31:55.863+00:00",
       "icon": {
         "id": 127539,
@@ -8666,7 +8666,7 @@
         "screenname": "mastercraftsman"
       },
       "character_name": "Ismat Alnahhat",
-      "content": "\"He mostly just uses this ability to give people good presents.  And I'm pretty sure it's still my brother and not the pharaoh coaching Merenre on what to get me for my birthday, so he doesn't even do that obsessively.\"",
+      "content": "<p>\"He mostly just uses this ability to give people good presents.  And I'm pretty sure it's still my brother and not the pharaoh coaching Merenre on what to get me for my birthday, so he doesn't even do that obsessively.\"</p>",
       "created_at": "2022-05-26T00:30:45.713+00:00",
       "icon": {
         "id": 127540,

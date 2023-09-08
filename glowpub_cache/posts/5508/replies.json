@@ -40686,7 +40686,7 @@
         "screenname": "easy-to-steer"
       },
       "character_name": "Aspexia Rugatonn",
-      "content": "\"Nothing good has ever happened to me after hearing those words.\"",
+      "content": "<p>\"Nothing good has ever happened to me after hearing those words.\"</p>",
       "created_at": "2022-01-24T03:56:03.635+00:00",
       "icon": {
         "id": 231062,
@@ -83151,7 +83151,7 @@
         "screenname": "lawful chaotic"
       },
       "character_name": "Keltham",
-      "content": "And on that note, lunchtime!",
+      "content": "<p>And on that note, lunchtime!</p>",
       "created_at": "2022-02-21T04:09:22.369+00:00",
       "icon": {
         "id": 200478,

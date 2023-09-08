@@ -99,7 +99,7 @@ public class Reply
             {
                 Paragraphs.Add(("hr", node.OuterHtml));
             }
-            else if (node.Name == "details" && node.Attributes.Count == 0)
+            else if (node.Name == "details" && node.Attributes.All(p => p.Name == "open"))
             {
                 var detailChilds = node.ChildNodes.Where(p => !(p.Name == "#text" && string.IsNullOrWhiteSpace(p.InnerText))).ToList();
 
@@ -130,6 +130,11 @@ public class Reply
                         AssertValidLowestLevelParagraph(detailsNode);
                         Paragraphs.Add(("details::content::em", detailsNode.OuterHtml));
                     }
+                    else if (detailsNode.Name == "ul" && detailsNode.Attributes.Count == 0)
+                    {
+                        AssertValidLowestLevelParagraph(detailsNode);
+                        Paragraphs.Add(("details::content::ul", detailsNode.OuterHtml));
+                    }
                     else if (detailsNode.Name == "br" && detailsNode.Attributes.Count == 0)
                     {
                         AssertValidLowestLevelParagraph(detailsNode);
@@ -156,7 +161,7 @@ public class Reply
                 AssertValidLowestLevelParagraph(node);
                 Paragraphs.Add(("blockquote::text", node.OuterHtml));
             }
-            else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.All(p => p.Name is "p" or "pre"))
+            else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.All(p => p.Name is "p" or "pre" or "#text" or "em"))
             {
                 foreach (var cn in node.ChildNodes) AssertValidLowestLevelParagraph(cn);
                 Paragraphs.Add(("blockquote::multi", node.OuterHtml));
@@ -170,17 +175,48 @@ public class Reply
             {
                 Paragraphs.Add(("blockquote::table", node.OuterHtml));
             }
+            else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.Count == 1 && node.ChildNodes[0].Name == "details" && node.ChildNodes[0].ChildNodes.Count > 1 && node.ChildNodes[0].ChildNodes[0].Name == "summary")
+            {
+                var builder = "";
+                
+                AssertValidLowestLevelParagraph(node.ChildNodes[0].ChildNodes[0]);
+                builder += "<p><b>" + node.ChildNodes[0].ChildNodes[0].InnerHtml + "</b></p>";
+                foreach (var detailsChild in node.ChildNodes[0].ChildNodes.Skip(1))
+                {
+                    if (detailsChild.Name is "p" or "pre" or "blockquote")
+                    {
+                        AssertValidLowestLevelParagraph(detailsChild);
+                        builder += detailsChild.OuterHtml;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"[!] Invalid sub-blockquote-details-node in reply {ParentThreadID}/{ID}: <{node.Name}>, skipping");
+                    }
+                }
+                Paragraphs.Add(("blockquote::details", builder));
+
+            }
             else if (node.Name == "table" && IsValidTableAttributes(node.Attributes))
             {
                 Paragraphs.Add(("table", node.OuterHtml));
             }
-            else if (node.Name == "#text" && !string.IsNullOrWhiteSpace(node.InnerHtml) && children.Count == 1)
+            else if (node.Name == "#text" && !string.IsNullOrWhiteSpace(node.InnerHtml) && !string.IsNullOrWhiteSpace(node.InnerText))
             {
+                Console.WriteLine($"[~] WARN: Root #text in reply {ParentThreadID}/{ID}: <{node.Name}>");
                 Paragraphs.Add(("p", "<p>" + node.OuterHtml + "</p>")); // pseudo convert raw-text to <p>
+            }
+            else if (node.Name == "#text" && string.IsNullOrWhiteSpace(node.InnerHtml) && string.IsNullOrWhiteSpace(node.InnerText))
+            {
+                Console.WriteLine($"[i] Skip empty <p> in {ParentThreadID}/{ID}: <{node.Name}>");
+                //skip
             }
             else if (node.Name == "pre" && node.Attributes.Count == 0 && node.InnerText == node.InnerHtml)
             {
                 Paragraphs.Add(("pre", node.OuterHtml));
+            }
+            else if (node.OuterHtml == "<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Keltham can take his time.&nbsp;</span></p>")
+            {
+                Paragraphs.Add(("manual", "<p>" + node.InnerText + "</p>")); // whatever...
             }
             else
             {

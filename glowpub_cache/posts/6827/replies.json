@@ -407,7 +407,7 @@
         "screenname": null
       },
       "character_name": "World-0",
-      "content": "Girl reads boy's mind.",
+      "content": "<p>Girl reads boy's mind.</p>",
       "created_at": "2023-04-02T01:03:16.498+00:00",
       "icon": {
         "id": 311804,
@@ -512,7 +512,7 @@
         "screenname": null
       },
       "character_name": "World-0",
-      "content": "But Ione Sala is not oracled of Nethys.",
+      "content": "<p>But Ione Sala is not oracled of Nethys.</p>",
       "created_at": "2023-04-02T01:07:39.327+00:00",
       "icon": {
         "id": 231820,
@@ -764,7 +764,7 @@
         "screenname": null
       },
       "character_name": "World-0",
-      "content": "...which means that Otolmens is more amenable to manipulation, and Asmodeus has accordingly put more effort into manipulating Otolmens toward His interests' favor.",
+      "content": "<p>...which means that Otolmens is more amenable to manipulation, and Asmodeus has accordingly put more effort into manipulating Otolmens toward His interests' favor.</p>",
       "created_at": "2023-04-02T01:16:32.834+00:00",
       "icon": {
         "id": 217426,
