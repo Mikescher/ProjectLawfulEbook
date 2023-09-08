@@ -1,10 +1,18 @@
 ﻿using ProjectLawfulEbook.Book;
 using ProjectLawfulEbook.Cache;
+using ProjectLawfulEbook.Epub;
 
 namespace ProjectLawfulEbook;
 
 public static class Program
 {
+    public const string TITLE = "Project Lawful";
+    public const string AUTHOR = "Eliezer Yudkowsky";
+    public const string RELEASE = "2023-04-03";
+    public const string LANGUAGE = "en";
+
+    public static readonly bool INCLUDE_ICON_KEYWORDS = false;
+    
     public static void Main()
     {
         var cache = new GlowPubCache();
@@ -23,6 +31,25 @@ public static class Program
 
         book.ParseParagraphs();
         ConsoleWriteDelimiter();
+
+        
+        var outDirEpub = Path.Combine(Environment.CurrentDirectory, "_out_epub");
+        Directory.CreateDirectory(outDirEpub);
+        
+        var outDirHTML = Path.Combine(Environment.CurrentDirectory, "_out_html");
+        if (Directory.Exists(outDirHTML)) Directory.Delete(outDirHTML, true);
+        Directory.CreateDirectory(outDirHTML);
+        
+        book.Generate(new EpubWriter(outDirHTML, false));
+        ConsoleWriteDelimiter();
+
+        book.Generate(new EpubWriter(Path.Combine(outDirEpub, "project-lawful.zip"), true));
+        ConsoleWriteDelimiter();
+
+        book.Generate(new EpubWriter(Path.Combine(outDirEpub, "project-lawful.epub"), true));
+        ConsoleWriteDelimiter();
+        
+        Console.WriteLine("Done.");
     }
 
     private static void ConsoleWriteDelimiter()
@@ -31,4 +58,24 @@ public static class Program
         Console.WriteLine(Enumerable.Repeat("-", 80).Aggregate((a,b)=>a+b));
         Console.WriteLine();
     }
+
+    public static Guid ID_OPF()
+    {
+        
+        var u = new Random(TITLE.GetHashCode() ^ AUTHOR.GetHashCode());
+        var g = new byte[16];
+        u.NextBytes(g);
+        return new Guid(g);
+    }
+
+    public static Guid ID_CAL()
+    {
+        
+        var u = new Random(TITLE.GetHashCode() ^ AUTHOR.GetHashCode());
+        var g = new byte[16];
+        u.NextBytes(g);
+        u.NextBytes(g);
+        return new Guid(g);
+    }
+
 }

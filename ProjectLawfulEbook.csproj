@@ -10,6 +10,7 @@
 
     <ItemGroup>
       <PackageReference Include="HtmlAgilityPack" Version="1.11.52" />
+      <PackageReference Include="Ionic.Zip" Version="1.9.1.8" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </ItemGroup>
 
@@ -27,6 +28,8 @@
     <ItemGroup>
       <None Remove="glowpub_cache\**" />
     </ItemGroup>
+
+
 
 
 

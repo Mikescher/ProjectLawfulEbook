@@ -1,3 +1,4 @@
+using System.Text;
 using HtmlAgilityPack;
 using Microsoft.VisualBasic;
 using Newtonsoft.Json.Linq;
@@ -318,5 +319,31 @@ public class Reply
         }
 
         return false;
+    }
+
+    public string GetEpubHTML()
+    {
+        var xml = new StringBuilder();
+
+        if (CharacterName != null)
+        {
+            xml.Append($"<b>{CharacterName}</b>");
+            if (CharacterAltName != null && CharacterAltName.ToLower() != CharacterName.ToLower())
+            {
+                xml.Append($" <b>({CharacterAltName})</b>");
+            }
+            if (Program.INCLUDE_ICON_KEYWORDS && IconKeyword != null && IconKeyword.ToLower() != CharacterName.ToLower() && IconKeyword != "image")
+            {
+                xml.Append($" <i>({IconKeyword})</i>");
+            }
+            xml.AppendLine("<br/>");
+        }
+        
+        foreach (var (pgType, pgHTML) in Paragraphs)
+        {
+            xml.AppendLine(pgHTML);
+        }
+        
+        return xml.ToString();
     }
 }

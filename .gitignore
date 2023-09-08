@@ -1,4 +1,21 @@
 
+
+
+
+_out/
+_out_*/
+
+
+
+
+
+
+
+
+
+
+
+
 # Created by https://www.toptal.com/developers/gitignore/api/csharp,rider,aspnetcore,visualstudio,linux,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=csharp,rider,aspnetcore,visualstudio,linux,windows
 
