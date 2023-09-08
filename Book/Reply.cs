@@ -461,6 +461,7 @@ public class Reply
         var result = xml.ToString();
 
         result = Regex.Replace(result, @"<br>(?!</br>)", "<br/>");
+        result = Regex.Replace(result, @"(<img[^>]*>)(?!</img>)", "$1</img>");
         
         return result;
     }

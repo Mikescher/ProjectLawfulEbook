@@ -145,6 +145,8 @@ public class PlanecrashBook
             writer.WriteContentOPF(chapters);
             writer.WriteTOC(chapters);
 
+            writer.WriteCover();
+            
             foreach (var chptr in chapters)
             {
                 writer.WriteChapter(chptr);
@@ -152,7 +154,7 @@ public class PlanecrashBook
 
             foreach (var f in Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "image_cache")))
             {
-                writer.WriteImage(Path.GetFileName(f), File.ReadAllBytes(f));
+                writer.WriteBin(@"OEBPS\Images\"+Path.GetFileName(f), File.ReadAllBytes(f));
             }
         }
         finally

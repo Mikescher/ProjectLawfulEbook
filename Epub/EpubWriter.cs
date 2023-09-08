@@ -63,18 +63,18 @@ public class EpubWriter
         }
     }
 
-    public void WriteImage(string fn, byte[] bin)
+    public void WriteBin(string fn, byte[] bin)
     {
 	    if (WriteEpub)
 	    {
-		    var f = zipstream.PutNextEntry(@"OEBPS\Images\"+fn);
+		    var f = zipstream.PutNextEntry(fn);
 		    f.CompressionLevel = Ionic.Zlib.CompressionLevel.None;
 		    
 		    zipstream.Write(bin, 0, bin.Length);
 	    }
 	    else
 	    {
-		    var dst = Path.Combine(Destination, "OEBPS", "Images", fn);
+		    var dst = Path.Combine(Destination, fn.Replace("\\", "/"));
 		    Directory.CreateDirectory(Path.GetDirectoryName(dst)!);
 		    File.WriteAllBytes(dst, bin);
 	    }
@@ -165,11 +165,20 @@ public class EpubWriter
 							new XAttribute("name", "Wordpress_eBook_scraper_version")),
 						new XElement(opf + "meta",
 							new XAttribute("content", DateTime.Now.ToString("yyyy-MM-dd")),
-							new XAttribute("name", "Wordpress_eBook_scraper_creation_time")));
+							new XAttribute("name", "Wordpress_eBook_scraper_creation_time")),
+						new XElement(opf + "meta",
+							new XAttribute("content", "cover"),
+							new XAttribute("name", "cover")));
 
 		package.Add(meta);
 
 		var manifest = new XElement(opf + "manifest");
+		
+		manifest.Add(new XElement(opf + "item",
+			new XAttribute("href", "Text/000_titlepage.html"),
+			new XAttribute("id", "titlepage"),
+			new XAttribute("media-type", "application/xhtml+xml")));
+		
 		foreach (var chtr in chapters)
 		{
 			for (var i = 0; i < chtr.GetSplitCount(); i++)
@@ -201,9 +210,15 @@ public class EpubWriter
 			new XAttribute("id", "ncx"),
 			new XAttribute("media-type", "application/x-dtbncx+xml")));
 
+		manifest.Add(new XElement(opf + "item",
+			new XAttribute("href", "cover.png"),
+			new XAttribute("id", "cover"),
+			new XAttribute("media-type", "image/png")));
+
 		package.Add(manifest);
 
 		var spine = new XElement(opf + "spine", new XAttribute("toc", "ncx"));
+		spine.Add(new XElement(opf + "itemref", new XAttribute("idref", "titlepage")));
 		foreach (var chptr in chapters)
 		{
 			for (var i = 0; i < chptr.GetSplitCount(); i++)
@@ -222,7 +237,7 @@ public class EpubWriter
 		return writer.ToString();
 	}
 
-    string GetEpubTOC(List<Chapter> chapters)
+    private string GetEpubTOC(List<Chapter> chapters)
     {
 	    XNamespace dc = "http://www.daisy.org/z3986/2005/ncx/";
 	    XNamespace ncx = "http://www.idpf.org/2007/opf";
@@ -272,6 +287,35 @@ public class EpubWriter
 	    return writer.ToString();
     }
 
+    private string GetTitlepageHTML()
+    {
+	    var html = new StringBuilder();
+	    
+	    html.AppendLine(@"<html xmlns=""http://www.w3.org/1999/xhtml"" xml:lang=""en"">");
+		    html.AppendLine(@"    <head>");
+	    html.AppendLine(@"        <meta http-equiv=""Content-Type"" content=""text/html; charset=UTF-8"" />");
+	    html.AppendLine(@"        <meta name=""calibre:cover"" content=""true"" />");
+	    html.AppendLine(@"        <title>Cover</title>");
+	    html.AppendLine(@"        <style type=""text/css"" title=""override_css"">");
+	    html.AppendLine(@"            @page {padding: 0pt; margin:0pt}");
+	    html.AppendLine(@"            body { text-align: center; padding:0pt; margin: 0pt; }");
+	    html.AppendLine(@"        </style>");
+	    html.AppendLine(@"    </head>");
+	    html.AppendLine(@"    <body>");
+	    html.AppendLine(@"        <div>");
+	    html.AppendLine(@"            <svg version=""1.1"" xmlns=""http://www.w3.org/2000/svg""");
+	    html.AppendLine(@"                xmlns:xlink=""http://www.w3.org/1999/xlink""");
+	    html.AppendLine(@"                width=""100%"" height=""100%"" viewBox=""0 0 1000 1600""");
+	    html.AppendLine(@"                preserveAspectRatio=""xMidYMid meet"">");
+	    html.AppendLine(@"                <image width=""1000"" height=""1600"" xlink:href=""../cover.png""/>");
+	    html.AppendLine(@"            </svg>");
+	    html.AppendLine(@"        </div>");
+	    html.AppendLine(@"    </body>");
+	    html.AppendLine(@"</html>");
+
+	    return html.ToString();
+    }
+    
     public void WriteChapter(Chapter chptr)
     {
 	    var sc = chptr.GetSplitCount();
@@ -279,5 +323,11 @@ public class EpubWriter
 	    {
 		    WritePubString(@"OEBPS\Text\" + chptr.EpubFilename(i), chptr.GetEpubHTML(i));
 	    }
+    }
+
+    public void WriteCover()
+    {
+	    WriteBin(@"OEBPS\cover.png", File.ReadAllBytes(Path.Combine(Environment.CurrentDirectory, "data", "cover.png")));
+	    WritePubString(@"OEBPS\Text\000_titlepage.html", GetTitlepageHTML());
     }
 }
