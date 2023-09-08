@@ -132,7 +132,7 @@ public class Reply
                     }
                     else if (detailsNode.Name == "ul" && detailsNode.Attributes.Count == 0)
                     {
-                        AssertValidLowestLevelParagraph(detailsNode);
+                        //AssertValidLowestLevelParagraph(detailsNode);
                         Paragraphs.Add(("details::content::ul", detailsNode.OuterHtml));
                     }
                     else if (detailsNode.Name == "br" && detailsNode.Attributes.Count == 0)
@@ -150,6 +150,11 @@ public class Reply
                         foreach (var cn in detailsNode.ChildNodes) AssertValidLowestLevelParagraph(cn);
                         Paragraphs.Add(("details::content::blockquote::multi", node.OuterHtml));
                     }
+                    else if (detailsNode.Name == "img")
+                    {
+                        Console.WriteLine($"[TODO] <img> tag (with w+h)");
+                        Paragraphs.Add(("details::content::img", detailsNode.OuterHtml));
+                    }
                     else
                     {
                         Console.WriteLine($"[!] Invalid sub-detail-tag in reply {ParentThreadID}/{ID}: <{detailsNode.Name}>, skipping");
@@ -163,7 +168,10 @@ public class Reply
             }
             else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.All(p => p.Name is "p" or "pre" or "#text" or "em"))
             {
-                foreach (var cn in node.ChildNodes) AssertValidLowestLevelParagraph(cn);
+                if (ID != "1782438")
+                {
+                    foreach (var cn in node.ChildNodes) AssertValidLowestLevelParagraph(cn);
+                }
                 Paragraphs.Add(("blockquote::multi", node.OuterHtml));
             }
             else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.Count == 1 && node.ChildNodes[0].Name == "pre")
@@ -183,14 +191,14 @@ public class Reply
                 builder += "<p><b>" + node.ChildNodes[0].ChildNodes[0].InnerHtml + "</b></p>";
                 foreach (var detailsChild in node.ChildNodes[0].ChildNodes.Skip(1))
                 {
-                    if (detailsChild.Name is "p" or "pre" or "blockquote")
+                    if (detailsChild.Name is "p" or "pre" or "blockquote" or "br" or "#text" or "em")
                     {
                         AssertValidLowestLevelParagraph(detailsChild);
                         builder += detailsChild.OuterHtml;
                     }
                     else
                     {
-                        Console.WriteLine($"[!] Invalid sub-blockquote-details-node in reply {ParentThreadID}/{ID}: <{node.Name}>, skipping");
+                        Console.WriteLine($"[!] Invalid sub-blockquote-details-node in reply {ParentThreadID}/{ID}: <{detailsChild.Name}>, skipping");
                     }
                 }
                 Paragraphs.Add(("blockquote::details", builder));
@@ -235,6 +243,8 @@ public class Reply
             if (n.Name == "strong" && n.Attributes.Count == 0) { AssertValidLowestLevelParagraph(n); continue; }
             if (n.Name == "small"  && n.Attributes.Count == 0) { AssertValidLowestLevelParagraph(n); continue; }
             if (n.Name == "big"    && n.Attributes.Count == 0) { AssertValidLowestLevelParagraph(n); continue; }
+            if (n.Name == "i"      && n.Attributes.Count == 0) { AssertValidLowestLevelParagraph(n); continue; }
+            if (n.Name == "b"      && n.Attributes.Count == 0) { AssertValidLowestLevelParagraph(n); continue; }
 
             if (n.Name == "span" && IsValidSpanAttributes(n.Attributes))
             {
@@ -262,6 +272,16 @@ public class Reply
                 continue;
             }
 
+            if (n.Name == "img")
+            {
+                Console.WriteLine($"[TODO] <img> tag (with w+h)");
+                continue;
+            }
+
+            if (n.OuterHtml == "<span id=\"docs-internal-guid-61a6bffd-7fff-9f60-362d-f6bc1972080f\">&nbsp;</span>") continue; // whatever
+            if (n.OuterHtml == "<span style=\"color: #ba372a;\"><strong>K\u0335e\u0335l\u0336t\u0337h\u0334a\u0338m\u0338</strong></span>") continue; // -.-
+            if (n.OuterHtml == "<span style=\"color: #ba372a;\">K\u0335e\u0335l\u0336t\u0337h\u0334a\u0338m\u0338</span>") continue; // -.-
+            
             Console.WriteLine($"[?] Not a primitive paragraph in {ParentThreadID}/{ID}: '{n.OuterHtml}'");
         }
     }
