@@ -11,7 +11,10 @@ public static class Program
     public const string RELEASE = "2023-04-03";
     public const string LANGUAGE = "en";
 
-    public static readonly bool INCLUDE_ICON_KEYWORDS = false;
+    public static readonly bool INCLUDE_AVATAR_KEYWORDS = false;
+    public static readonly bool TRY_INLINE_CHARACTER_NAME = true;
+    public static readonly bool INCLUDE_AVATARS = false;
+    public static readonly int MAX_POST_PER_FILE = 128;
     
     public static void Main()
     {
@@ -27,6 +30,9 @@ public static class Program
         ConsoleWriteDelimiter();
 
         book.PrintChapters();
+        ConsoleWriteDelimiter();
+
+        book.Cleanup();
         ConsoleWriteDelimiter();
 
         book.ParseParagraphs();

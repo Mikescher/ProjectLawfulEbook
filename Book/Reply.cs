@@ -1,4 +1,5 @@
 using System.Text;
+using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using Microsoft.VisualBasic;
 using Newtonsoft.Json.Linq;
@@ -24,7 +25,7 @@ public class Reply
     public readonly string? UserID;
     public readonly string? UserName;
     
-    public readonly string HTMLContent;
+    public string HTMLContent;
 
     private List<(string, string)> Paragraphs;
     
@@ -48,7 +49,7 @@ public class Reply
         UserName = userName;
         HTMLContent = htmlContent;
     }
-
+    
     public static Reply Parse(string parentID, JToken json)
     {
         var id = json["id"]!.Value<int>();
@@ -78,6 +79,11 @@ public class Reply
             content);
     }
 
+    public void Cleanup()
+    {
+        HTMLContent = HTMLContent.ReplaceLineEndings("");
+    }
+    
     public void ParseParagraphs()
     {
         Paragraphs = new List<(string, string)>();
@@ -325,25 +331,50 @@ public class Reply
     {
         var xml = new StringBuilder();
 
+        var pgSkip = 0;
+        
         if (CharacterName != null)
         {
-            xml.Append($"<b>{CharacterName}</b>");
+            var prefix = "";
+            
+            prefix += ($"<b>{CharacterName}");
             if (CharacterAltName != null && CharacterAltName.ToLower() != CharacterName.ToLower())
             {
-                xml.Append($" <b>({CharacterAltName})</b>");
+                prefix += ($" ({CharacterAltName})");
             }
-            if (Program.INCLUDE_ICON_KEYWORDS && IconKeyword != null && IconKeyword.ToLower() != CharacterName.ToLower() && IconKeyword != "image")
+            prefix += ":</b>";
+            if (Program.INCLUDE_AVATAR_KEYWORDS && IconKeyword != null && IconKeyword.ToLower() != CharacterName.ToLower() && IconKeyword != "image")
             {
-                xml.Append($" <i>({IconKeyword})</i>");
+                prefix += ($" <i>({IconKeyword})</i>");
             }
-            xml.AppendLine("<br/>");
+
+            if (Program.TRY_INLINE_CHARACTER_NAME)
+            {
+                if (Paragraphs.Count > 0 && Paragraphs[0].Item1 == "p" && Paragraphs[0].Item2.ToLower().StartsWith("<p>"))
+                {
+                    xml.AppendLine("<p>" + prefix + " " + Paragraphs[0].Item2[3..]);
+                    pgSkip = 1;
+                }
+                else
+                {
+                    xml.AppendLine(prefix + "<br/>");
+                }
+            }
+            else
+            {
+                xml.AppendLine(prefix + "<br/>");
+            }
         }
         
-        foreach (var (pgType, pgHTML) in Paragraphs)
+        foreach (var (pgType, pgHTML) in Paragraphs.Skip(pgSkip))
         {
             xml.AppendLine(pgHTML);
         }
         
-        return xml.ToString();
+        var result = xml.ToString();
+
+        result = Regex.Replace(result, @"<br>(?!</br>)", "<br/>");
+        
+        return result;
     }
 }

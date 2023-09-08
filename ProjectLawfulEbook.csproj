@@ -17,16 +17,22 @@
 
     <ItemGroup>
       <Compile Remove="glowpub_cache\**" />
+      <Compile Remove="_out_epub\**" />
+      <Compile Remove="_out_html\**" />
     </ItemGroup>
 
 
     <ItemGroup>
       <EmbeddedResource Remove="glowpub_cache\**" />
+      <EmbeddedResource Remove="_out_epub\**" />
+      <EmbeddedResource Remove="_out_html\**" />
     </ItemGroup>
 
 
     <ItemGroup>
       <None Remove="glowpub_cache\**" />
+      <None Remove="_out_epub\**" />
+      <None Remove="_out_html\**" />
     </ItemGroup>
 
 

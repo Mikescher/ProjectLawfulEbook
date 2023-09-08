@@ -44,3 +44,13 @@
         ("13", 6827),                       // MAIN                : null action act iii: the consequences of my own nonactions
 
 ~~~~~~~
+
+## Options:
+
+ - TODO (see Program.cs)
+
+
+## More
+
+- `epubcheck --fatal "_out_epub/project-lawful.epub"`
+- `epubcheck "_out_epub/project-lawful.epub"`

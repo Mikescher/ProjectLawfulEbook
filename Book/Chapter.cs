@@ -20,22 +20,32 @@ public class Chapter
         Title = title;
     }
 
+    public void Cleanup()
+    {
+        foreach (var post in Posts) post.Cleanup();
+    }
+
     public void ParseParagraphs()
     {
         foreach (var post in Posts) post.ParseParagraphs();
     }
 
-    public string EpubFilename()
+    public string EpubFilename(int split)
     {
-        return string.Format("{0:000}_{1}.html", Order, Uri.EscapeDataString(Helper.Filenamify(Title, true)));
+        return string.Format("{0:000}_{1:0000}_{2}.html", Order, split, Uri.EscapeDataString(Helper.Filenamify(Title, true).Replace(".", "")));
     }
 
-    public string EpubID()
+    public string EpubID(int split)
     {
-        return string.Format("x{0:000}_{1}.html", Order, Uri.EscapeDataString(Helper.Filenamify(Title, true).Replace(".", "")));
+        return string.Format("xid_{0:000}_{1:0000}_{2}", Order, split, Uri.EscapeDataString(Helper.Filenamify(Title, true).Replace(".", "")));
     }
 
-    public string GetEpubHTML()
+    public int GetSplitCount()
+    {
+        return (int)Math.Ceiling(this.Posts.Count / (Program.MAX_POST_PER_FILE * 1.0));
+    }
+    
+    public string GetEpubHTML(int split)
     {
         var xml = new StringBuilder();
         
@@ -46,11 +56,17 @@ public class Chapter
         xml.AppendLine("<title>" + Identifier +  " - " + HtmlEntity.Entitize(Title) + "</title>");
         xml.AppendLine(@"</head>");
         xml.AppendLine(@"<body>");
-        xml.AppendLine("<h1>" + Identifier +  " - " + HtmlEntity.Entitize(Title) + "</h1>");
 
-        foreach (var post in Posts)
+        if (split == 0) xml.AppendLine("<h1>" + Identifier +  " - " + HtmlEntity.Entitize(Title) + "</h1>");
+        
+        foreach (var post in Posts.Skip(split * Program.MAX_POST_PER_FILE).Take(Program.MAX_POST_PER_FILE))
         {
-            xml.AppendLine(post.GetEpubHTML());
+            xml.AppendLine();
+            xml.AppendLine("<!-- [ " + post.ParentThreadID + " / " + post.ID + " ] -->");
+            xml.AppendLine();
+
+            xml.Append(post.GetEpubHTML());
+            
             xml.AppendLine();
             xml.AppendLine("<br/>");
             xml.AppendLine();

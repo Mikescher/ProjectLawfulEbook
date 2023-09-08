@@ -119,6 +119,13 @@ public class PlanecrashBook
     public void ParseParagraphs()
     {
         foreach (var chptr in chapters) chptr.ParseParagraphs();
+        Console.WriteLine("Parsed Paragraphs");
+    }
+
+    public void Cleanup()
+    {
+        foreach (var chptr in chapters) chptr.Cleanup();
+        Console.WriteLine("Cleaned HTML");
     }
 
     public void Generate(EpubWriter writer)

@@ -155,10 +155,13 @@ public class EpubWriter
 		var manifest = new XElement(opf + "manifest");
 		foreach (var chtr in chapters)
 		{
-			manifest.Add(new XElement(opf + "item",
-				new XAttribute("href", "Text/" + chtr.EpubFilename()),
-				new XAttribute("id", chtr.EpubID()),
-				new XAttribute("media-type", "application/xhtml+xml")));
+			for (var i = 0; i < chtr.GetSplitCount(); i++)
+			{
+				manifest.Add(new XElement(opf + "item",
+					new XAttribute("href", "Text/" + chtr.EpubFilename(i)),
+					new XAttribute("id", chtr.EpubID(i)),
+					new XAttribute("media-type", "application/xhtml+xml")));
+			}
 		}
 		
 		manifest.Add(new XElement(opf + "item",
@@ -171,7 +174,10 @@ public class EpubWriter
 		var spine = new XElement(opf + "spine", new XAttribute("toc", "ncx"));
 		foreach (var chptr in chapters)
 		{
-			spine.Add(new XElement(opf + "itemref", new XAttribute("idref", chptr.EpubID())));
+			for (var i = 0; i < chptr.GetSplitCount(); i++)
+			{
+				spine.Add(new XElement(opf + "itemref", new XAttribute("idref", chptr.EpubID(i))));
+			}
 		}
 
 		package.Add(spine);
@@ -223,7 +229,7 @@ public class EpubWriter
 			    new XElement(ncx + "navLabel",
 				    new XElement(ncx + "text", chptr.Identifier + " - " + chptr.Title)),
 			    new XElement(ncx + "content",
-				    new XAttribute("src", "Text/" + chptr.EpubFilename()))));
+				    new XAttribute("src", "Text/" + chptr.EpubFilename(0)))));
 	    }
 
 	    root.Add(nav);
@@ -236,6 +242,10 @@ public class EpubWriter
 
     public void WriteChapter(Chapter chptr)
     {
-	    WritePubString(@"OEBPS\Text\" + chptr.EpubFilename(), chptr.GetEpubHTML());
+	    var sc = chptr.GetSplitCount();
+	    for (var i = 0; i < sc; i++)
+	    {
+		    WritePubString(@"OEBPS\Text\" + chptr.EpubFilename(i), chptr.GetEpubHTML(i));
+	    }
     }
 }
