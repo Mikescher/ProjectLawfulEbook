@@ -41,4 +41,18 @@ public class GlowPubCache
     {
         foreach (var thread in _threads.Values) thread.Reset();
     }
+
+    public void PrintIconKeywordsList()
+    {
+        var keywords = _threads
+            .Select(p => p.Value)
+            .SelectMany(p => p.Replies.Append(p.FirstPost))
+            .Select(p => p.IconKeyword)
+            .Where(p => p != null)
+            .Distinct()
+            .OrderBy(p => p)
+            .ToList();
+
+        foreach (var kw in keywords) Console.WriteLine(kw);
+    }
 }

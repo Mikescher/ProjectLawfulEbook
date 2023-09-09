@@ -218,17 +218,4 @@ public class PlanecrashBook
             }
         }
     }
-
-    public void PrintIconKeywordsList()
-    {
-        var keywords = chapters
-            .SelectMany(p => p.Posts)
-            .Select(p => p.IconKeyword)
-            .Where(p => p != null)
-            .Distinct()
-            .OrderBy(p => p)
-            .ToList();
-
-        foreach (var kw in keywords) Console.WriteLine(kw);
-    }
 }

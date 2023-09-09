@@ -419,6 +419,8 @@ public class Reply
 
         if (opts.INCLUDE_AVATARS) xml.AppendLine("<div style=\"min-height: 5.5em\">");
 
+        xml.AppendLine("<a id=\"reply-"+ID+"\" style=\"font-size: 0;\"></a>"); // link-anchor
+        
         var imgPrefix = "";
         
         if (opts.INCLUDE_AVATARS && IconID != null)
@@ -463,18 +465,22 @@ public class Reply
                 }
                 else if (_paragraphs.Count == 0)
                 {
-                    xml.AppendLine("<p>" + imgPrefix + prefix + "</p>");
+                    // not content
+                    
+                    xml.AppendLine("<div style=\"height: 5em; width: 100%;\">" + imgPrefix + prefix + "</div>");
                 }
                 else
                 {
+                    // cannot inline
+                    
                     if (imgPrefix != "")
                     {
-                        xml.AppendLine("<p style=\"height: 5.5em;\">" + imgPrefix + prefix + "</p>");
-                        xml.AppendLine("<br/>");
+                        xml.AppendLine("<div style=\"height: 5em; width: 100%;\">" + imgPrefix + prefix + "</div>");
                     }
                     else
                     {
-                        xml.AppendLine(prefix + "<br/>");
+                        xml.AppendLine(prefix);
+                        xml.AppendLine("<br/>");
                     }
                 }
             }
@@ -482,7 +488,7 @@ public class Reply
             {
                 if (imgPrefix != "")
                 {
-                    xml.AppendLine("<p style=\"height: 5.5em;\">" + imgPrefix + prefix + "</p>");
+                    xml.AppendLine("<div style=\"height: 5em;\">" + imgPrefix + prefix + "</div>");
                 }
                 else
                 {
