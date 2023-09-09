@@ -123,4 +123,19 @@ public class Thread
 
         throw new Exception("idStart/idEnd not found");
     }
+
+    public void CacheImages()
+    {
+        foreach (var v in TakeAll()) v.CacheImages();
+    }
+
+    public void ParseParagraphs()
+    {
+        foreach (var v in TakeAll()) v.ParseParagraphs();
+    }
+
+    public void Reset()
+    {
+        foreach (var v in TakeAll()) v.Reset();
+    }
 }

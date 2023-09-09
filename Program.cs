@@ -1,5 +1,4 @@
 ﻿using ProjectLawfulEbook.Book;
-using ProjectLawfulEbook.Cache;
 using ProjectLawfulEbook.Epub;
 
 namespace ProjectLawfulEbook;
@@ -11,57 +10,103 @@ public static class Program
     public const string RELEASE = "2023-04-03";
     public const string LANGUAGE = "en";
 
-    public static readonly bool INCLUDE_AVATAR_KEYWORDS = false;
-    public static readonly bool TRY_INLINE_CHARACTER_NAME = true;
-    public static readonly bool INCLUDE_AVATARS = false;
-    public static readonly bool INCLUDE_SCREEN_NAME = false;
-    public static readonly int MAX_POST_PER_FILE = 128;
-    
     public static void Main()
     {
+        var outDirHTML = Path.Combine(Environment.CurrentDirectory, "_out_html");
+        if (Directory.Exists(outDirHTML)) Directory.Delete(outDirHTML, true);
+        Directory.CreateDirectory(outDirHTML);
+
+        var outDirEpub = Path.Combine(Environment.CurrentDirectory, "_out_epub");
+        Directory.CreateDirectory(outDirEpub);
+        
+        // ---------------------------------------------------------------------------------------------------
+        
         var cache = new GlowPubCache();
         cache.Load();
         ConsoleWriteDelimiter();
         
+        cache.CacheImages();
+        Console.WriteLine("cache::cache-images");
+        ConsoleWriteDelimiter();
+
+        cache.ParseParagraphs();
+        Console.WriteLine("cache::parse-paragraphs");
+        ConsoleWriteDelimiter();
+
+        // ---------------------------------------------------------------------------------------------------
+        
+        MakeHTML(cache, outDirHTML,                                              new Options(false, true,  false, false, 128,     false, false));
+
+        Make(cache, outDirEpub, "project-lawful-default",                        new Options(false, true,  false, false, 128,     false, false));
+        Make(cache, outDirEpub, "project-lawful-moreinfo",                       new Options(true,  false, false, true,  128,     false, false));
+        Make(cache, outDirEpub, "project-lawful-avatars",                        new Options(false, true,  true,  false, 128,     false, false));
+        Make(cache, outDirEpub, "project-lawful-avatars-moreinfo",               new Options(true,  true,  true,  true , 128,     false, false));
+        Make(cache, outDirEpub, "project-lawful-biggerhtml",                     new Options(false, true,  false, false, 100_000, false, false));
+        
+        Make(cache, outDirEpub, "project-lawful-sfw-default",                    new Options(false, true,  false, false, 128,     true,  false));
+        Make(cache, outDirEpub, "project-lawful-sfw-moreinfo",                   new Options(true,  false, false, true,  128,     true,  false));
+        Make(cache, outDirEpub, "project-lawful-sfw-avatars",                    new Options(false, true,  true,  false, 128,     true,  false));
+        Make(cache, outDirEpub, "project-lawful-sfw-avatars-moreinfo",           new Options(true,  true,  true,  true,  128,     true,  false));
+        Make(cache, outDirEpub, "project-lawful-sfw-biggerhtml",                 new Options(false, true,  false, false, 100_000, true,  false));
+
+        Make(cache, outDirEpub, "project-lawful-onlymainstory-default",          new Options(false, true,  false, false, 128,     false, true ));
+        Make(cache, outDirEpub, "project-lawful-onlymainstory-moreinfo",         new Options(true,  false, false, true,  128,     false, true ));
+        Make(cache, outDirEpub, "project-lawful-onlymainstory-avatars",          new Options(false, true,  true,  false, 128,     false, true ));
+        Make(cache, outDirEpub, "project-lawful-onlymainstory-avatars-moreinfo", new Options(true,  true,  true,  true,  128,     false, true ));
+        Make(cache, outDirEpub, "project-lawful-onlymainstory-biggerhtml",       new Options(false, true,  false, false, 100_000, false, true ));
+
+        // ---------------------------------------------------------------------------------------------------
+
+        Console.WriteLine("Done.");
+    }
+
+    private static void Make(GlowPubCache cache, string outDirEpub, string fn, Options opts)
+    {
+        Console.WriteLine();
+        Console.WriteLine(Enumerable.Repeat("=", 80).Aggregate((a,b)=>a+b));
+        Console.WriteLine("    GENERATE " + fn);
+        Console.WriteLine(Enumerable.Repeat("=", 80).Aggregate((a,b)=>a+b));
+        Console.WriteLine();
+
+        cache.Reset();
+        
         var book = new PlanecrashBook(cache);
-        book.Build();
+        book.Build(opts);
         ConsoleWriteDelimiter();
         
-        book.SanityCheck();
+        book.SanityCheck(opts);
         ConsoleWriteDelimiter();
 
         book.PrintChapters();
         ConsoleWriteDelimiter();
 
-        book.Cleanup();
+        book.Generate(new EpubWriter(Path.Combine(outDirEpub, fn + ".zip"), true), opts);
         ConsoleWriteDelimiter();
 
-        book.CacheImages();
-        ConsoleWriteDelimiter();
+        book.Generate(new EpubWriter(Path.Combine(outDirEpub, fn + ".epub"), true), opts);
+    }
 
-        book.ParseParagraphs();
-        ConsoleWriteDelimiter();
+    private static void MakeHTML(GlowPubCache cache, string outDir, Options opts)
+    {
+        Console.WriteLine();
+        Console.WriteLine(Enumerable.Repeat("=", 80).Aggregate((a,b)=>a+b));
+        Console.WriteLine("    GENERATE HTML");
+        Console.WriteLine(Enumerable.Repeat("=", 80).Aggregate((a,b)=>a+b));
+        Console.WriteLine();
 
-        //book.PrintIconKeywordsList();
-        //ConsoleWriteDelimiter();
+        cache.Reset();
         
-        var outDirEpub = Path.Combine(Environment.CurrentDirectory, "_out_epub");
-        Directory.CreateDirectory(outDirEpub);
-        
-        var outDirHTML = Path.Combine(Environment.CurrentDirectory, "_out_html");
-        if (Directory.Exists(outDirHTML)) Directory.Delete(outDirHTML, true);
-        Directory.CreateDirectory(outDirHTML);
-        
-        book.Generate(new EpubWriter(outDirHTML, false));
-        ConsoleWriteDelimiter();
-
-        book.Generate(new EpubWriter(Path.Combine(outDirEpub, "project-lawful.zip"), true));
-        ConsoleWriteDelimiter();
-
-        book.Generate(new EpubWriter(Path.Combine(outDirEpub, "project-lawful.epub"), true));
+        var book = new PlanecrashBook(cache);
+        book.Build(opts);
         ConsoleWriteDelimiter();
         
-        Console.WriteLine("Done.");
+        book.SanityCheck(opts);
+        ConsoleWriteDelimiter();
+
+        book.PrintChapters();
+        ConsoleWriteDelimiter();
+
+        book.Generate(new EpubWriter(outDir, false), opts);
     }
 
     private static void ConsoleWriteDelimiter()

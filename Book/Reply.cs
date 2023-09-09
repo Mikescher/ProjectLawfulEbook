@@ -28,9 +28,9 @@ public class Reply
     public readonly string? UserID;
     public readonly string? UserName;
     
-    public string HTMLContent;
+    public readonly string OriginalHTMLContent;
 
-    private List<(string, string)> Paragraphs;
+    private List<(string, string)> _paragraphs = new();
     
     public Reply(string parentID, string id, DateTime createdAt, DateTime updatedAt, 
                       string? characterID, string? characterName, string? characterScreenName, string? characterAltName,
@@ -50,7 +50,7 @@ public class Reply
         IconKeyword = iconKeyword;
         UserID = userID;
         UserName = userName;
-        HTMLContent = htmlContent;
+        OriginalHTMLContent = htmlContent;
     }
     
     public static Reply Parse(string parentID, JToken json)
@@ -82,17 +82,19 @@ public class Reply
             content);
     }
 
-    public void Cleanup()
+    private string HTMLContent()
     {
-        HTMLContent = HTMLContent.ReplaceLineEndings("");
+        var s = OriginalHTMLContent;
+        s = s.ReplaceLineEndings("");
+        return s;
     }
     
     public void ParseParagraphs()
     {
-        Paragraphs = new List<(string, string)>();
+        _paragraphs = new List<(string, string)>();
         
         var doc = new HtmlDocument();
-        doc.LoadHtml(HTMLContent.ReplaceLineEndings(""));
+        doc.LoadHtml(HTMLContent());
 
         PatchImages(doc);
         
@@ -105,11 +107,11 @@ public class Reply
             if (node.Name == "p" && node.Attributes.Count == 0)
             {
                 AssertValidLowestLevelParagraph(node);
-                Paragraphs.Add(("p", node.OuterHtml));
+                _paragraphs.Add(("p", node.OuterHtml));
             }
             else if (node.Name == "hr" && node.Attributes.Count == 0 && node.InnerHtml == "")
             {
-                Paragraphs.Add(("hr", node.OuterHtml));
+                _paragraphs.Add(("hr", node.OuterHtml));
             }
             else if (node.Name == "details" && node.Attributes.All(p => p.Name == "open"))
             {
@@ -118,53 +120,53 @@ public class Reply
                 if (detailChilds.Count > 0 && detailChilds[0].Name == "summary")
                 {
                     AssertValidLowestLevelParagraph(detailChilds[0]);
-                    Paragraphs.Add(("details::summary", "<p><b>" + detailChilds[0].InnerHtml + "</b></p>"));
+                    _paragraphs.Add(("details::summary", "<p><b>" + detailChilds[0].InnerHtml + "</b></p>"));
                     detailChilds.RemoveAt(0);
                 }
                 else
                 {
-                    Paragraphs.Add(("details::summary", "<p><b>Details</b></p>"));
+                    _paragraphs.Add(("details::summary", "<p><b>Details</b></p>"));
                 }
 
                 foreach (var detailsNode in detailChilds)
                 {
                     if (detailsNode.Name == "#text" && !string.IsNullOrWhiteSpace(detailsNode.InnerHtml))
                     {
-                        Paragraphs.Add(("details::content::p", "<p>" + detailsNode.OuterHtml + "</p>")); // pseudo convert raw-text to <p>
+                        _paragraphs.Add(("details::content::p", "<p>" + detailsNode.OuterHtml + "</p>")); // pseudo convert raw-text to <p>
                     }
                     else if (detailsNode.Name == "p" && detailsNode.Attributes.Count == 0)
                     {
                         AssertValidLowestLevelParagraph(detailsNode);
-                        Paragraphs.Add(("details::content::p", detailsNode.OuterHtml));
+                        _paragraphs.Add(("details::content::p", detailsNode.OuterHtml));
                     }
                     else if (detailsNode.Name == "em" && detailsNode.Attributes.Count == 0)
                     {
                         AssertValidLowestLevelParagraph(detailsNode);
-                        Paragraphs.Add(("details::content::em", detailsNode.OuterHtml));
+                        _paragraphs.Add(("details::content::em", detailsNode.OuterHtml));
                     }
                     else if (detailsNode.Name == "ul" && detailsNode.Attributes.Count == 0)
                     {
                         //AssertValidLowestLevelParagraph(detailsNode);
-                        Paragraphs.Add(("details::content::ul", detailsNode.OuterHtml));
+                        _paragraphs.Add(("details::content::ul", detailsNode.OuterHtml));
                     }
                     else if (detailsNode.Name == "br" && detailsNode.Attributes.Count == 0)
                     {
                         AssertValidLowestLevelParagraph(detailsNode);
-                        Paragraphs.Add(("details::content::br", detailsNode.OuterHtml));
+                        _paragraphs.Add(("details::content::br", detailsNode.OuterHtml));
                     }
                     else if (detailsNode.Name == "#text")
                     {
                         AssertValidLowestLevelParagraph(detailsNode);
-                        Paragraphs.Add(("details::content::p", "<p>" + detailsNode.OuterHtml + "</p>"));
+                        _paragraphs.Add(("details::content::p", "<p>" + detailsNode.OuterHtml + "</p>"));
                     }
                     else if (detailsNode.Name == "blockquote" && detailsNode.Attributes.Count == 0 && detailsNode.ChildNodes.All(p => p.Name is "p" or "pre"))
                     {
                         foreach (var cn in detailsNode.ChildNodes) AssertValidLowestLevelParagraph(cn);
-                        Paragraphs.Add(("details::content::blockquote::multi", node.OuterHtml));
+                        _paragraphs.Add(("details::content::blockquote::multi", node.OuterHtml));
                     }
                     else if (detailsNode.Name == "img" && detailsNode.GetAttributeValue("src", "").StartsWith("../Images/"))
                     {
-                        Paragraphs.Add(("details::content::img", detailsNode.OuterHtml));
+                        _paragraphs.Add(("details::content::img", detailsNode.OuterHtml));
                     }
                     else
                     {
@@ -175,7 +177,7 @@ public class Reply
             else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.Count == 1 && node.ChildNodes[0].Name == "#text")
             {
                 AssertValidLowestLevelParagraph(node);
-                Paragraphs.Add(("blockquote::text", node.OuterHtml));
+                _paragraphs.Add(("blockquote::text", node.OuterHtml));
             }
             else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.All(p => p.Name is "p" or "pre" or "#text" or "em"))
             {
@@ -183,16 +185,16 @@ public class Reply
                 {
                     foreach (var cn in node.ChildNodes) AssertValidLowestLevelParagraph(cn);
                 }
-                Paragraphs.Add(("blockquote::multi", node.OuterHtml));
+                _paragraphs.Add(("blockquote::multi", node.OuterHtml));
             }
             else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.Count == 1 && node.ChildNodes[0].Name == "pre")
             {
                 AssertValidLowestLevelParagraph(node.ChildNodes[0]);
-                Paragraphs.Add(("blockquote::pre", node.OuterHtml));
+                _paragraphs.Add(("blockquote::pre", node.OuterHtml));
             }
             else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.Count == 1 && node.ChildNodes[0].Name == "table" && IsValidTableAttributes(node.ChildNodes[0].Attributes))
             {
-                Paragraphs.Add(("blockquote::table", node.OuterHtml));
+                _paragraphs.Add(("blockquote::table", node.OuterHtml));
             }
             else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.Count == 1 && node.ChildNodes[0].Name == "details" && node.ChildNodes[0].ChildNodes.Count > 1 && node.ChildNodes[0].ChildNodes[0].Name == "summary")
             {
@@ -212,17 +214,17 @@ public class Reply
                         Console.WriteLine($"[!] Invalid sub-blockquote-details-node in reply {ParentThreadID}/{ID}: <{detailsChild.Name}>, skipping");
                     }
                 }
-                Paragraphs.Add(("blockquote::details", builder));
+                _paragraphs.Add(("blockquote::details", builder));
 
             }
             else if (node.Name == "table" && IsValidTableAttributes(node.Attributes))
             {
-                Paragraphs.Add(("table", node.OuterHtml));
+                _paragraphs.Add(("table", node.OuterHtml));
             }
             else if (node.Name == "#text" && !string.IsNullOrWhiteSpace(node.InnerHtml) && !string.IsNullOrWhiteSpace(node.InnerText))
             {
                 Console.WriteLine($"[~] WARN: Root #text in reply {ParentThreadID}/{ID}: <{node.Name}>");
-                Paragraphs.Add(("p", "<p>" + node.OuterHtml + "</p>")); // pseudo convert raw-text to <p>
+                _paragraphs.Add(("p", "<p>" + node.OuterHtml + "</p>")); // pseudo convert raw-text to <p>
             }
             else if (node.Name == "#text" && string.IsNullOrWhiteSpace(node.InnerHtml) && string.IsNullOrWhiteSpace(node.InnerText))
             {
@@ -231,17 +233,22 @@ public class Reply
             }
             else if (node.Name == "pre" && node.Attributes.Count == 0 && node.InnerText == node.InnerHtml)
             {
-                Paragraphs.Add(("pre", node.OuterHtml));
+                _paragraphs.Add(("pre", node.OuterHtml));
             }
             else if (node.OuterHtml == "<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Keltham can take his time.&nbsp;</span></p>")
             {
-                Paragraphs.Add(("manual", "<p>" + node.InnerText + "</p>")); // whatever...
+                _paragraphs.Add(("manual", "<p>" + node.InnerText + "</p>")); // whatever...
             }
             else
             {
                 Console.WriteLine($"[!] Invalid node in reply {ParentThreadID}/{ID}: <{node.Name}>, skipping");
             }
         }
+    }
+
+    public void Reset()
+    {
+        // nothing
     }
 
     private void PatchImages(HtmlDocument doc)
@@ -359,7 +366,7 @@ public class Reply
     public void CacheImages()
     {
         var doc = new HtmlDocument();
-        doc.LoadHtml(HTMLContent.ReplaceLineEndings(""));
+        doc.LoadHtml(HTMLContent());
 
         foreach (var node in doc.DocumentNode.SelectNodes("//img")?.ToList() ?? new List<HtmlNode>())
         {
@@ -404,11 +411,22 @@ public class Reply
         return ext;
     }
 
-    public string GetEpubHTML()
+    public string GetEpubHTML(Options opts)
     {
         var xml = new StringBuilder();
 
         var pgSkip = 0;
+
+        if (opts.INCLUDE_AVATARS) xml.AppendLine("<div style=\"min-height: 5.5em\">");
+
+        var imgPrefix = "";
+        
+        if (opts.INCLUDE_AVATARS && IconID != null)
+        {
+            var iconExt = GetIconExt(IconID);
+            if (iconExt == null) Console.WriteLine("[ERR] failed to find glowfic avatar " + IconID + " for " + ParentThreadID + "/" + ID);
+            imgPrefix = @"<img src=""../Avatars/glowfic_" + IconID + iconExt + @""" style=""float:left; width: 5em; height: 5em; margin-right: 0.5em; margin-bottom: 0.5em;"" ></img>";
+        }
         
         if (CharacterName != null)
         {
@@ -422,48 +440,76 @@ public class Reply
             
             prefix += ":</b>";
             
-            if (Program.INCLUDE_AVATAR_KEYWORDS && IconKeyword != null && IconKeyword.ToLower() != CharacterName.ToLower() && IconKeyword != "image")
+            if (opts.INCLUDE_AVATAR_KEYWORDS && IconKeyword != null && IconKeyword.ToLower() != CharacterName.ToLower() && IconKeyword != "image")
             {
-                prefix += ($" <i>({HttpUtility.HtmlEncode(IconKeyword)})</i>");
+                if (!opts.TRY_INLINE_CHARACTER_NAME && opts.INCLUDE_AVATARS) prefix += "<br/>";
+                else prefix += " ";
+                prefix += ($"<i>({HttpUtility.HtmlEncode(IconKeyword)})</i>");
             }
             
-            if (Program.INCLUDE_SCREEN_NAME && !string.IsNullOrWhiteSpace(CharacterScreenName))
+            if (opts.INCLUDE_SCREEN_NAME && !string.IsNullOrWhiteSpace(CharacterScreenName))
             {
-                prefix += ($" <i>[{HttpUtility.HtmlEncode(CharacterScreenName)}]</i>");
+                if (!opts.TRY_INLINE_CHARACTER_NAME && opts.INCLUDE_AVATARS) prefix += "<br/>";
+                else prefix += " ";
+                prefix += ($"<i>[{HttpUtility.HtmlEncode(CharacterScreenName)}]</i>");
             }
 
-            if (Program.TRY_INLINE_CHARACTER_NAME)
+            if (opts.TRY_INLINE_CHARACTER_NAME)
             {
-                if (Paragraphs.Count > 0 && Paragraphs[0].Item1 == "p" && Paragraphs[0].Item2.ToLower().StartsWith("<p>"))
+                if (_paragraphs.Count > 0 && _paragraphs[0].Item1 == "p" && _paragraphs[0].Item2.ToLower().StartsWith("<p>"))
                 {
-                    xml.AppendLine("<p>" + prefix + " " + Paragraphs[0].Item2[3..]);
+                    xml.AppendLine("<p>" + imgPrefix + prefix + " " + _paragraphs[0].Item2[3..]);
                     pgSkip = 1;
                 }
-                else if (Paragraphs.Count == 0)
+                else if (_paragraphs.Count == 0)
                 {
-                    xml.AppendLine("<p>" + prefix + "</p>");
+                    xml.AppendLine("<p>" + imgPrefix + prefix + "</p>");
                 }
                 else
                 {
-                    xml.AppendLine(prefix + "<br/>");
+                    if (imgPrefix != "")
+                    {
+                        xml.AppendLine("<p style=\"height: 5.5em;\">" + imgPrefix + prefix + "</p>");
+                        xml.AppendLine("<br/>");
+                    }
+                    else
+                    {
+                        xml.AppendLine(prefix + "<br/>");
+                    }
                 }
             }
             else
             {
-                xml.AppendLine(prefix + "<br/>");
+                if (imgPrefix != "")
+                {
+                    xml.AppendLine("<p style=\"height: 5.5em;\">" + imgPrefix + prefix + "</p>");
+                    xml.AppendLine("<br/>");
+                }
+                else
+                {
+                    xml.AppendLine(prefix);
+                    xml.AppendLine("<br/>");
+                }
             }
         }
         
-        foreach (var (pgType, pgHTML) in Paragraphs.Skip(pgSkip))
+        foreach (var (pgType, pgHTML) in _paragraphs.Skip(pgSkip))
         {
             xml.AppendLine(pgHTML);
         }
         
+        if (opts.INCLUDE_AVATARS) xml.AppendLine("</div>");
+
         var result = xml.ToString();
 
         result = Regex.Replace(result, @"<br>(?!</br>)", "<br/>");
         result = Regex.Replace(result, @"(<img[^>]*>)(?!</img>)", "$1</img>");
         
         return result;
+    }
+
+    private string? GetIconExt(string iconID)
+    {
+        return Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "glowpub_cache", "images")).Where(p => Path.GetFileNameWithoutExtension(p) == "glowfic_"+iconID).Select(p => Path.GetExtension(p)).FirstOrDefault();
     }
 }

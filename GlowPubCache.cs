@@ -1,17 +1,11 @@
-using System.Collections;
 using Thread = ProjectLawfulEbook.Book.Thread;
 
-namespace ProjectLawfulEbook.Cache;
+namespace ProjectLawfulEbook;
 
 public class GlowPubCache
 {
-    private Dictionary<int, Thread> _threads = new Dictionary<int, Thread>();
+    private readonly Dictionary<int, Thread> _threads = new();
     
-    public GlowPubCache()
-    {
-        
-    }
-
     public void Load()
     {
         foreach (var direc in Directory.EnumerateDirectories("glowpub_cache/posts"))
@@ -31,5 +25,20 @@ public class GlowPubCache
     public IEnumerable<Thread> List()
     {
         return _threads.Values.ToList();
+    }
+
+    public void CacheImages()
+    {
+        foreach (var thread in _threads.Values) thread.CacheImages();
+    }
+
+    public void ParseParagraphs()
+    {
+        foreach (var thread in _threads.Values) thread.ParseParagraphs();
+    }
+
+    public void Reset()
+    {
+        foreach (var thread in _threads.Values) thread.Reset();
     }
 }

@@ -10,8 +10,8 @@ public class EpubWriter
     public readonly string Destination;
     public readonly bool WriteEpub;
 
-    private FileStream fs;
-    private ZipOutputStream zipstream;
+    private FileStream? _fs;
+    private ZipOutputStream? _zipstream;
     
     public EpubWriter(string dest, bool epubfile)
     {
@@ -27,8 +27,8 @@ public class EpubWriter
             
 	        if (File.Exists(Destination)) File.Delete(Destination);
 	        
-            fs = File.Open(Destination, FileMode.Create, FileAccess.ReadWrite);
-            zipstream = new ZipOutputStream(fs);
+            _fs = File.Open(Destination, FileMode.Create, FileAccess.ReadWrite);
+            _zipstream = new ZipOutputStream(_fs);
         }
         else
         {
@@ -40,8 +40,8 @@ public class EpubWriter
     {
         if (WriteEpub)
         {
-            zipstream.Close();
-            fs.Close();
+            _zipstream?.Close();
+            _fs?.Close();
         }
     }
     
@@ -49,11 +49,11 @@ public class EpubWriter
     {
         if (WriteEpub)
         {
-            var f = zipstream.PutNextEntry(n);
+            var f = _zipstream!.PutNextEntry(n);
             f.CompressionLevel = deflate ? Ionic.Zlib.CompressionLevel.BestCompression : Ionic.Zlib.CompressionLevel.None;
 
             byte[] buffer = (e ?? Encoding.UTF8).GetBytes(c);
-            zipstream.Write(buffer, 0, buffer.Length);
+            _zipstream.Write(buffer, 0, buffer.Length);
         }
         else
         {
@@ -67,10 +67,10 @@ public class EpubWriter
     {
 	    if (WriteEpub)
 	    {
-		    var f = zipstream.PutNextEntry(fn);
+		    var f = _zipstream!.PutNextEntry(fn);
 		    f.CompressionLevel = Ionic.Zlib.CompressionLevel.BestCompression;
 		    
-		    zipstream.Write(bin, 0, bin.Length);
+		    _zipstream.Write(bin, 0, bin.Length);
 	    }
 	    else
 	    {
@@ -90,9 +90,9 @@ public class EpubWriter
         WritePubString(@"META-INF\container.xml", GetEpubContainerXML(), false);
     }
     
-    public void WriteContentOPF(List<Chapter> chapters)
+    public void WriteContentOPF(List<Chapter> chapters, Options opts)
     {
-	    WritePubString(@"OEBPS\content.opf", GetEpubContentOPF(chapters), false);
+	    WritePubString(@"OEBPS\content.opf", GetEpubContentOPF(chapters, opts), false);
     }
 
     public void WriteTOC(List<Chapter> chapters)
@@ -115,17 +115,15 @@ public class EpubWriter
                         new XAttribute("full-path", "OEBPS/content.opf"),
                         new XAttribute("media-type", "application/oebps-package+xml")))));
 
-        StringBuilder builder = new StringBuilder();
-        using (Utf8StringWriter writer = new Utf8StringWriter())
-        {
-            doc.Save(writer);
-            var r = writer.ToString();
-            r = r.Replace("encoding=\"utf-8\"", "encoding=\"UTF-8\"");
-            return r.Trim() + "\r\n";
-        }
+        using var writer = new Utf8StringWriter();
+        
+        doc.Save(writer);
+        var r = writer.ToString();
+        r = r.Replace("encoding=\"utf-8\"", "encoding=\"UTF-8\"");
+        return r.Trim() + "\r\n";
     }
 
-    private string GetEpubContentOPF(List<Chapter> chapters)
+    private string GetEpubContentOPF(List<Chapter> chapters, Options opts)
 	{
 		XNamespace dc = "http://purl.org/dc/elements/1.1/";
 		XNamespace opf = "http://www.idpf.org/2007/opf";
@@ -181,7 +179,7 @@ public class EpubWriter
 		
 		foreach (var chtr in chapters)
 		{
-			for (var i = 0; i < chtr.GetSplitCount(); i++)
+			for (var i = 0; i < chtr.GetSplitCount(opts); i++)
 			{
 				manifest.Add(new XElement(opf + "item",
 					new XAttribute("href", "Text/" + chtr.EpubFilename(i)),
@@ -204,6 +202,25 @@ public class EpubWriter
 				new XAttribute("id", "img_" + Helper.Filenamify(Path.GetFileName(f), true).Replace(".", "")),
 				new XAttribute("media-type", mime)));
 		}
+
+		if (opts.INCLUDE_AVATARS)
+		{
+			foreach (var imgfn in Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "glowpub_cache", "images")))
+			{
+				var mime = "?";
+				if (imgfn.EndsWith(".png")) mime = "image/png";
+				else if (imgfn.EndsWith(".jpg")) mime = "image/jpeg";
+				else if (imgfn.EndsWith(".jpeg")) mime = "image/jpeg";
+				else if (imgfn.EndsWith(".gif")) mime = "image/gif";
+				else if (imgfn.EndsWith(".webp")) mime = "image/webp";
+				else Console.WriteLine("[!!!] Failed to get mimetype of file: " + imgfn);
+				
+				manifest.Add(new XElement(opf + "item",
+					new XAttribute("href", "Avatars/" + Path.GetFileName(imgfn)),
+					new XAttribute("id", "ava_" + Path.GetFileNameWithoutExtension(imgfn)),
+					new XAttribute("media-type", mime)));
+			}
+		}
 		
 		manifest.Add(new XElement(opf + "item",
 			new XAttribute("href", "toc.ncx"),
@@ -221,7 +238,7 @@ public class EpubWriter
 		spine.Add(new XElement(opf + "itemref", new XAttribute("idref", "titlepage")));
 		foreach (var chptr in chapters)
 		{
-			for (var i = 0; i < chptr.GetSplitCount(); i++)
+			for (var i = 0; i < chptr.GetSplitCount(opts); i++)
 			{
 				spine.Add(new XElement(opf + "itemref", new XAttribute("idref", chptr.EpubID(i))));
 			}
@@ -320,12 +337,12 @@ public class EpubWriter
 	    return html.ToString();
     }
     
-    public void WriteChapter(Chapter chptr)
+    public void WriteChapter(Chapter chptr, Options opts)
     {
-	    var sc = chptr.GetSplitCount();
+	    var sc = chptr.GetSplitCount(opts);
 	    for (var i = 0; i < sc; i++)
 	    {
-		    WritePubString(@"OEBPS\Text\" + chptr.EpubFilename(i), chptr.GetEpubHTML(i), true);
+		    WritePubString(@"OEBPS\Text\" + chptr.EpubFilename(i), chptr.GetEpubHTML(i, opts), true);
 	    }
     }
 

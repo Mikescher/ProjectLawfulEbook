@@ -20,21 +20,6 @@ public class Chapter
         Title = title;
     }
 
-    public void Cleanup()
-    {
-        foreach (var post in Posts) post.Cleanup();
-    }
-
-    public void ParseParagraphs()
-    {
-        foreach (var post in Posts) post.ParseParagraphs();
-    }
-
-    public void CacheImages()
-    {
-        foreach (var post in Posts) post.CacheImages();
-    }
-
     public string EpubFilename(int split)
     {
         return string.Format("{0:000}_{1:0000}_{2}.html", Order, split, Uri.EscapeDataString(Helper.Filenamify(Title, true).Replace(".", "")));
@@ -45,12 +30,12 @@ public class Chapter
         return string.Format("xid_{0:000}_{1:0000}_{2}", Order, split, Uri.EscapeDataString(Helper.Filenamify(Title, true).Replace(".", "")));
     }
 
-    public int GetSplitCount()
+    public int GetSplitCount(Options opts)
     {
-        return (int)Math.Ceiling(this.Posts.Count / (Program.MAX_POST_PER_FILE * 1.0));
+        return (int)Math.Ceiling(this.Posts.Count / (opts.MAX_POST_PER_FILE * 1.0));
     }
     
-    public string GetEpubHTML(int split)
+    public string GetEpubHTML(int split, Options opts)
     {
         var xml = new StringBuilder();
         
@@ -64,13 +49,13 @@ public class Chapter
 
         if (split == 0) xml.AppendLine("<h1>" + HtmlEntity.Entitize(Identifier) +  " - " + HtmlEntity.Entitize(Title) + "</h1>");
         
-        foreach (var post in Posts.Skip(split * Program.MAX_POST_PER_FILE).Take(Program.MAX_POST_PER_FILE))
+        foreach (var post in Posts.Skip(split * opts.MAX_POST_PER_FILE).Take(opts.MAX_POST_PER_FILE))
         {
             xml.AppendLine();
             xml.AppendLine("<!-- [ " + post.ParentThreadID + " / " + post.ID + " ] -->");
             xml.AppendLine();
 
-            xml.Append(post.GetEpubHTML());
+            xml.Append(post.GetEpubHTML(opts));
             
             xml.AppendLine();
             xml.AppendLine("<br/>");
