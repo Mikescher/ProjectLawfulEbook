@@ -483,7 +483,6 @@ public class Reply
                 if (imgPrefix != "")
                 {
                     xml.AppendLine("<p style=\"height: 5.5em;\">" + imgPrefix + prefix + "</p>");
-                    xml.AppendLine("<br/>");
                 }
                 else
                 {

@@ -168,6 +168,8 @@ public class PlanecrashBook
 
     public void Generate(EpubWriter writer, Options opts)
     {
+        var t0 = DateTime.Now;
+        
         try
         {
             writer.Open();
@@ -200,7 +202,20 @@ public class PlanecrashBook
         finally
         {
             writer.Save();
-            Console.WriteLine("Generated book to: " + writer.Destination);
+
+            var t1 = DateTime.Now;
+
+            var sec = ((int)(t1 - t0).TotalSeconds);
+
+            if (writer.IsArchive)
+            {
+                var mb = string.Format("{0:0.0} MB", ((new System.IO.FileInfo(writer.Destination).Length) / (1024 * 1024.0)));
+                Console.WriteLine("Generated book to: " + writer.Destination + " in " + sec + " sec (= " + mb + ")");
+            }
+            else
+            {
+                Console.WriteLine("Generated book to: " + writer.Destination + " in " + sec + " sec");
+            }
         }
     }
 

@@ -8,7 +8,7 @@ namespace ProjectLawfulEbook.Epub;
 public class EpubWriter
 {
     public readonly string Destination;
-    public readonly bool WriteEpub;
+    public readonly bool IsArchive;
 
     private FileStream? _fs;
     private ZipOutputStream? _zipstream;
@@ -16,12 +16,12 @@ public class EpubWriter
     public EpubWriter(string dest, bool epubfile)
     {
         Destination = dest;
-        WriteEpub = epubfile;
+        IsArchive = epubfile;
     }
 
     public void Open()
     {
-        if (WriteEpub)
+        if (IsArchive)
         {
 	        Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
             
@@ -38,7 +38,7 @@ public class EpubWriter
 
     public void Save()
     {
-        if (WriteEpub)
+        if (IsArchive)
         {
             _zipstream?.Close();
             _fs?.Close();
@@ -47,7 +47,7 @@ public class EpubWriter
     
     private void WritePubString(string n, string c, bool deflate, Encoding? e = null)
     {
-        if (WriteEpub)
+        if (IsArchive)
         {
             var f = _zipstream!.PutNextEntry(n);
             f.CompressionLevel = deflate ? Ionic.Zlib.CompressionLevel.BestCompression : Ionic.Zlib.CompressionLevel.None;
@@ -65,7 +65,7 @@ public class EpubWriter
 
     public void WriteBin(string fn, byte[] bin)
     {
-	    if (WriteEpub)
+	    if (IsArchive)
 	    {
 		    var f = _zipstream!.PutNextEntry(fn);
 		    f.CompressionLevel = Ionic.Zlib.CompressionLevel.BestCompression;
