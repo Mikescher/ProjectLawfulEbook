@@ -45,12 +45,12 @@ public class EpubWriter
         }
     }
     
-    private void WritePubString(string n, string c, Encoding? e = null)
+    private void WritePubString(string n, string c, bool deflate, Encoding? e = null)
     {
         if (WriteEpub)
         {
             var f = zipstream.PutNextEntry(n);
-            f.CompressionLevel = Ionic.Zlib.CompressionLevel.None;
+            f.CompressionLevel = deflate ? Ionic.Zlib.CompressionLevel.BestCompression : Ionic.Zlib.CompressionLevel.None;
 
             byte[] buffer = (e ?? Encoding.UTF8).GetBytes(c);
             zipstream.Write(buffer, 0, buffer.Length);
@@ -68,7 +68,7 @@ public class EpubWriter
 	    if (WriteEpub)
 	    {
 		    var f = zipstream.PutNextEntry(fn);
-		    f.CompressionLevel = Ionic.Zlib.CompressionLevel.None;
+		    f.CompressionLevel = Ionic.Zlib.CompressionLevel.BestCompression;
 		    
 		    zipstream.Write(bin, 0, bin.Length);
 	    }
@@ -82,22 +82,22 @@ public class EpubWriter
 
     public void WriteMimeType()
     {
-        WritePubString(@"mimetype", GetEpubMimetype());
+        WritePubString(@"mimetype", GetEpubMimetype(), false);
     }
 
     public void WriteContainerXML()
     {
-        WritePubString(@"META-INF\container.xml", GetEpubContainerXML());
+        WritePubString(@"META-INF\container.xml", GetEpubContainerXML(), false);
     }
     
     public void WriteContentOPF(List<Chapter> chapters)
     {
-	    WritePubString(@"OEBPS\content.opf", GetEpubContentOPF(chapters));
+	    WritePubString(@"OEBPS\content.opf", GetEpubContentOPF(chapters), false);
     }
 
     public void WriteTOC(List<Chapter> chapters)
     {
-	    WritePubString(@"OEBPS\toc.ncx", GetEpubTOC(chapters));
+	    WritePubString(@"OEBPS\toc.ncx", GetEpubTOC(chapters), false);
     }
 
     private string GetEpubMimetype()
@@ -165,7 +165,7 @@ public class EpubWriter
 							new XAttribute("name", "Wordpress_eBook_scraper_version")),
 						new XElement(opf + "meta",
 							new XAttribute("content", DateTime.Now.ToString("yyyy-MM-dd")),
-							new XAttribute("name", "Wordpress_eBook_scraper_creation_time")),
+							new XAttribute("name", "ProjectLawfulEbook_cdate")),
 						new XElement(opf + "meta",
 							new XAttribute("content", "cover"),
 							new XAttribute("name", "cover")));
@@ -291,8 +291,12 @@ public class EpubWriter
     {
 	    var html = new StringBuilder();
 	    
+	    html.AppendLine(@"<?xml version=""1.0"" encoding=""utf-8""?>");
+	    html.AppendLine(@"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.1//EN""");
+	    html.AppendLine(@"  ""http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"">");
+	    html.AppendLine(@"");
 	    html.AppendLine(@"<html xmlns=""http://www.w3.org/1999/xhtml"" xml:lang=""en"">");
-		    html.AppendLine(@"    <head>");
+		html.AppendLine(@"    <head>");
 	    html.AppendLine(@"        <meta http-equiv=""Content-Type"" content=""text/html; charset=UTF-8"" />");
 	    html.AppendLine(@"        <meta name=""calibre:cover"" content=""true"" />");
 	    html.AppendLine(@"        <title>Cover</title>");
@@ -321,13 +325,13 @@ public class EpubWriter
 	    var sc = chptr.GetSplitCount();
 	    for (var i = 0; i < sc; i++)
 	    {
-		    WritePubString(@"OEBPS\Text\" + chptr.EpubFilename(i), chptr.GetEpubHTML(i));
+		    WritePubString(@"OEBPS\Text\" + chptr.EpubFilename(i), chptr.GetEpubHTML(i), true);
 	    }
     }
 
     public void WriteCover()
     {
 	    WriteBin(@"OEBPS\cover.png", File.ReadAllBytes(Path.Combine(Environment.CurrentDirectory, "data", "cover.png")));
-	    WritePubString(@"OEBPS\Text\000_titlepage.html", GetTitlepageHTML());
+	    WritePubString(@"OEBPS\Text\000_titlepage.html", GetTitlepageHTML(), true);
     }
 }

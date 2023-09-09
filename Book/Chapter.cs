@@ -58,11 +58,11 @@ public class Chapter
         xml.AppendLine(@"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.1//EN"" ""http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"" > ");
         xml.AppendLine(@"<html xmlns=""http://www.w3.org/1999/xhtml"">");
         xml.AppendLine(@"<head>");
-        xml.AppendLine("<title>" + Identifier +  " - " + HtmlEntity.Entitize(Title) + "</title>");
+        xml.AppendLine("<title>" + HtmlEntity.Entitize(Identifier) +  " - " + HtmlEntity.Entitize(Title) + "</title>");
         xml.AppendLine(@"</head>");
         xml.AppendLine(@"<body>");
 
-        if (split == 0) xml.AppendLine("<h1>" + Identifier +  " - " + HtmlEntity.Entitize(Title) + "</h1>");
+        if (split == 0) xml.AppendLine("<h1>" + HtmlEntity.Entitize(Identifier) +  " - " + HtmlEntity.Entitize(Title) + "</h1>");
         
         foreach (var post in Posts.Skip(split * Program.MAX_POST_PER_FILE).Take(Program.MAX_POST_PER_FILE))
         {

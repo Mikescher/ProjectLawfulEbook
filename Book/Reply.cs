@@ -2,6 +2,7 @@ using System.Net;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Web;
 using HtmlAgilityPack;
 using Microsoft.VisualBasic;
 using Newtonsoft.Json.Linq;
@@ -413,22 +414,22 @@ public class Reply
         {
             var prefix = "";
             
-            prefix += ($"<b>{CharacterName}");
+            prefix += ($"<b>{HttpUtility.HtmlEncode(CharacterName)}");
             if (CharacterAltName != null && CharacterAltName.ToLower() != CharacterName.ToLower())
             {
-                prefix += ($" ({CharacterAltName})");
+                prefix += ($" ({HttpUtility.HtmlEncode(CharacterAltName)})");
             }
             
             prefix += ":</b>";
             
             if (Program.INCLUDE_AVATAR_KEYWORDS && IconKeyword != null && IconKeyword.ToLower() != CharacterName.ToLower() && IconKeyword != "image")
             {
-                prefix += ($" <i>({IconKeyword})</i>");
+                prefix += ($" <i>({HttpUtility.HtmlEncode(IconKeyword)})</i>");
             }
             
             if (Program.INCLUDE_SCREEN_NAME && !string.IsNullOrWhiteSpace(CharacterScreenName))
             {
-                prefix += ($" <i>[{CharacterScreenName}]</i>");
+                prefix += ($" <i>[{HttpUtility.HtmlEncode(CharacterScreenName)}]</i>");
             }
 
             if (Program.TRY_INLINE_CHARACTER_NAME)
