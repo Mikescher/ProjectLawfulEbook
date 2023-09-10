@@ -7,6 +7,20 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <Target Name="SetSourceRevisionId" BeforeTargets="InitializeSourceControlInformation">
+        <Exec Command="git describe --long --always --dirty --exclude=* --abbrev=64" ConsoleToMSBuild="True" IgnoreExitCode="False">
+            <Output PropertyName="SourceRevisionId" TaskParameter="ConsoleOutput"/>
+        </Exec>
+    </Target>
+
+    <Target Name="SetHash" AfterTargets="InitializeSourceControlInformation">
+        <ItemGroup>
+            <AssemblyAttribute Include="ProjectLawfulEbook.GitHashAttribute">
+                <_Parameter1>$(SourceRevisionId)</_Parameter1>
+            </AssemblyAttribute>
+        </ItemGroup>
+    </Target>
+
 
     <ItemGroup>
       <PackageReference Include="HtmlAgilityPack" Version="1.11.52" />

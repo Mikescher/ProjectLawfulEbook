@@ -5,6 +5,8 @@ namespace ProjectLawfulEbook;
 
 public static class Program
 {
+    public static string PLE_COMMIT => GitHashAttribute.Get();
+    public const string PLE_VERSION = "1.0";
     public const string TITLE = "Project Lawful";
     public const string AUTHOR = "Eliezer Yudkowsky";
     public const string RELEASE = "2023-04-03";
@@ -12,6 +14,8 @@ public static class Program
 
     public static void Main()
     {
+        Console.WriteLine(PLE_COMMIT);
+        
         var outDirHTML = Path.Combine(Environment.CurrentDirectory, "_out_html");
         if (Directory.Exists(outDirHTML)) Directory.Delete(outDirHTML, true);
         Directory.CreateDirectory(outDirHTML);

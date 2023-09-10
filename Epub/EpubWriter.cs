@@ -100,6 +100,11 @@ public class EpubWriter
 	    WritePubString(@"OEBPS\toc.ncx", GetEpubTOC(chapters), false);
     }
 
+    public void WriteCSS(Options opts)
+    {
+	    WritePubString(@"OEBPS\stylesheet.css", GetStylesheet(opts), false);
+    }
+
     private string GetEpubMimetype()
     {
         return "application/epub+zip";
@@ -159,8 +164,11 @@ public class EpubWriter
 							new XAttribute(opf + "scheme", "UUID"),
 							Program.ID_CAL().ToString("D")),
 						new XElement(opf + "meta",
-							new XAttribute("content", "1.0"),
+							new XAttribute("content", Program.PLE_VERSION),
 							new XAttribute("name", "Wordpress_eBook_scraper_version")),
+						new XElement(opf + "meta",
+							new XAttribute("content", Program.PLE_COMMIT),
+							new XAttribute("name", "Wordpress_eBook_scraper_commit")),
 						new XElement(opf + "meta",
 							new XAttribute("content", DateTime.Now.ToString("yyyy-MM-dd")),
 							new XAttribute("name", "ProjectLawfulEbook_cdate")),
@@ -187,6 +195,12 @@ public class EpubWriter
 					new XAttribute("media-type", "application/xhtml+xml")));
 			}
 		}
+		
+		manifest.Add(new XElement(opf + "item",
+			new XAttribute("href", "stylesheet.css"),
+			new XAttribute("id", "css"),
+			new XAttribute("media-type", "text/css")));
+
 		foreach (var f in Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "image_cache")))
 		{
 			var mime = "?";
@@ -313,7 +327,7 @@ public class EpubWriter
 	    html.AppendLine(@"  ""http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"">");
 	    html.AppendLine(@"");
 	    html.AppendLine(@"<html xmlns=""http://www.w3.org/1999/xhtml"" xml:lang=""en"">");
-		html.AppendLine(@"    <head>");
+	    html.AppendLine(@"    <head>");
 	    html.AppendLine(@"        <meta http-equiv=""Content-Type"" content=""text/html; charset=UTF-8"" />");
 	    html.AppendLine(@"        <meta name=""calibre:cover"" content=""true"" />");
 	    html.AppendLine(@"        <title>Cover</title>");
@@ -336,7 +350,24 @@ public class EpubWriter
 
 	    return html.ToString();
     }
-    
+
+    private string GetStylesheet(Options opts)
+    {
+	    var css = new StringBuilder();
+	    
+	    css.AppendLine(@"");
+	    css.AppendLine(@"blockquote {");
+	    css.AppendLine(@"  margin-right: 1em;");
+	    css.AppendLine(@"  background-color: rgba(255,255,255,0.3);");
+	    css.AppendLine(@"  padding: 0 1em;");
+	    css.AppendLine(@"  margin-block: 0;");
+	    css.AppendLine(@"  margin-inline: 0;");
+	    css.AppendLine(@"  margin-left: 1.5em;");
+	    css.AppendLine(@"}");
+
+	    return css.ToString();
+    }
+
     public void WriteChapter(Chapter chptr, Options opts)
     {
 	    var sc = chptr.GetSplitCount(opts);

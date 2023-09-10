@@ -178,6 +178,7 @@ public class PlanecrashBook
             writer.WriteContainerXML();
             writer.WriteContentOPF(chapters, opts);
             writer.WriteTOC(chapters);
+            writer.WriteCSS(opts);
 
             writer.WriteCover();
             
