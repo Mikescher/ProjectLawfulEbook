@@ -429,72 +429,78 @@ public class Reply
             if (iconExt == null) Console.WriteLine("[ERR] failed to find glowfic avatar " + IconID + " for " + ParentThreadID + "/" + ID);
             imgPrefix = @"<img src=""../Avatars/glowfic_" + IconID + iconExt + @""" style=""float:left; width: 5em; height: 5em; margin-right: 0.5em; margin-bottom: 0.5em;"" ></img>";
         }
-        
-        if (CharacterName != null)
-        {
-            var prefix = "";
-            
-            prefix += ($"<b>{HttpUtility.HtmlEncode(CharacterName)}");
-            if (CharacterAltName != null && CharacterAltName.ToLower() != CharacterName.ToLower())
-            {
-                prefix += ($" ({HttpUtility.HtmlEncode(CharacterAltName)})");
-            }
-            
-            prefix += ":</b>";
-            
-            if (opts.INCLUDE_AVATAR_KEYWORDS && IconKeyword != null && IconKeyword.ToLower() != CharacterName.ToLower() && IconKeyword != "image")
-            {
-                if (!opts.TRY_INLINE_CHARACTER_NAME && opts.INCLUDE_AVATARS) prefix += "<br/>";
-                else prefix += " ";
-                prefix += ($"<i>({HttpUtility.HtmlEncode(IconKeyword)})</i>");
-            }
-            
-            if (opts.INCLUDE_SCREEN_NAME && !string.IsNullOrWhiteSpace(CharacterScreenName))
-            {
-                if (!opts.TRY_INLINE_CHARACTER_NAME && opts.INCLUDE_AVATARS) prefix += "<br/>";
-                else prefix += " ";
-                prefix += ($"<i>[{HttpUtility.HtmlEncode(CharacterScreenName)}]</i>");
-            }
 
-            if (opts.TRY_INLINE_CHARACTER_NAME)
+        var charName = CharacterName;
+        var italicCharName = false;
+        if (charName == null) {charName = CharacterAltName; italicCharName = false; }
+        if (charName == null) {charName = UserName;         italicCharName = true;  }
+        if (charName == null) {charName = ID;               italicCharName = true;  }
+        
+        var prefix = "";
+
+        prefix += "<b>";
+        if (italicCharName) prefix += "<i>";
+        prefix += HttpUtility.HtmlEncode(charName);
+        if (CharacterAltName != null && CharacterAltName.ToLower() != charName.ToLower())
+        {
+            prefix += ($" ({HttpUtility.HtmlEncode(CharacterAltName)})");
+        }
+        
+        if (italicCharName) prefix += "</i>";
+        prefix += ":</b>";
+        
+        if (opts.INCLUDE_AVATAR_KEYWORDS && IconKeyword != null && IconKeyword.ToLower() != charName.ToLower() && IconKeyword != "image")
+        {
+            if (!opts.TRY_INLINE_CHARACTER_NAME && opts.INCLUDE_AVATARS) prefix += "<br/>";
+            else prefix += " ";
+            prefix += ($"<i>({HttpUtility.HtmlEncode(IconKeyword)})</i>");
+        }
+        
+        if (opts.INCLUDE_SCREEN_NAME && !string.IsNullOrWhiteSpace(CharacterScreenName))
+        {
+            if (!opts.TRY_INLINE_CHARACTER_NAME && opts.INCLUDE_AVATARS) prefix += "<br/>";
+            else prefix += " ";
+            prefix += ($"<i>[{HttpUtility.HtmlEncode(CharacterScreenName)}]</i>");
+        }
+
+        if (opts.TRY_INLINE_CHARACTER_NAME)
+        {
+            if (_paragraphs.Count > 0 && _paragraphs[0].Item1 == "p" && _paragraphs[0].Item2.ToLower().StartsWith("<p>"))
             {
-                if (_paragraphs.Count > 0 && _paragraphs[0].Item1 == "p" && _paragraphs[0].Item2.ToLower().StartsWith("<p>"))
-                {
-                    xml.AppendLine("<p>" + imgPrefix + prefix + " " + _paragraphs[0].Item2[3..]);
-                    pgSkip = 1;
-                }
-                else if (_paragraphs.Count == 0)
-                {
-                    // not content
-                    
-                    xml.AppendLine("<div style=\"height: 5em; width: 100%;\">" + imgPrefix + prefix + "</div>");
-                }
-                else
-                {
-                    // cannot inline
-                    
-                    if (imgPrefix != "")
-                    {
-                        xml.AppendLine("<div style=\"height: 5em; width: 100%;\">" + imgPrefix + prefix + "</div>");
-                    }
-                    else
-                    {
-                        xml.AppendLine(prefix);
-                        xml.AppendLine("<br/>");
-                    }
-                }
+                xml.AppendLine("<p>" + imgPrefix + prefix + " " + _paragraphs[0].Item2[3..]);
+                pgSkip = 1;
+            }
+            else if (_paragraphs.Count == 0)
+            {
+                // not content
+                
+                xml.AppendLine("<div style=\"height: 5em; width: 100%;\">" + imgPrefix + prefix + "</div>");
             }
             else
             {
+                // cannot inline
+                
                 if (imgPrefix != "")
                 {
-                    xml.AppendLine("<div style=\"height: 5em;\">" + imgPrefix + prefix + "</div>");
+                    xml.AppendLine("<div style=\"height: 5em; width: 100%;\">" + imgPrefix + prefix + "</div>");
                 }
                 else
                 {
                     xml.AppendLine(prefix);
                     xml.AppendLine("<br/>");
                 }
+            }
+        }
+        else
+        {
+            if (imgPrefix != "")
+            {
+                xml.AppendLine("<div style=\"height: 5em;\">" + imgPrefix + prefix + "</div>");
+            }
+            else
+            {
+                xml.AppendLine(prefix);
+                xml.AppendLine("<br/>");
             }
         }
         
