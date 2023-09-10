@@ -30,7 +30,7 @@ public class Reply
     
     public readonly string OriginalHTMLContent;
 
-    private List<(string, string)> _paragraphs = new();
+    private List<(string, string, bool)> _paragraphs = new();
     
     public Reply(string parentID, string id, DateTime createdAt, DateTime updatedAt, 
                       string? characterID, string? characterName, string? characterScreenName, string? characterAltName,
@@ -91,7 +91,7 @@ public class Reply
     
     public void ParseParagraphs()
     {
-        _paragraphs = new List<(string, string)>();
+        _paragraphs = new List<(string, string, bool)>();
         
         var doc = new HtmlDocument();
         doc.LoadHtml(HTMLContent());
@@ -107,66 +107,66 @@ public class Reply
             if (node.Name == "p" && node.Attributes.Count == 0)
             {
                 AssertValidLowestLevelParagraph(node);
-                _paragraphs.Add(("p", node.OuterHtml));
+                _paragraphs.Add(("p", node.OuterHtml, IsEmptyNode(node)));
             }
             else if (node.Name == "hr" && node.Attributes.Count == 0 && node.InnerHtml == "")
             {
-                _paragraphs.Add(("hr", node.OuterHtml));
+                _paragraphs.Add(("hr", node.OuterHtml, false));
             }
             else if (node.Name == "details" && node.Attributes.All(p => p.Name == "open"))
             {
-                var detailChilds = node.ChildNodes.Where(p => !(p.Name == "#text" && string.IsNullOrWhiteSpace(p.InnerText))).ToList();
+                var detailChilds = node.ChildNodes.Where(p => !(p.Name == "#text" && IsEmptyNodeText(p.InnerText))).ToList();
 
                 if (detailChilds.Count > 0 && detailChilds[0].Name == "summary")
                 {
                     AssertValidLowestLevelParagraph(detailChilds[0]);
-                    _paragraphs.Add(("details::summary", "<p><b>" + detailChilds[0].InnerHtml + "</b></p>"));
+                    _paragraphs.Add(("details::summary", "<p><b>" + detailChilds[0].InnerHtml + "</b></p>", false));
                     detailChilds.RemoveAt(0);
                 }
                 else
                 {
-                    _paragraphs.Add(("details::summary", "<p><b>Details</b></p>"));
+                    _paragraphs.Add(("details::summary", "<p><b>Details</b></p>", false));
                 }
 
                 foreach (var detailsNode in detailChilds)
                 {
                     if (detailsNode.Name == "#text" && !string.IsNullOrWhiteSpace(detailsNode.InnerHtml))
                     {
-                        _paragraphs.Add(("details::content::p", "<p>" + detailsNode.OuterHtml + "</p>")); // pseudo convert raw-text to <p>
+                        _paragraphs.Add(("details::content::p", "<p>" + detailsNode.OuterHtml + "</p>", IsEmptyNodeText(detailsNode.InnerText))); // pseudo convert raw-text to <p>
                     }
                     else if (detailsNode.Name == "p" && detailsNode.Attributes.Count == 0)
                     {
                         AssertValidLowestLevelParagraph(detailsNode);
-                        _paragraphs.Add(("details::content::p", detailsNode.OuterHtml));
+                        _paragraphs.Add(("details::content::p", detailsNode.OuterHtml, IsEmptyNode(detailsNode)));
                     }
                     else if (detailsNode.Name == "em" && detailsNode.Attributes.Count == 0)
                     {
                         AssertValidLowestLevelParagraph(detailsNode);
-                        _paragraphs.Add(("details::content::em", detailsNode.OuterHtml));
+                        _paragraphs.Add(("details::content::em", detailsNode.OuterHtml, IsEmptyNode(detailsNode)));
                     }
                     else if (detailsNode.Name == "ul" && detailsNode.Attributes.Count == 0)
                     {
                         //AssertValidLowestLevelParagraph(detailsNode);
-                        _paragraphs.Add(("details::content::ul", detailsNode.OuterHtml));
+                        _paragraphs.Add(("details::content::ul", detailsNode.OuterHtml, false));
                     }
                     else if (detailsNode.Name == "br" && detailsNode.Attributes.Count == 0)
                     {
                         AssertValidLowestLevelParagraph(detailsNode);
-                        _paragraphs.Add(("details::content::br", detailsNode.OuterHtml));
+                        _paragraphs.Add(("details::content::br", detailsNode.OuterHtml, true));
                     }
                     else if (detailsNode.Name == "#text")
                     {
                         AssertValidLowestLevelParagraph(detailsNode);
-                        _paragraphs.Add(("details::content::p", "<p>" + detailsNode.OuterHtml + "</p>"));
+                        _paragraphs.Add(("details::content::p", "<p>" + detailsNode.OuterHtml + "</p>", IsEmptyNode(detailsNode)));
                     }
                     else if (detailsNode.Name == "blockquote" && detailsNode.Attributes.Count == 0 && detailsNode.ChildNodes.All(p => p.Name is "p" or "pre"))
                     {
                         foreach (var cn in detailsNode.ChildNodes) AssertValidLowestLevelParagraph(cn);
-                        _paragraphs.Add(("details::content::blockquote::multi", node.OuterHtml));
+                        _paragraphs.Add(("details::content::blockquote::multi", detailsNode.OuterHtml, false));
                     }
                     else if (detailsNode.Name == "img" && detailsNode.GetAttributeValue("src", "").StartsWith("../Images/"))
                     {
-                        _paragraphs.Add(("details::content::img", detailsNode.OuterHtml));
+                        _paragraphs.Add(("details::content::img", detailsNode.OuterHtml, false));
                     }
                     else
                     {
@@ -177,7 +177,7 @@ public class Reply
             else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.Count == 1 && node.ChildNodes[0].Name == "#text")
             {
                 AssertValidLowestLevelParagraph(node);
-                _paragraphs.Add(("blockquote::text", node.OuterHtml));
+                _paragraphs.Add(("blockquote::text", node.OuterHtml, false));
             }
             else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.All(p => p.Name is "p" or "pre" or "#text" or "em"))
             {
@@ -185,16 +185,16 @@ public class Reply
                 {
                     foreach (var cn in node.ChildNodes) AssertValidLowestLevelParagraph(cn);
                 }
-                _paragraphs.Add(("blockquote::multi", node.OuterHtml));
+                _paragraphs.Add(("blockquote::multi", node.OuterHtml, false));
             }
             else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.Count == 1 && node.ChildNodes[0].Name == "pre")
             {
                 AssertValidLowestLevelParagraph(node.ChildNodes[0]);
-                _paragraphs.Add(("blockquote::pre", node.OuterHtml));
+                _paragraphs.Add(("blockquote::pre", node.OuterHtml, false));
             }
             else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.Count == 1 && node.ChildNodes[0].Name == "table" && IsValidTableAttributes(node.ChildNodes[0].Attributes))
             {
-                _paragraphs.Add(("blockquote::table", node.OuterHtml));
+                _paragraphs.Add(("blockquote::table", node.OuterHtml, false));
             }
             else if (node.Name == "blockquote" && node.Attributes.Count == 0 && node.ChildNodes.Count == 1 && node.ChildNodes[0].Name == "details" && node.ChildNodes[0].ChildNodes.Count > 1 && node.ChildNodes[0].ChildNodes[0].Name == "summary")
             {
@@ -214,36 +214,46 @@ public class Reply
                         Console.WriteLine($"[!] Invalid sub-blockquote-details-node in reply {ParentThreadID}/{ID}: <{detailsChild.Name}>, skipping");
                     }
                 }
-                _paragraphs.Add(("blockquote::details", builder));
+                _paragraphs.Add(("blockquote::details", builder, false));
 
             }
             else if (node.Name == "table" && IsValidTableAttributes(node.Attributes))
             {
-                _paragraphs.Add(("table", node.OuterHtml));
+                _paragraphs.Add(("table", node.OuterHtml, false));
             }
-            else if (node.Name == "#text" && !string.IsNullOrWhiteSpace(node.InnerHtml) && !string.IsNullOrWhiteSpace(node.InnerText))
+            else if (node.Name == "#text" && !string.IsNullOrWhiteSpace(node.InnerHtml) && !IsEmptyNodeText(node.InnerText))
             {
                 Console.WriteLine($"[~] WARN: Root #text in reply {ParentThreadID}/{ID}: <{node.Name}>");
-                _paragraphs.Add(("p", "<p>" + node.OuterHtml + "</p>")); // pseudo convert raw-text to <p>
+                _paragraphs.Add(("p", "<p>" + node.OuterHtml + "</p>", IsEmptyNodeText(node.InnerText))); // pseudo convert raw-text to <p>
             }
-            else if (node.Name == "#text" && string.IsNullOrWhiteSpace(node.InnerHtml) && string.IsNullOrWhiteSpace(node.InnerText))
+            else if (node.Name == "#text" && string.IsNullOrWhiteSpace(node.InnerHtml) && IsEmptyNodeText(node.InnerText))
             {
-                Console.WriteLine($"[i] Skip empty <p> in {ParentThreadID}/{ID}: <{node.Name}>");
+                Console.WriteLine($"[i] Skip empty #text in {ParentThreadID}/{ID}: <{node.Name}>");
                 //skip
             }
             else if (node.Name == "pre" && node.Attributes.Count == 0 && node.InnerText == node.InnerHtml)
             {
-                _paragraphs.Add(("pre", node.OuterHtml));
+                _paragraphs.Add(("pre", node.OuterHtml, false));
             }
             else if (node.OuterHtml == "<p dir=\"ltr\" style=\"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt;\"><span style=\"font-size: 11pt; font-family: Arial; color: #000000; background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">Keltham can take his time.&nbsp;</span></p>")
             {
-                _paragraphs.Add(("manual", "<p>" + node.InnerText + "</p>")); // whatever...
+                _paragraphs.Add(("manual", "<p>" + node.InnerText + "</p>", false)); // whatever...
             }
             else
             {
                 Console.WriteLine($"[!] Invalid node in reply {ParentThreadID}/{ID}: <{node.Name}>, skipping");
             }
         }
+    }
+
+    private bool IsEmptyNode(HtmlNode node)
+    {
+        return IsEmptyNodeText(node.InnerText);
+    }
+
+    private bool IsEmptyNodeText(string innerText)
+    {
+        return string.IsNullOrWhiteSpace(HtmlEntity.DeEntitize(innerText));
     }
 
     public void Reset()
@@ -417,6 +427,12 @@ public class Reply
 
         var pgSkip = 0;
 
+        
+        var outputParagraphs = _paragraphs.ToList();
+
+        if (opts.TRIM_EMPTY_PARAGRAPHS_AT_START) outputParagraphs = outputParagraphs.SkipWhile(p => p.Item3).ToList();
+        if (opts.TRIM_EMPTY_PARAGRAPHS_AT_END)   outputParagraphs = outputParagraphs.AsEnumerable().Reverse().SkipWhile(p => p.Item3).Reverse().ToList();
+        
         if (opts.INCLUDE_AVATARS) xml.AppendLine("<div style=\"min-height: 5.5em\">");
 
         xml.AppendLine("<a id=\"reply-"+ID+"\" style=\"font-size: 0;\"></a>"); // link-anchor
@@ -465,16 +481,17 @@ public class Reply
 
         if (opts.TRY_INLINE_CHARACTER_NAME)
         {
-            if (_paragraphs.Count > 0 && _paragraphs[0].Item1 == "p" && _paragraphs[0].Item2.ToLower().StartsWith("<p>"))
+            if (outputParagraphs.Count > 0 && outputParagraphs[0].Item1 == "p" && outputParagraphs[0].Item2.ToLower().StartsWith("<p>"))
             {
-                xml.AppendLine("<p>" + imgPrefix + prefix + " " + _paragraphs[0].Item2[3..]);
+                xml.AppendLine("<p>" + imgPrefix + prefix + " " + outputParagraphs[0].Item2[3..]);
                 pgSkip = 1;
             }
-            else if (_paragraphs.Count == 0)
+            else if (outputParagraphs.Count == 0)
             {
-                // not content
+                // no content
                 
-                xml.AppendLine("<div style=\"height: 5em; width: 100%;\">" + imgPrefix + prefix + "</div>");
+                if (imgPrefix != "") xml.AppendLine("<div style=\"height: 5em; width: 100%;\">" + imgPrefix + prefix + "</div>");
+                else                 xml.AppendLine("<div style=\"width: 100%;\">" + prefix + "</div>");
             }
             else
             {
@@ -503,8 +520,8 @@ public class Reply
                 xml.AppendLine("<br/>");
             }
         }
-        
-        foreach (var (pgType, pgHTML) in _paragraphs.Skip(pgSkip))
+
+        foreach (var (pgType, pgHTML, isEmpty) in outputParagraphs.Skip(pgSkip))
         {
             xml.AppendLine(pgHTML);
         }
