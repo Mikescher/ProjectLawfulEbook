@@ -11,6 +11,11 @@ This is my attempt at creating a ebook version of the [project lawful](https://w
  - Various properties of the final file/layout can be changed, I generated the variants I found useful, but if anyone wants something special it should be enough to close the repo, edit `Program.cs` and run `make` 
  - the glowpub_cache files where created 2023-09-04, the story was there finished and hasn't seen any updates for a few months - but if there should be any new changes please create an github issue to remind me to create new files.
 
+## Download / Screenshots
+
+Either compile the epub yourself from this repository, or go to  
+### [https://www.mikescher.com/blog/29/Project_Lawful_ebook](https://www.mikescher.com/blog/29/Project_Lawful_ebook)
+
 ## Variants
 
 I recommend either the `project-lawful-inline.epub` or the `project-lawful-avatars.epub` variants
@@ -36,10 +41,6 @@ As said above, it should be possible to create epub's with other combination of 
  - Foliate
  - epub.js
  - Calibre Ebook viewer
-
-## Download / Screenshots
-
-Either compile the epub yourself from this repository, or go to [https://www.mikescher.com/blog/29/Project_Lawful_ebook](https://www.mikescher.com/blog/29/Project_Lawful_ebook) 
 
 ----
 
