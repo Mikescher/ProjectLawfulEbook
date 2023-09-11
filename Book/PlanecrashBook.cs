@@ -194,7 +194,7 @@ public class PlanecrashBook
 
             if (opts.INCLUDE_AVATARS)
             {
-                foreach (var f in Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "glowpub_cache", "images")))
+                foreach (var f in Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "avatars_cleaned")))
                 {
                     writer.WriteBin(@"OEBPS\Avatars\"+Path.GetFileName(f), File.ReadAllBytes(f));
                 }

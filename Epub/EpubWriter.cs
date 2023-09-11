@@ -208,7 +208,7 @@ public class EpubWriter
 			else if (f.EndsWith(".jpg")) mime = "image/jpeg";
 			else if (f.EndsWith(".jpeg")) mime = "image/jpeg";
 			else if (f.EndsWith(".gif")) mime = "image/gif";
-			else if (f.EndsWith(".webp")) mime = "image/webp";
+			else if (f.EndsWith(".webp")) { mime = "image/webp"; Console.WriteLine("[!~!] webp image: " + f); }
 			else Console.WriteLine("[!!!] Failed to get mimetype of file: " + f);
 			
 			manifest.Add(new XElement(opf + "item",
@@ -219,14 +219,14 @@ public class EpubWriter
 
 		if (opts.INCLUDE_AVATARS)
 		{
-			foreach (var imgfn in Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "glowpub_cache", "images")))
+			foreach (var imgfn in Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "avatars_cleaned")))
 			{
 				var mime = "?";
 				if (imgfn.EndsWith(".png")) mime = "image/png";
 				else if (imgfn.EndsWith(".jpg")) mime = "image/jpeg";
 				else if (imgfn.EndsWith(".jpeg")) mime = "image/jpeg";
 				else if (imgfn.EndsWith(".gif")) mime = "image/gif";
-				else if (imgfn.EndsWith(".webp")) mime = "image/webp";
+				else if (imgfn.EndsWith(".webp")) { mime = "image/webp"; Console.WriteLine("[!~!] webp image: " + imgfn); }
 				else Console.WriteLine("[!!!] Failed to get mimetype of file: " + imgfn);
 				
 				manifest.Add(new XElement(opf + "item",

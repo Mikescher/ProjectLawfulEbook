@@ -538,6 +538,6 @@ public class Reply
 
     private string? GetIconExt(string iconID)
     {
-        return Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "glowpub_cache", "images")).Where(p => Path.GetFileNameWithoutExtension(p) == "glowfic_"+iconID).Select(p => Path.GetExtension(p)).FirstOrDefault();
+        return Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "avatars_cleaned")).Where(p => Path.GetFileNameWithoutExtension(p) == "glowfic_"+iconID).Select(p => Path.GetExtension(p)).FirstOrDefault();
     }
 }
