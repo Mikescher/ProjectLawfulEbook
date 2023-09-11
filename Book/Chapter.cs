@@ -43,9 +43,11 @@ public class Chapter
         xml.AppendLine(@"<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.1//EN"" ""http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"" > ");
         xml.AppendLine(@"<html xmlns=""http://www.w3.org/1999/xhtml"">");
         xml.AppendLine(@"<head>");
-        xml.AppendLine(@"<meta name=""Wordpress_eBook_scraper_version"" content=""" + Program.PLE_VERSION + @"""/>");
-        xml.AppendLine(@"<meta name=""Wordpress_eBook_scraper_commit"" content=""" + Program.PLE_COMMIT + @"""/>");
-        xml.AppendLine(@"<meta name=""Wordpress_eBook_scraper_date"" content=""" + DateTime.Now.ToString("yyyy-MM-dd") + @"""/>");
+        xml.AppendLine(@"<meta name=""ProjectLawfulEbook_source"" content=""" + "https://github.com/Mikescher/ProjectLawfulEbook" + @"""/>");
+        xml.AppendLine(@"<meta name=""ProjectLawfulEbook_homepage"" content=""" + "https://www.mikescher.com/" + @"""/>");
+        xml.AppendLine(@"<meta name=""ProjectLawfulEbook_version"" content=""" + Program.PLE_VERSION + @"""/>");
+        xml.AppendLine(@"<meta name=""ProjectLawfulEbook_commit"" content=""" + Program.PLE_COMMIT + @"""/>");
+        xml.AppendLine(@"<meta name=""ProjectLawfulEbook_date"" content=""" + DateTime.Now.ToString("yyyy-MM-dd") + @"""/>");
         xml.AppendLine("<title>" + HtmlEntity.Entitize(Identifier) +  " - " + HtmlEntity.Entitize(Title) + "</title>");
         xml.AppendLine(@"<link href=""../stylesheet.css"" type=""text/css"" rel=""stylesheet""/>");
         xml.AppendLine(@"</head>");

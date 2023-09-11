@@ -145,7 +145,11 @@ public class EpubWriter
 						new XAttribute(XNamespace.Xmlns + "dc", dc),
 						new XAttribute(XNamespace.Xmlns + "opf", opf),
 						new XElement(dc + "title", Program.TITLE),
-						new XElement(dc + "creator", Program.AUTHOR),
+						new XElement(dc + "creator", new XAttribute(opf+"role", "aut"), Program.AUTHOR_1),
+						new XElement(dc + "creator", new XAttribute(opf+"role", "aut"), Program.AUTHOR_2),
+						new XElement(dc + "description", GetDescription()),
+						new XElement(dc + "source", "https://www.projectlawful.com/"),
+						new XElement(dc + "creator", Program.AUTHOR_1),
 						new XElement(dc + "identifier",
 							new XAttribute("id", "BookId"),
 							new XAttribute(opf + "scheme", "UUID"),
@@ -164,11 +168,17 @@ public class EpubWriter
 							new XAttribute(opf + "scheme", "UUID"),
 							Program.ID_CAL().ToString("D")),
 						new XElement(opf + "meta",
+							new XAttribute("content", "https://github.com/Mikescher/ProjectLawfulEbook"),
+							new XAttribute("name", "ProjectLawfulEbook_source")),
+						new XElement(opf + "meta",
+							new XAttribute("content", "https://www.mikescher.com/"),
+							new XAttribute("name", "ProjectLawfulEbook_homepage")),
+						new XElement(opf + "meta",
 							new XAttribute("content", Program.PLE_VERSION),
-							new XAttribute("name", "Wordpress_eBook_scraper_version")),
+							new XAttribute("name", "ProjectLawfulEbook_version")),
 						new XElement(opf + "meta",
 							new XAttribute("content", Program.PLE_COMMIT),
-							new XAttribute("name", "Wordpress_eBook_scraper_commit")),
+							new XAttribute("name", "ProjectLawfulEbook_commit")),
 						new XElement(opf + "meta",
 							new XAttribute("content", DateTime.Now.ToString("yyyy-MM-dd")),
 							new XAttribute("name", "ProjectLawfulEbook_cdate")),
@@ -268,6 +278,19 @@ public class EpubWriter
 		return writer.ToString();
 	}
 
+    private string GetDescription()
+    {
+	    return """
+	           It's the story of Keltham, from the world of dath ilan; a place of high scientific achievement but rather innocent in some ways.  For mysterious reasons they've screened off their own past, and very few now know what their prescientific history was like.
+
+	           Keltham dies in a plane crash and ends up in the country of Cheliax, whose god is "Asmodeus", whose alignment is "Lawful Evil" and whose people usually go to the afterlife of "Hell".
+
+	           And so, like most dath ilani would, in that position, Keltham sets out to bring the industrial and scientific revolutions to his new planet!  Starting with Cheliax!
+
+	           (Keltham's new friends may not have been entirely frank with him about exactly what Asmodeus wants, what Evil really is, or what sort of place Hell is.)
+	           """;
+    }
+
     private string GetEpubTOC(List<Chapter> chapters)
     {
 	    XNamespace dc = "http://www.daisy.org/z3986/2005/ncx/";
@@ -338,12 +361,22 @@ public class EpubWriter
 	    html.AppendLine(@"    </head>");
 	    html.AppendLine(@"    <body>");
 	    html.AppendLine(@"        <div>");
+	    html.AppendLine(@"");
+	    html.AppendLine(@"            <h1 style=""margin-top: 3rem; margin-bottom: 3rem; font-size: 4em;"">Project Lawful</h1>");
+	    html.AppendLine(@"");
 	    html.AppendLine(@"            <svg version=""1.1"" xmlns=""http://www.w3.org/2000/svg""");
 	    html.AppendLine(@"                xmlns:xlink=""http://www.w3.org/1999/xlink""");
-	    html.AppendLine(@"                width=""100%"" height=""100%"" viewBox=""0 0 1000 1600""");
+	    html.AppendLine(@"                width=""80%"" viewBox=""0 0 100 100""");
 	    html.AppendLine(@"                preserveAspectRatio=""xMidYMid meet"">");
-	    html.AppendLine(@"                <image width=""1000"" height=""1600"" xlink:href=""../cover.png""/>");
+	    html.AppendLine(@"                <image width=""100"" height=""100"" xlink:href=""../cover.png""/>");
 	    html.AppendLine(@"            </svg>");
+	    html.AppendLine(@"");
+	    html.AppendLine(@"            <div style=""text-align: right; margin: 1em;"">");
+	    html.AppendLine(@"            	<p style=""text-align: right;""><i>Eliezer Yudkowsky</i></p>");
+	    html.AppendLine(@"            	<p style=""text-align: right;""><i>Lintamande</i></p>");
+	    html.AppendLine(@"            	<p style=""text-align: right;"">( <a href=""https://projectlawful.com/"">https://projectlawful.com/</a> )</p>");
+	    html.AppendLine(@"            </div>");
+	    html.AppendLine(@"");
 	    html.AppendLine(@"        </div>");
 	    html.AppendLine(@"    </body>");
 	    html.AppendLine(@"</html>");
