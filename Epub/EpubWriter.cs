@@ -362,7 +362,7 @@ public class EpubWriter
 	    html.AppendLine(@"    <body>");
 	    html.AppendLine(@"        <div>");
 	    html.AppendLine(@"");
-	    html.AppendLine(@"            <h1 style=""margin-top: 3rem; margin-bottom: 3rem; font-size: 4em;"">Project Lawful</h1>");
+	    html.AppendLine(@"            <h1 style=""margin-top: 3rem; margin-bottom: 3rem; font-size: 3em;"">Project Lawful</h1>");
 	    html.AppendLine(@"");
 	    html.AppendLine(@"            <svg version=""1.1"" xmlns=""http://www.w3.org/2000/svg""");
 	    html.AppendLine(@"                xmlns:xlink=""http://www.w3.org/1999/xlink""");

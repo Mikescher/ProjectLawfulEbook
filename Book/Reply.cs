@@ -411,7 +411,7 @@ public class Reply
     private string GetImageExt(string imgsrc)
     {
         var ext = Path.GetExtension(imgsrc);
-        if (ext == ".h") ext = ".webp";
+        if (ext == ".h") ext = ".png";
 
         if (imgsrc == "https://lh3.googleusercontent.com/pw/AM-JKLVqQ6-S5_kvA4NPtBapvndWPeVlB9ueayrPR_hli85lnxEGQe6MSU0YhhhkC3WehrWd910LW9EaSHx0OYRLEwgh8fSJzkf6n73qYi_5Cutq2DyFMuADvc1z9cUQ7spjSXhxv5171mAcuPBR-eQBQWWe=w800-h463-no?authuser=0") ext = ".png";
         if (imgsrc == "https://lh3.googleusercontent.com/pw/AM-JKLVqQ6-S5_kvA4NPtBapvndWPeVlB9ueayrPR_hli85lnxEGQe6MSU0YhhhkC3WehrWd910LW9EaSHx0OYRLEwgh8fSJzkf6n73qYi_5Cutq2DyFMuADvc1z9cUQ7spjSXhxv5171mAcuPBR-eQBQWWe%3Dw800-h463-no?authuser%3D0&amp;sa=D&amp;source=hangouts&amp;ust=1653515050345000&amp;usg=AOvVaw1XLSqvIivHMfj4ykAMyb76") ext = ".png";
