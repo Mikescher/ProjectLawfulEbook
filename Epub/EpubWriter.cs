@@ -401,13 +401,9 @@ public class EpubWriter
 	    return css.ToString();
     }
 
-    public void WriteChapter(Chapter chptr, Options opts)
+    public void WriteChapter(string filename, string content)
     {
-	    var sc = chptr.GetSplitCount(opts);
-	    for (var i = 0; i < sc; i++)
-	    {
-		    WritePubString(@"OEBPS\Text\" + chptr.EpubFilename(i), chptr.GetEpubHTML(i, opts), true);
-	    }
+	    WritePubString(@"OEBPS\Text\" + filename, content, true);
     }
 
     public void WriteCover()

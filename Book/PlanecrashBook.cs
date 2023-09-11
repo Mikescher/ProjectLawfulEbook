@@ -184,7 +184,16 @@ public class PlanecrashBook
             
             foreach (var chptr in chapters)
             {
-                writer.WriteChapter(chptr, opts);
+                var sc = chptr.GetSplitCount(opts);
+                for (var i = 0; i < sc; i++)
+                {
+                    var fn = chptr.EpubFilename(i);
+                    var html = chptr.GetEpubHTML(i, opts);
+
+                    html = chptr.PatchLinks(html, chapters, opts);
+                    
+                    writer.WriteChapter(fn, html);
+                }
             }
 
             foreach (var f in Directory.EnumerateFiles(Path.Combine(Environment.CurrentDirectory, "image_cache")))
