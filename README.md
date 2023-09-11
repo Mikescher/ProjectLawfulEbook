@@ -12,7 +12,7 @@ This is my attempt at creating a ebook version of the [project lawful](https://w
 
 ## Variants
 
-I recommend either the `project-lawful-default.epub` or the `project-lawful-avatars.epub` variants
+I recommend either the `project-lawful-inline.epub` or the `project-lawful-avatars.epub` variants
 (the `-avatars` version contains the post profile-pictures, but is bigger and takes longer to open on older devices).
 
 There are 3 different versions of the actual **content** of the files:
@@ -21,11 +21,11 @@ There are 3 different versions of the actual **content** of the files:
   - the `*-onlymainstory-*` versions do not include the sandbox threads or the (optional) lecture threads (see below under [Order](#order))
 
 There are also 5 different layout options (that I pre-built) for every version above:
-  - the `*-default` variant only includes the character-name of each post, and (if possible) the character-name is set inline with the first paragraph
+  - the `*-inline` variant only includes the character-name of each post, and (if possible) the character-name is set inline with the first paragraph
   - the `*-moreinfo` variant also includes the alignment text of each post/character after the character-name.
   - the `*-avatars` variant show the character avatar beside each post. This forces us to include all 600-ish avatars in the epub file, which increases filesize and loading time
   - the `*-avatars-moreinfo` also includes the alignment text (additionally to the avatar). Here the avatar/character-name/alignment-text are also no longer inlined, but get their own paragraph at the start of every post.
-  - the `*-biggerhtml` variant looks the same as `*-default`, but internally every chapter is a single big file (instead of multiple splitted files), this makes the initial loading of the epub slower, but prevents a forced page-break after every 128th post.
+  - the `*-biggerhtml` variant looks the same as `*-inline`, but internally every chapter is a single big file (instead of multiple splitted files), this makes the initial loading of the epub slower, but prevents a forced page-break after every 128th post.
 
 As said above, it should be possible to create epub's with other combination of options (see `Program.cs` and `Options.cs`)
 
@@ -35,6 +35,10 @@ As said above, it should be possible to create epub's with other combination of 
  - Foliate
  - epub.js
  - Calibre Ebook viewer
+
+## Download / Screenshots
+
+Either compile the epub yourself from this repository, or go to [https://www.mikescher.com/blog/29/Project_Lawful_ebook](https://www.mikescher.com/blog/29/Project_Lawful_ebook) 
 
 ----
 

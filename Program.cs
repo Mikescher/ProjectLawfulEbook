@@ -45,19 +45,19 @@ public static class Program
         
         MakeHTML(cache, outDirHTML,                                              new Options(false, true,  false, false, 128,     false, false, false, false));
 
-        Make(cache, outDirEpub, "project-lawful-default",                        new Options(false, true,  false, false, 128,     false, false, true,  true )); // <-
+        Make(cache, outDirEpub, "project-lawful-inline",                         new Options(false, true,  false, false, 128,     false, false, true,  true )); // <-
         Make(cache, outDirEpub, "project-lawful-biggerhtml",                     new Options(false, true,  false, false, 100_000, false, false, true,  true ));
         Make(cache, outDirEpub, "project-lawful-moreinfo",                       new Options(false, false, false, true,  128,     false, false, false, false));
         Make(cache, outDirEpub, "project-lawful-avatars",                        new Options(false, true,  true,  false, 128,     false, false, true,  true )); // <-
         Make(cache, outDirEpub, "project-lawful-avatars-moreinfo",               new Options(false, false, true,  true , 128,     false, false, false, false));
         
-        Make(cache, outDirEpub, "project-lawful-sfw-default",                    new Options(false, true,  false, false, 128,     true,  false, true,  true ));
+        Make(cache, outDirEpub, "project-lawful-sfw-inline",                     new Options(false, true,  false, false, 128,     true,  false, true,  true ));
         Make(cache, outDirEpub, "project-lawful-sfw-biggerhtml",                 new Options(false, true,  false, false, 100_000, true,  false, true,  true ));
         Make(cache, outDirEpub, "project-lawful-sfw-moreinfo",                   new Options(false, false, false, true,  128,     true,  false, false, false));
         Make(cache, outDirEpub, "project-lawful-sfw-avatars",                    new Options(false, true,  true,  false, 128,     true,  false, true,  true ));
         Make(cache, outDirEpub, "project-lawful-sfw-avatars-moreinfo",           new Options(false, false, true,  true,  128,     true,  false, false, false));
 
-        Make(cache, outDirEpub, "project-lawful-onlymainstory-default",          new Options(false, true,  false, false, 128,     false, true,  true,  true ));
+        Make(cache, outDirEpub, "project-lawful-onlymainstory-inline",           new Options(false, true,  false, false, 128,     false, true,  true,  true ));
         Make(cache, outDirEpub, "project-lawful-onlymainstory-biggerhtml",       new Options(false, true,  false, false, 100_000, false, true,  true,  true ));
         Make(cache, outDirEpub, "project-lawful-onlymainstory-moreinfo",         new Options(false, false, false, true,  128,     false, true,  false, false));
         Make(cache, outDirEpub, "project-lawful-onlymainstory-avatars",          new Options(false, true,  true,  false, 128,     false, true,  true,  true ));
