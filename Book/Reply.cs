@@ -512,7 +512,7 @@ public class Reply
         {
             if (imgPrefix != "")
             {
-                xml.AppendLine("<div style=\"height: 5em; display: inline-block;\">" + imgPrefix + prefix + "</div>");
+                xml.AppendLine("<div style=\"height: 5em; display: inline-block;\">" + imgPrefix + "<div style=\"float: left;\">" + prefix + "</div></div>");
             }
             else
             {

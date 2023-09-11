@@ -7,7 +7,7 @@ This is my attempt at creating a ebook version of the [project lawful](https://w
    because I didn't want to write my own scraper (thanks to github.com/QuartzLibrary)
  - Then I hacked together a bit of C# code to generate epub files
  - All external images (and optionally avatars) are included in the epub
- - I went through all teh avatar files and made them squares (simplified my css, and looked better - most were already squares or almost-squares)
+ - I went through all the avatar files and made them squares (simplified my css, and looked better - most were already squares or almost-squares)
  - Various properties of the final file/layout can be changed, I generated the variants I found useful, but if anyone wants something special it should be enough to close the repo, edit `Program.cs` and run `make` 
 
 ## Variants
@@ -28,6 +28,13 @@ There are also 5 different layout options (that I pre-built) for every version a
   - the `*-biggerhtml` variant looks the same as `*-default`, but internally every chapter is a single big file (instead of multiple splitted files), this makes the initial loading of the epub slower, but prevents a forced page-break after every 128th post.
 
 As said above, it should be possible to create epub's with other combination of options (see `Program.cs` and `Options.cs`)
+
+## Tested on
+
+ - Kindle Paperwhite + KOReader
+ - Foliate
+ - epub.js
+ - Calibre Ebook viewer
 
 ----
 
