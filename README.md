@@ -9,6 +9,7 @@ This is my attempt at creating a ebook version of the [project lawful](https://w
  - All external images (and optionally avatars) are included in the epub
  - I went through all the avatar files and made them squares (simplified my css, and looked better - most were already squares or almost-squares)
  - Various properties of the final file/layout can be changed, I generated the variants I found useful, but if anyone wants something special it should be enough to close the repo, edit `Program.cs` and run `make` 
+ - the glowpub_cache files where created 2023-09-04, the story was there finished and hasn't seen any updates for a few months - but if there should be any new changes please create an github issue to remind me to create new files.
 
 ## Variants
 
