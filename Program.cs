@@ -6,7 +6,7 @@ namespace ProjectLawfulEbook;
 public static class Program
 {
     public static string PLE_COMMIT => GitHashAttribute.Get();
-    public const string PLE_VERSION = "1.0";
+    public const string PLE_VERSION = "1.1";
     public const string TITLE = "Project Lawful";
     public const string AUTHOR_1 = "Eliezer Yudkowsky";
     public const string AUTHOR_2 = "Lintamande";
@@ -37,7 +37,7 @@ public static class Program
         cache.ParseParagraphs();
         Console.WriteLine("cache::parse-paragraphs");
         ConsoleWriteDelimiter();
-
+   
         //cache.PrintIconKeywordsList();
         //ConsoleWriteDelimiter();
 
@@ -126,19 +126,12 @@ public static class Program
 
     public static Guid ID_OPF()
     {
-        var u = new Random(TITLE.GetHashCode() ^ AUTHOR_1.GetHashCode());
-        var g = new byte[16];
-        u.NextBytes(g);
-        return new Guid(g);
+        return Guid.Parse("f02a094e-fb62-fc76-a16f-cbf620b5cb96");
     }
 
     public static Guid ID_CAL()
     {
-        var u = new Random(TITLE.GetHashCode() ^ AUTHOR_1.GetHashCode());
-        var g = new byte[16];
-        u.NextBytes(g);
-        u.NextBytes(g);
-        return new Guid(g);
+        return Guid.Parse("a703750e-326b-50d5-78f7-10c38457500e");
     }
 
 }

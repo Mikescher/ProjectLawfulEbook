@@ -18,9 +18,9 @@ public class Reply
     public readonly DateTime UpdatedAt;
     
     public readonly string? CharacterID;
-    public readonly string? CharacterName;
-    public readonly string? CharacterScreenName;
-    public readonly string? CharacterAltName;
+    public readonly string? CharacterName;       // json: character.name
+    public readonly string? CharacterScreenName; // json: character.screenname
+    public readonly string? CharacterAltName;    // json: character_name        (null if equals CharacterName)
     
     public readonly string? IconID;
     public readonly string? IconKeyword;
@@ -446,11 +446,10 @@ public class Reply
             imgPrefix = @"<img src=""../Avatars/glowfic_" + IconID + iconExt + @""" style=""float:left; width: 5em; height: 5em; margin-right: 0.5em; margin-bottom: 0.5em;"" ></img>";
         }
 
-        var charName = CharacterName;
-        var italicCharName = false;
-        if (charName == null) {charName = CharacterAltName; italicCharName = false; }
-        if (charName == null) {charName = UserName;         italicCharName = true;  }
-        if (charName == null) {charName = ID;               italicCharName = true;  }
+        var charName = CharacterAltName;             var italicCharName = false;
+        if (charName == null) {charName = CharacterName; italicCharName = false; }
+        if (charName == null) {charName = UserName;      italicCharName = true;  }
+        if (charName == null) {charName = ID;            italicCharName = true;  }
         
         var prefix = "";
 
