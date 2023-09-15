@@ -452,10 +452,13 @@ public class Reply
         if (charName == null) { throw new Exception($"failed to get char-name for post {ID}");  }
         
         var prefix = "";
+        var prefixLineCount = 0;
 
         prefix += "<b>";
         if (italicCharName) prefix += "<i>";
         prefix += HttpUtility.HtmlEncode(charName);
+        prefixLineCount++;
+        
         if (CharacterAltName != null && CharacterAltName.ToLower() != charName.ToLower())
         {
             prefix += ($" ({HttpUtility.HtmlEncode(CharacterAltName)})");
@@ -466,18 +469,27 @@ public class Reply
         
         if (opts.INCLUDE_AVATAR_KEYWORDS && IconKeyword != null && IconKeyword.ToLower() != charName.ToLower() && IconKeyword != "image")
         {
-            if (!opts.TRY_INLINE_CHARACTER_NAME && opts.INCLUDE_AVATARS) prefix += "<br/>";
+            if (!opts.TRY_INLINE_CHARACTER_NAME && opts.INCLUDE_AVATARS) { prefix += "<br/>"; prefixLineCount++; }
             else prefix += " ";
             prefix += ($"<i>({HttpUtility.HtmlEncode(IconKeyword)})</i>");
         }
         
         if (opts.INCLUDE_SCREEN_NAME && !string.IsNullOrWhiteSpace(CharacterScreenName))
         {
-            if (!opts.TRY_INLINE_CHARACTER_NAME && opts.INCLUDE_AVATARS) prefix += "<br/>";
+            if (!opts.TRY_INLINE_CHARACTER_NAME && opts.INCLUDE_AVATARS) { prefix += "<br/>"; prefixLineCount++; }
             else prefix += " ";
             prefix += ($"<i>[{HttpUtility.HtmlEncode(CharacterScreenName)}]</i>");
         }
+        
+        if (opts.INCLUDE_AUTHOR_NAME && !string.IsNullOrWhiteSpace(UserName) && UserName != charName)
+        {
+            if (!opts.TRY_INLINE_CHARACTER_NAME && opts.INCLUDE_AVATARS) { prefix += "<br/>"; prefixLineCount++; }
+            else prefix += " ";
+            prefix += ($"<i>@{UserName}</i>");
+        }
 
+        if (prefixLineCount > 3) throw new Exception($"too many prefix lines for post {ID}");
+        
         if (opts.TRY_INLINE_CHARACTER_NAME)
         {
             if (outputParagraphs.Count > 0 && outputParagraphs[0].Item1 == "p" && outputParagraphs[0].Item2.ToLower().StartsWith("<p>"))

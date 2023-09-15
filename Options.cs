@@ -6,17 +6,20 @@ public class Options
     public readonly bool TRY_INLINE_CHARACTER_NAME;
     public readonly bool INCLUDE_AVATARS;
     public readonly bool INCLUDE_SCREEN_NAME;
+    public readonly bool INCLUDE_AUTHOR_NAME;
     public readonly int  MAX_POST_PER_FILE;
     public readonly bool USE_SFW_CHAPTER;
     public readonly bool ONLY_MAIN_STORY;
     public readonly bool TRIM_EMPTY_PARAGRAPHS_AT_START;
     public readonly bool TRIM_EMPTY_PARAGRAPHS_AT_END;
+    
 
     public Options(
         bool includeAvatarKeywords, 
         bool tryInlineCharacterName, 
         bool includeAvatars, 
         bool includeScreenName, 
+        bool includeAuthorName, 
         int maxPostPerFile, 
         bool useSfwChapter, 
         bool onlyMainStory, 
@@ -27,6 +30,7 @@ public class Options
         INCLUDE_AVATARS                 = includeAvatars;
         TRY_INLINE_CHARACTER_NAME       = tryInlineCharacterName;
         INCLUDE_SCREEN_NAME             = includeScreenName;
+        INCLUDE_AUTHOR_NAME             = includeAuthorName;
         MAX_POST_PER_FILE               = maxPostPerFile;
         USE_SFW_CHAPTER                 = useSfwChapter;
         ONLY_MAIN_STORY                 = onlyMainStory;
