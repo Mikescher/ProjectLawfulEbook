@@ -46,8 +46,10 @@ public class Thread
         var subject = jpost["subject"]!.Value<string>()!;
         var iconID = jpost["icon"]!.HasValues ? jpost["icon"]!["id"]?.Value<int>() : null;
         var iconKeyword = jpost["icon"]!.HasValues ?jpost["icon"]!["keyword"]!.Value<string>()! : null;
+        var authorUserID = jpost["authors"]![0]!["id"]!.Value<int>().ToString();
+        var authorUsername = jpost["authors"]![0]!["username"]!.Value<string>();
         
-        var fpost = new Reply(id, $"@{id}::first", createdat, createdat, characterID?.ToString(), characterName, characterScreenName, null, iconID?.ToString(), iconKeyword, null, null, content);
+        var fpost = new Reply(id, $"@{id}::first", createdat, createdat, characterID?.ToString(), characterName, characterScreenName, null, iconID?.ToString(), iconKeyword, authorUserID, authorUsername, content);
         
         var jreplies = JObject.Parse(File.ReadAllText(repliesFile))["Ok"]!.Values<JToken>();
 

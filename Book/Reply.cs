@@ -449,7 +449,7 @@ public class Reply
         var charName = CharacterAltName;             var italicCharName = false;
         if (charName == null) {charName = CharacterName; italicCharName = false; }
         if (charName == null) {charName = UserName;      italicCharName = true;  }
-        if (charName == null) {charName = ID;            italicCharName = true;  }
+        if (charName == null) { throw new Exception($"failed to get char-name for post {ID}");  }
         
         var prefix = "";
 
